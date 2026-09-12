@@ -2,3 +2,6 @@ work/
 outputs/
 .DS_Store
 .sites-runtime/
+node_modules/
+dist/
+.env

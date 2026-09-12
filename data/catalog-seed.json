@@ -1,0 +1,3146 @@
+[
+  {
+    "id": "grape-d8ba24c3039e",
+    "kind": "grape",
+    "name": "黑皮诺",
+    "data": {
+      "name": "黑皮诺",
+      "en": "Pinot Noir",
+      "aliases": [],
+      "sourceTitle": "产区协会资料（名称索引）",
+      "sourceURL": "https://www.bourgogne-wines.com/wine-and-terroir/our-grape-varietals-our-colors/pinot-noir-and-chardonnay-the-bourgogne-region-s-two-noble-grape-varietals,2475,9265.html",
+      "notes": "品种名称索引。产区品种记录不代表任一地块的实际种植。"
+    },
+    "version": 1,
+    "updated": "2026-09-12T00:00:00Z",
+    "origin": "初始资料整理"
+  },
+  {
+    "id": "grape-2ae0338aba42",
+    "kind": "grape",
+    "name": "霞多丽",
+    "data": {
+      "name": "霞多丽",
+      "en": "Chardonnay",
+      "aliases": [],
+      "sourceTitle": "产区协会资料（名称索引）",
+      "sourceURL": "https://www.bourgogne-wines.com/wine-and-terroir/our-grape-varietals-our-colors/pinot-noir-and-chardonnay-the-bourgogne-region-s-two-noble-grape-varietals,2475,9265.html",
+      "notes": "品种名称索引。产区品种记录不代表任一地块的实际种植。"
+    },
+    "version": 1,
+    "updated": "2026-09-12T00:00:00Z",
+    "origin": "初始资料整理"
+  },
+  {
+    "id": "grape-67fe66bf9dd6",
+    "kind": "grape",
+    "name": "阿里高特",
+    "data": {
+      "name": "阿里高特",
+      "en": "Aligoté",
+      "aliases": [],
+      "sourceTitle": "产区协会资料（名称索引）",
+      "sourceURL": "https://www.bourgogne-wines.com/wine-and-terroir/our-grape-varietals-our-colors/pinot-noir-and-chardonnay-the-bourgogne-region-s-two-noble-grape-varietals,2475,9265.html",
+      "notes": "品种名称索引。产区品种记录不代表任一地块的实际种植。"
+    },
+    "version": 1,
+    "updated": "2026-09-12T00:00:00Z",
+    "origin": "初始资料整理"
+  },
+  {
+    "id": "grape-cc6e973223fa",
+    "kind": "grape",
+    "name": "赤霞珠",
+    "data": {
+      "name": "赤霞珠",
+      "en": "Cabernet Sauvignon",
+      "aliases": [],
+      "sourceTitle": "产区协会资料（名称索引）",
+      "sourceURL": "https://www.bordeaux.com/en/grape-varieties/",
+      "notes": "品种名称索引。产区品种记录不代表任一地块的实际种植。"
+    },
+    "version": 1,
+    "updated": "2026-09-12T00:00:00Z",
+    "origin": "初始资料整理"
+  },
+  {
+    "id": "grape-2752fc2e0d57",
+    "kind": "grape",
+    "name": "梅洛",
+    "data": {
+      "name": "梅洛",
+      "en": "Merlot",
+      "aliases": [],
+      "sourceTitle": "产区协会资料（名称索引）",
+      "sourceURL": "https://www.bordeaux.com/en/grape-varieties/",
+      "notes": "品种名称索引。产区品种记录不代表任一地块的实际种植。"
+    },
+    "version": 1,
+    "updated": "2026-09-12T00:00:00Z",
+    "origin": "初始资料整理"
+  },
+  {
+    "id": "grape-6f1c5dc094a2",
+    "kind": "grape",
+    "name": "品丽珠",
+    "data": {
+      "name": "品丽珠",
+      "en": "Cabernet Franc",
+      "aliases": [],
+      "sourceTitle": "产区协会资料（名称索引）",
+      "sourceURL": "https://www.bordeaux.com/en/grape-varieties/",
+      "notes": "品种名称索引。产区品种记录不代表任一地块的实际种植。"
+    },
+    "version": 1,
+    "updated": "2026-09-12T00:00:00Z",
+    "origin": "初始资料整理"
+  },
+  {
+    "id": "grape-d5093a71b018",
+    "kind": "grape",
+    "name": "长相思",
+    "data": {
+      "name": "长相思",
+      "en": "Sauvignon Blanc",
+      "aliases": [],
+      "sourceTitle": "产区协会资料（名称索引）",
+      "sourceURL": "https://www.bordeaux.com/en/grape-varieties/",
+      "notes": "品种名称索引。产区品种记录不代表任一地块的实际种植。"
+    },
+    "version": 1,
+    "updated": "2026-09-12T00:00:00Z",
+    "origin": "初始资料整理"
+  },
+  {
+    "id": "grape-e30d3ad8ddde",
+    "kind": "grape",
+    "name": "赛美蓉",
+    "data": {
+      "name": "赛美蓉",
+      "en": "Sémillon",
+      "aliases": [],
+      "sourceTitle": "产区协会资料（名称索引）",
+      "sourceURL": "https://www.bordeaux.com/en/grape-varieties/",
+      "notes": "品种名称索引。产区品种记录不代表任一地块的实际种植。"
+    },
+    "version": 1,
+    "updated": "2026-09-12T00:00:00Z",
+    "origin": "初始资料整理"
+  },
+  {
+    "id": "grape-a14e025e1067",
+    "kind": "grape",
+    "name": "内比奥罗",
+    "data": {
+      "name": "内比奥罗",
+      "en": "Nebbiolo",
+      "aliases": [],
+      "sourceTitle": "产区协会资料（名称索引）",
+      "sourceURL": "https://www.langhevini.it/en/vitigni/",
+      "notes": "品种名称索引。产区品种记录不代表任一地块的实际种植。"
+    },
+    "version": 1,
+    "updated": "2026-09-12T00:00:00Z",
+    "origin": "初始资料整理"
+  },
+  {
+    "id": "grape-f32c45b8367a",
+    "kind": "grape",
+    "name": "巴贝拉",
+    "data": {
+      "name": "巴贝拉",
+      "en": "",
+      "aliases": [],
+      "sourceTitle": "产区协会资料（名称索引）",
+      "sourceURL": "https://www.langhevini.it/en/vitigni/",
+      "notes": "品种名称索引。产区品种记录不代表任一地块的实际种植。"
+    },
+    "version": 1,
+    "updated": "2026-09-12T00:00:00Z",
+    "origin": "初始资料整理"
+  },
+  {
+    "id": "grape-168149bb0120",
+    "kind": "grape",
+    "name": "多姿桃",
+    "data": {
+      "name": "多姿桃",
+      "en": "",
+      "aliases": [],
+      "sourceTitle": "产区协会资料（名称索引）",
+      "sourceURL": "https://www.langhevini.it/en/vitigni/",
+      "notes": "品种名称索引。产区品种记录不代表任一地块的实际种植。"
+    },
+    "version": 1,
+    "updated": "2026-09-12T00:00:00Z",
+    "origin": "初始资料整理"
+  },
+  {
+    "id": "grape-6362a4a15b18",
+    "kind": "grape",
+    "name": "莫斯卡托",
+    "data": {
+      "name": "莫斯卡托",
+      "en": "Moscato Muscat",
+      "aliases": [],
+      "sourceTitle": "产区协会资料（名称索引）",
+      "sourceURL": "https://www.langhevini.it/en/vitigni/",
+      "notes": "品种名称索引。产区品种记录不代表任一地块的实际种植。"
+    },
+    "version": 1,
+    "updated": "2026-09-12T00:00:00Z",
+    "origin": "初始资料整理"
+  },
+  {
+    "id": "grape-ba36e09d7cf5",
+    "kind": "grape",
+    "name": "丹魄",
+    "data": {
+      "name": "丹魄",
+      "en": "Tempranillo Tinto Fino Tinta Roriz",
+      "aliases": [],
+      "sourceTitle": "产区协会资料（名称索引）",
+      "sourceURL": "https://riojawine.com/",
+      "notes": "品种名称索引。产区品种记录不代表任一地块的实际种植。"
+    },
+    "version": 1,
+    "updated": "2026-09-12T00:00:00Z",
+    "origin": "初始资料整理"
+  },
+  {
+    "id": "grape-1d542769c4f0",
+    "kind": "grape",
+    "name": "歌海娜",
+    "data": {
+      "name": "歌海娜",
+      "en": "Grenache Garnacha",
+      "aliases": [],
+      "sourceTitle": "产区协会资料（名称索引）",
+      "sourceURL": "https://riojawine.com/",
+      "notes": "品种名称索引。产区品种记录不代表任一地块的实际种植。"
+    },
+    "version": 1,
+    "updated": "2026-09-12T00:00:00Z",
+    "origin": "初始资料整理"
+  },
+  {
+    "id": "grape-8e17d0854145",
+    "kind": "grape",
+    "name": "维尤拉",
+    "data": {
+      "name": "维尤拉",
+      "en": "Viura",
+      "aliases": [],
+      "sourceTitle": "产区协会资料（名称索引）",
+      "sourceURL": "https://riojawine.com/",
+      "notes": "品种名称索引。产区品种记录不代表任一地块的实际种植。"
+    },
+    "version": 1,
+    "updated": "2026-09-12T00:00:00Z",
+    "origin": "初始资料整理"
+  },
+  {
+    "id": "grape-88e4a3fb56a7",
+    "kind": "grape",
+    "name": "莫尼耶",
+    "data": {
+      "name": "莫尼耶",
+      "en": "Meunier Pinot Meunier",
+      "aliases": [],
+      "sourceTitle": "产区协会资料（名称索引）",
+      "sourceURL": "https://www.champagne.fr/fr/decouvrir-le-champagne/un-grand-vin-d-assemblage/les-cepages-en-champagne",
+      "notes": "品种名称索引。产区品种记录不代表任一地块的实际种植。"
+    },
+    "version": 1,
+    "updated": "2026-09-12T00:00:00Z",
+    "origin": "初始资料整理"
+  },
+  {
+    "id": "grape-a7318d162e68",
+    "kind": "grape",
+    "name": "白诗南",
+    "data": {
+      "name": "白诗南",
+      "en": "Chenin Blanc",
+      "aliases": [],
+      "sourceTitle": "产区协会资料（名称索引）",
+      "sourceURL": "https://www.vinsdeloire.fr/fr/cepages?page=0",
+      "notes": "品种名称索引。产区品种记录不代表任一地块的实际种植。"
+    },
+    "version": 1,
+    "updated": "2026-09-12T00:00:00Z",
+    "origin": "初始资料整理"
+  },
+  {
+    "id": "grape-468c98aa2b67",
+    "kind": "grape",
+    "name": "勃艮第香瓜",
+    "data": {
+      "name": "勃艮第香瓜",
+      "en": "",
+      "aliases": [],
+      "sourceTitle": "产区协会资料（名称索引）",
+      "sourceURL": "https://www.vinsdeloire.fr/fr/cepages?page=0",
+      "notes": "品种名称索引。产区品种记录不代表任一地块的实际种植。"
+    },
+    "version": 1,
+    "updated": "2026-09-12T00:00:00Z",
+    "origin": "初始资料整理"
+  },
+  {
+    "id": "grape-36404f2e5476",
+    "kind": "grape",
+    "name": "西拉",
+    "data": {
+      "name": "西拉",
+      "en": "Syrah Shiraz",
+      "aliases": [],
+      "sourceTitle": "产区协会资料（名称索引）",
+      "sourceURL": "https://www.vins-rhone.com/en/rhone-valley-vineyards/grape-varieties",
+      "notes": "品种名称索引。产区品种记录不代表任一地块的实际种植。"
+    },
+    "version": 1,
+    "updated": "2026-09-12T00:00:00Z",
+    "origin": "初始资料整理"
+  },
+  {
+    "id": "grape-aaa603f68745",
+    "kind": "grape",
+    "name": "慕合怀特",
+    "data": {
+      "name": "慕合怀特",
+      "en": "",
+      "aliases": [],
+      "sourceTitle": "产区协会资料（名称索引）",
+      "sourceURL": "https://www.vins-rhone.com/en/rhone-valley-vineyards/grape-varieties",
+      "notes": "品种名称索引。产区品种记录不代表任一地块的实际种植。"
+    },
+    "version": 1,
+    "updated": "2026-09-12T00:00:00Z",
+    "origin": "初始资料整理"
+  },
+  {
+    "id": "grape-ab28e1d2953f",
+    "kind": "grape",
+    "name": "维欧尼",
+    "data": {
+      "name": "维欧尼",
+      "en": "",
+      "aliases": [],
+      "sourceTitle": "产区协会资料（名称索引）",
+      "sourceURL": "https://www.vins-rhone.com/en/rhone-valley-vineyards/grape-varieties",
+      "notes": "品种名称索引。产区品种记录不代表任一地块的实际种植。"
+    },
+    "version": 1,
+    "updated": "2026-09-12T00:00:00Z",
+    "origin": "初始资料整理"
+  },
+  {
+    "id": "grape-6a6235ee72cb",
+    "kind": "grape",
+    "name": "雷司令",
+    "data": {
+      "name": "雷司令",
+      "en": "Riesling",
+      "aliases": [],
+      "sourceTitle": "产区协会资料（名称索引）",
+      "sourceURL": "https://www.laroutedesvins-alsace.com/en/guide/7-alsace-grape-varieties",
+      "notes": "品种名称索引。产区品种记录不代表任一地块的实际种植。"
+    },
+    "version": 1,
+    "updated": "2026-09-12T00:00:00Z",
+    "origin": "初始资料整理"
+  },
+  {
+    "id": "grape-8da384f0e6cc",
+    "kind": "grape",
+    "name": "琼瑶浆",
+    "data": {
+      "name": "琼瑶浆",
+      "en": "",
+      "aliases": [],
+      "sourceTitle": "产区协会资料（名称索引）",
+      "sourceURL": "https://www.laroutedesvins-alsace.com/en/guide/7-alsace-grape-varieties",
+      "notes": "品种名称索引。产区品种记录不代表任一地块的实际种植。"
+    },
+    "version": 1,
+    "updated": "2026-09-12T00:00:00Z",
+    "origin": "初始资料整理"
+  },
+  {
+    "id": "grape-2c70012fa51b",
+    "kind": "grape",
+    "name": "灰皮诺",
+    "data": {
+      "name": "灰皮诺",
+      "en": "",
+      "aliases": [],
+      "sourceTitle": "产区协会资料（名称索引）",
+      "sourceURL": "https://www.laroutedesvins-alsace.com/en/guide/7-alsace-grape-varieties",
+      "notes": "品种名称索引。产区品种记录不代表任一地块的实际种植。"
+    },
+    "version": 1,
+    "updated": "2026-09-12T00:00:00Z",
+    "origin": "初始资料整理"
+  },
+  {
+    "id": "grape-c3b81eac0a5b",
+    "kind": "grape",
+    "name": "桑娇维塞",
+    "data": {
+      "name": "桑娇维塞",
+      "en": "Sangiovese",
+      "aliases": [],
+      "sourceTitle": "产区协会资料（名称索引）",
+      "sourceURL": "https://www.chianticlassico.com/en/wine/characteristics/",
+      "notes": "品种名称索引。产区品种记录不代表任一地块的实际种植。"
+    },
+    "version": 1,
+    "updated": "2026-09-12T00:00:00Z",
+    "origin": "初始资料整理"
+  },
+  {
+    "id": "grape-68285952733d",
+    "kind": "grape",
+    "name": "卡内奥罗",
+    "data": {
+      "name": "卡内奥罗",
+      "en": "",
+      "aliases": [],
+      "sourceTitle": "产区协会资料（名称索引）",
+      "sourceURL": "https://www.chianticlassico.com/en/wine/characteristics/",
+      "notes": "品种名称索引。产区品种记录不代表任一地块的实际种植。"
+    },
+    "version": 1,
+    "updated": "2026-09-12T00:00:00Z",
+    "origin": "初始资料整理"
+  },
+  {
+    "id": "grape-3d0304ade329",
+    "kind": "grape",
+    "name": "科罗里诺",
+    "data": {
+      "name": "科罗里诺",
+      "en": "",
+      "aliases": [],
+      "sourceTitle": "产区协会资料（名称索引）",
+      "sourceURL": "https://www.chianticlassico.com/en/wine/characteristics/",
+      "notes": "品种名称索引。产区品种记录不代表任一地块的实际种植。"
+    },
+    "version": 1,
+    "updated": "2026-09-12T00:00:00Z",
+    "origin": "初始资料整理"
+  },
+  {
+    "id": "grape-9bdcb95c73d0",
+    "kind": "grape",
+    "name": "马斯卡斯奈莱洛",
+    "data": {
+      "name": "马斯卡斯奈莱洛",
+      "en": "Nerello Mascalese",
+      "aliases": [],
+      "sourceTitle": "产区协会资料（名称索引）",
+      "sourceURL": "https://thewinesofetna.com/it/i-vini-e-le-uve/",
+      "notes": "品种名称索引。产区品种记录不代表任一地块的实际种植。"
+    },
+    "version": 1,
+    "updated": "2026-09-12T00:00:00Z",
+    "origin": "初始资料整理"
+  },
+  {
+    "id": "grape-b5769788dca1",
+    "kind": "grape",
+    "name": "卡里坎特",
+    "data": {
+      "name": "卡里坎特",
+      "en": "Carricante",
+      "aliases": [],
+      "sourceTitle": "产区协会资料（名称索引）",
+      "sourceURL": "https://thewinesofetna.com/it/i-vini-e-le-uve/",
+      "notes": "品种名称索引。产区品种记录不代表任一地块的实际种植。"
+    },
+    "version": 1,
+    "updated": "2026-09-12T00:00:00Z",
+    "origin": "初始资料整理"
+  },
+  {
+    "id": "grape-331a99643f3b",
+    "kind": "grape",
+    "name": "国产多瑞加",
+    "data": {
+      "name": "国产多瑞加",
+      "en": "",
+      "aliases": [],
+      "sourceTitle": "产区协会资料（名称索引）",
+      "sourceURL": "https://www.winesofportugal.com/documents/173/BROCHURA_EN_2022_01_WEB.pdf",
+      "notes": "品种名称索引。产区品种记录不代表任一地块的实际种植。"
+    },
+    "version": 1,
+    "updated": "2026-09-12T00:00:00Z",
+    "origin": "初始资料整理"
+  },
+  {
+    "id": "grape-dedd6ab743b4",
+    "kind": "grape",
+    "name": "法国多瑞加",
+    "data": {
+      "name": "法国多瑞加",
+      "en": "",
+      "aliases": [],
+      "sourceTitle": "产区协会资料（名称索引）",
+      "sourceURL": "https://www.winesofportugal.com/documents/173/BROCHURA_EN_2022_01_WEB.pdf",
+      "notes": "品种名称索引。产区品种记录不代表任一地块的实际种植。"
+    },
+    "version": 1,
+    "updated": "2026-09-12T00:00:00Z",
+    "origin": "初始资料整理"
+  },
+  {
+    "id": "grape-675757f3aa8f",
+    "kind": "grape",
+    "name": "米勒图高",
+    "data": {
+      "name": "米勒图高",
+      "en": "",
+      "aliases": [],
+      "sourceTitle": "产区协会资料（名称索引）",
+      "sourceURL": "https://www.winesofgermany.com/our-regions/growing-area/66/mosel",
+      "notes": "品种名称索引。产区品种记录不代表任一地块的实际种植。"
+    },
+    "version": 1,
+    "updated": "2026-09-12T00:00:00Z",
+    "origin": "初始资料整理"
+  },
+  {
+    "id": "grape-c4cb1ffed80f",
+    "kind": "grape",
+    "name": "埃尔布林",
+    "data": {
+      "name": "埃尔布林",
+      "en": "",
+      "aliases": [],
+      "sourceTitle": "产区协会资料（名称索引）",
+      "sourceURL": "https://www.winesofgermany.com/our-regions/growing-area/66/mosel",
+      "notes": "品种名称索引。产区品种记录不代表任一地块的实际种植。"
+    },
+    "version": 1,
+    "updated": "2026-09-12T00:00:00Z",
+    "origin": "初始资料整理"
+  },
+  {
+    "id": "grape-7604588339c0",
+    "kind": "grape",
+    "name": "绿维特利纳",
+    "data": {
+      "name": "绿维特利纳",
+      "en": "Grüner Veltliner",
+      "aliases": [],
+      "sourceTitle": "产区协会资料（名称索引）",
+      "sourceURL": "https://www.austrianwine.com/our-wine/wine-growing-regions/niederoesterreich-lower-austria/wachau",
+      "notes": "品种名称索引。产区品种记录不代表任一地块的实际种植。"
+    },
+    "version": 1,
+    "updated": "2026-09-12T00:00:00Z",
+    "origin": "初始资料整理"
+  },
+  {
+    "id": "grape-fe6c63c03c01",
+    "kind": "grape",
+    "name": "富尔民特",
+    "data": {
+      "name": "富尔民特",
+      "en": "Furmint",
+      "aliases": [],
+      "sourceTitle": "产区协会资料（名称索引）",
+      "sourceURL": "https://www.disznoko.hu/hu/terroir/sz-l-fajtaink",
+      "notes": "品种名称索引。产区品种记录不代表任一地块的实际种植。"
+    },
+    "version": 1,
+    "updated": "2026-09-12T00:00:00Z",
+    "origin": "初始资料整理"
+  },
+  {
+    "id": "grape-789d08d1607a",
+    "kind": "grape",
+    "name": "哈斯莱威路",
+    "data": {
+      "name": "哈斯莱威路",
+      "en": "",
+      "aliases": [],
+      "sourceTitle": "产区协会资料（名称索引）",
+      "sourceURL": "https://www.disznoko.hu/hu/terroir/sz-l-fajtaink",
+      "notes": "品种名称索引。产区品种记录不代表任一地块的实际种植。"
+    },
+    "version": 1,
+    "updated": "2026-09-12T00:00:00Z",
+    "origin": "初始资料整理"
+  },
+  {
+    "id": "grape-67b00a85b780",
+    "kind": "grape",
+    "name": "小粒白麝香",
+    "data": {
+      "name": "小粒白麝香",
+      "en": "",
+      "aliases": [],
+      "sourceTitle": "产区协会资料（名称索引）",
+      "sourceURL": "https://www.disznoko.hu/hu/terroir/sz-l-fajtaink",
+      "notes": "品种名称索引。产区品种记录不代表任一地块的实际种植。"
+    },
+    "version": 1,
+    "updated": "2026-09-12T00:00:00Z",
+    "origin": "初始资料整理"
+  },
+  {
+    "id": "grape-392baf305fcf",
+    "kind": "grape",
+    "name": "阿西尔提可",
+    "data": {
+      "name": "阿西尔提可",
+      "en": "",
+      "aliases": [],
+      "sourceTitle": "产区协会资料（名称索引）",
+      "sourceURL": "https://santorini.com/wineries/",
+      "notes": "品种名称索引。产区品种记录不代表任一地块的实际种植。"
+    },
+    "version": 1,
+    "updated": "2026-09-12T00:00:00Z",
+    "origin": "初始资料整理"
+  },
+  {
+    "id": "grape-2cee5e1ddbb3",
+    "kind": "grape",
+    "name": "阿依达尼",
+    "data": {
+      "name": "阿依达尼",
+      "en": "",
+      "aliases": [],
+      "sourceTitle": "产区协会资料（名称索引）",
+      "sourceURL": "https://santorini.com/wineries/",
+      "notes": "品种名称索引。产区品种记录不代表任一地块的实际种植。"
+    },
+    "version": 1,
+    "updated": "2026-09-12T00:00:00Z",
+    "origin": "初始资料整理"
+  },
+  {
+    "id": "grape-062270b6328c",
+    "kind": "grape",
+    "name": "阿斯瑞",
+    "data": {
+      "name": "阿斯瑞",
+      "en": "",
+      "aliases": [],
+      "sourceTitle": "产区协会资料（名称索引）",
+      "sourceURL": "https://santorini.com/wineries/",
+      "notes": "品种名称索引。产区品种记录不代表任一地块的实际种植。"
+    },
+    "version": 1,
+    "updated": "2026-09-12T00:00:00Z",
+    "origin": "初始资料整理"
+  },
+  {
+    "id": "grape-d65b493ab0e3",
+    "kind": "grape",
+    "name": "萨别拉维",
+    "data": {
+      "name": "萨别拉维",
+      "en": "Saperavi",
+      "aliases": [],
+      "sourceTitle": "产区协会资料（名称索引）",
+      "sourceURL": "https://wine.gov.ge/En/WineMakingRegions/1",
+      "notes": "品种名称索引。产区品种记录不代表任一地块的实际种植。"
+    },
+    "version": 1,
+    "updated": "2026-09-12T00:00:00Z",
+    "origin": "初始资料整理"
+  },
+  {
+    "id": "grape-9a2db40131e6",
+    "kind": "grape",
+    "name": "白羽",
+    "data": {
+      "name": "白羽",
+      "en": "Rkatsiteli",
+      "aliases": [],
+      "sourceTitle": "产区协会资料（名称索引）",
+      "sourceURL": "https://wine.gov.ge/En/WineMakingRegions/1",
+      "notes": "品种名称索引。产区品种记录不代表任一地块的实际种植。"
+    },
+    "version": 1,
+    "updated": "2026-09-12T00:00:00Z",
+    "origin": "初始资料整理"
+  },
+  {
+    "id": "grape-2a61e5f829bf",
+    "kind": "grape",
+    "name": "姆茨瓦尼",
+    "data": {
+      "name": "姆茨瓦尼",
+      "en": "",
+      "aliases": [],
+      "sourceTitle": "产区协会资料（名称索引）",
+      "sourceURL": "https://wine.gov.ge/En/WineMakingRegions/1",
+      "notes": "品种名称索引。产区品种记录不代表任一地块的实际种植。"
+    },
+    "version": 1,
+    "updated": "2026-09-12T00:00:00Z",
+    "origin": "初始资料整理"
+  },
+  {
+    "id": "grape-77e2ceb0ae76",
+    "kind": "grape",
+    "name": "奇希",
+    "data": {
+      "name": "奇希",
+      "en": "",
+      "aliases": [],
+      "sourceTitle": "产区协会资料（名称索引）",
+      "sourceURL": "https://wine.gov.ge/En/WineMakingRegions/1",
+      "notes": "品种名称索引。产区品种记录不代表任一地块的实际种植。"
+    },
+    "version": 1,
+    "updated": "2026-09-12T00:00:00Z",
+    "origin": "初始资料整理"
+  },
+  {
+    "id": "grape-f4741f682de5",
+    "kind": "grape",
+    "name": "甲州",
+    "data": {
+      "name": "甲州",
+      "en": "Koshu",
+      "aliases": [],
+      "sourceTitle": "产区协会资料（名称索引）",
+      "sourceURL": "https://www.decanter.com/wine/japan/yamanashi-regional-profile-six-star-wines-to-try",
+      "notes": "品种名称索引。产区品种记录不代表任一地块的实际种植。"
+    },
+    "version": 1,
+    "updated": "2026-09-12T00:00:00Z",
+    "origin": "初始资料整理"
+  },
+  {
+    "id": "grape-5e98ed0c923d",
+    "kind": "grape",
+    "name": "麝香贝利A",
+    "data": {
+      "name": "麝香贝利A",
+      "en": "",
+      "aliases": [],
+      "sourceTitle": "产区协会资料（名称索引）",
+      "sourceURL": "https://www.decanter.com/wine/japan/yamanashi-regional-profile-six-star-wines-to-try",
+      "notes": "品种名称索引。产区品种记录不代表任一地块的实际种植。"
+    },
+    "version": 1,
+    "updated": "2026-09-12T00:00:00Z",
+    "origin": "初始资料整理"
+  },
+  {
+    "id": "grape-d3feb2ec9a88",
+    "kind": "grape",
+    "name": "马尔贝克",
+    "data": {
+      "name": "马尔贝克",
+      "en": "Malbec",
+      "aliases": [],
+      "sourceTitle": "产区协会资料（名称索引）",
+      "sourceURL": "https://winesofargentina.org/en/regions",
+      "notes": "品种名称索引。产区品种记录不代表任一地块的实际种植。"
+    },
+    "version": 1,
+    "updated": "2026-09-12T00:00:00Z",
+    "origin": "初始资料整理"
+  },
+  {
+    "id": "grape-c46f20137f0f",
+    "kind": "grape",
+    "name": "托伦特斯",
+    "data": {
+      "name": "托伦特斯",
+      "en": "",
+      "aliases": [],
+      "sourceTitle": "产区协会资料（名称索引）",
+      "sourceURL": "https://winesofargentina.org/en/region/norte",
+      "notes": "品种名称索引。产区品种记录不代表任一地块的实际种植。"
+    },
+    "version": 1,
+    "updated": "2026-09-12T00:00:00Z",
+    "origin": "初始资料整理"
+  },
+  {
+    "id": "grape-103e87d0095e",
+    "kind": "grape",
+    "name": "佳美娜",
+    "data": {
+      "name": "佳美娜",
+      "en": "Carménère Carmenere",
+      "aliases": [],
+      "sourceTitle": "产区协会资料（名称索引）",
+      "sourceURL": "https://www.carmen.com/valles/colchagua/",
+      "notes": "品种名称索引。产区品种记录不代表任一地块的实际种植。"
+    },
+    "version": 1,
+    "updated": "2026-09-12T00:00:00Z",
+    "origin": "初始资料整理"
+  },
+  {
+    "id": "grape-b3c89eb785a5",
+    "kind": "grape",
+    "name": "丹娜",
+    "data": {
+      "name": "丹娜",
+      "en": "Tannat",
+      "aliases": [],
+      "sourceTitle": "产区协会资料（名称索引）",
+      "sourceURL": "https://turismo.canelones.gub.uy/sites/default/files/2025-09/Folleto_bodegas.pdf",
+      "notes": "品种名称索引。产区品种记录不代表任一地块的实际种植。"
+    },
+    "version": 1,
+    "updated": "2026-09-12T00:00:00Z",
+    "origin": "初始资料整理"
+  },
+  {
+    "id": "grape-941ae318c593",
+    "kind": "grape",
+    "name": "皮诺塔吉",
+    "data": {
+      "name": "皮诺塔吉",
+      "en": "Pinotage",
+      "aliases": [],
+      "sourceTitle": "产区协会资料（名称索引）",
+      "sourceURL": "https://www.wosa.co.za/The-Industry/Vintage-Reports/2014-Southern-Hemisphere-Harvest-Report-South-Africa/",
+      "notes": "品种名称索引。产区品种记录不代表任一地块的实际种植。"
+    },
+    "version": 1,
+    "updated": "2026-09-12T00:00:00Z",
+    "origin": "初始资料整理"
+  },
+  {
+    "id": "grape-af0eda4b6818",
+    "kind": "grape",
+    "name": "神索",
+    "data": {
+      "name": "神索",
+      "en": "",
+      "aliases": [],
+      "sourceTitle": "产区协会资料（名称索引）",
+      "sourceURL": "https://www.wosa.co.za/WOSA-News/Blogs/Cape-Chatter/-Reasons-Not-to-Shy-Away-from-Swartland-Chenin-Blanc/",
+      "notes": "品种名称索引。产区品种记录不代表任一地块的实际种植。"
+    },
+    "version": 1,
+    "updated": "2026-09-12T00:00:00Z",
+    "origin": "初始资料整理"
+  },
+  {
+    "id": "burgundy",
+    "kind": "region",
+    "name": "勃艮第",
+    "data": {
+      "name": "勃艮第",
+      "en": "Bourgogne",
+      "country": "法国",
+      "lat": 47.16,
+      "lng": 4.95,
+      "locationPrecision": "产区浏览中心",
+      "sourceTitle": "产区协会 / 行业机构",
+      "sourceURL": "https://www.bourgogne-wines.com/wine-and-terroir/our-grape-varietals-our-colors/pinot-noir-and-chardonnay-the-bourgogne-region-s-two-noble-grape-varietals,2475,9265.html",
+      "notes": "从夏布利到马贡，细分的风土与单一品种的表达，构成勃艮第的鲜明个性。",
+      "grapes": [
+        {
+          "id": "grape-d8ba24c3039e",
+          "percent": null
+        },
+        {
+          "id": "grape-2ae0338aba42",
+          "percent": null
+        },
+        {
+          "id": "grape-67fe66bf9dd6",
+          "percent": null
+        }
+      ]
+    },
+    "version": 1,
+    "updated": "2026-09-12T00:00:00Z",
+    "origin": "初始资料整理"
+  },
+  {
+    "id": "winery-609bc26873dd",
+    "kind": "winery",
+    "name": "罗曼尼·康帝酒庄",
+    "data": {
+      "name": "罗曼尼·康帝酒庄",
+      "en": "Domaine de la Romanée-Conti",
+      "country": "法国",
+      "regionId": "burgundy",
+      "website": "https://romanee-conti.fr/fr/philosophie-du-domaine",
+      "sourceTitle": "酒庄官方网站",
+      "sourceURL": "https://romanee-conti.fr/fr/philosophie-du-domaine",
+      "notes": "代表酒庄；尚未核对具体地图坐标。"
+    },
+    "version": 1,
+    "updated": "2026-09-12T00:00:00Z",
+    "origin": "初始资料整理"
+  },
+  {
+    "id": "winery-3c99444884d8",
+    "kind": "winery",
+    "name": "约瑟夫·杜鲁安",
+    "data": {
+      "name": "约瑟夫·杜鲁安",
+      "en": "Joseph Drouhin",
+      "country": "法国",
+      "regionId": "burgundy",
+      "website": "https://www.drouhin.com/",
+      "sourceTitle": "酒庄官方网站",
+      "sourceURL": "https://www.drouhin.com/",
+      "notes": "代表酒庄；尚未核对具体地图坐标。"
+    },
+    "version": 1,
+    "updated": "2026-09-12T00:00:00Z",
+    "origin": "初始资料整理"
+  },
+  {
+    "id": "bordeaux",
+    "kind": "region",
+    "name": "波尔多",
+    "data": {
+      "name": "波尔多",
+      "en": "Bordeaux",
+      "country": "法国",
+      "lat": 44.95,
+      "lng": -0.57,
+      "locationPrecision": "产区浏览中心",
+      "sourceTitle": "产区协会 / 行业机构",
+      "sourceURL": "https://www.bordeaux.com/en/grape-varieties/",
+      "notes": "吉伦特河与支流塑造左右岸的不同风土，红葡萄混酿与干白、甜白在这里并存。",
+      "grapes": [
+        {
+          "id": "grape-cc6e973223fa",
+          "percent": null
+        },
+        {
+          "id": "grape-2752fc2e0d57",
+          "percent": null
+        },
+        {
+          "id": "grape-6f1c5dc094a2",
+          "percent": null
+        },
+        {
+          "id": "grape-d5093a71b018",
+          "percent": null
+        },
+        {
+          "id": "grape-e30d3ad8ddde",
+          "percent": null
+        }
+      ]
+    },
+    "version": 1,
+    "updated": "2026-09-12T00:00:00Z",
+    "origin": "初始资料整理"
+  },
+  {
+    "id": "winery-eaf9d300926d",
+    "kind": "winery",
+    "name": "拉菲古堡",
+    "data": {
+      "name": "拉菲古堡",
+      "en": "Château Lafite Rothschild",
+      "country": "法国",
+      "regionId": "bordeaux",
+      "website": "https://www.lafite.com/",
+      "sourceTitle": "酒庄官方网站",
+      "sourceURL": "https://www.lafite.com/",
+      "notes": "代表酒庄；尚未核对具体地图坐标。"
+    },
+    "version": 1,
+    "updated": "2026-09-12T00:00:00Z",
+    "origin": "初始资料整理"
+  },
+  {
+    "id": "piedmont",
+    "kind": "region",
+    "name": "皮埃蒙特",
+    "data": {
+      "name": "皮埃蒙特",
+      "en": "Piemonte",
+      "country": "意大利",
+      "lat": 44.61,
+      "lng": 7.98,
+      "locationPrecision": "产区浏览中心",
+      "sourceTitle": "产区协会 / 行业机构",
+      "sourceURL": "https://www.langhevini.it/en/vitigni/",
+      "notes": "朗格的丘陵连绵起伏，巴罗洛与巴巴莱斯科以不同方式展现内比奥罗。",
+      "grapes": [
+        {
+          "id": "grape-a14e025e1067",
+          "percent": null
+        },
+        {
+          "id": "grape-f32c45b8367a",
+          "percent": null
+        },
+        {
+          "id": "grape-168149bb0120",
+          "percent": null
+        },
+        {
+          "id": "grape-6362a4a15b18",
+          "percent": null
+        }
+      ]
+    },
+    "version": 1,
+    "updated": "2026-09-12T00:00:00Z",
+    "origin": "初始资料整理"
+  },
+  {
+    "id": "winery-1f98bf30621f",
+    "kind": "winery",
+    "name": "皮欧酒庄",
+    "data": {
+      "name": "皮欧酒庄",
+      "en": "Pio Cesare",
+      "country": "意大利",
+      "regionId": "piedmont",
+      "website": "https://www.piocesare.it/",
+      "sourceTitle": "酒庄官方网站",
+      "sourceURL": "https://www.piocesare.it/",
+      "notes": "代表酒庄；尚未核对具体地图坐标。"
+    },
+    "version": 1,
+    "updated": "2026-09-12T00:00:00Z",
+    "origin": "初始资料整理"
+  },
+  {
+    "id": "rioja",
+    "kind": "region",
+    "name": "里奥哈",
+    "data": {
+      "name": "里奥哈",
+      "en": "Rioja",
+      "country": "西班牙",
+      "lat": 42.46,
+      "lng": -2.59,
+      "locationPrecision": "产区浏览中心",
+      "sourceTitle": "产区协会 / 行业机构",
+      "sourceURL": "https://riojawine.com/",
+      "notes": "埃布罗河沿岸的多样地形，孕育以丹魄为核心的红葡萄酒和独具个性的白葡萄酒。",
+      "grapes": [
+        {
+          "id": "grape-ba36e09d7cf5",
+          "percent": null
+        },
+        {
+          "id": "grape-1d542769c4f0",
+          "percent": null
+        },
+        {
+          "id": "grape-8e17d0854145",
+          "percent": null
+        }
+      ]
+    },
+    "version": 1,
+    "updated": "2026-09-12T00:00:00Z",
+    "origin": "初始资料整理"
+  },
+  {
+    "id": "winery-3d7eba6cfb75",
+    "kind": "winery",
+    "name": "洛佩兹·埃雷迪亚",
+    "data": {
+      "name": "洛佩兹·埃雷迪亚",
+      "en": "López de Heredia",
+      "country": "西班牙",
+      "regionId": "rioja",
+      "website": "https://www.lopezdeheredia.com/",
+      "sourceTitle": "酒庄官方网站",
+      "sourceURL": "https://www.lopezdeheredia.com/",
+      "notes": "代表酒庄；尚未核对具体地图坐标。"
+    },
+    "version": 1,
+    "updated": "2026-09-12T00:00:00Z",
+    "origin": "初始资料整理"
+  },
+  {
+    "id": "napa",
+    "kind": "region",
+    "name": "纳帕谷",
+    "data": {
+      "name": "纳帕谷",
+      "en": "Napa Valley",
+      "country": "美国",
+      "lat": 38.5,
+      "lng": -122.35,
+      "locationPrecision": "产区浏览中心",
+      "sourceTitle": "产区协会 / 行业机构",
+      "sourceURL": "https://wine.napavintners.com/wine",
+      "notes": "谷地与山坡交织，小范围内的气候差异带来多种表达，赤霞珠是标志性品种。",
+      "grapes": [
+        {
+          "id": "grape-cc6e973223fa",
+          "percent": null
+        },
+        {
+          "id": "grape-2ae0338aba42",
+          "percent": null
+        },
+        {
+          "id": "grape-2752fc2e0d57",
+          "percent": null
+        },
+        {
+          "id": "grape-d5093a71b018",
+          "percent": null
+        }
+      ]
+    },
+    "version": 1,
+    "updated": "2026-09-12T00:00:00Z",
+    "origin": "初始资料整理"
+  },
+  {
+    "id": "winery-a6a4adfe7eb1",
+    "kind": "winery",
+    "name": "作品一号",
+    "data": {
+      "name": "作品一号",
+      "en": "Opus One",
+      "country": "美国",
+      "regionId": "napa",
+      "website": "https://www.opusonewinery.com/",
+      "sourceTitle": "酒庄官方网站",
+      "sourceURL": "https://www.opusonewinery.com/",
+      "notes": "代表酒庄；尚未核对具体地图坐标。"
+    },
+    "version": 1,
+    "updated": "2026-09-12T00:00:00Z",
+    "origin": "初始资料整理"
+  },
+  {
+    "id": "marlborough",
+    "kind": "region",
+    "name": "马尔堡",
+    "data": {
+      "name": "马尔堡",
+      "en": "Marlborough",
+      "country": "新西兰",
+      "lat": -41.51,
+      "lng": 173.91,
+      "locationPrecision": "产区浏览中心",
+      "sourceTitle": "产区协会 / 行业机构",
+      "sourceURL": "https://www.nzwine.com/en/regions/marlborough/",
+      "notes": "怀劳谷与阿沃特雷谷的风与日照，塑造鲜明的长相思风格。",
+      "grapes": [
+        {
+          "id": "grape-d5093a71b018",
+          "percent": null
+        },
+        {
+          "id": "grape-d8ba24c3039e",
+          "percent": null
+        },
+        {
+          "id": "grape-2ae0338aba42",
+          "percent": null
+        }
+      ]
+    },
+    "version": 1,
+    "updated": "2026-09-12T00:00:00Z",
+    "origin": "初始资料整理"
+  },
+  {
+    "id": "winery-b2416cb46887",
+    "kind": "winery",
+    "name": "云雾之湾",
+    "data": {
+      "name": "云雾之湾",
+      "en": "Cloudy Bay",
+      "country": "新西兰",
+      "regionId": "marlborough",
+      "website": "https://www.cloudybay.com/",
+      "sourceTitle": "酒庄官方网站",
+      "sourceURL": "https://www.cloudybay.com/",
+      "notes": "代表酒庄；尚未核对具体地图坐标。"
+    },
+    "version": 1,
+    "updated": "2026-09-12T00:00:00Z",
+    "origin": "初始资料整理"
+  },
+  {
+    "id": "champagne",
+    "kind": "region",
+    "name": "香槟",
+    "data": {
+      "name": "香槟",
+      "en": "Champagne",
+      "country": "法国",
+      "lat": 49.04,
+      "lng": 4.02,
+      "locationPrecision": "产区浏览中心",
+      "sourceTitle": "产区协会 / 行业机构",
+      "sourceURL": "https://www.champagne.fr/fr/decouvrir-le-champagne/un-grand-vin-d-assemblage/les-cepages-en-champagne",
+      "notes": "白垩土、凉爽气候与混酿传统，让这里成为传统法起泡酒的重要产地。",
+      "grapes": [
+        {
+          "id": "grape-2ae0338aba42",
+          "percent": null
+        },
+        {
+          "id": "grape-d8ba24c3039e",
+          "percent": null
+        },
+        {
+          "id": "grape-88e4a3fb56a7",
+          "percent": null
+        }
+      ]
+    },
+    "version": 1,
+    "updated": "2026-09-12T00:00:00Z",
+    "origin": "初始资料整理"
+  },
+  {
+    "id": "winery-a7e275cf9daf",
+    "kind": "winery",
+    "name": "堡林爵",
+    "data": {
+      "name": "堡林爵",
+      "en": "Bollinger",
+      "country": "法国",
+      "regionId": "champagne",
+      "website": "https://www.champagne-bollinger.com/",
+      "sourceTitle": "酒庄官方网站",
+      "sourceURL": "https://www.champagne-bollinger.com/",
+      "notes": "代表酒庄；尚未核对具体地图坐标。"
+    },
+    "version": 1,
+    "updated": "2026-09-12T00:00:00Z",
+    "origin": "初始资料整理"
+  },
+  {
+    "id": "loire",
+    "kind": "region",
+    "name": "卢瓦尔河谷",
+    "data": {
+      "name": "卢瓦尔河谷",
+      "en": "Loire Valley",
+      "country": "法国",
+      "lat": 47.3,
+      "lng": 0.05,
+      "locationPrecision": "产区浏览中心",
+      "sourceTitle": "产区协会 / 行业机构",
+      "sourceURL": "https://www.vinsdeloire.fr/fr/cepages?page=0",
+      "notes": "沿河向西，白诗南、长相思和品丽珠在不同子产区展现各自特色。",
+      "grapes": [
+        {
+          "id": "grape-a7318d162e68",
+          "percent": null
+        },
+        {
+          "id": "grape-d5093a71b018",
+          "percent": null
+        },
+        {
+          "id": "grape-6f1c5dc094a2",
+          "percent": null
+        },
+        {
+          "id": "grape-468c98aa2b67",
+          "percent": null
+        }
+      ]
+    },
+    "version": 1,
+    "updated": "2026-09-12T00:00:00Z",
+    "origin": "初始资料整理"
+  },
+  {
+    "id": "winery-8577eda8f2ac",
+    "kind": "winery",
+    "name": "于埃酒庄",
+    "data": {
+      "name": "于埃酒庄",
+      "en": "Domaine Huet",
+      "country": "法国",
+      "regionId": "loire",
+      "website": "https://www.domainehuet.com/",
+      "sourceTitle": "酒庄官方网站",
+      "sourceURL": "https://www.domainehuet.com/",
+      "notes": "代表酒庄；尚未核对具体地图坐标。"
+    },
+    "version": 1,
+    "updated": "2026-09-12T00:00:00Z",
+    "origin": "初始资料整理"
+  },
+  {
+    "id": "rhone",
+    "kind": "region",
+    "name": "罗讷河谷",
+    "data": {
+      "name": "罗讷河谷",
+      "en": "Rhône Valley",
+      "country": "法国",
+      "lat": 44.08,
+      "lng": 4.83,
+      "locationPrecision": "产区浏览中心",
+      "sourceTitle": "产区协会 / 行业机构",
+      "sourceURL": "https://www.vins-rhone.com/en/rhone-valley-vineyards/grape-varieties",
+      "notes": "北部以西拉和维欧尼见长；南部的歌海娜混酿展现另一种风土。",
+      "grapes": [
+        {
+          "id": "grape-36404f2e5476",
+          "percent": null
+        },
+        {
+          "id": "grape-1d542769c4f0",
+          "percent": null
+        },
+        {
+          "id": "grape-aaa603f68745",
+          "percent": null
+        },
+        {
+          "id": "grape-ab28e1d2953f",
+          "percent": null
+        }
+      ]
+    },
+    "version": 1,
+    "updated": "2026-09-12T00:00:00Z",
+    "origin": "初始资料整理"
+  },
+  {
+    "id": "winery-f720625396d4",
+    "kind": "winery",
+    "name": "吉佳乐世家",
+    "data": {
+      "name": "吉佳乐世家",
+      "en": "E. Guigal",
+      "country": "法国",
+      "regionId": "rhone",
+      "website": "https://www.guigal.com/",
+      "sourceTitle": "酒庄官方网站",
+      "sourceURL": "https://www.guigal.com/",
+      "notes": "代表酒庄；尚未核对具体地图坐标。"
+    },
+    "version": 1,
+    "updated": "2026-09-12T00:00:00Z",
+    "origin": "初始资料整理"
+  },
+  {
+    "id": "alsace",
+    "kind": "region",
+    "name": "阿尔萨斯",
+    "data": {
+      "name": "阿尔萨斯",
+      "en": "Alsace",
+      "country": "法国",
+      "lat": 48.1,
+      "lng": 7.29,
+      "locationPrecision": "产区浏览中心",
+      "sourceTitle": "产区协会 / 行业机构",
+      "sourceURL": "https://www.laroutedesvins-alsace.com/en/guide/7-alsace-grape-varieties",
+      "notes": "孚日山脉东麓的葡萄园，以芳香型白葡萄品种和多样土壤著称。",
+      "grapes": [
+        {
+          "id": "grape-6a6235ee72cb",
+          "percent": null
+        },
+        {
+          "id": "grape-8da384f0e6cc",
+          "percent": null
+        },
+        {
+          "id": "grape-2c70012fa51b",
+          "percent": null
+        },
+        {
+          "id": "grape-d8ba24c3039e",
+          "percent": null
+        }
+      ]
+    },
+    "version": 1,
+    "updated": "2026-09-12T00:00:00Z",
+    "origin": "初始资料整理"
+  },
+  {
+    "id": "winery-4fed8a0099fd",
+    "kind": "winery",
+    "name": "婷芭克世家",
+    "data": {
+      "name": "婷芭克世家",
+      "en": "F. E. Trimbach",
+      "country": "法国",
+      "regionId": "alsace",
+      "website": "https://www.trimbach.fr/",
+      "sourceTitle": "酒庄官方网站",
+      "sourceURL": "https://www.trimbach.fr/",
+      "notes": "代表酒庄；尚未核对具体地图坐标。"
+    },
+    "version": 1,
+    "updated": "2026-09-12T00:00:00Z",
+    "origin": "初始资料整理"
+  },
+  {
+    "id": "chianti",
+    "kind": "region",
+    "name": "经典基安蒂",
+    "data": {
+      "name": "经典基安蒂",
+      "en": "Chianti Classico",
+      "country": "意大利",
+      "lat": 43.48,
+      "lng": 11.27,
+      "locationPrecision": "产区浏览中心",
+      "sourceTitle": "产区协会 / 行业机构",
+      "sourceURL": "https://www.chianticlassico.com/en/wine/characteristics/",
+      "notes": "佛罗伦萨与锡耶纳之间的丘陵，是桑娇维塞的重要家园。",
+      "grapes": [
+        {
+          "id": "grape-c3b81eac0a5b",
+          "percent": null
+        },
+        {
+          "id": "grape-68285952733d",
+          "percent": null
+        },
+        {
+          "id": "grape-3d0304ade329",
+          "percent": null
+        }
+      ]
+    },
+    "version": 1,
+    "updated": "2026-09-12T00:00:00Z",
+    "origin": "初始资料整理"
+  },
+  {
+    "id": "winery-daf2fa4cd838",
+    "kind": "winery",
+    "name": "里卡索利",
+    "data": {
+      "name": "里卡索利",
+      "en": "Ricasoli",
+      "country": "意大利",
+      "regionId": "chianti",
+      "website": "https://www.ricasoli.com/",
+      "sourceTitle": "酒庄官方网站",
+      "sourceURL": "https://www.ricasoli.com/",
+      "notes": "代表酒庄；尚未核对具体地图坐标。"
+    },
+    "version": 1,
+    "updated": "2026-09-12T00:00:00Z",
+    "origin": "初始资料整理"
+  },
+  {
+    "id": "etna",
+    "kind": "region",
+    "name": "埃特纳",
+    "data": {
+      "name": "埃特纳",
+      "en": "Etna",
+      "country": "意大利",
+      "lat": 37.88,
+      "lng": 15.05,
+      "locationPrecision": "产区浏览中心",
+      "sourceTitle": "产区协会 / 行业机构",
+      "sourceURL": "https://thewinesofetna.com/it/i-vini-e-le-uve/",
+      "notes": "环绕活火山的坡地葡萄园，以当地红、白葡萄品种展现高地风土。",
+      "grapes": [
+        {
+          "id": "grape-9bdcb95c73d0",
+          "percent": null
+        },
+        {
+          "id": "grape-b5769788dca1",
+          "percent": null
+        }
+      ]
+    },
+    "version": 1,
+    "updated": "2026-09-12T00:00:00Z",
+    "origin": "初始资料整理"
+  },
+  {
+    "id": "winery-5989c3f9d9f5",
+    "kind": "winery",
+    "name": "泰勒内酒庄",
+    "data": {
+      "name": "泰勒内酒庄",
+      "en": "Tenuta delle Terre Nere",
+      "country": "意大利",
+      "regionId": "etna",
+      "website": "https://www.tenutaterrenere.com/",
+      "sourceTitle": "酒庄官方网站",
+      "sourceURL": "https://www.tenutaterrenere.com/",
+      "notes": "代表酒庄；尚未核对具体地图坐标。"
+    },
+    "version": 1,
+    "updated": "2026-09-12T00:00:00Z",
+    "origin": "初始资料整理"
+  },
+  {
+    "id": "ribera",
+    "kind": "region",
+    "name": "杜埃罗河岸",
+    "data": {
+      "name": "杜埃罗河岸",
+      "en": "Ribera del Duero",
+      "country": "西班牙",
+      "lat": 41.65,
+      "lng": -3.69,
+      "locationPrecision": "产区浏览中心",
+      "sourceTitle": "产区协会 / 行业机构",
+      "sourceURL": "https://www.riberadelduero.es/",
+      "notes": "西班牙内陆高原上的河谷产区，丹魄在这里也被称为 Tinto Fino。",
+      "grapes": [
+        {
+          "id": "grape-ba36e09d7cf5",
+          "percent": null
+        },
+        {
+          "id": "grape-cc6e973223fa",
+          "percent": null
+        },
+        {
+          "id": "grape-2752fc2e0d57",
+          "percent": null
+        }
+      ]
+    },
+    "version": 1,
+    "updated": "2026-09-12T00:00:00Z",
+    "origin": "初始资料整理"
+  },
+  {
+    "id": "winery-ed82f8b8e601",
+    "kind": "winery",
+    "name": "维嘉西西里亚",
+    "data": {
+      "name": "维嘉西西里亚",
+      "en": "Vega Sicilia",
+      "country": "西班牙",
+      "regionId": "ribera",
+      "website": "https://www.temposvegasicilia.com/",
+      "sourceTitle": "酒庄官方网站",
+      "sourceURL": "https://www.temposvegasicilia.com/",
+      "notes": "代表酒庄；尚未核对具体地图坐标。"
+    },
+    "version": 1,
+    "updated": "2026-09-12T00:00:00Z",
+    "origin": "初始资料整理"
+  },
+  {
+    "id": "douro",
+    "kind": "region",
+    "name": "杜罗河谷",
+    "data": {
+      "name": "杜罗河谷",
+      "en": "Douro",
+      "country": "葡萄牙",
+      "lat": 41.17,
+      "lng": -7.55,
+      "locationPrecision": "产区浏览中心",
+      "sourceTitle": "产区协会 / 行业机构",
+      "sourceURL": "https://www.winesofportugal.com/documents/173/BROCHURA_EN_2022_01_WEB.pdf",
+      "notes": "陡峭的河谷梯田既出产波特酒，也酿造干型红、白葡萄酒。",
+      "grapes": [
+        {
+          "id": "grape-331a99643f3b",
+          "percent": null
+        },
+        {
+          "id": "grape-dedd6ab743b4",
+          "percent": null
+        },
+        {
+          "id": "grape-ba36e09d7cf5",
+          "percent": null
+        }
+      ]
+    },
+    "version": 1,
+    "updated": "2026-09-12T00:00:00Z",
+    "origin": "初始资料整理"
+  },
+  {
+    "id": "winery-1b73f25d6221",
+    "kind": "winery",
+    "name": "杜卡酒庄",
+    "data": {
+      "name": "杜卡酒庄",
+      "en": "Quinta do Crasto",
+      "country": "葡萄牙",
+      "regionId": "douro",
+      "website": "https://www.quintadocrasto.pt/",
+      "sourceTitle": "酒庄官方网站",
+      "sourceURL": "https://www.quintadocrasto.pt/",
+      "notes": "代表酒庄；尚未核对具体地图坐标。"
+    },
+    "version": 1,
+    "updated": "2026-09-12T00:00:00Z",
+    "origin": "初始资料整理"
+  },
+  {
+    "id": "mosel",
+    "kind": "region",
+    "name": "摩泽尔",
+    "data": {
+      "name": "摩泽尔",
+      "en": "Mosel",
+      "country": "德国",
+      "lat": 49.92,
+      "lng": 7.06,
+      "locationPrecision": "产区浏览中心",
+      "sourceTitle": "产区协会 / 行业机构",
+      "sourceURL": "https://www.winesofgermany.com/our-regions/growing-area/66/mosel",
+      "notes": "蜿蜒河流与陡峭坡地，构成以雷司令为代表的摩泽尔风景。",
+      "grapes": [
+        {
+          "id": "grape-6a6235ee72cb",
+          "percent": null
+        },
+        {
+          "id": "grape-675757f3aa8f",
+          "percent": null
+        },
+        {
+          "id": "grape-c4cb1ffed80f",
+          "percent": null
+        }
+      ]
+    },
+    "version": 1,
+    "updated": "2026-09-12T00:00:00Z",
+    "origin": "初始资料整理"
+  },
+  {
+    "id": "winery-aa7ff7c4aeeb",
+    "kind": "winery",
+    "name": "露森酒庄",
+    "data": {
+      "name": "露森酒庄",
+      "en": "Dr. Loosen",
+      "country": "德国",
+      "regionId": "mosel",
+      "website": "https://drloosen.com/",
+      "sourceTitle": "酒庄官方网站",
+      "sourceURL": "https://drloosen.com/",
+      "notes": "代表酒庄；尚未核对具体地图坐标。"
+    },
+    "version": 1,
+    "updated": "2026-09-12T00:00:00Z",
+    "origin": "初始资料整理"
+  },
+  {
+    "id": "wachau",
+    "kind": "region",
+    "name": "瓦豪",
+    "data": {
+      "name": "瓦豪",
+      "en": "Wachau",
+      "country": "奥地利",
+      "lat": 48.39,
+      "lng": 15.43,
+      "locationPrecision": "产区浏览中心",
+      "sourceTitle": "产区协会 / 行业机构",
+      "sourceURL": "https://www.austrianwine.com/our-wine/wine-growing-regions/niederoesterreich-lower-austria/wachau",
+      "notes": "多瑙河畔的石墙梯田，孕育绿维特利纳与雷司令。",
+      "grapes": [
+        {
+          "id": "grape-7604588339c0",
+          "percent": null
+        },
+        {
+          "id": "grape-6a6235ee72cb",
+          "percent": null
+        }
+      ]
+    },
+    "version": 1,
+    "updated": "2026-09-12T00:00:00Z",
+    "origin": "初始资料整理"
+  },
+  {
+    "id": "winery-bb22ea13786d",
+    "kind": "winery",
+    "name": "瓦豪酒庄",
+    "data": {
+      "name": "瓦豪酒庄",
+      "en": "Domäne Wachau",
+      "country": "奥地利",
+      "regionId": "wachau",
+      "website": "https://www.domaene-wachau.at/",
+      "sourceTitle": "酒庄官方网站",
+      "sourceURL": "https://www.domaene-wachau.at/",
+      "notes": "代表酒庄；尚未核对具体地图坐标。"
+    },
+    "version": 1,
+    "updated": "2026-09-12T00:00:00Z",
+    "origin": "初始资料整理"
+  },
+  {
+    "id": "tokaj",
+    "kind": "region",
+    "name": "托卡伊",
+    "data": {
+      "name": "托卡伊",
+      "en": "Tokaj",
+      "country": "匈牙利",
+      "lat": 48.15,
+      "lng": 21.35,
+      "locationPrecision": "产区浏览中心",
+      "sourceTitle": "产区协会 / 行业机构",
+      "sourceURL": "https://www.disznoko.hu/hu/terroir/sz-l-fajtaink",
+      "notes": "火山土壤与贵腐甜酒传统之外，干型富尔民特也值得探索。",
+      "grapes": [
+        {
+          "id": "grape-fe6c63c03c01",
+          "percent": null
+        },
+        {
+          "id": "grape-789d08d1607a",
+          "percent": null
+        },
+        {
+          "id": "grape-67b00a85b780",
+          "percent": null
+        }
+      ]
+    },
+    "version": 1,
+    "updated": "2026-09-12T00:00:00Z",
+    "origin": "初始资料整理"
+  },
+  {
+    "id": "winery-6f4372bdb28b",
+    "kind": "winery",
+    "name": "迪兹诺克酒庄",
+    "data": {
+      "name": "迪兹诺克酒庄",
+      "en": "Disznókő",
+      "country": "匈牙利",
+      "regionId": "tokaj",
+      "website": "https://www.disznoko.hu/",
+      "sourceTitle": "酒庄官方网站",
+      "sourceURL": "https://www.disznoko.hu/",
+      "notes": "代表酒庄；尚未核对具体地图坐标。"
+    },
+    "version": 1,
+    "updated": "2026-09-12T00:00:00Z",
+    "origin": "初始资料整理"
+  },
+  {
+    "id": "santorini",
+    "kind": "region",
+    "name": "圣托里尼",
+    "data": {
+      "name": "圣托里尼",
+      "en": "Santorini",
+      "country": "希腊",
+      "lat": 36.38,
+      "lng": 25.44,
+      "locationPrecision": "产区浏览中心",
+      "sourceTitle": "产区协会 / 行业机构",
+      "sourceURL": "https://santorini.com/wineries/",
+      "notes": "火山岛上的传统篮式整枝，帮助葡萄藤应对干燥与海风。",
+      "grapes": [
+        {
+          "id": "grape-392baf305fcf",
+          "percent": null
+        },
+        {
+          "id": "grape-2cee5e1ddbb3",
+          "percent": null
+        },
+        {
+          "id": "grape-062270b6328c",
+          "percent": null
+        }
+      ]
+    },
+    "version": 1,
+    "updated": "2026-09-12T00:00:00Z",
+    "origin": "初始资料整理"
+  },
+  {
+    "id": "winery-8298f143a8b4",
+    "kind": "winery",
+    "name": "圣托酒庄",
+    "data": {
+      "name": "圣托酒庄",
+      "en": "Santo Wines",
+      "country": "希腊",
+      "regionId": "santorini",
+      "website": "https://santowines.gr/",
+      "sourceTitle": "酒庄官方网站",
+      "sourceURL": "https://santowines.gr/",
+      "notes": "代表酒庄；尚未核对具体地图坐标。"
+    },
+    "version": 1,
+    "updated": "2026-09-12T00:00:00Z",
+    "origin": "初始资料整理"
+  },
+  {
+    "id": "kakheti",
+    "kind": "region",
+    "name": "卡赫季",
+    "data": {
+      "name": "卡赫季",
+      "en": "Kakheti",
+      "country": "格鲁吉亚",
+      "lat": 41.92,
+      "lng": 45.48,
+      "locationPrecision": "产区浏览中心",
+      "sourceTitle": "产区协会 / 行业机构",
+      "sourceURL": "https://wine.gov.ge/En/WineMakingRegions/1",
+      "notes": "本土品种与陶罐酿造传统，在阿拉扎尼河谷延续。",
+      "grapes": [
+        {
+          "id": "grape-d65b493ab0e3",
+          "percent": null
+        },
+        {
+          "id": "grape-9a2db40131e6",
+          "percent": null
+        },
+        {
+          "id": "grape-2a61e5f829bf",
+          "percent": null
+        },
+        {
+          "id": "grape-77e2ceb0ae76",
+          "percent": null
+        }
+      ]
+    },
+    "version": 1,
+    "updated": "2026-09-12T00:00:00Z",
+    "origin": "初始资料整理"
+  },
+  {
+    "id": "winery-1617d4fb967b",
+    "kind": "winery",
+    "name": "卡赫季葡萄酒",
+    "data": {
+      "name": "卡赫季葡萄酒",
+      "en": "Wine Kakheti",
+      "country": "格鲁吉亚",
+      "regionId": "kakheti",
+      "website": "https://wk.ge/en/",
+      "sourceTitle": "酒庄官方网站",
+      "sourceURL": "https://wk.ge/en/",
+      "notes": "代表酒庄；尚未核对具体地图坐标。"
+    },
+    "version": 1,
+    "updated": "2026-09-12T00:00:00Z",
+    "origin": "初始资料整理"
+  },
+  {
+    "id": "ningxia",
+    "kind": "region",
+    "name": "贺兰山东麓",
+    "data": {
+      "name": "贺兰山东麓",
+      "en": "Helan Mountain East",
+      "country": "中国",
+      "lat": 38.47,
+      "lng": 106.02,
+      "locationPrecision": "产区浏览中心",
+      "sourceTitle": "产区协会 / 行业机构",
+      "sourceURL": "https://www.wineningxia.com/wineries",
+      "notes": "贺兰山与黄河之间，干燥气候和灌溉条件共同塑造宁夏葡萄园。",
+      "grapes": [
+        {
+          "id": "grape-cc6e973223fa",
+          "percent": null
+        },
+        {
+          "id": "grape-2752fc2e0d57",
+          "percent": null
+        },
+        {
+          "id": "grape-2ae0338aba42",
+          "percent": null
+        },
+        {
+          "id": "grape-36404f2e5476",
+          "percent": null
+        }
+      ]
+    },
+    "version": 1,
+    "updated": "2026-09-12T00:00:00Z",
+    "origin": "初始资料整理"
+  },
+  {
+    "id": "winery-a3f0cc49a0af",
+    "kind": "winery",
+    "name": "贺兰山葡萄酒",
+    "data": {
+      "name": "贺兰山葡萄酒",
+      "en": "Helan Mountain",
+      "country": "中国",
+      "regionId": "ningxia",
+      "website": "https://www.helanmountain.com/en/introduction/",
+      "sourceTitle": "酒庄官方网站",
+      "sourceURL": "https://www.helanmountain.com/en/introduction/",
+      "notes": "代表酒庄；尚未核对具体地图坐标。"
+    },
+    "version": 1,
+    "updated": "2026-09-12T00:00:00Z",
+    "origin": "初始资料整理"
+  },
+  {
+    "id": "yamanashi",
+    "kind": "region",
+    "name": "山梨",
+    "data": {
+      "name": "山梨",
+      "en": "Yamanashi",
+      "country": "日本",
+      "lat": 35.67,
+      "lng": 138.73,
+      "locationPrecision": "产区浏览中心",
+      "sourceTitle": "产区协会 / 行业机构",
+      "sourceURL": "https://www.decanter.com/wine/japan/yamanashi-regional-profile-six-star-wines-to-try",
+      "notes": "以甲州和麝香贝利A为特色，日本葡萄酒在这里呈现鲜明的本土个性。",
+      "grapes": [
+        {
+          "id": "grape-f4741f682de5",
+          "percent": null
+        },
+        {
+          "id": "grape-5e98ed0c923d",
+          "percent": null
+        },
+        {
+          "id": "grape-2ae0338aba42",
+          "percent": null
+        }
+      ]
+    },
+    "version": 1,
+    "updated": "2026-09-12T00:00:00Z",
+    "origin": "初始资料整理"
+  },
+  {
+    "id": "winery-61cea8402804",
+    "kind": "winery",
+    "name": "中央葡萄酒",
+    "data": {
+      "name": "中央葡萄酒",
+      "en": "Grace Wine",
+      "country": "日本",
+      "regionId": "yamanashi",
+      "website": "https://www.grace-wine.com/",
+      "sourceTitle": "酒庄官方网站",
+      "sourceURL": "https://www.grace-wine.com/",
+      "notes": "代表酒庄；尚未核对具体地图坐标。"
+    },
+    "version": 1,
+    "updated": "2026-09-12T00:00:00Z",
+    "origin": "初始资料整理"
+  },
+  {
+    "id": "willamette",
+    "kind": "region",
+    "name": "威拉米特谷",
+    "data": {
+      "name": "威拉米特谷",
+      "en": "Willamette Valley",
+      "country": "美国",
+      "lat": 45.17,
+      "lng": -123.1,
+      "locationPrecision": "产区浏览中心",
+      "sourceTitle": "产区协会 / 行业机构",
+      "sourceURL": "https://www.willamettewines.com/trade-resources/grape-varieties/",
+      "notes": "俄勒冈州的凉爽生长季，为黑皮诺和霞多丽提供多样的表达空间。",
+      "grapes": [
+        {
+          "id": "grape-d8ba24c3039e",
+          "percent": null
+        },
+        {
+          "id": "grape-2ae0338aba42",
+          "percent": null
+        },
+        {
+          "id": "grape-2c70012fa51b",
+          "percent": null
+        }
+      ]
+    },
+    "version": 1,
+    "updated": "2026-09-12T00:00:00Z",
+    "origin": "初始资料整理"
+  },
+  {
+    "id": "winery-ca2aa27a0a23",
+    "kind": "winery",
+    "name": "多鲁安俄勒冈酒庄",
+    "data": {
+      "name": "多鲁安俄勒冈酒庄",
+      "en": "Domaine Drouhin Oregon",
+      "country": "美国",
+      "regionId": "willamette",
+      "website": "https://domainedrouhin.com/",
+      "sourceTitle": "酒庄官方网站",
+      "sourceURL": "https://domainedrouhin.com/",
+      "notes": "代表酒庄；尚未核对具体地图坐标。"
+    },
+    "version": 1,
+    "updated": "2026-09-12T00:00:00Z",
+    "origin": "初始资料整理"
+  },
+  {
+    "id": "okanagan",
+    "kind": "region",
+    "name": "欧肯那根谷",
+    "data": {
+      "name": "欧肯那根谷",
+      "en": "Okanagan Valley",
+      "country": "加拿大",
+      "lat": 49.4,
+      "lng": -119.56,
+      "locationPrecision": "产区浏览中心",
+      "sourceTitle": "产区协会 / 行业机构",
+      "sourceURL": "https://winebc.com/wine-regions/okanagan-valley/",
+      "notes": "狭长湖谷从南到北的气候差异，支持多种红、白葡萄的种植。",
+      "grapes": [
+        {
+          "id": "grape-2752fc2e0d57",
+          "percent": null
+        },
+        {
+          "id": "grape-d8ba24c3039e",
+          "percent": null
+        },
+        {
+          "id": "grape-2ae0338aba42",
+          "percent": null
+        },
+        {
+          "id": "grape-6a6235ee72cb",
+          "percent": null
+        }
+      ]
+    },
+    "version": 1,
+    "updated": "2026-09-12T00:00:00Z",
+    "origin": "初始资料整理"
+  },
+  {
+    "id": "winery-cbdee615191d",
+    "kind": "winery",
+    "name": "传教山酒庄",
+    "data": {
+      "name": "传教山酒庄",
+      "en": "Mission Hill Family Estate",
+      "country": "加拿大",
+      "regionId": "okanagan",
+      "website": "https://www.missionhillwinery.com/",
+      "sourceTitle": "酒庄官方网站",
+      "sourceURL": "https://www.missionhillwinery.com/",
+      "notes": "代表酒庄；尚未核对具体地图坐标。"
+    },
+    "version": 1,
+    "updated": "2026-09-12T00:00:00Z",
+    "origin": "初始资料整理"
+  },
+  {
+    "id": "mendoza",
+    "kind": "region",
+    "name": "门多萨",
+    "data": {
+      "name": "门多萨",
+      "en": "Mendoza",
+      "country": "阿根廷",
+      "lat": -33.05,
+      "lng": -68.87,
+      "locationPrecision": "产区浏览中心",
+      "sourceTitle": "产区协会 / 行业机构",
+      "sourceURL": "https://winesofargentina.org/en/regions",
+      "notes": "安第斯山脚的灌溉葡萄园，是阿根廷马尔贝克的重要产地。",
+      "grapes": [
+        {
+          "id": "grape-d3feb2ec9a88",
+          "percent": null
+        },
+        {
+          "id": "grape-cc6e973223fa",
+          "percent": null
+        },
+        {
+          "id": "grape-2ae0338aba42",
+          "percent": null
+        }
+      ]
+    },
+    "version": 1,
+    "updated": "2026-09-12T00:00:00Z",
+    "origin": "初始资料整理"
+  },
+  {
+    "id": "winery-c31f82ceffe5",
+    "kind": "winery",
+    "name": "卡帝娜酒庄",
+    "data": {
+      "name": "卡帝娜酒庄",
+      "en": "Catena Zapata",
+      "country": "阿根廷",
+      "regionId": "mendoza",
+      "website": "https://catenazapata.com/",
+      "sourceTitle": "酒庄官方网站",
+      "sourceURL": "https://catenazapata.com/",
+      "notes": "代表酒庄；尚未核对具体地图坐标。"
+    },
+    "version": 1,
+    "updated": "2026-09-12T00:00:00Z",
+    "origin": "初始资料整理"
+  },
+  {
+    "id": "salta",
+    "kind": "region",
+    "name": "萨尔塔 · 卡法亚特",
+    "data": {
+      "name": "萨尔塔 · 卡法亚特",
+      "en": "Salta · Cafayate",
+      "country": "阿根廷",
+      "lat": -26.07,
+      "lng": -65.98,
+      "locationPrecision": "产区浏览中心",
+      "sourceTitle": "产区协会 / 行业机构",
+      "sourceURL": "https://winesofargentina.org/en/region/norte",
+      "notes": "卡法亚特的高地葡萄园，以芳香鲜明的托伦特斯与红葡萄品种见长。",
+      "grapes": [
+        {
+          "id": "grape-c46f20137f0f",
+          "percent": null
+        },
+        {
+          "id": "grape-d3feb2ec9a88",
+          "percent": null
+        },
+        {
+          "id": "grape-cc6e973223fa",
+          "percent": null
+        }
+      ]
+    },
+    "version": 1,
+    "updated": "2026-09-12T00:00:00Z",
+    "origin": "初始资料整理"
+  },
+  {
+    "id": "winery-4a551078802f",
+    "kind": "winery",
+    "name": "艾斯德科酒庄",
+    "data": {
+      "name": "艾斯德科酒庄",
+      "en": "El Esteco",
+      "country": "阿根廷",
+      "regionId": "salta",
+      "website": "https://www.elesteco.com.ar/",
+      "sourceTitle": "酒庄官方网站",
+      "sourceURL": "https://www.elesteco.com.ar/",
+      "notes": "代表酒庄；尚未核对具体地图坐标。"
+    },
+    "version": 1,
+    "updated": "2026-09-12T00:00:00Z",
+    "origin": "初始资料整理"
+  },
+  {
+    "id": "colchagua",
+    "kind": "region",
+    "name": "科尔查瓜谷",
+    "data": {
+      "name": "科尔查瓜谷",
+      "en": "Colchagua Valley",
+      "country": "智利",
+      "lat": -34.64,
+      "lng": -71.36,
+      "locationPrecision": "产区浏览中心",
+      "sourceTitle": "产区协会 / 行业机构",
+      "sourceURL": "https://www.carmen.com/valles/colchagua/",
+      "notes": "从安第斯山脉向海岸延展的谷地，是智利红葡萄酒的重要产区。",
+      "grapes": [
+        {
+          "id": "grape-103e87d0095e",
+          "percent": null
+        },
+        {
+          "id": "grape-cc6e973223fa",
+          "percent": null
+        },
+        {
+          "id": "grape-36404f2e5476",
+          "percent": null
+        }
+      ]
+    },
+    "version": 1,
+    "updated": "2026-09-12T00:00:00Z",
+    "origin": "初始资料整理"
+  },
+  {
+    "id": "winery-8d2d68dca79d",
+    "kind": "winery",
+    "name": "蒙特斯酒庄",
+    "data": {
+      "name": "蒙特斯酒庄",
+      "en": "Montes Wines",
+      "country": "智利",
+      "regionId": "colchagua",
+      "website": "https://www.monteswines.com/",
+      "sourceTitle": "酒庄官方网站",
+      "sourceURL": "https://www.monteswines.com/",
+      "notes": "代表酒庄；尚未核对具体地图坐标。"
+    },
+    "version": 1,
+    "updated": "2026-09-12T00:00:00Z",
+    "origin": "初始资料整理"
+  },
+  {
+    "id": "canelones",
+    "kind": "region",
+    "name": "卡内洛内斯",
+    "data": {
+      "name": "卡内洛内斯",
+      "en": "Canelones",
+      "country": "乌拉圭",
+      "lat": -34.58,
+      "lng": -56.26,
+      "locationPrecision": "产区浏览中心",
+      "sourceTitle": "产区协会 / 行业机构",
+      "sourceURL": "https://turismo.canelones.gub.uy/sites/default/files/2025-09/Folleto_bodegas.pdf",
+      "notes": "乌拉圭南部的传统葡萄酒产区，丹娜是标志性葡萄品种。",
+      "grapes": [
+        {
+          "id": "grape-b3c89eb785a5",
+          "percent": null
+        }
+      ]
+    },
+    "version": 1,
+    "updated": "2026-09-12T00:00:00Z",
+    "origin": "初始资料整理"
+  },
+  {
+    "id": "winery-cbe9b776f8e5",
+    "kind": "winery",
+    "name": "皮卡多酒庄",
+    "data": {
+      "name": "皮卡多酒庄",
+      "en": "Bodega Piccardo",
+      "country": "乌拉圭",
+      "regionId": "canelones",
+      "website": "https://www.bodegapiccardo.com.uy/en/varietal-wines/tannat-vcp/",
+      "sourceTitle": "酒庄官方网站",
+      "sourceURL": "https://www.bodegapiccardo.com.uy/en/varietal-wines/tannat-vcp/",
+      "notes": "代表酒庄；尚未核对具体地图坐标。"
+    },
+    "version": 1,
+    "updated": "2026-09-12T00:00:00Z",
+    "origin": "初始资料整理"
+  },
+  {
+    "id": "stellenbosch",
+    "kind": "region",
+    "name": "斯泰伦博斯",
+    "data": {
+      "name": "斯泰伦博斯",
+      "en": "Stellenbosch",
+      "country": "南非",
+      "lat": -33.93,
+      "lng": 18.86,
+      "locationPrecision": "产区浏览中心",
+      "sourceTitle": "产区协会 / 行业机构",
+      "sourceURL": "https://www.wosa.co.za/The-Industry/Vintage-Reports/2014-Southern-Hemisphere-Harvest-Report-South-Africa/",
+      "notes": "山坡与海洋气流相遇，红葡萄混酿、皮诺塔吉与白诗南各有表现。",
+      "grapes": [
+        {
+          "id": "grape-cc6e973223fa",
+          "percent": null
+        },
+        {
+          "id": "grape-941ae318c593",
+          "percent": null
+        },
+        {
+          "id": "grape-a7318d162e68",
+          "percent": null
+        }
+      ]
+    },
+    "version": 1,
+    "updated": "2026-09-12T00:00:00Z",
+    "origin": "初始资料整理"
+  },
+  {
+    "id": "winery-48e8d1851601",
+    "kind": "winery",
+    "name": "卡农博酒庄",
+    "data": {
+      "name": "卡农博酒庄",
+      "en": "Kanonkop",
+      "country": "南非",
+      "regionId": "stellenbosch",
+      "website": "https://kanonkop.co.za/",
+      "sourceTitle": "酒庄官方网站",
+      "sourceURL": "https://kanonkop.co.za/",
+      "notes": "代表酒庄；尚未核对具体地图坐标。"
+    },
+    "version": 1,
+    "updated": "2026-09-12T00:00:00Z",
+    "origin": "初始资料整理"
+  },
+  {
+    "id": "swartland",
+    "kind": "region",
+    "name": "斯瓦特兰",
+    "data": {
+      "name": "斯瓦特兰",
+      "en": "Swartland",
+      "country": "南非",
+      "lat": -33.4,
+      "lng": 18.85,
+      "locationPrecision": "产区浏览中心",
+      "sourceTitle": "产区协会 / 行业机构",
+      "sourceURL": "https://www.wosa.co.za/WOSA-News/Blogs/Cape-Chatter/-Reasons-Not-to-Shy-Away-from-Swartland-Chenin-Blanc/",
+      "notes": "老藤白诗南与多种地中海品种，是理解当地葡萄酒的切入点。",
+      "grapes": [
+        {
+          "id": "grape-a7318d162e68",
+          "percent": null
+        },
+        {
+          "id": "grape-36404f2e5476",
+          "percent": null
+        },
+        {
+          "id": "grape-1d542769c4f0",
+          "percent": null
+        },
+        {
+          "id": "grape-af0eda4b6818",
+          "percent": null
+        }
+      ]
+    },
+    "version": 1,
+    "updated": "2026-09-12T00:00:00Z",
+    "origin": "初始资料整理"
+  },
+  {
+    "id": "winery-02a0c88f91d2",
+    "kind": "winery",
+    "name": "慕里纽酒庄",
+    "data": {
+      "name": "慕里纽酒庄",
+      "en": "Mullineux",
+      "country": "南非",
+      "regionId": "swartland",
+      "website": "https://mlfwines.com/",
+      "sourceTitle": "酒庄官方网站",
+      "sourceURL": "https://mlfwines.com/",
+      "notes": "代表酒庄；尚未核对具体地图坐标。"
+    },
+    "version": 1,
+    "updated": "2026-09-12T00:00:00Z",
+    "origin": "初始资料整理"
+  },
+  {
+    "id": "barossa",
+    "kind": "region",
+    "name": "巴罗萨",
+    "data": {
+      "name": "巴罗萨",
+      "en": "Barossa",
+      "country": "澳大利亚",
+      "lat": -34.53,
+      "lng": 138.96,
+      "locationPrecision": "产区浏览中心",
+      "sourceTitle": "产区协会 / 行业机构",
+      "sourceURL": "https://www.barossa.com/wine/varieties/",
+      "notes": "温暖谷地与较凉的高地相邻，老藤与多种葡萄构成巴罗萨的底色。",
+      "grapes": [
+        {
+          "id": "grape-36404f2e5476",
+          "percent": null
+        },
+        {
+          "id": "grape-1d542769c4f0",
+          "percent": null
+        },
+        {
+          "id": "grape-cc6e973223fa",
+          "percent": null
+        },
+        {
+          "id": "grape-6a6235ee72cb",
+          "percent": null
+        },
+        {
+          "id": "grape-e30d3ad8ddde",
+          "percent": null
+        }
+      ]
+    },
+    "version": 1,
+    "updated": "2026-09-12T00:00:00Z",
+    "origin": "初始资料整理"
+  },
+  {
+    "id": "winery-f8186892d816",
+    "kind": "winery",
+    "name": "御兰堡",
+    "data": {
+      "name": "御兰堡",
+      "en": "Yalumba",
+      "country": "澳大利亚",
+      "regionId": "barossa",
+      "website": "https://www.yalumba.com/",
+      "sourceTitle": "酒庄官方网站",
+      "sourceURL": "https://www.yalumba.com/",
+      "notes": "代表酒庄；尚未核对具体地图坐标。"
+    },
+    "version": 1,
+    "updated": "2026-09-12T00:00:00Z",
+    "origin": "初始资料整理"
+  },
+  {
+    "id": "margaret",
+    "kind": "region",
+    "name": "玛格丽特河",
+    "data": {
+      "name": "玛格丽特河",
+      "en": "Margaret River",
+      "country": "澳大利亚",
+      "lat": -33.95,
+      "lng": 115.08,
+      "locationPrecision": "产区浏览中心",
+      "sourceTitle": "产区协会 / 行业机构",
+      "sourceURL": "https://www.margaretriver.wine/",
+      "notes": "西澳海洋气候下的葡萄园，以赤霞珠、霞多丽与白葡萄混酿为特色。",
+      "grapes": [
+        {
+          "id": "grape-cc6e973223fa",
+          "percent": null
+        },
+        {
+          "id": "grape-2ae0338aba42",
+          "percent": null
+        },
+        {
+          "id": "grape-d5093a71b018",
+          "percent": null
+        },
+        {
+          "id": "grape-e30d3ad8ddde",
+          "percent": null
+        }
+      ]
+    },
+    "version": 1,
+    "updated": "2026-09-12T00:00:00Z",
+    "origin": "初始资料整理"
+  },
+  {
+    "id": "winery-c2683edae3b9",
+    "kind": "winery",
+    "name": "露纹酒庄",
+    "data": {
+      "name": "露纹酒庄",
+      "en": "Leeuwin Estate",
+      "country": "澳大利亚",
+      "regionId": "margaret",
+      "website": "https://leeuwinestate.com.au/",
+      "sourceTitle": "酒庄官方网站",
+      "sourceURL": "https://leeuwinestate.com.au/",
+      "notes": "代表酒庄；尚未核对具体地图坐标。"
+    },
+    "version": 1,
+    "updated": "2026-09-12T00:00:00Z",
+    "origin": "初始资料整理"
+  },
+  {
+    "id": "coonawarra",
+    "kind": "region",
+    "name": "库纳瓦拉",
+    "data": {
+      "name": "库纳瓦拉",
+      "en": "Coonawarra",
+      "country": "澳大利亚",
+      "lat": -37.29,
+      "lng": 140.84,
+      "locationPrecision": "产区浏览中心",
+      "sourceTitle": "产区协会 / 行业机构",
+      "sourceURL": "https://www.wineaustralia.com/market-insights/regions-and-varieties/south-australia-wines/coonawarra",
+      "notes": "石灰岩上方的红色土壤，是这片南澳产区的鲜明地理印记。",
+      "grapes": [
+        {
+          "id": "grape-cc6e973223fa",
+          "percent": null
+        },
+        {
+          "id": "grape-36404f2e5476",
+          "percent": null
+        },
+        {
+          "id": "grape-2752fc2e0d57",
+          "percent": null
+        }
+      ]
+    },
+    "version": 1,
+    "updated": "2026-09-12T00:00:00Z",
+    "origin": "初始资料整理"
+  },
+  {
+    "id": "winery-c743cacf5a63",
+    "kind": "winery",
+    "name": "威拿庄",
+    "data": {
+      "name": "威拿庄",
+      "en": "Wynns Coonawarra Estate",
+      "country": "澳大利亚",
+      "regionId": "coonawarra",
+      "website": "https://www.wynns.com.au/",
+      "sourceTitle": "酒庄官方网站",
+      "sourceURL": "https://www.wynns.com.au/",
+      "notes": "代表酒庄；尚未核对具体地图坐标。"
+    },
+    "version": 1,
+    "updated": "2026-09-12T00:00:00Z",
+    "origin": "初始资料整理"
+  },
+  {
+    "id": "otago",
+    "kind": "region",
+    "name": "中部奥塔哥",
+    "data": {
+      "name": "中部奥塔哥",
+      "en": "Central Otago",
+      "country": "新西兰",
+      "lat": -45.03,
+      "lng": 169.19,
+      "locationPrecision": "产区浏览中心",
+      "sourceTitle": "产区协会 / 行业机构",
+      "sourceURL": "https://www.nzwine.com/en/regions/central-otago/",
+      "notes": "新西兰南岛内陆的山地景观，围绕多个盆地形成不同的葡萄酒风土。",
+      "grapes": [
+        {
+          "id": "grape-d8ba24c3039e",
+          "percent": null
+        },
+        {
+          "id": "grape-2ae0338aba42",
+          "percent": null
+        },
+        {
+          "id": "grape-2c70012fa51b",
+          "percent": null
+        },
+        {
+          "id": "grape-6a6235ee72cb",
+          "percent": null
+        }
+      ]
+    },
+    "version": 1,
+    "updated": "2026-09-12T00:00:00Z",
+    "origin": "初始资料整理"
+  },
+  {
+    "id": "winery-b8939ebbc59e",
+    "kind": "winery",
+    "name": "飞腾酒庄",
+    "data": {
+      "name": "飞腾酒庄",
+      "en": "Felton Road",
+      "country": "新西兰",
+      "regionId": "otago",
+      "website": "https://feltonroad.com/",
+      "sourceTitle": "酒庄官方网站",
+      "sourceURL": "https://feltonroad.com/",
+      "notes": "代表酒庄；尚未核对具体地图坐标。"
+    },
+    "version": 1,
+    "updated": "2026-09-12T00:00:00Z",
+    "origin": "初始资料整理"
+  },
+  {
+    "id": "hawkes",
+    "kind": "region",
+    "name": "霍克斯湾",
+    "data": {
+      "name": "霍克斯湾",
+      "en": "Hawke’s Bay",
+      "country": "新西兰",
+      "lat": -39.64,
+      "lng": 176.78,
+      "locationPrecision": "产区浏览中心",
+      "sourceTitle": "产区协会 / 行业机构",
+      "sourceURL": "https://www.nzwine.com/en/regions/hawkes-bay/",
+      "notes": "北岛东海岸的多样土壤，为红葡萄混酿、西拉与霞多丽提供生长条件。",
+      "grapes": [
+        {
+          "id": "grape-2752fc2e0d57",
+          "percent": null
+        },
+        {
+          "id": "grape-cc6e973223fa",
+          "percent": null
+        },
+        {
+          "id": "grape-36404f2e5476",
+          "percent": null
+        },
+        {
+          "id": "grape-2ae0338aba42",
+          "percent": null
+        }
+      ]
+    },
+    "version": 1,
+    "updated": "2026-09-12T00:00:00Z",
+    "origin": "初始资料整理"
+  },
+  {
+    "id": "winery-767e312520f5",
+    "kind": "winery",
+    "name": "蒂玛塔酒庄",
+    "data": {
+      "name": "蒂玛塔酒庄",
+      "en": "Te Mata Estate",
+      "country": "新西兰",
+      "regionId": "hawkes",
+      "website": "https://www.temata.co.nz/",
+      "sourceTitle": "酒庄官方网站",
+      "sourceURL": "https://www.temata.co.nz/",
+      "notes": "代表酒庄；尚未核对具体地图坐标。"
+    },
+    "version": 1,
+    "updated": "2026-09-12T00:00:00Z",
+    "origin": "初始资料整理"
+  },
+  {
+    "id": "grape-petit-verdot",
+    "kind": "grape",
+    "name": "小维多",
+    "data": {
+      "name": "小维多",
+      "en": "Petit Verdot",
+      "sourceTitle": "Ridge 官方技术表",
+      "sourceURL": "https://www.ridgewine.com/wp-content/uploads/2025/07/22CMB.pdf"
+    },
+    "version": 1,
+    "updated": "2026-09-12T14:00:00Z",
+    "origin": "酒庄官方资料核对"
+  },
+  {
+    "id": "winery-mouton-rothschild",
+    "kind": "winery",
+    "name": "Château Mouton Rothschild",
+    "data": {
+      "name": "Château Mouton Rothschild",
+      "en": "Château Mouton Rothschild",
+      "country": "法国",
+      "regionId": "bordeaux",
+      "sourceTitle": "酒庄官方年份资料",
+      "sourceURL": "https://www.chateau-mouton-rothschild.com/chateau-mouton-rothschild/chateau-mouton-rothschild-2022",
+      "notes": "坐标待核对，尚未显示酒庄位置。"
+    },
+    "version": 1,
+    "updated": "2026-09-12T14:00:00Z",
+    "origin": "酒庄官方资料核对"
+  },
+  {
+    "id": "wine-mouton-rothschild",
+    "kind": "wine",
+    "name": "Château Mouton Rothschild",
+    "data": {
+      "name": "Château Mouton Rothschild",
+      "country": "法国",
+      "wineryId": "winery-mouton-rothschild",
+      "regionId": "bordeaux",
+      "sourceTitle": "酒庄官方年份资料",
+      "sourceURL": "https://www.chateau-mouton-rothschild.com/chateau-mouton-rothschild/chateau-mouton-rothschild-2022",
+      "notes": "品种比例与采收信息请查看具体年份。"
+    },
+    "version": 1,
+    "updated": "2026-09-12T14:00:00Z",
+    "origin": "酒庄官方资料核对"
+  },
+  {
+    "id": "vintage-mouton-rothschild-2022",
+    "kind": "vintage",
+    "name": "Château Mouton Rothschild 2022",
+    "data": {
+      "name": "Château Mouton Rothschild 2022",
+      "country": "法国",
+      "wineId": "wine-mouton-rothschild",
+      "yearType": "vintage",
+      "year": 2022,
+      "grapes": [
+        {
+          "id": "grape-cc6e973223fa",
+          "percent": 92
+        },
+        {
+          "id": "grape-2752fc2e0d57",
+          "percent": 8
+        }
+      ],
+      "sourceTitle": "酒庄官方成酒技术资料",
+      "sourceURL": "https://www.chateau-mouton-rothschild.com/chateau-mouton-rothschild/chateau-mouton-rothschild-2022",
+      "notes": "2022年份采收：9月1日至9月26日。混酿比例仅适用于此年份。"
+    },
+    "version": 1,
+    "updated": "2026-09-12T14:00:00Z",
+    "origin": "酒庄官方资料核对"
+  },
+  {
+    "id": "winery-ridge-monte-bello",
+    "kind": "winery",
+    "name": "Ridge Vineyards",
+    "data": {
+      "name": "Ridge Vineyards",
+      "en": "Ridge Vineyards",
+      "country": "美国",
+      "regionId": "",
+      "sourceTitle": "酒庄官方年份资料",
+      "sourceURL": "https://www.ridgewine.com/wp-content/uploads/2025/07/22CMB.pdf",
+      "notes": "坐标待核对，尚未显示酒庄位置。"
+    },
+    "version": 1,
+    "updated": "2026-09-12T14:00:00Z",
+    "origin": "酒庄官方资料核对"
+  },
+  {
+    "id": "wine-ridge-monte-bello",
+    "kind": "wine",
+    "name": "Monte Bello",
+    "data": {
+      "name": "Monte Bello",
+      "country": "美国",
+      "wineryId": "winery-ridge-monte-bello",
+      "regionId": "",
+      "sourceTitle": "酒庄官方年份资料",
+      "sourceURL": "https://www.ridgewine.com/wp-content/uploads/2025/07/22CMB.pdf",
+      "notes": "品种比例与采收信息请查看具体年份。"
+    },
+    "version": 1,
+    "updated": "2026-09-12T14:00:00Z",
+    "origin": "酒庄官方资料核对"
+  },
+  {
+    "id": "vintage-ridge-monte-bello-2022",
+    "kind": "vintage",
+    "name": "Monte Bello 2022",
+    "data": {
+      "name": "Monte Bello 2022",
+      "country": "美国",
+      "wineId": "wine-ridge-monte-bello",
+      "yearType": "vintage",
+      "year": 2022,
+      "grapes": [
+        {
+          "id": "grape-cc6e973223fa",
+          "percent": 86
+        },
+        {
+          "id": "grape-2752fc2e0d57",
+          "percent": 10
+        },
+        {
+          "id": "grape-petit-verdot",
+          "percent": 2
+        },
+        {
+          "id": "grape-6f1c5dc094a2",
+          "percent": 2
+        }
+      ],
+      "sourceTitle": "酒庄官方成酒技术资料",
+      "sourceURL": "https://www.ridgewine.com/wp-content/uploads/2025/07/22CMB.pdf",
+      "notes": "Santa Cruz Mountains；酒精度13.8%。采用较晚的成酒技术表，装瓶于2024年11月。"
+    },
+    "version": 1,
+    "updated": "2026-09-12T14:00:00Z",
+    "origin": "酒庄官方资料核对"
+  },
+  {
+    "id": "winery-oyster-bay-pinot-gris",
+    "kind": "winery",
+    "name": "Oyster Bay",
+    "data": {
+      "name": "Oyster Bay",
+      "en": "Oyster Bay",
+      "country": "新西兰",
+      "regionId": "hawkes",
+      "sourceTitle": "酒庄官方年份资料",
+      "sourceURL": "https://www.oysterbaywines.com/au/our-wines/technical-information/pinot-gris-2025/",
+      "notes": "坐标待核对，尚未显示酒庄位置。"
+    },
+    "version": 1,
+    "updated": "2026-09-12T14:00:00Z",
+    "origin": "酒庄官方资料核对"
+  },
+  {
+    "id": "wine-oyster-bay-pinot-gris",
+    "kind": "wine",
+    "name": "Hawke’s Bay Pinot Gris",
+    "data": {
+      "name": "Hawke’s Bay Pinot Gris",
+      "country": "新西兰",
+      "wineryId": "winery-oyster-bay-pinot-gris",
+      "regionId": "hawkes",
+      "sourceTitle": "酒庄官方年份资料",
+      "sourceURL": "https://www.oysterbaywines.com/au/our-wines/technical-information/pinot-gris-2025/",
+      "notes": "品种比例与采收信息请查看具体年份。"
+    },
+    "version": 1,
+    "updated": "2026-09-12T14:00:00Z",
+    "origin": "酒庄官方资料核对"
+  },
+  {
+    "id": "vintage-oyster-bay-pinot-gris-2025",
+    "kind": "vintage",
+    "name": "Hawke’s Bay Pinot Gris 2025",
+    "data": {
+      "name": "Hawke’s Bay Pinot Gris 2025",
+      "country": "新西兰",
+      "wineId": "wine-oyster-bay-pinot-gris",
+      "yearType": "vintage",
+      "year": 2025,
+      "grapes": [
+        {
+          "id": "grape-2c70012fa51b",
+          "percent": null
+        }
+      ],
+      "sourceTitle": "酒庄官方成酒技术资料",
+      "sourceURL": "https://www.oysterbaywines.com/au/our-wines/technical-information/pinot-gris-2025/",
+      "notes": "酒精度12.5%；残糖3g/L；官方未明确品种百分比，因此留空。"
+    },
+    "version": 1,
+    "updated": "2026-09-12T14:00:00Z",
+    "origin": "酒庄官方资料核对"
+  },
+  {
+    "id": "parcel-34210734",
+    "kind": "parcel",
+    "name": "罗曼尼·康帝园",
+    "data": {
+      "name": "罗曼尼·康帝园",
+      "country": "法国",
+      "regionId": "burgundy",
+      "lat": 47.16159301,
+      "lng": 4.9496626300000015,
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              4.9492434,
+              47.1616832
+            ],
+            [
+              4.9491698,
+              47.1613834
+            ],
+            [
+              4.9488584,
+              47.1613999
+            ],
+            [
+              4.9487965,
+              47.1612488
+            ],
+            [
+              4.94872,
+              47.1610496
+            ],
+            [
+              4.9485597,
+              47.1610439
+            ],
+            [
+              4.9485461,
+              47.1610169
+            ],
+            [
+              4.949298,
+              47.1610014
+            ],
+            [
+              4.9498217,
+              47.1610126
+            ],
+            [
+              4.9506651,
+              47.1609932
+            ],
+            [
+              4.9508202,
+              47.1615512
+            ],
+            [
+              4.9508434,
+              47.1616964
+            ],
+            [
+              4.9508311,
+              47.1618598
+            ],
+            [
+              4.950699,
+              47.1621597
+            ],
+            [
+              4.9506442,
+              47.1622987
+            ],
+            [
+              4.9499678,
+              47.1623215
+            ],
+            [
+              4.9499571,
+              47.1621497
+            ],
+            [
+              4.9493576,
+              47.1621577
+            ],
+            [
+              4.9492101,
+              47.1621494
+            ],
+            [
+              4.9492434,
+              47.1616832
+            ]
+          ]
+        ]
+      },
+      "locationPrecision": "OpenStreetMap 社区轮廓，非地籍边界",
+      "grapes": [
+        {
+          "id": "grape-d8ba24c3039e",
+          "percent": null
+        }
+      ],
+      "wineryId": "winery-609bc26873dd",
+      "relationship": "经营",
+      "sourceTitle": "DRC 官方资料与 OpenStreetMap",
+      "sourceURL": "https://romanee-conti.fr/fr/philosophie-du-domaine",
+      "notes": "轮廓来自 OpenStreetMap（ODbL）；地块经营者与品种由酒庄官网资料核对。OSM记录：https://www.openstreetmap.org/way/34210734"
+    },
+    "version": 1,
+    "updated": "2026-09-12T14:00:00Z",
+    "origin": "酒庄官方资料核对"
+  },
+  {
+    "id": "parcel-34213492",
+    "kind": "parcel",
+    "name": "拉塔希园",
+    "data": {
+      "name": "拉塔希园",
+      "country": "法国",
+      "regionId": "burgundy",
+      "lat": 47.159854602500005,
+      "lng": 4.9490246175,
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              4.9473668,
+              47.1607505
+            ],
+            [
+              4.9472949,
+              47.1606021
+            ],
+            [
+              4.9472675,
+              47.1604742
+            ],
+            [
+              4.9471511,
+              47.1602122
+            ],
+            [
+              4.9469961,
+              47.1600419
+            ],
+            [
+              4.9468827,
+              47.1599594
+            ],
+            [
+              4.9470025,
+              47.1599217
+            ],
+            [
+              4.9469681,
+              47.1597331
+            ],
+            [
+              4.9470238,
+              47.1597327
+            ],
+            [
+              4.9470691,
+              47.1597323
+            ],
+            [
+              4.9470537,
+              47.1595589
+            ],
+            [
+              4.9470949,
+              47.1595564
+            ],
+            [
+              4.9471535,
+              47.1592645
+            ],
+            [
+              4.9474511,
+              47.1592751
+            ],
+            [
+              4.9476645,
+              47.1592753
+            ],
+            [
+              4.947653,
+              47.159153
+            ],
+            [
+              4.9492219,
+              47.1589649
+            ],
+            [
+              4.9492886,
+              47.1589569
+            ],
+            [
+              4.9492531,
+              47.15883
+            ],
+            [
+              4.9498508,
+              47.1587806
+            ],
+            [
+              4.9499109,
+              47.1590942
+            ],
+            [
+              4.9518965,
+              47.1589079
+            ],
+            [
+              4.9520423,
+              47.1589971
+            ],
+            [
+              4.9521641,
+              47.1591152
+            ],
+            [
+              4.9523454,
+              47.1599584
+            ],
+            [
+              4.9520736,
+              47.1599854
+            ],
+            [
+              4.9516151,
+              47.160075
+            ],
+            [
+              4.9512141,
+              47.1601781
+            ],
+            [
+              4.9511698,
+              47.1600963
+            ],
+            [
+              4.9508137,
+              47.160075
+            ],
+            [
+              4.950378,
+              47.1601118
+            ],
+            [
+              4.9502219,
+              47.1601471
+            ],
+            [
+              4.9502431,
+              47.1603595
+            ],
+            [
+              4.9501213,
+              47.1603622
+            ],
+            [
+              4.9501369,
+              47.1605355
+            ],
+            [
+              4.9493603,
+              47.1605678
+            ],
+            [
+              4.9493401,
+              47.1606686
+            ],
+            [
+              4.9483653,
+              47.1606989
+            ],
+            [
+              4.9474978,
+              47.1607239
+            ],
+            [
+              4.9473668,
+              47.1607505
+            ]
+          ]
+        ]
+      },
+      "locationPrecision": "OpenStreetMap 社区轮廓，非地籍边界",
+      "grapes": [
+        {
+          "id": "grape-d8ba24c3039e",
+          "percent": null
+        }
+      ],
+      "wineryId": "winery-609bc26873dd",
+      "relationship": "经营",
+      "sourceTitle": "DRC 官方资料与 OpenStreetMap",
+      "sourceURL": "https://romanee-conti.fr/fr/philosophie-du-domaine",
+      "notes": "轮廓来自 OpenStreetMap（ODbL）；地块经营者与品种由酒庄官网资料核对。OSM记录：https://www.openstreetmap.org/way/34213492"
+    },
+    "version": 1,
+    "updated": "2026-09-12T14:00:00Z",
+    "origin": "酒庄官方资料核对"
+  }
+]

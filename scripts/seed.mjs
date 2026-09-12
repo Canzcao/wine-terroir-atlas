@@ -1,0 +1,6 @@
+import fs from 'node:fs';import vm from 'node:vm';import crypto from 'node:crypto';
+const box={window:{}};vm.runInNewContext(fs.readFileSync('public/data.js','utf8'),box);const rs=box.window.WINE_REGIONS,aliases=box.window.GRAPE_EN;
+const sid=(k,s)=>k+'-'+crypto.createHash('sha256').update(s).digest('hex').slice(0,12);const entries=[];const add=(id,kind,d)=>entries.push({id,kind,name:d.name,data:d,version:1,updated:'2026-09-12T00:00:00Z',origin:'初始资料整理'});
+for(const name of [...new Set(rs.flatMap(r=>r.grapes))])add(sid('grape',name),'grape',{name,en:aliases[name]||'',aliases:[],sourceTitle:'产区协会资料（名称索引）',sourceURL:rs.find(r=>r.grapes.includes(name)).source,notes:'品种名称索引。产区品种记录不代表任一地块的实际种植。'});
+for(const r of rs){add(r.id,'region',{name:r.name,en:r.en,country:r.country,lat:r.lat,lng:r.lng,locationPrecision:'产区浏览中心',sourceTitle:'产区协会 / 行业机构',sourceURL:r.source,notes:r.desc,grapes:r.grapes.map(name=>({id:sid('grape',name),percent:null}))});for(const w of r.wineries){const wi=sid('winery',w.en||w.name);if(!entries.some(e=>e.id===wi))add(wi,'winery',{name:w.name,en:w.en,country:r.country,regionId:r.id,website:w.url,sourceTitle:'酒庄官方网站',sourceURL:w.url,notes:'代表酒庄；尚未核对具体地图坐标。'})}}
+fs.writeFileSync('data/catalog-seed.json',JSON.stringify(entries,null,2)+'\n');console.log('Initial catalogue:',entries.length);

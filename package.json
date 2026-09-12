@@ -1,0 +1,1 @@
+{"name":"terroir-atlas","private":true,"type":"module","scripts":{"build":"node scripts/build.mjs","dev":"node scripts/dev.mjs","test":"node --test tests/*.test.mjs","db:generate":"drizzle-kit generate"},"dependencies":{"drizzle-orm":"0.45.2","exceljs":"4.4.0"},"devDependencies":{"drizzle-kit":"0.31.10","esbuild":"0.25.9","miniflare":"3.20250718.3"}}
