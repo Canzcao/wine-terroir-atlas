@@ -2648,18 +2648,29 @@
   {
     "id": "winery-mouton-rothschild",
     "kind": "winery",
-    "name": "Château Mouton Rothschild",
+    "name": "罗思柴尔德木桐堡",
     "data": {
-      "name": "Château Mouton Rothschild",
+      "name": "罗思柴尔德木桐堡",
       "en": "Château Mouton Rothschild",
       "country": "法国",
       "regionId": "bordeaux",
       "sourceTitle": "酒庄官方年份资料",
       "sourceURL": "https://www.chateau-mouton-rothschild.com/chateau-mouton-rothschild/chateau-mouton-rothschild-2022",
-      "notes": "坐标待核对，尚未显示酒庄位置。"
+      "notes": "位于波雅克的木桐堡，酒庄参观需预约。对应酒款和不同年份资料在酒庄同一地图点位展示。",
+      "aliases": [
+        "木桐酒庄",
+        "Mouton Rothschild"
+      ],
+      "lat": 45.21495353221568,
+      "lng": -0.7691609859466553,
+      "address": "Château Mouton Rothschild, 33250 Pauillac, France",
+      "locationPrecision": "酒庄官方到访地图查询定位点；非葡萄园或地块边界",
+      "locationSourceURL": "https://www.chateau-mouton-rothschild.com/contact",
+      "checkedDate": "2026-09-12",
+      "website": "https://www.chateau-mouton-rothschild.com/"
     },
     "version": 1,
-    "updated": "2026-09-12T14:00:00Z",
+    "updated": "2026-09-12T14:38:26.651845Z",
     "origin": "酒庄官方资料核对"
   },
   {
@@ -3142,5 +3153,71 @@
     "version": 1,
     "updated": "2026-09-12T14:00:00Z",
     "origin": "酒庄官方资料核对"
+  },
+  {
+    "id": "winery-penfolds-magill-estate",
+    "kind": "winery",
+    "name": "奔富玛格尔庄园",
+    "data": {
+      "name": "奔富玛格尔庄园",
+      "en": "Penfolds Magill Estate",
+      "country": "澳大利亚",
+      "aliases": [
+        "Penfolds Magill Estate Cellar Door",
+        "奔富麦吉尔庄园"
+      ],
+      "address": "78 Penfold Road, Magill, South Australia 5072",
+      "lat": null,
+      "lng": null,
+      "website": "https://www.penfolds.com/",
+      "sourceTitle": "Penfolds 官方到访资料",
+      "sourceURL": "https://us.penfolds.com/pages/magill-estate-cellar-door",
+      "checkedDate": "2026-09-12",
+      "notes": "位于阿德莱德东部近郊的奔富历史庄园，兼有酿酒设施与品酒空间；玛格尔庄园西拉取材本庄园葡萄园并在现场酿造。"
+    },
+    "version": 1,
+    "updated": "2026-09-12T14:38:26.651845Z",
+    "origin": "每日资料发现 · 官方来源核对"
+  },
+  {
+    "id": "wine-penfolds-magill-estate-shiraz",
+    "kind": "wine",
+    "name": "玛格尔庄园西拉",
+    "data": {
+      "name": "玛格尔庄园西拉",
+      "en": "Penfolds Magill Estate Shiraz",
+      "country": "澳大利亚",
+      "wineryId": "winery-penfolds-magill-estate",
+      "sourceTitle": "Penfolds 官方年份技术资料",
+      "sourceURL": "https://www.penfolds.com/on/demandware.static/-/Sites-twe-master-catalog/default/dwf846bfe7/tasting-notes/Penfolds/Penfolds%202025/Penfolds%20Magill%20Estate%20Shiraz%202023%20Tasting%20Note.pdf",
+      "notes": "年份资料按成酒技术表分别收录。"
+    },
+    "version": 1,
+    "updated": "2026-09-12T14:38:26.651845Z",
+    "origin": "每日资料发现 · 官方来源核对"
+  },
+  {
+    "id": "vintage-penfolds-magill-estate-shiraz-2023",
+    "kind": "vintage",
+    "name": "Penfolds Magill Estate Shiraz 2023",
+    "data": {
+      "name": "Penfolds Magill Estate Shiraz 2023",
+      "country": "澳大利亚",
+      "wineId": "wine-penfolds-magill-estate-shiraz",
+      "yearType": "vintage",
+      "year": 2023,
+      "grapes": [
+        {
+          "id": "grape-36404f2e5476",
+          "percent": null
+        }
+      ],
+      "sourceTitle": "Penfolds 2023 官方技术表",
+      "sourceURL": "https://www.penfolds.com/on/demandware.static/-/Sites-twe-master-catalog/default/dwf846bfe7/tasting-notes/Penfolds/Penfolds%202025/Penfolds%20Magill%20Estate%20Shiraz%202023%20Tasting%20Note.pdf",
+      "notes": "葡萄来自 Magill Estate，并在庄园现场破碎、发酵和陈酿。官方未明确品种比例，因此留空；2025年3月为品评日期，不是资料发布日期。"
+    },
+    "version": 1,
+    "updated": "2026-09-12T14:38:26.651845Z",
+    "origin": "每日资料发现 · 官方来源核对"
   }
 ]

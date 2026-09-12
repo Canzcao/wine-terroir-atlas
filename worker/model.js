@@ -6,9 +6,9 @@ export function cleanText(v,max=200){return String(v??'').trim().slice(0,max)}
 export function safeURL(v){if(!v)return '';try{let u=new URL(v);if(!['https:','http:'].includes(u.protocol)||u.username||u.password)throw 0;return u.href}catch{fail('资料链接须为完整的 http 或 https 地址。')}}
 export function normalize(data,kind,complete=false){
  if(!kinds[kind]||!data||typeof data!=='object'||Array.isArray(data))fail('未知的资料类型。');
- const d={};for(const k of ['name','en','country','regionId','wineryId','wineId','yearType','sourceTitle','sourceType','locationPrecision','relationship','since','until','eventType','startDate','endDate','publishedDate','dateNote'])d[k]=cleanText(data[k]);
+ const d={};for(const k of ['name','en','country','regionId','wineryId','wineId','yearType','sourceTitle','sourceType','locationPrecision','address','checkedDate','relationship','since','until','eventType','startDate','endDate','publishedDate','dateNote'])d[k]=cleanText(data[k]);
  d.notes=cleanText(data.notes,4000);d.aliases=Array.isArray(data.aliases)?data.aliases.map(v=>cleanText(v)).filter(Boolean).slice(0,30):[];
- d.sourceURL=safeURL(data.sourceURL);d.website=safeURL(data.website);
+ d.sourceURL=safeURL(data.sourceURL);d.website=safeURL(data.website);d.locationSourceURL=safeURL(data.locationSourceURL);
  d.attachments=Array.isArray(data.attachments)?[...new Set(data.attachments.map(v=>cleanText(v,80)))].slice(0,5):[];
  d.grapes=Array.isArray(data.grapes)?data.grapes.slice(0,30).map(g=>({id:cleanText(g.id),percent:g.percent===''||g.percent==null?null:Number(g.percent)})):[];
  if(d.grapes.some(g=>!g.id||(g.percent!=null&&(!Number.isFinite(g.percent)||g.percent<0||g.percent>100))))fail('葡萄品种与比例格式不正确。');
