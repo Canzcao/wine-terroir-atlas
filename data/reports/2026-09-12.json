@@ -25,7 +25,8 @@
       "官网当前目录未列出可核实的具体年份技术表，本期新增年份记录为0。",
       "Côtes-du-Rhône酒款的成酒品种与比例待原始资料补充。",
       "未声称覆盖所有历史年份、停产酒款或未公开产品。"
-    ]
+    ],
+    "featuredWineryId": "winery-chateau-grillet"
   },
   "added": {
     "regionIds": [
@@ -84,7 +85,8 @@
       "publishedDate": "2026-09-12",
       "freshness": "今日新报告；临时数据",
       "sourceName": "杜埃罗河岸管理委员会 · 9月12日采收日报",
-      "sourceURL": "https://www.riberadelduero.es/sites/default/files/2026-09/informe%20vendimia%20diario%20-%2020260912.pdf"
+      "sourceURL": "https://www.riberadelduero.es/sites/default/files/2026-09/informe%20vendimia%20diario%20-%2020260912.pdf",
+      "id": "ribera-harvest-report-20260912"
     },
     {
       "eventId": "california-wine-month-storytelling-20260909",
@@ -94,7 +96,8 @@
       "publishedDate": "2026-09-09",
       "freshness": "近7天消息，本期新收录",
       "sourceName": "Wine Institute",
-      "sourceURL": "https://wineinstitute.org/press-releases/wine-institute-tests-new-approach-to-coordinated-storytelling-during-california-wine-month/"
+      "sourceURL": "https://wineinstitute.org/press-releases/wine-institute-tests-new-approach-to-coordinated-storytelling-during-california-wine-month/",
+      "id": "california-wine-month-storytelling-20260909"
     }
   ],
   "activities": [
@@ -105,7 +108,8 @@
       "location": "德国 · Neustadt an der Weinstraße · Saalbau",
       "summary": "第78届选举将在葡萄酒之路新城Saalbau举行决赛与加冕；预选安排在9月19日。安排以主办方最新公布为准。",
       "sourceName": "德国葡萄酒协会",
-      "sourceURL": "https://www.deutscheweinmajestaet.de/wer-wird-die-78-deutsche-weinmajestaet"
+      "sourceURL": "https://www.deutscheweinmajestaet.de/wer-wird-die-78-deutsche-weinmajestaet",
+      "id": "german-wine-ambassador-final-20260925"
     }
   ],
   "sources": [
@@ -334,6 +338,153 @@
           "refs": "编辑计划"
         }
       ]
+    }
+  ],
+  "media": [
+    {
+      "id": "P01",
+      "title": "格里叶堡外景",
+      "caption": "格里叶堡庄园与周边葡萄园，2019年资料照片。",
+      "author": "Olivier Lemoine / Photo-Terroir.fr",
+      "capturedDate": "2019-10-24",
+      "isArchive": true,
+      "sourceName": "Wikimedia Commons",
+      "sourceURL": "https://commons.wikimedia.org/wiki/File:Chateau_grillet.jpg",
+      "originalURL": "https://upload.wikimedia.org/wikipedia/commons/c/cf/Chateau_grillet.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "previewURL": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cf/Chateau_grillet.jpg/1280px-Chateau_grillet.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "width": 4000,
+      "height": 3000,
+      "license": "CC BY-SA 4.0",
+      "licenseURL": "https://creativecommons.org/licenses/by-sa/4.0",
+      "checkedDate": "2026-09-12",
+      "fileName": "P01-格里叶堡外景.jpg",
+      "placement": "产区开篇",
+      "anchor": "hero",
+      "changes": "原尺寸文件按来源原样保存；插图仅等比缩小，未裁切、未去除标记。宣传页保留完整照片并另加文字排版。",
+      "usageNote": "照片依所列许可使用；保留作者、来源与许可链接，修改照片时按对应相同方式共享条款标注。图片不表示摄影者或酒庄背书。",
+      "wechatAfterParagraph": 0
+    },
+    {
+      "id": "P02",
+      "title": "格里叶堡的花岗岩",
+      "caption": "格里叶堡酿酒师展示葡萄园的花岗岩标本。摄于2024年。",
+      "author": "Californiacph",
+      "capturedDate": "2024-01-09",
+      "isArchive": true,
+      "sourceName": "Wikimedia Commons",
+      "sourceURL": "https://commons.wikimedia.org/wiki/File:Chateau_Grillet_2024_by_CaraPatriciaSF.jpg",
+      "originalURL": "https://upload.wikimedia.org/wikipedia/commons/9/97/Chateau_Grillet_2024_by_CaraPatriciaSF.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "previewURL": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/97/Chateau_Grillet_2024_by_CaraPatriciaSF.jpg/1280px-Chateau_Grillet_2024_by_CaraPatriciaSF.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "width": 3024,
+      "height": 4032,
+      "license": "CC BY-SA 4.0",
+      "licenseURL": "https://creativecommons.org/licenses/by-sa/4.0",
+      "checkedDate": "2026-09-12",
+      "fileName": "P02-格里叶堡的花岗岩.jpg",
+      "placement": "酒庄风土介绍",
+      "anchor": "winery-chateau-grillet",
+      "changes": "原尺寸文件按来源原样保存；插图仅等比缩小，未裁切、未去除标记。宣传页保留完整照片并另加文字排版。",
+      "usageNote": "照片依所列许可使用；保留作者、来源与许可链接，修改照片时按对应相同方式共享条款标注。图片不表示摄影者或酒庄背书。",
+      "wechatAfterParagraph": 1
+    },
+    {
+      "id": "P03",
+      "title": "格里叶堡历史酒瓶",
+      "caption": "格里叶堡1959年份酒瓶，摄于2024年；历史资料照，不代表本期新增在售年份。",
+      "author": "Californiacph",
+      "capturedDate": "2024-01-09",
+      "isArchive": true,
+      "sourceName": "Wikimedia Commons",
+      "sourceURL": "https://commons.wikimedia.org/wiki/File:CaliforniaCPH_1959_Ch%C3%A2teau_Grillet_bottle.jpg",
+      "originalURL": "https://upload.wikimedia.org/wikipedia/commons/a/a4/CaliforniaCPH_1959_Ch%C3%A2teau_Grillet_bottle.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "previewURL": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a4/CaliforniaCPH_1959_Ch%C3%A2teau_Grillet_bottle.jpg/1280px-CaliforniaCPH_1959_Ch%C3%A2teau_Grillet_bottle.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "width": 3024,
+      "height": 4032,
+      "license": "CC BY-SA 4.0",
+      "licenseURL": "https://creativecommons.org/licenses/by-sa/4.0",
+      "checkedDate": "2026-09-12",
+      "fileName": "P03-格里叶堡历史酒瓶.jpg",
+      "placement": "酒款介绍",
+      "anchor": "wine-chateau-grillet",
+      "changes": "原尺寸文件按来源原样保存；插图仅等比缩小，未裁切、未去除标记。宣传页保留完整照片并另加文字排版。",
+      "usageNote": "照片依所列许可使用；保留作者、来源与许可链接，修改照片时按对应相同方式共享条款标注。图片不表示摄影者或酒庄背书。",
+      "wechatAfterParagraph": 2
+    },
+    {
+      "id": "P04",
+      "title": "认识维欧尼",
+      "caption": "维欧尼葡萄串，摄于美国华盛顿州哥伦比亚谷。品种资料照，并非格里叶堡现场。",
+      "author": "Agne27",
+      "capturedDate": "2011-11-02",
+      "isArchive": true,
+      "sourceName": "Wikimedia Commons",
+      "sourceURL": "https://commons.wikimedia.org/wiki/File:Viognier_grape_cluster.JPG",
+      "originalURL": "https://upload.wikimedia.org/wikipedia/commons/2/2c/Viognier_grape_cluster.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "previewURL": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2c/Viognier_grape_cluster.JPG/1280px-Viognier_grape_cluster.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "width": 1936,
+      "height": 2592,
+      "license": "CC BY-SA 3.0",
+      "licenseURL": "https://creativecommons.org/licenses/by-sa/3.0",
+      "checkedDate": "2026-09-12",
+      "fileName": "P04-认识维欧尼.jpg",
+      "placement": "葡萄品种介绍",
+      "anchor": "grape",
+      "changes": "原尺寸文件按来源原样保存；插图仅等比缩小，未裁切、未去除标记。宣传页保留完整照片并另加文字排版。",
+      "usageNote": "照片依所列许可使用；保留作者、来源与许可链接，修改照片时按对应相同方式共享条款标注。图片不表示摄影者或酒庄背书。",
+      "wechatAfterParagraph": 2
+    },
+    {
+      "id": "P05",
+      "title": "杜埃罗河岸产区一瞥",
+      "caption": "杜埃罗河岸的Comenge酒庄，2019年产区资料照片，并非2026年采收现场。",
+      "author": "P.Regidor",
+      "capturedDate": "2019-12-10",
+      "isArchive": true,
+      "sourceName": "Wikimedia Commons",
+      "sourceURL": "https://commons.wikimedia.org/wiki/File:Comenge.jpg",
+      "originalURL": "https://upload.wikimedia.org/wikipedia/commons/5/57/Comenge.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "previewURL": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/57/Comenge.jpg/1280px-Comenge.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "width": 3264,
+      "height": 2448,
+      "license": "CC BY-SA 4.0",
+      "licenseURL": "https://creativecommons.org/licenses/by-sa/4.0",
+      "checkedDate": "2026-09-12",
+      "fileName": "P05-杜埃罗河岸产区一瞥.jpg",
+      "placement": "杜埃罗河岸采收报道",
+      "anchor": "ribera-harvest-report-20260912",
+      "changes": "原尺寸文件按来源原样保存；插图仅等比缩小，未裁切、未去除标记。宣传页保留完整照片并另加文字排版。",
+      "usageNote": "照片依所列许可使用；保留作者、来源与许可链接，修改照片时按对应相同方式共享条款标注。图片不表示摄影者或酒庄背书。",
+      "wechatAfterParagraph": 4
+    },
+    {
+      "id": "P06",
+      "title": "走近Saalbau场馆",
+      "caption": "德国葡萄酒之路新城Saalbau场馆，2006年资料照片，非2026年决赛现场。",
+      "author": "Rolohauck；整理 Dontworry",
+      "capturedDate": "2006-08-23",
+      "isArchive": true,
+      "sourceName": "Wikimedia Commons",
+      "sourceURL": "https://commons.wikimedia.org/wiki/File:Saalbau-2006-Neustadt-Weinstrasse-001-b.jpg",
+      "originalURL": "https://upload.wikimedia.org/wikipedia/commons/5/57/Saalbau-2006-Neustadt-Weinstrasse-001-b.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "previewURL": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/57/Saalbau-2006-Neustadt-Weinstrasse-001-b.jpg/1280px-Saalbau-2006-Neustadt-Weinstrasse-001-b.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "width": 3108,
+      "height": 2204,
+      "license": "CC BY-SA 3.0",
+      "licenseURL": "https://creativecommons.org/licenses/by-sa/3.0",
+      "checkedDate": "2026-09-12",
+      "fileName": "P06-走近Saalbau场馆.jpg",
+      "placement": "德国活动信息",
+      "anchor": "german-wine-ambassador-final-20260925",
+      "changes": "原尺寸文件按来源原样保存；插图仅等比缩小，未裁切、未去除标记。宣传页保留完整照片并另加文字排版。",
+      "usageNote": "照片依所列许可使用；保留作者、来源与许可链接，修改照片时按对应相同方式共享条款标注。图片不表示摄影者或酒庄背书。",
+      "wechatAfterParagraph": 5
+    }
+  ],
+  "revisedAt": "2026-09-12T15:26:49.786247+00:00",
+  "revisions": [
+    {
+      "at": "2026-09-12T15:26:49.786247+00:00",
+      "note": "加入6张有明确开放许可的资料配图及原尺寸文件交付；收录统计未改变。"
     }
   ]
 }
