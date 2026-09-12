@@ -1,0 +1,27 @@
+{
+  "timeZone": "Asia/Shanghai",
+  "startTime": "09:00",
+  "activeRegion": "condrieu",
+  "strategy": "先完成未完成地区，再按官方边界选择下一个产区；大区可拆为真实子产区，逐日追踪覆盖。",
+  "queue": [
+    {
+      "id": "chateau-grillet",
+      "name": "Château-Grillet AOC",
+      "country": "法国",
+      "status": "directory_checked",
+      "completedDate": "2026-09-12"
+    },
+    {
+      "id": "condrieu",
+      "name": "Condrieu AOC",
+      "country": "法国",
+      "status": "queued"
+    },
+    {
+      "id": "cornas",
+      "name": "Cornas AOC",
+      "country": "法国",
+      "status": "queued"
+    }
+  ]
+}

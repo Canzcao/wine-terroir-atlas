@@ -1,0 +1,339 @@
+{
+  "date": "2026-09-12",
+  "issue": "001",
+  "title": "格里叶堡：一处产区，一家生产者",
+  "summary": "首期集中核对法国 Château-Grillet AOC 的唯一生产者与官网三款酒，同时整理西班牙采收、加州行业消息和德国近期活动。",
+  "baselineCommit": "511c03312fb63e4ede8189bf884dd95280b8d1c6",
+  "createdAt": "2026-09-12T15:01:22.016Z",
+  "region": {
+    "id": "chateau-grillet",
+    "name": "Château-Grillet AOC · 格里叶堡",
+    "country": "法国",
+    "status": "directory_checked",
+    "scope": "以INAO确认的唯一生产者为名录范围，核对该酒庄官网当前公开全部三款酒；包含庄园其他产区产品并单独注明。",
+    "producerBaseline": 1,
+    "producersChecked": 1,
+    "winesListed": 3,
+    "winesRecorded": 3,
+    "targetAppellationWines": 1,
+    "otherAppellationWines": 2,
+    "verifiedVintages": 0,
+    "completionNote": "本期官方名录核对完成不等于已穷尽互联网、未公开产品或全部历史年份。",
+    "introduction": "这是北罗讷规模很小的单一庄园产区。INAO确认其仅有一个生产者；酒庄官网列出三款产品，其中一款属于Château-Grillet AOC，另两款属于Côtes-du-Rhône和Condrieu。",
+    "gaps": [
+      "酒庄精确经纬度与官方地块边界待补充。",
+      "官网当前目录未列出可核实的具体年份技术表，本期新增年份记录为0。",
+      "Côtes-du-Rhône酒款的成酒品种与比例待原始资料补充。",
+      "未声称覆盖所有历史年份、停产酒款或未公开产品。"
+    ]
+  },
+  "added": {
+    "regionIds": [
+      "chateau-grillet"
+    ],
+    "wineryIds": [
+      "winery-chateau-grillet"
+    ],
+    "wineIds": [
+      "wine-chateau-grillet",
+      "wine-chateau-grillet-cotes-du-rhone",
+      "wine-chateau-grillet-condrieu-la-carthery"
+    ],
+    "vintageIds": [],
+    "eventIds": [
+      "ribera-harvest-report-20260912",
+      "california-wine-month-storytelling-20260909",
+      "german-wine-ambassador-final-20260925"
+    ]
+  },
+  "updatedIds": [],
+  "countingNote": "新增数按本次采编前的目录计算，不包含此前建站已有条目；新收录不代表新成立或新上市。",
+  "wineries": [
+    {
+      "id": "winery-chateau-grillet",
+      "name": "格里叶堡 Château-Grillet",
+      "summary": "联系地址已核实，精确坐标待核实。三款酒关联同一生产者；在取得可靠定位后将共同展示于酒庄点位。",
+      "wines": [
+        {
+          "id": "wine-chateau-grillet",
+          "name": "Château-Grillet",
+          "appellation": "Château-Grillet AOC · 目标产区",
+          "summary": "维欧尼干白。100%品种依据来自产区与酒款资料，不代表本次已核实任何具体年份配方。"
+        },
+        {
+          "id": "wine-chateau-grillet-cotes-du-rhone",
+          "name": "Château-Grillet Côtes-du-Rhône",
+          "appellation": "Côtes-du-Rhône · 庄园其他产区",
+          "summary": "官网列为庄园三款产品之一。该段未明确成酒品种和比例，暂留待补；2011年为推出年份。"
+        },
+        {
+          "id": "wine-chateau-grillet-condrieu-la-carthery",
+          "name": "Condrieu La Carthery",
+          "appellation": "Condrieu AOC · 庄园其他产区",
+          "summary": "官网明确采用维欧尼。2017年为加入产品线的时间，不能当作已核实的酒瓶年份。"
+        }
+      ]
+    }
+  ],
+  "news": [
+    {
+      "eventId": "ribera-harvest-report-20260912",
+      "title": "杜埃罗河岸累计申报采收约2738万公斤葡萄",
+      "summary": "9月12日临时日报显示，截至前日午夜累计申报收葡萄27,383,479公斤；212处设施已开收，14处已完成。数据仍待异常记录核对。",
+      "occurrenceDate": "2026-09-11 24:00",
+      "publishedDate": "2026-09-12",
+      "freshness": "今日新报告；临时数据",
+      "sourceName": "杜埃罗河岸管理委员会 · 9月12日采收日报",
+      "sourceURL": "https://www.riberadelduero.es/sites/default/files/2026-09/informe%20vendimia%20diario%20-%2020260912.pdf"
+    },
+    {
+      "eventId": "california-wine-month-storytelling-20260909",
+      "title": "加州酒月披露酒庄协作传播试验",
+      "summary": "Wine Institute介绍向酒庄提供可定制素材与四周主题的协作传播试验，将在酒月期间及结束后收集反馈，评估联合传播效果。",
+      "occurrenceDate": "实际首次启动日未确认",
+      "publishedDate": "2026-09-09",
+      "freshness": "近7天消息，本期新收录",
+      "sourceName": "Wine Institute",
+      "sourceURL": "https://wineinstitute.org/press-releases/wine-institute-tests-new-approach-to-coordinated-storytelling-during-california-wine-month/"
+    }
+  ],
+  "activities": [
+    {
+      "eventId": "german-wine-ambassador-final-20260925",
+      "title": "德国葡萄酒大使选举决赛将于9月25日举行",
+      "dates": "2026-09-25；9月19日预选",
+      "location": "德国 · Neustadt an der Weinstraße · Saalbau",
+      "summary": "第78届选举将在葡萄酒之路新城Saalbau举行决赛与加冕；预选安排在9月19日。安排以主办方最新公布为准。",
+      "sourceName": "德国葡萄酒协会",
+      "sourceURL": "https://www.deutscheweinmajestaet.de/wer-wird-die-78-deutsche-weinmajestaet"
+    }
+  ],
+  "sources": [
+    {
+      "id": "S1",
+      "label": "INAO · Château-Grillet AOC",
+      "url": "https://www.inao.gouv.fr/produit/chateau-grillet-20028",
+      "note": "两镇内的特定产区范围、唯一生产者及品种依据",
+      "checkedDate": "2026-09-12"
+    },
+    {
+      "id": "S2",
+      "label": "Château-Grillet · 官方酒款目录",
+      "url": "https://chateau-grillet.com/les-vins/",
+      "note": "当前公开三款酒；2011、2017为推出年，不是酒瓶年份",
+      "checkedDate": "2026-09-12"
+    },
+    {
+      "id": "S3",
+      "label": "Château-Grillet · 官方英文酒款目录",
+      "url": "https://chateau-grillet.com/en/the-wines/",
+      "note": "交叉核对三款产品归属",
+      "checkedDate": "2026-09-12"
+    },
+    {
+      "id": "S4",
+      "label": "Château-Grillet · 官方庄园介绍",
+      "url": "https://chateau-grillet.com/en/the-estate/",
+      "note": "生产者与庄园资料",
+      "checkedDate": "2026-09-12"
+    },
+    {
+      "id": "S5",
+      "label": "Château-Grillet · 官方联系页",
+      "url": "https://chateau-grillet.com/en/contact-us/",
+      "note": "已核实联系地址，未取得精确坐标",
+      "checkedDate": "2026-09-12"
+    },
+    {
+      "id": "S6",
+      "label": "杜埃罗河岸管理委员会 · 9月12日采收日报",
+      "url": "https://www.riberadelduero.es/sites/default/files/2026-09/informe%20vendimia%20diario%20-%2020260912.pdf",
+      "note": "截至9月11日午夜的临时申报数据，仍待异常记录核对",
+      "checkedDate": "2026-09-12"
+    },
+    {
+      "id": "S7",
+      "label": "Wine Institute · 加州酒月协作传播试验",
+      "url": "https://wineinstitute.org/press-releases/wine-institute-tests-new-approach-to-coordinated-storytelling-during-california-wine-month/",
+      "note": "9月9日报道，不等于试验首次启动日",
+      "checkedDate": "2026-09-12"
+    },
+    {
+      "id": "S8",
+      "label": "德国葡萄酒协会 · 第78届葡萄酒大使选举",
+      "url": "https://www.deutscheweinmajestaet.de/wer-wird-die-78-deutsche-weinmajestaet",
+      "note": "9月19日预选，9月25日决赛；时间以主办方为准",
+      "checkedDate": "2026-09-12"
+    },
+    {
+      "id": "S9",
+      "label": "INAO · Condrieu AOC",
+      "url": "https://www.inao.gouv.fr/produit/condrieu-20101",
+      "note": "Condrieu品种依据，独立于目标Château-Grillet产区",
+      "checkedDate": "2026-09-12"
+    }
+  ],
+  "nextStep": "下一产区计划为Condrieu AOC。先建立官方生产者名单，再逐家核对公开酒款；未完成部分逐日续收并如实报告。",
+  "social": {
+    "xhs": {
+      "title": "每天读懂一个产区｜格里叶堡",
+      "paragraphs": [
+        "今天把镜头对准北罗讷的Château-Grillet。它很小，INAO确认只有一家生产者。[S1]",
+        "本期新增1家酒庄、3款官网公开酒款：Château-Grillet；Château-Grillet Côtes-du-Rhône；Condrieu La Carthery。后两款属于其他产区，不能混算成格里叶堡AOC的三款酒。[S2-S3]",
+        "收录完成到哪一步？唯一生产者和官网当前三款酒已核对。精确位置、年份技术表和部分成酒配方还待补充；推出年不等于酒瓶年份。本期没有虚构年份记录。",
+        "今日采收：杜埃罗河岸9月12日临时日报显示，累计申报采收约2738万公斤葡萄，数据截止9月11日午夜，仍可能调整。[S6]",
+        "近期行业消息：Wine Institute在9月9日介绍加州酒月的酒庄协作传播试验。[S7]",
+        "活动提醒：德国第78届葡萄酒大使选举9月25日在Neustadt举行决赛，9月19日预选，安排以主办方为准。[S8]",
+        "这里的“新”，指新收录到图鉴，不是新成立或新上市。我们每天把一处产区查得更清楚。"
+      ],
+      "tags": [
+        "#葡萄酒 #葡萄酒产区 #北罗讷 #维欧尼 #葡萄酒知识 #风土图鉴"
+      ]
+    },
+    "wechat": {
+      "title": "风土日报001｜格里叶堡的1家生产者与3款酒",
+      "paragraphs": [
+        "2026年9月12日，我们开启“每天一产区”的系统收录。第一站是法国Château-Grillet AOC。选择这个边界明确的小产区，是为了把名录、酒款、来源与缺口完整展示出来，而不是把几个搜索结果当作全网全量。",
+        "一、本期收录边界\nINAO确认该产区只有一家生产者，法定范围涉及Vérin与Saint-Michel-sur-Rhône两镇内的特定土地。它不等于两镇全境。本期以唯一生产者为名录分母，逐项核对官网当前酒款目录。[S1]",
+        "二、一家酒庄，三款不同归属的酒\n格里叶堡官网当前列出三款酒：Château-Grillet为目标AOC的维欧尼干白；Château-Grillet Côtes-du-Rhône属于罗讷河谷大区产品；Condrieu La Carthery属于Condrieu AOC。三者关联同一酒庄，但产区归属必须分别记录。[S2-S4,S9]",
+        "三、哪些资料仍然空着\n联系地址已核实，精确坐标尚未取得；官网目录没有本次可核实的年份技术表。2011、2017是产品推出时间，不应据此新增年份酒。Côtes-du-Rhône款的成酒品种和比例仍待补充。[S2-S5]",
+        "四、今日新闻与近期行业消息\n杜埃罗河岸9月12日临时采收报告显示，截至9月11日午夜累计申报葡萄27,383,479公斤；212处设施已开收，14处已完成。数据仍待异常记录核对，不作为最终收成结论。[S6]\nWine Institute于9月9日介绍加州酒月的协作传播试验，提供可定制素材与四周主题，计划收集酒庄反馈评估传播效果；报道日不等于实际首次启动日。[S7]",
+        "五、活动日历\n第78届德国葡萄酒大使选举将在9月25日于Neustadt an der Weinstraße的Saalbau举行决赛与加冕，预选在9月19日。出行或参与前以官方最新安排为准。[S8]",
+        "本期结果：新增1个产区、1家酒庄、3款酒、0条年份记录，以及2条新闻/采收消息和1项活动。官方名录与当前官网目录已核对，仍未声称覆盖历史全酒款、未公开产品或全互联网。下一站计划进入Condrieu AOC，继续从名单底稿开始逐家核对。"
+      ],
+      "tags": []
+    }
+  },
+  "cards": [
+    {
+      "kicker": "DAILY TERROIR · 001",
+      "title": "格里叶堡",
+      "subtitle": "一处产区，一家生产者",
+      "stats": [
+        [
+          "1",
+          "新增酒庄"
+        ],
+        [
+          "3",
+          "官网酒款"
+        ],
+        [
+          "2",
+          "新闻 / 采收"
+        ],
+        [
+          "1",
+          "近期活动"
+        ]
+      ],
+      "blocks": [
+        {
+          "title": "本期官方名录核对完成",
+          "text": "1款属于目标AOC，2款为庄园其他产区酒。年份资料与精确位置待补。",
+          "refs": "S1-S5"
+        }
+      ]
+    },
+    {
+      "kicker": "01 / THE REGION",
+      "title": "先把边界说清楚",
+      "subtitle": "Château-Grillet AOC · 法国北罗讷",
+      "blocks": [
+        {
+          "title": "1家生产者",
+          "text": "INAO确认：此AOC只有一家生产者。范围为两镇内的特定土地。",
+          "refs": "S1"
+        },
+        {
+          "title": "3款官网公开酒",
+          "text": "官网当前列出三款酒；分别标注本产区和其他产区归属。",
+          "refs": "S2-S3"
+        },
+        {
+          "title": "完成的是本期名录核对",
+          "text": "已核对的是当前官方名录，不含历史全酒款与未公开产品。",
+          "refs": "S1-S5"
+        }
+      ]
+    },
+    {
+      "kicker": "02 / THE WINES",
+      "title": "三款酒，三种归属",
+      "subtitle": "同一生产者，分别记录产区",
+      "blocks": [
+        {
+          "title": "Château-Grillet",
+          "text": "Château-Grillet AOC。维欧尼干白；年份技术表待补。",
+          "refs": "S1-S3"
+        },
+        {
+          "title": "Château-Grillet Côtes-du-Rhône",
+          "text": "罗讷河谷大区酒。成酒配方待补；2011为推出年。",
+          "refs": "S1-S3"
+        },
+        {
+          "title": "Condrieu La Carthery",
+          "text": "Condrieu AOC。维欧尼；2017为推出年，非已核实的酒瓶年份。",
+          "refs": "S2-S3, S9"
+        }
+      ]
+    },
+    {
+      "kicker": "03 / WINE NEWS",
+      "title": "葡萄酒世界的新消息",
+      "subtitle": "今日报告 + 近7天行业消息",
+      "blocks": [
+        {
+          "title": "杜埃罗河岸：约2738万公斤",
+          "text": "9月12日临时日报：截至前日午夜，累计申报约2738万公斤。临时数据仍待核对。",
+          "refs": "S6"
+        },
+        {
+          "title": "加州酒月：协作传播试验",
+          "text": "Wine Institute于9月9日介绍酒庄联合传播方案，提供素材与主题，并收集后续反馈。",
+          "refs": "S7"
+        }
+      ]
+    },
+    {
+      "kicker": "04 / EVENT CALENDAR",
+      "title": "把这一日放进日历",
+      "subtitle": "2026.09.25 · 德国",
+      "blocks": [
+        {
+          "title": "第78届葡萄酒大使选举决赛",
+          "text": "地点：Neustadt an der Weinstraße，Saalbau。决赛与加冕于9月25日举行，预选在9月19日。",
+          "refs": "S8"
+        },
+        {
+          "title": "参加前，再看一次官网",
+          "text": "具体安排以主办方最新信息为准。场馆已确认，精确坐标暂未核实。",
+          "refs": "S8"
+        }
+      ]
+    },
+    {
+      "kicker": "05 / WHAT WE KNOW",
+      "title": "留白，也是一种准确",
+      "subtitle": "已知的有来源，未知的待补充",
+      "blocks": [
+        {
+          "title": "已核对",
+          "text": "唯一生产者、官网三款酒、产区归属，以及有依据的品种。",
+          "refs": "S1-S4, S9"
+        },
+        {
+          "title": "仍待补",
+          "text": "精确位置、地块边界、年份技术表和部分酒款配方。",
+          "refs": "S2-S5"
+        },
+        {
+          "title": "下一站：Condrieu",
+          "text": "下一站先建官方名单，再逐家核对；未完成则继续，不虚构数字。",
+          "refs": "编辑计划"
+        }
+      ]
+    }
+  ]
+}

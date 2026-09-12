@@ -3219,5 +3219,122 @@
     "version": 1,
     "updated": "2026-09-12T14:38:26.651845Z",
     "origin": "每日资料发现 · 官方来源核对"
+  },
+  {
+    "id": "chateau-grillet",
+    "kind": "region",
+    "name": "格里叶堡产区",
+    "data": {
+      "name": "格里叶堡产区",
+      "en": "Château-Grillet AOC",
+      "country": "法国",
+      "regionId": "rhone",
+      "lat": null,
+      "lng": null,
+      "grapes": [
+        {
+          "id": "grape-ab28e1d2953f",
+          "percent": null
+        }
+      ],
+      "sourceTitle": "INAO · Château-Grillet",
+      "sourceURL": "https://www.inao.gouv.fr/produit/chateau-grillet-20028",
+      "notes": "位于北罗讷，法定范围涉及 Vérin 与 Saint-Michel-sur-Rhône 两镇内的特定土地，不能等同两镇全境。产区只有一个生产者。未取得权威边界文件或精确地图中心。"
+    },
+    "version": 1,
+    "updated": "2026-09-12T15:01:22.016Z",
+    "origin": "每日一产区 · 官方目录核对"
+  },
+  {
+    "id": "winery-chateau-grillet",
+    "kind": "winery",
+    "name": "格里叶堡",
+    "data": {
+      "name": "格里叶堡",
+      "en": "Château-Grillet",
+      "aliases": [
+        "Château Grillet",
+        "Domaine de Château Grillet"
+      ],
+      "country": "法国",
+      "regionId": "chateau-grillet",
+      "address": "SCEA du Vignoble de Château Grillet, 42410 Vérin, France",
+      "lat": null,
+      "lng": null,
+      "website": "https://chateau-grillet.com/",
+      "sourceTitle": "Château-Grillet · 官方庄园介绍",
+      "sourceURL": "https://chateau-grillet.com/en/the-estate/",
+      "locationSourceURL": "https://chateau-grillet.com/en/contact-us/",
+      "locationPrecision": "已核实联系地址；具体酒庄经纬度待核实",
+      "checkedDate": "2026-09-12",
+      "notes": "Château-Grillet AOC 唯一生产者。官网当前公开三款酒，分别属于 Château-Grillet、Côtes-du-Rhône 与 Condrieu。"
+    },
+    "version": 1,
+    "updated": "2026-09-12T15:01:22.016Z",
+    "origin": "每日一产区 · 官方目录核对"
+  },
+  {
+    "id": "wine-chateau-grillet",
+    "kind": "wine",
+    "name": "Château-Grillet",
+    "data": {
+      "name": "Château-Grillet",
+      "country": "法国",
+      "wineryId": "winery-chateau-grillet",
+      "regionId": "chateau-grillet",
+      "grapes": [
+        {
+          "id": "grape-ab28e1d2953f",
+          "percent": 100
+        }
+      ],
+      "sourceTitle": "Château-Grillet · 官方酒款目录",
+      "sourceURL": "https://chateau-grillet.com/les-vins/",
+      "notes": "Château-Grillet AOC · 目标产区。维欧尼干白。100%品种依据来自产区与酒款资料，不代表本次已核实任何具体年份配方。"
+    },
+    "version": 1,
+    "updated": "2026-09-12T15:01:22.016Z",
+    "origin": "每日一产区 · 官方目录核对"
+  },
+  {
+    "id": "wine-chateau-grillet-cotes-du-rhone",
+    "kind": "wine",
+    "name": "Château-Grillet Côtes-du-Rhône",
+    "data": {
+      "name": "Château-Grillet Côtes-du-Rhône",
+      "country": "法国",
+      "wineryId": "winery-chateau-grillet",
+      "regionId": "rhone",
+      "grapes": [],
+      "sourceTitle": "Château-Grillet · 官方酒款目录",
+      "sourceURL": "https://chateau-grillet.com/les-vins/",
+      "notes": "Côtes-du-Rhône · 庄园其他产区。官网列为庄园三款产品之一。该段未明确成酒品种和比例，暂留待补；2011年为推出年份。"
+    },
+    "version": 1,
+    "updated": "2026-09-12T15:01:22.016Z",
+    "origin": "每日一产区 · 官方目录核对"
+  },
+  {
+    "id": "wine-chateau-grillet-condrieu-la-carthery",
+    "kind": "wine",
+    "name": "Condrieu La Carthery",
+    "data": {
+      "name": "Condrieu La Carthery",
+      "country": "法国",
+      "wineryId": "winery-chateau-grillet",
+      "regionId": "rhone",
+      "grapes": [
+        {
+          "id": "grape-ab28e1d2953f",
+          "percent": null
+        }
+      ],
+      "sourceTitle": "Château-Grillet · 官方酒款目录",
+      "sourceURL": "https://chateau-grillet.com/les-vins/",
+      "notes": "Condrieu AOC · 庄园其他产区。官网明确采用维欧尼。2017年为加入产品线的时间，不能当作已核实的酒瓶年份。"
+    },
+    "version": 1,
+    "updated": "2026-09-12T15:01:22.016Z",
+    "origin": "每日一产区 · 官方目录核对"
   }
 ]
