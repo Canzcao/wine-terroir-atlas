@@ -26,3 +26,12 @@ The user authorized daily internet research and publication of winery and wine i
 ## Shared-data rules
 
 Preserve source evidence and immutable version history. Repeated imports are idempotent. Editing requires the expected revision/base version. Reviewers cannot approve their own submissions. Owner self-publication requires explicit action plus reason and is recorded. Invitations register app roles only; the private Site sharing gate must separately allow each visitor.
+
+
+## 资料语言与翻译
+
+酒庄、酒款资料优先完善其所在国的本地语言和英语；中国酒庄先完成中文与英文。对多语言国家，按酒庄实际使用的原文语种优先，明确可核实的其他本地语言再补充。界面语种与资料语种分开：界面切换不构成实体译文的证据。
+
+每条酒庄/酒款记录的 `data.originalLanguage` 记录已知原文语种；`data.localizations[语种]` 分别保存 `name`、`description`、`sourceURL`、`sourceTitle`、`checkedDate` 和 `status`。只有官方对应语种页面、权威术语来源或经人工核对的有据译文，才可标记 `verified` 并公开展示；未知、不确定或未经核对的译文保留空白或 `draft`。不批量猜译专有名词，不把旧 `en` 原文名称字段当作已确认英文。保留品牌原名；没有可靠对应译文时回退已有本国语言/英文或原文，并明确标记实际显示语种。中文日报仍按原有中文发布，除非另有已核对译文。
+
+每次采编先检查本期酒庄与酒款的本国语言/英语缺口，优先补齐有来源的名称与简介。记录来源日期，保留既有语种、稳定ID、地图位置与数据库覆盖优先级，不用新的单一语种资料覆盖其他已核对语种。报告如实说明补齐多少条及仍缺哪些语种。

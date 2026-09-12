@@ -1891,7 +1891,26 @@
       "website": "https://www.helanmountain.com/en/introduction/",
       "sourceTitle": "酒庄官方网站",
       "sourceURL": "https://www.helanmountain.com/en/introduction/",
-      "notes": "代表酒庄；尚未核对具体地图坐标。"
+      "notes": "代表酒庄；尚未核对具体地图坐标。",
+      "originalLanguage": "zh",
+      "localizations": {
+        "zh": {
+          "name": "贺兰山",
+          "description": "贺兰山酒庄位于中国宁夏贺兰山东麓，品牌名称取自当地山脉。官网介绍，其葡萄采用人工采摘，霄峰系列经过橡木桶陈酿。",
+          "sourceURL": "https://www.helanmountain.com/cn/introduction/",
+          "sourceTitle": "贺兰山官网 · 产区介绍",
+          "checkedDate": "2026-09-12",
+          "status": "verified"
+        },
+        "en": {
+          "name": "Helan Mountain",
+          "description": "Helan Mountain is a winery in the eastern foothills of the Helan Mountains in Ningxia, China. The producer describes hand-harvested grapes across its range and oak maturation for its Xiaofeng wines.",
+          "sourceURL": "https://www.helanmountain.com/en/introduction/",
+          "sourceTitle": "Helan Mountain · Our Region",
+          "checkedDate": "2026-09-12",
+          "status": "verified"
+        }
+      }
     },
     "version": 1,
     "updated": "2026-09-12T00:00:00Z",
@@ -3267,7 +3286,26 @@
       "locationSourceURL": "https://chateau-grillet.com/en/contact-us/",
       "locationPrecision": "已核实联系地址；具体酒庄经纬度待核实",
       "checkedDate": "2026-09-12",
-      "notes": "Château-Grillet AOC 唯一生产者。官网当前公开三款酒，分别属于 Château-Grillet、Côtes-du-Rhône 与 Condrieu。"
+      "notes": "Château-Grillet AOC 唯一生产者。官网当前公开三款酒，分别属于 Château-Grillet、Côtes-du-Rhône 与 Condrieu。",
+      "originalLanguage": "fr",
+      "localizations": {
+        "fr": {
+          "name": "Château-Grillet",
+          "description": "Château-Grillet se situe entre Vérin et Saint-Michel-sur-Rhône, sur des coteaux aménagés en terrasses de pierres sèches. Le viognier y est cultivé sur des sols granitiques. Le domaine constitue un monopole de l’appellation Château-Grillet, enclavée dans l’aire de Condrieu.",
+          "sourceURL": "https://chateau-grillet.com/le-domaine/",
+          "sourceTitle": "Château-Grillet · Le domaine",
+          "checkedDate": "2026-09-12",
+          "status": "verified"
+        },
+        "en": {
+          "name": "Château-Grillet",
+          "description": "Château-Grillet lies between Vérin and Saint-Michel-sur-Rhône, with vineyards arranged on terraces supported by dry-stone walls. Viognier grows here on granite soils. The estate is the sole proprietor of the Château-Grillet appellation within the wider Condrieu area.",
+          "sourceURL": "https://chateau-grillet.com/en/the-estate/",
+          "sourceTitle": "Château-Grillet · The estate",
+          "checkedDate": "2026-09-12",
+          "status": "verified"
+        }
+      }
     },
     "version": 1,
     "updated": "2026-09-12T15:01:22.016Z",
@@ -3336,5 +3374,89 @@
     "version": 1,
     "updated": "2026-09-12T15:01:22.016Z",
     "origin": "每日一产区 · 官方目录核对"
+  },
+  {
+    "id": "wine-helan-mountain-classic-white",
+    "kind": "wine",
+    "name": "贺兰山经典干白",
+    "data": {
+      "wineryId": "winery-a3f0cc49a0af",
+      "originalLanguage": "zh",
+      "localizations": {
+        "zh": {
+          "name": "贺兰山经典干白",
+          "description": "贺兰山经典系列的干白葡萄酒，官网品鉴说明以柑橘、葡萄柚和青苹果香气为主。",
+          "sourceURL": "https://www.helanmountain.com/cn/classic/",
+          "sourceTitle": "贺兰山官网 · 贺兰山经典",
+          "checkedDate": "2026-09-12",
+          "status": "verified"
+        },
+        "en": {
+          "name": "Helan Mountain CLASSIC White",
+          "description": "A white wine in the Helan Mountain Classic range, described by the producer with citrus, grapefruit and green-apple notes.",
+          "sourceURL": "https://www.helanmountain.com/en/classic/",
+          "sourceTitle": "Helan Mountain · CLASSIC",
+          "checkedDate": "2026-09-12",
+          "status": "verified"
+        }
+      },
+      "name": "贺兰山经典干白",
+      "en": "Helan Mountain CLASSIC White",
+      "country": "中国",
+      "regionId": "ningxia",
+      "grapes": [],
+      "sourceTitle": "贺兰山官网 · 贺兰山经典",
+      "sourceURL": "https://www.helanmountain.com/cn/classic/",
+      "sourceType": "酒庄官方资料",
+      "checkedDate": "2026-09-12",
+      "notes": "贺兰山经典系列的干白葡萄酒，官网品鉴说明以柑橘、葡萄柚和青苹果香气为主。",
+      "aliases": [],
+      "attachments": []
+    },
+    "version": 1,
+    "updated": "2026-09-12T16:10:36.706Z",
+    "origin": "官方双语资料核对"
+  },
+  {
+    "id": "wine-helan-mountain-classic-red",
+    "kind": "wine",
+    "name": "贺兰山经典干红",
+    "data": {
+      "wineryId": "winery-a3f0cc49a0af",
+      "originalLanguage": "zh",
+      "localizations": {
+        "zh": {
+          "name": "贺兰山经典干红",
+          "description": "贺兰山经典系列的干红葡萄酒，官网描述为果香明显、单宁适中。",
+          "sourceURL": "https://www.helanmountain.com/cn/classic/",
+          "sourceTitle": "贺兰山官网 · 贺兰山经典",
+          "checkedDate": "2026-09-12",
+          "status": "verified"
+        },
+        "en": {
+          "name": "Helan Mountain Classic Dry Red",
+          "description": "A red wine in the Helan Mountain Classic range, described by the producer as fruit-led with moderate tannins.",
+          "sourceURL": "https://www.helanmountain.com/en/classic/",
+          "sourceTitle": "Helan Mountain · CLASSIC",
+          "checkedDate": "2026-09-12",
+          "status": "verified"
+        }
+      },
+      "name": "贺兰山经典干红",
+      "en": "Helan Mountain Classic Dry Red",
+      "country": "中国",
+      "regionId": "ningxia",
+      "grapes": [],
+      "sourceTitle": "贺兰山官网 · 贺兰山经典",
+      "sourceURL": "https://www.helanmountain.com/cn/classic/",
+      "sourceType": "酒庄官方资料",
+      "checkedDate": "2026-09-12",
+      "notes": "贺兰山经典系列的干红葡萄酒，官网描述为果香明显、单宁适中。",
+      "aliases": [],
+      "attachments": []
+    },
+    "version": 1,
+    "updated": "2026-09-12T16:10:36.713Z",
+    "origin": "官方双语资料核对"
   }
 ]

@@ -4,9 +4,46 @@ export const id=()=>crypto.randomUUID();
 export function fail(message,status=400){throw Object.assign(new Error(message),{status})}
 export function cleanText(v,max=200){return String(v??'').trim().slice(0,max)}
 export function safeURL(v){if(!v)return '';try{let u=new URL(v);if(!['https:','http:'].includes(u.protocol)||u.username||u.password)throw 0;return u.href}catch{fail('资料链接须为完整的 http 或 https 地址。')}}
+export const supportedLanguages=['zh','en','fr','it','es','pt','de','ro','hu','el','ka','ru','ja','af'];
+const languageSet=new Set(supportedLanguages);
+const languageFields=['name','description','sourceURL','sourceTitle','checkedDate'];
+const object=v=>v!==null&&typeof v==='object'&&!Array.isArray(v);
+const realDate=v=>/^\d{4}-\d{2}-\d{2}$/.test(v)&&Number.isFinite(Date.parse(v))&&new Date(v).toISOString().slice(0,10)===v;
+// A partial edit must not remove languages omitted by an older form or import.
+export function mergeLocalizedData(previous={},incoming={}){
+ if(!object(incoming))fail('资料内容格式不正确。');
+ if(incoming.localizations!=null&&!object(incoming.localizations))fail('多语言资料格式不正确。');
+ const d={...incoming,localizations:{...previous.localizations}};
+ if(!Object.hasOwn(incoming,'originalLanguage'))d.originalLanguage=previous.originalLanguage||'';
+ for(const [lang,entry]of Object.entries(incoming.localizations||{})){
+  if(!languageSet.has(lang)||!object(entry))fail('语言或多语言内容格式不正确。');
+  const old=previous.localizations?.[lang]||{};
+  d.localizations[lang]={...old,...entry};
+  if(!Object.hasOwn(entry,'status')&&languageFields.some(k=>Object.hasOwn(entry,k)&&entry[k]!==old[k]))d.localizations[lang].status='draft';
+ }
+ return d;
+}
+function normalizeLanguages(data){
+ const originalLanguage=cleanText(data.originalLanguage,20).toLowerCase();
+ if(originalLanguage&&!languageSet.has(originalLanguage))fail('请选择支持的原始语言。');
+ if(data.localizations!=null&&!object(data.localizations))fail('多语言资料格式不正确。');
+ const localizations={};
+ for(const lang of Object.keys(data.localizations||{}).sort()){
+  const entry=data.localizations[lang];
+  if(!languageSet.has(lang)||!object(entry))fail('语言或多语言内容格式不正确。');
+  const status=entry.status==null||entry.status===''?'draft':entry.status;
+  if(!['draft','verified'].includes(status))fail('语言核对状态不正确。');
+  const e={name:cleanText(entry.name),description:cleanText(entry.description,4000),sourceURL:safeURL(entry.sourceURL),sourceTitle:cleanText(entry.sourceTitle),checkedDate:cleanText(entry.checkedDate,20),status};
+  if(e.checkedDate&&!realDate(e.checkedDate))fail('语言核对日期须为真实的 YYYY-MM-DD 日期。');
+  if(status==='verified'&&!e.name&&!e.description)fail('已核对语言须至少包含名称或简介。');
+  if(status==='verified'&&(!e.sourceURL||!e.sourceTitle||!e.checkedDate))fail('已核对语言需要来源链接、来源名称和核对日期。');
+  localizations[lang]=e;
+ }
+ return {originalLanguage,localizations};
+}
 export function normalize(data,kind,complete=false){
  if(!kinds[kind]||!data||typeof data!=='object'||Array.isArray(data))fail('未知的资料类型。');
- const d={};for(const k of ['name','en','country','regionId','wineryId','wineId','yearType','sourceTitle','sourceType','locationPrecision','address','checkedDate','relationship','since','until','eventType','startDate','endDate','publishedDate','dateNote'])d[k]=cleanText(data[k]);
+ const d=normalizeLanguages(data);for(const k of ['name','en','country','regionId','wineryId','wineId','yearType','sourceTitle','sourceType','locationPrecision','address','checkedDate','relationship','since','until','eventType','startDate','endDate','publishedDate','dateNote'])d[k]=cleanText(data[k]);
  d.notes=cleanText(data.notes,4000);d.aliases=Array.isArray(data.aliases)?data.aliases.map(v=>cleanText(v)).filter(Boolean).slice(0,30):[];
  d.sourceURL=safeURL(data.sourceURL);d.website=safeURL(data.website);d.locationSourceURL=safeURL(data.locationSourceURL);
  d.attachments=Array.isArray(data.attachments)?[...new Set(data.attachments.map(v=>cleanText(v,80)))].slice(0,5):[];
