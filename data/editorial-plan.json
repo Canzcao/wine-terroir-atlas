@@ -1,27 +1,33 @@
 {
-  "timeZone": "Asia/Shanghai",
-  "startTime": "09:00",
-  "activeRegion": "condrieu",
-  "strategy": "先完成未完成地区，再按官方边界选择下一个产区；大区可拆为真实子产区，逐日追踪覆盖。",
-  "queue": [
-    {
-      "id": "chateau-grillet",
-      "name": "Château-Grillet AOC",
-      "country": "法国",
-      "status": "directory_checked",
-      "completedDate": "2026-09-12"
-    },
-    {
-      "id": "condrieu",
-      "name": "Condrieu AOC",
-      "country": "法国",
-      "status": "queued"
-    },
-    {
-      "id": "cornas",
-      "name": "Cornas AOC",
-      "country": "法国",
-      "status": "queued"
-    }
-  ]
+ "timeZone": "Asia/Shanghai",
+ "startTime": "09:00",
+ "activeRegion": "condrieu",
+ "strategy": "先完成未完成地区，再按官方边界选择下一个产区；大区可拆为真实子产区，逐日追踪覆盖。",
+ "queue": [
+  {
+   "id": "chateau-grillet",
+   "name": "Château-Grillet AOC",
+   "country": "法国",
+   "status": "directory_checked",
+   "completedDate": "2026-09-12"
+  },
+  {
+   "id": "condrieu",
+   "name": "Condrieu AOC",
+   "country": "法国",
+   "status": "partial",
+   "checkedDate": "2026-09-14",
+   "producerBaseline": 90,
+   "producersChecked": 29,
+   "note": "官方名录 18 页 90 条；酒庄记录与坐标已入库。酒款目录核对：官网抓取 65 站，28 站返回产品名（17 站不可达、20 站无产品可提取），本期续收 Wine/Vintage 记录 4/2 条。事件新增 0 条。",
+   "resumeFrom": "https://vin-condrieu.fr/nos-vigneron/page/1/",
+   "wineCatalogueChecked": 56
+  },
+  {
+   "id": "cornas",
+   "name": "Cornas AOC",
+   "country": "法国",
+   "status": "queued"
+  }
+ ]
 }

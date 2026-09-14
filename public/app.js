@@ -4,12 +4,25 @@ const appName=record=>appI18n.name(record);
 const appNameHTML=record=>{const f=appLanguage.field(record,'name',appI18n.locale);return `<span data-no-i18n${f.language?' lang="'+escapeHTML(f.language)+'"':''}>${escapeHTML(f.text)}</span>`};
 const appGrapeName=g=>appI18n.locale==='zh'?g:window.GRAPE_EN[g]||g;
 const appLocation=r=>escapeHTML(appI18n.country(r.country))+' / '+appT(r.continent);
+const normalizeSearchText=(value,locale=appI18n.locale)=>String(value??'').normalize('NFKD').replace(/[\u0300-\u036f]/g,'').toLocaleLowerCase(locale||'zh');
+const regionSearchIndex=new Map(regions.map(r=>{
+ const win=r.wineries.map(w=>appLanguage.searchText(w)).join(' ');
+ const grapes=r.grapes.map(g=>`${g} ${window.GRAPE_EN[g]??''}`).join(' ');
+ const fields=[appLanguage.searchText(r),appI18n.country(r.country),r.country,r.id,appI18n.t('产区'),r.continent,r.en,win,grapes];
+ return [r.id,normalizeSearchText(fields.filter(Boolean).join(' '))];
+}));
 
 function sourceLinks(){return '<a href="https://www.openstreetmap.org/copyright" target="_blank" rel="noopener">OpenStreetMap · 地块、酒庄与地图数据 ↗</a><a href="https://www.bourgogne-wines.com/" target="_blank" rel="noopener">BIVB · 勃艮第葡萄酒行业协会 ↗</a><a href="https://www.wineaustralia.com/" target="_blank" rel="noopener">Wine Australia · 澳大利亚葡萄酒管理局 ↗</a><a href="https://www.nzwine.com/" target="_blank" rel="noopener">New Zealand Wine · 新西兰葡萄酒协会 ↗</a>'}
 function matches(r){
- const q=$('search').value.trim().toLocaleLowerCase(appI18n.locale);
- const text=[appLanguage.searchText(r),appI18n.country(r.country),r.country,...r.grapes,...r.grapes.map(g=>window.GRAPE_EN[g]||''),...r.wineries.map(w=>appLanguage.searchText(w))].join(' ').toLocaleLowerCase(appI18n.locale);
- return (!$('country').value||r.country===$('country').value)&&(!$('grape').value||r.grapes.includes($('grape').value))&&(!q||text.includes(q));
+ const q=$('search').value.trim();
+ const normalized=normalizeSearchText(q);
+ const words=normalized.split(/\s+/).filter(Boolean);
+ const text=regionSearchIndex.get(r.id)||'';
+ const match=(str)=>words.every(word=>str.includes(word));
+ const filterCountry=$('country').value;
+ const filterGrape=$('grape').value;
+ const fallback=[appLanguage.searchText(r),appI18n.country(r.country),r.country,...r.grapes,...r.grapes.map(g=>window.GRAPE_EN[g]||''),...r.wineries.map(w=>appLanguage.searchText(w))].join(' ').toLocaleLowerCase(appI18n.locale);
+ return (!filterCountry||r.country===filterCountry)&&(!filterGrape||r.grapes.includes(filterGrape))&&(!normalized||match(text)||fallback.includes(normalized)||match(normalizeSearchText(fallback)));
 }
 function renderList(){
  const rs=regions.filter(matches);$('resultCount').textContent=String(rs.length).padStart(2,'0');

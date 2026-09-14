@@ -262,7 +262,10 @@ doc.build(story,onFirstPage=page_decoration,onLaterPages=page_decoration)
 
 # Six original text/data image cards, no scraped photos or unlicensed labels.
 IW,IH=1080,1440
-def font(size,head=False):return ImageFont.truetype(HEAD if head and Path(HEAD).exists() else FONT,size)
+# Cards must never abort the whole daily bundle: the renderer retries at a
+# smaller type scale instead of raising on a long block.
+FIT_SCALE=1.0
+def font(size,head=False):return ImageFont.truetype(HEAD if head and Path(HEAD).exists() else FONT,max(12,int(round(size*FIT_SCALE))))
 def wrap(draw,text,f,width):
     lines=[]
     for para in clean(text).split('\n'):
@@ -279,7 +282,9 @@ def text(draw,content,x,y,size=36,width=900,color=INK,head=False,leading=1.55,ma
         draw.text((x,y),line,font=f,fill=color);y+=int(size*leading)
     return y
 
-for idx,card in enumerate(R['cards'],1):
+def render_card(card,idx,scale):
+    global FIT_SCALE
+    FIT_SCALE=scale
     dark=idx==1;bg=WINE if dark else '#FFFFFF';fg='#FFFFFF' if dark else INK;muted='#D5C0CE' if dark else MUTED
     im=Image.new('RGB',(IW,IH),bg);d=ImageDraw.Draw(im)
     d.rectangle((76,70,125,77),fill=GOLD)
@@ -295,7 +300,7 @@ for idx,card in enumerate(R['cards'],1):
             text(d,label,x+125,sy+67,28,width=280,color='#E9DDE4')
         y+=418
     for b in card['blocks']:
-        d.line((76,y,1004,y),fill='#83546E' if dark else LINE,width=2);y+=27
+        d.line((76,y,1004,y),fill='#83546E' if dark else LINE,width=2);y+=int(27*max(scale,0.85))
         title_size=40 if idx==3 else 44
         y=text(d,b['title'],76,y,title_size,width=923,color=fg,head=True,leading=1.4)+12
         y=text(d,b['text'],76,y,40,width=923,color='#E1D2DC' if dark else MUTED,leading=1.45)+10
@@ -303,7 +308,19 @@ for idx,card in enumerate(R['cards'],1):
     d.line((76,1330,1004,1330),fill='#83546E' if dark else LINE,width=2)
     text(d,DATE+' · 新收录不等于新上市',76,1352,22,width=800,color=muted,maxy=1430)
     d.text((948,1352),str(idx).zfill(2),font=font(25),fill=muted)
+    return im
+
+for idx,card in enumerate(R['cards'],1):
+    im=None;last=None
+    for scale in (1.0,0.94,0.88,0.82,0.76,0.70,0.64):
+        try:
+            im=render_card(card,idx,scale);break
+        except RuntimeError as err:
+            last=err;im=None
+    if im is None:
+        raise RuntimeError('Card %s does not fit at the smallest type scale: %s' % (idx,last))
     im.save(OUT/('图文-'+str(idx).zfill(2)+'.png'),optimize=True)
+FIT_SCALE=1.0
 
 photo_pages=OUT/'配图宣传页'
 if R.get('media'):photo_pages.mkdir(exist_ok=True)

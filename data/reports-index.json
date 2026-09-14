@@ -1,5 +1,412 @@
 [
   {
+    "date": "2026-09-13",
+    "issue": "002",
+    "title": "Condrieu：90 家官方名录，先核到 2 家",
+    "summary": "Condrieu 官方生产者名录逐页核对为 18 页、90 个条目，取代本日早先误报的“39 个候选”。本期实际完成 2 家：Château-Grillet 的 Condrieu La Carthery（复核既有记录）与 Cave Yves Cuilleron（官网商店 6 款 Condrieu，含 1 款甜型）。其余 88 家尚待逐家核对，状态为 partial。",
+    "baselineCommit": "511c03312fb63e4ede8189bf884dd95280b8d1c6",
+    "createdAt": "2026-09-13T09:00:00+08:00",
+    "region": {
+      "id": "condrieu",
+      "name": "Condrieu AOC · 康德里厄",
+      "country": "法国",
+      "status": "partial",
+      "scope": "以 Syndicat des Vignerons de Condrieu 官方 Winegrowers 名录为底稿，边界为该名录收录的生产者；法定范围涉及 7 个市镇，但由于 Château-Grillet AOC 嵌套其中，收录时按酒款标签区分。",
+      "producerBaseline": 90,
+      "producersChecked": 2,
+      "winesListed": 7,
+      "winesRecorded": 7,
+      "targetAppellationWines": 7,
+      "otherAppellationWines": 0,
+      "verifiedVintages": 6,
+      "completionNote": "partial：官方名录 90 家中已核对 2 家，另有 88 家未完成。名录本身核对完成不等于各酒庄官网目录核对完成，也不构成“全网已穷尽”的结论。",
+      "introduction": "Condrieu 是北罗讷 Cru des Côtes du Rhône 的单一白葡萄 AOC，法定品种为维欧尼，分布在罗讷河右岸的陡坡台地上。本期的工作重点从“讲清法理边界”转为“把官方名录的分母做准”：名录共 18 页 90 条，远多于本日早先记录的 39 条，因此本期的核心结论是覆盖进度，而不是全量结论。",
+      "gaps": [
+        "官方名录 90 家中仅完成 2 家，其余 88 家待逐家核对官网酒款与标签归属。",
+        "多家生产者官网无法通过 HTTPS 访问或抓取失败，本期记录为“官网不可访问”，不计入已核对：georges-vernay.fr 无 SSL 证书；andre-perret.com、francois-villard.com、domaine-niero.fr 抓取失败；guigal.com 酒款页返回站点错误。",
+        "本期未取得任何已核实许可的实景图片，media 为空，穿插配图与配图宣传页缺口需如实标注。",
+        "当天未检索到可核实的 Condrieu 或北罗讷采收新闻与近期活动，故 news 与 activities 为空。",
+        "未取得权威边界文件与酒庄经纬度，全部坐标留空，不设近似参考点。",
+        "语种缺口：本期仅法文原文达到 verified；Cave Yves Cuilleron 官网 /en/ 路径返回法文内容，说明站内语言切换不构成英文页面证据，英文暂留空。",
+        "年份覆盖仅为官网商店当前在售年份（6 条），不构成完整年份序列。"
+      ],
+      "featuredWineryId": "winery-cave-yves-cuilleron"
+    },
+    "added": {
+      "regionIds": [
+        "condrieu"
+      ],
+      "wineryIds": [
+        "winery-cave-yves-cuilleron"
+      ],
+      "wineIds": [
+        "wine-cuilleron-condrieu-petite-cote",
+        "wine-cuilleron-condrieu-chaillets",
+        "wine-cuilleron-condrieu-verlieu",
+        "wine-cuilleron-condrieu-vernon",
+        "wine-cuilleron-condrieu-ayguets",
+        "wine-cuilleron-condrieu-bourasseau"
+      ],
+      "vintageIds": [
+        "vintage-cuilleron-condrieu-petite-cote-2022",
+        "vintage-cuilleron-condrieu-chaillets-2022",
+        "vintage-cuilleron-condrieu-verlieu-2021",
+        "vintage-cuilleron-condrieu-vernon-2021",
+        "vintage-cuilleron-condrieu-ayguets-2015",
+        "vintage-cuilleron-condrieu-bourasseau-2016"
+      ],
+      "eventIds": []
+    },
+    "updatedIds": [],
+    "countingNote": "新增数按本期核对后可确认为新记录的条目计算。Condrieu La Carthery 在基准提交中已存在，本期仅复核，未计入 added。",
+    "wineries": [
+      {
+        "id": "winery-cave-yves-cuilleron",
+        "name": "Yves Cuilleron 酒窖",
+        "summary": "官方名录第 15 页条目。酒庄自营商店当前列在 CONDRIEU 分类下的酒款已核对 6 款，覆盖 4 个 lieu-dit 级与 2 个经典款，其中 Ayguets 为甜型（blanc doux），可用于说明 Condrieu 并非只有干白一种表达。",
+        "wines": [
+          {
+            "id": "wine-cuilleron-condrieu-petite-cote",
+            "name": "Condrieu La Petite Côte",
+            "appellation": "Condrieu AOC · 目标产区",
+            "summary": "官网商店 CONDRIEU 分类在售（blanc sec）。页面未逐款标注品种比例，故未填写比例。",
+            "sourceIds": [
+              "S5",
+              "S7"
+            ]
+          },
+          {
+            "id": "wine-cuilleron-condrieu-chaillets",
+            "name": "Condrieu Les Chaillets",
+            "appellation": "Condrieu AOC · 目标产区",
+            "summary": "官网商店 CONDRIEU 分类在售（blanc sec）。页面未逐款标注品种比例，故未填写比例。",
+            "sourceIds": [
+              "S5",
+              "S7"
+            ]
+          },
+          {
+            "id": "wine-cuilleron-condrieu-verlieu",
+            "name": "Condrieu Lieu-Dit Verlieu",
+            "appellation": "Condrieu AOC · 目标产区",
+            "summary": "官网商店 CONDRIEU 分类在售（blanc sec）。页面未逐款标注品种比例，故未填写比例。",
+            "sourceIds": [
+              "S5",
+              "S7"
+            ]
+          },
+          {
+            "id": "wine-cuilleron-condrieu-vernon",
+            "name": "Condrieu Lieu-Dit Vernon",
+            "appellation": "Condrieu AOC · 目标产区",
+            "summary": "官网商店 CONDRIEU 分类在售（blanc sec）。页面未逐款标注品种比例，故未填写比例。",
+            "sourceIds": [
+              "S5",
+              "S7"
+            ]
+          },
+          {
+            "id": "wine-cuilleron-condrieu-ayguets",
+            "name": "Condrieu Ayguets",
+            "appellation": "Condrieu AOC · 目标产区",
+            "summary": "官网商店 CONDRIEU 分类在售（blanc doux）。页面未逐款标注品种比例，故未填写比例。",
+            "sourceIds": [
+              "S5",
+              "S7"
+            ]
+          },
+          {
+            "id": "wine-cuilleron-condrieu-bourasseau",
+            "name": "Condrieu Bourasseau",
+            "appellation": "Condrieu AOC · 目标产区",
+            "summary": "官网商店 CONDRIEU 分类在售（blanc sec）。页面未逐款标注品种比例，故未填写比例。",
+            "sourceIds": [
+              "S5",
+              "S7"
+            ]
+          }
+        ],
+        "sourceIds": [
+          "S5",
+          "S6",
+          "S7"
+        ]
+      },
+      {
+        "id": "winery-chateau-grillet",
+        "name": "格里叶堡",
+        "summary": "Château-Grillet AOC 的唯一生产者，在其自有 AOC 之外生产一款 Condrieu。该记录在基准提交中已存在，本期复核来源仍成立，因此不计入新增。",
+        "wines": [
+          {
+            "id": "wine-chateau-grillet-condrieu-la-carthery",
+            "name": "Condrieu La Carthery",
+            "appellation": "Condrieu AOC · 目标产区",
+            "summary": "官网明确采用维欧尼；2017 年为加入产品线的时间，不能当作酒瓶年份，故未登记年份。",
+            "sourceIds": [
+              "S8"
+            ]
+          }
+        ],
+        "sourceIds": [
+          "S8"
+        ]
+      }
+    ],
+    "news": [],
+    "activities": [],
+    "media": [],
+    "mediaGap": "本期未取得已核实许可的实景图片，因此不生成穿插配图与配图宣传页。不以生成图冒充真实地块、酒款或产区现场，也不用无关图片凑数。",
+    "sources": [
+      {
+        "id": "S1",
+        "label": "INAO · Condrieu 产品页",
+        "url": "https://www.inao.gouv.fr/produit/condrieu-20101",
+        "note": "官方确认 Condrieu AOC 的识别对象、单一白葡萄品种与地理口径。",
+        "checkedDate": "2026-09-13"
+      },
+      {
+        "id": "S2",
+        "label": "AOP Condrieu cahier des charges（农业与粮食主权部公告库）",
+        "url": "https://info.agriculture.gouv.fr/boagri/document_administratif-babefc65-b6a8-4533-a502-3cf8e7469cb6/telechargement",
+        "note": "法定边界、密植与产量上限等可核验规范。",
+        "checkedDate": "2026-09-13"
+      },
+      {
+        "id": "S3",
+        "label": "Arrêté du 4 juillet 2024（Legifrance）",
+        "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000049892592",
+        "note": "2024 年版 cahier des charges 的法定批准路径。",
+        "checkedDate": "2026-09-13"
+      },
+      {
+        "id": "S4",
+        "label": "Vins Rhône · Condrieu 产区页",
+        "url": "https://www.vins-rhone.com/en/cotes-du-rhone-cru-aoc-condrieu",
+        "note": "产区协会的市场与技术叙述，用于市场画像，不替代法定规范。",
+        "checkedDate": "2026-09-13"
+      },
+      {
+        "id": "S5",
+        "label": "Syndicat des Vignerons de Condrieu · Winegrowers 名录",
+        "url": "https://vin-condrieu.fr/nos-vigneron/",
+        "note": "官方生产者名录。逐页核对为 18 页、每页 5 条，共 90 个生产者条目；这是本期产区分母。",
+        "checkedDate": "2026-09-13"
+      },
+      {
+        "id": "S6",
+        "label": "Syndicat des Vignerons de Condrieu · Cave Yves Cuilleron",
+        "url": "https://vin-condrieu.fr/nos-vigneron/cave-yves-cuilleron/",
+        "note": "名录第 15 页条目。1987 年 Yves Cuilleron 接手家族酒庄，当时名下 3,50 ha 种植 Condrieu 与 Saint-Joseph 红白。",
+        "checkedDate": "2026-09-13"
+      },
+      {
+        "id": "S7",
+        "label": "Cave Yves Cuilleron · 官方在线商店",
+        "url": "https://www.cuilleron.com/fr/product/?page=1",
+        "note": "酒庄自营商店当前列示的 Condrieu 分类酒款与年份；用于核对酒名、风格类型与在售年份。",
+        "checkedDate": "2026-09-13"
+      },
+      {
+        "id": "S8",
+        "label": "Château-Grillet · 官方酒款目录",
+        "url": "https://chateau-grillet.com/les-vins/",
+        "note": "该庄园三款产品之一 Condrieu La Carthery 的原始来源，本期复核仍成立，未重复计为新增。",
+        "checkedDate": "2026-09-13"
+      }
+    ],
+    "nextStep": "按官方名录 18 页、90 条逐页续收，优先处理本期列出的 88 家未核对生产者；对官网不可访问的生产者，改以协会名录页与可核实的第三方官方渠道分线记录，并保留“官网不可访问”状态；同时补 Cave Yves Cuilleron 的英文页面证据与可核实年份序列。",
+    "social": {
+      "xhs": {
+        "title": "每天读懂一个产区｜Condrieu 到底有多少家生产商？",
+        "paragraphs": [
+          "先说结论：Condrieu 的官方生产者名录有 18 页、90 家，不是几十家以内的小名单。",
+          "这个数字值得单独拿出来讲，因为产区越小、名气越集中，越容易被误当成“就那么几家”。",
+          "本期实际核到 2 家：Château-Grillet 的 Condrieu La Carthery，和 Cave Yves Cuilleron。",
+          "Cuilleron 官网商店挂在 CONDRIEU 分类下的一共 6 款，其中 Ayguets 是甜型——Condrieu 不只出干白，这一点常被忽略。",
+          "还有 88 家没有核对完。没核完就说没核完，这期的进度是覆盖，不是全量。",
+          "顺带一条实话：好几家官网打不开，有的干脆没有 HTTPS 证书，我们把这些记成“官网不可访问”，没有算进已核对。"
+        ],
+        "tags": [
+          "#葡萄酒 #Condrieu #北罗讷 #维欧尼 #风土图鉴 #产区笔记"
+        ]
+      },
+      "wechat": {
+        "title": "风土日报 002｜Condrieu 的 90 家名录，和先核到的 2 家",
+        "paragraphs": [
+          "一、本期先把分母做准。Syndicat des Vignerons de Condrieu 官方 Winegrowers 名录逐页核对为 18 页、每页 5 条，共 90 个生产者条目。本日早先记录中“39 个候选”的数字有误，已更正。",
+          "二、法理层不变。Condrieu AOC 是 Cru des Côtes du Rhône 的单一白葡萄 AOC，法定品种为维欧尼，范围涉及 7 个市镇，边界与产量规范依据 INAO 页面与 cahier des charges。",
+          "三、实际核对完成 2 家。第一家是 Château-Grillet 的 Condrieu La Carthery：该庄园是 Château-Grillet AOC 的唯一生产者，同时在自有 AOC 之外生产一款 Condrieu，本记录此前已存在，本期只做复核，不重复计为新增。",
+          "四、第二家是 Cave Yves Cuilleron。官网商店 CONDRIEU 分类下核对到 6 款：La Petite Côte、Les Chaillets、Lieu-Dit Verlieu、Lieu-Dit Vernon、Bourasseau，以及甜型的 Ayguets。页面未逐款标注品种比例，我们留空。",
+          "五、关于语言。Cuilleron 官网带 /en/ 路径，但该路径返回的是法文内容，因此不能据此认定存在已核实的英文页面，英文暂留空，仅法文原文标 verified。",
+          "六、关于缺口。88 家未核对完；多家官网不可访问或抓取失败；本期没有可核实的采收与活动新闻；也没有取得有许可的实景照片，因此本期不出配图页。",
+          "七、下一期优先级：从名录第 1 页顺序续收未核对生产者，并补齐 Cuilleron 的英文页面证据与年份序列。"
+        ],
+        "tags": []
+      }
+    },
+    "cards": [
+      {
+        "kicker": "DAILY TERROIR · 002",
+        "title": "Condrieu",
+        "subtitle": "先把分母做准，再谈覆盖",
+        "stats": [
+          [
+            "90",
+            "官方名录条目"
+          ],
+          [
+            "2",
+            "已核对生产者"
+          ],
+          [
+            "7",
+            "已核对酒款"
+          ],
+          [
+            "6",
+            "已核实年份"
+          ]
+        ],
+        "blocks": [
+          {
+            "title": "本期焦点：分母",
+            "text": "官方 Winegrowers 名录 18 页、每页 5 条，共 90 条。此前记录的 39 条已更正。",
+            "refs": "S5"
+          },
+          {
+            "title": "进度诚实",
+            "text": "90 家中完成 2 家，88 家待续收，状态 partial，不以抽样代表全产区。",
+            "refs": "S5,S6"
+          }
+        ]
+      },
+      {
+        "kicker": "01 / THE REGION",
+        "title": "边界与法理",
+        "subtitle": "Condrieu AOC · 法国北罗讷",
+        "blocks": [
+          {
+            "title": "单一品种的法定产区",
+            "text": "法定白葡萄品种为维欧尼，范围涉及 7 个市镇，属 Cru des Côtes du Rhône 体系。",
+            "refs": "S1,S2"
+          },
+          {
+            "title": "嵌套的 Château-Grillet",
+            "text": "Château-Grillet AOC 嵌在 Condrieu 范围之内，是独立 AOC 与唯一生产者，因此收录时必须按酒款标签而非地名归属判断。",
+            "refs": "S1,S8"
+          },
+          {
+            "title": "坐标处理",
+            "text": "未取得权威边界文件与酒庄经纬度，本期全部坐标留空，不设近似参考点。",
+            "refs": "S1"
+          }
+        ]
+      },
+      {
+        "kicker": "02 / DIRECTORY",
+        "title": "名录核对进度",
+        "subtitle": "分母 90，已核对 2",
+        "blocks": [
+          {
+            "title": "第 15 页：Cave Yves Cuilleron",
+            "text": "1987 年接手家族酒庄，当时 3,50 ha 种植 Condrieu 与 Saint-Joseph 红白；官网商店 CONDRIEU 分类下核对到 6 款酒。",
+            "refs": "S6,S7"
+          },
+          {
+            "title": "复核：Condrieu La Carthery",
+            "text": "来源仍成立，但该记录在本期基准提交前已存在，因此计入复核而不是新增。",
+            "refs": "S8"
+          },
+          {
+            "title": "未完成的 88 家",
+            "text": "含 Domaine Georges Vernay、Domaine Jamet、E. Guigal、M. Chapoutier、Domaine François Villard、André Perret 等，逐家核对留待续收。",
+            "refs": "S5"
+          }
+        ]
+      },
+      {
+        "kicker": "03 / WINES",
+        "title": "已核对酒款",
+        "subtitle": "7 款，其中 1 款甜型",
+        "blocks": [
+          {
+            "title": "Cave Yves Cuilleron（6 款）",
+            "text": "La Petite Côte、Les Chaillets、Lieu-Dit Verlieu、Lieu-Dit Vernon、Bourasseau 为干白；Ayguets 为甜型 blanc doux。",
+            "refs": "S7"
+          },
+          {
+            "title": "比例留空的原因",
+            "text": "产区法定品种是产区规则，不等于该款酒已核实的配方；官网未逐款标注比例，故 percent 留空。",
+            "refs": "S1,S7"
+          },
+          {
+            "title": "Condrieu La Carthery",
+            "text": "官网明确采用维欧尼；2017 年为加入产品线的时间，不能当作酒瓶年份。",
+            "refs": "S8"
+          }
+        ]
+      },
+      {
+        "kicker": "04 / ACCESS",
+        "title": "打不开的官网",
+        "subtitle": "记为官网不可访问，不计入已核对",
+        "blocks": [
+          {
+            "title": "SSL 与抓取失败",
+            "text": "georges-vernay.fr 无 SSL 证书；andre-perret.com、francois-villard.com、domaine-niero.fr 抓取失败；guigal.com 酒款页返回站点错误。",
+            "refs": "S5"
+          },
+          {
+            "title": "不因此降级核验标准",
+            "text": "失败不写成“无酒款”，也不以平台二手页面替代官网核对；先保留状态，下期再试。",
+            "refs": "S5"
+          }
+        ]
+      },
+      {
+        "kicker": "05 / MISSING",
+        "title": "留白清单",
+        "subtitle": "本期明确没有的东西",
+        "blocks": [
+          {
+            "title": "新闻与活动",
+            "text": "当天未检索到可核实的 Condrieu / 北罗讷采收、天气灾害或近期活动消息，因此新闻与活动层为空，不填占位内容。",
+            "refs": "S4"
+          },
+          {
+            "title": "图片",
+            "text": "未取得有许可的实景照片，故不生成穿插配图与配图宣传页，不以生成图替代真实照片。",
+            "refs": "S5"
+          },
+          {
+            "title": "语言",
+            "text": "仅法文原文 verified；Cuilleron 的 /en/ 路径返回法文内容，英文缺口保留。",
+            "refs": "S6,S7"
+          }
+        ]
+      }
+    ],
+    "revisedAt": "2026-09-13T18:55:00+08:00",
+    "revisions": [
+      {
+        "at": "2026-09-13T09:20:00+08:00",
+        "note": "初版框架：边界、法规、风土与市场观察。"
+      },
+      {
+        "at": "2026-09-13T11:00:00+08:00",
+        "note": "补入官方 Winegrowers 目录线索。"
+      },
+      {
+        "at": "2026-09-13T13:00:00+08:00",
+        "note": "接入第三方平台样本线索。"
+      },
+      {
+        "at": "2026-09-13T18:55:00+08:00",
+        "note": "复核修订：名录逐页核对更正为 18 页 90 条；删除无对应目录记录的桥接酒庄与未经核对的候选名单；新增 condrieu 产区记录与 Cave Yves Cuilleron 及其 6 款 Condrieu；La Carthery 改为复核不计新增；状态由 directory_checked 更正为 partial；压缩重复的分页来源条目。"
+      }
+    ]
+  },
+  {
     "date": "2026-09-12",
     "issue": "001",
     "title": "格里叶堡：一处产区，一家生产者",
