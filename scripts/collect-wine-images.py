@@ -24,10 +24,12 @@ per image.
 Usage:
   python3 scripts/collect-wine-images.py <profiles.json> <outdir> [--only slug,slug]
 """
-import hashlib, io, json, os, re, sys, threading, time
+import hashlib
+import html as html_lib, io, json, os, re, sys, threading, time
 from concurrent.futures import ThreadPoolExecutor, as_completed
+from datetime import date
 from pathlib import Path
-from urllib.parse import urljoin, urlparse, urlunparse
+from urllib.parse import urljoin, urlparse, urlunparse, quote
 from urllib.robotparser import RobotFileParser
 from urllib.request import Request, urlopen
 from urllib.error import HTTPError, URLError
@@ -43,8 +45,17 @@ HEADERS = {
 }
 IMG_EXT = ('.jpg', '.jpeg', '.png', '.webp', '.avif')
 MIN_SIDE = 250          # reject menu icons, bullets, tracking pixels
-MAX_PER_SITE = 26       # stay polite and keep the bundle reviewable
+# Per-site image budget. Default 26 keeps the bundle reviewable; override with
+# WINE_MAX_PER_SITE when a period covers many more producers than usual and the
+# downstream visual-review bandwidth is the binding constraint.
+MAX_PER_SITE = int(os.environ.get('WINE_MAX_PER_SITE', '26'))
 PER_DOMAIN_DELAY = 2.0  # slower when robots.txt does not state a crawl delay
+
+# Date stamped on each image's retrievedAt and on the manifest header.
+# This used to be the literal '2026-09-13', which silently back-dated every
+# later run (and every visual review hung off the manifest header). Read the
+# clock instead; override with WINE_RUN_DATE for a re-run of a past period.
+RUN_DATE = os.environ.get('WINE_RUN_DATE') or date.today().isoformat()
 
 # ---------------------------------------------------------------- vocabularies
 # Tokens are matched as whole words (or explicit prefixes), never as raw
@@ -210,58 +221,160 @@ def robots_for(base):
     return rp, delay
 
 
-def _read(url, timeout=40):
-    req = Request(url, headers=HEADERS)
-    with urlopen(req, timeout=timeout) as resp:
-        return resp.read()
+# A candidate that still holds a template token or markup junk is not a URL.
+# These come from Shopify/Liquid templates (`/pages/{{img}}`), srcset strings
+# that were not split (`a.png 720w, b.png 960w`), and lazy-load placeholders.
+JUNK_IN_URL = ('{{', '}}', '{%', '%7B%7B', '{width}', '{height}', '{size}',
+               '<', '>', '"', "'", '\\', '`')
+
+# Narrow-in on the failure modes seen on real estate sites: unencoded spaces
+# (Gardine), accented filenames (Cuilleron/Villard/Pierre Amadieu), and
+# `image, image` pairs left over from srcset.
+def safe_url(url):
+    """Percent-encode the parts of a URL that urllib refuses to send."""
+    if not url:
+        return url
+    url = url.strip()
+    try:
+        pu = urlparse(url)
+    except ValueError:
+        return None
+    if not pu.scheme or not pu.netloc:
+        return None
+    # quote with a safe set that keeps path separators and existing escapes
+    path = quote(pu.path, safe="/%:@&=+$,-_.!~*'()")
+    query = quote(pu.query, safe="=&%:@+$,;/?-_.!~*'()")
+    return urlunparse((pu.scheme, pu.netloc, path, pu.params, query, pu.fragment))
 
 
-def fetch_html(url, key, delay=None):
+def is_fetchable_url(u):
+    """Reject template placeholders, markup junk and multi-URL strings."""
+    if not u:
+        return False
+    low = u.lower()
+    if any(j.lower() in low for j in JUNK_IN_URL):
+        return False
+    if ' ' in u or '\n' in u or '\t' in u:
+        return False
+    if not low.split('?')[0].endswith(IMG_EXT):
+        return False
+    try:
+        pu = urlparse(safe_url(u) or '')
+    except ValueError:
+        return False
+    return bool(pu.netloc) and pu.scheme in ('http', 'https')
+
+
+def _read(url, timeout=40, referer=None):
+    """Fetch bytes, repairing spaces/accents and retrying http->https.
+
+    Real-world estate sites fail here for boring reasons: a path with a literal
+    space, an accented filename, or a broken `http://` vhost. All three are
+    recoverable, so they are retried instead of being recorded as "no image".
+    """
+    urls, seen = [], set()
+    for cand in (url, safe_url(url)):
+        if cand and cand not in seen:
+            seen.add(cand)
+            urls.append(cand)
+    if url.lower().startswith('http://'):
+        https = 'https://' + url[len('http://'):]
+        if https not in seen:
+            urls.append(https)
+    last = None
+    for cand in urls:
+        headers = dict(HEADERS)
+        if referer:
+            headers['Referer'] = referer
+        try:
+            req = Request(cand, headers=headers)
+            with urlopen(req, timeout=timeout) as resp:
+                return resp.read()
+        except Exception as err:  # noqa: BLE001
+            last = err
+    raise last
+
+
+def fetch_html(url, key, delay=None, referer=None):
     """Cached HTML fetch; returns (html, from_cache)."""
     PAGE_CACHE.mkdir(parents=True, exist_ok=True)
     path = PAGE_CACHE / (key + '.html')
     if path.exists():
         return path.read_text(encoding='utf-8', errors='ignore'), True
-    html = _read(url).decode('utf-8', errors='ignore')
+    html = _read(url, referer=referer).decode('utf-8', errors='ignore')
     _atomic_write(path, html)
     if delay:
         time.sleep(delay)
     return html, False
 
 
-def fetch_bytes(url):
+def fetch_bytes(url, referer=None):
     IMGDIR_CACHE.mkdir(parents=True, exist_ok=True)
     key = hashlib.sha1(url.encode()).hexdigest() + Path(urlparse(url).path).suffix
     path = IMGDIR_CACHE / key
     if path.exists():
         return path.read_bytes()
-    raw = _read(url)
+    raw = _read(url, referer=referer)
     _atomic_write(path, raw)
     return raw
 
 
-def fetch_bytes(url):
-    IMGDIR_CACHE.mkdir(parents=True, exist_ok=True)
-    key = hashlib.sha1(url.encode()).hexdigest() + Path(urlparse(url).path).suffix
-    path = IMGDIR_CACHE / key
-    if path.exists():
-        return path.read_bytes()
-    raw = _read(url)
-    path.write_bytes(raw)
-    return raw
-
-
 # ------------------------------------------------------------ page discovery
+def _core_host(host):
+    """`www.famillepierregaillard.com:80` -> `famillepierregaillard.com`"""
+    return (host or '').lower().split('@')[-1].split(':')[0].replace('www.', '')
+
+
+def _lcs_suffix(a, b):
+    """(longest common substring length, whether it ends both strings)."""
+    best, best_end_a, best_end_b = 0, 0, 0
+    prev = [0] * (len(b) + 1)
+    for i in range(1, len(a) + 1):
+        cur = [0] * (len(b) + 1)
+        for j in range(1, len(b) + 1):
+            if a[i - 1] == b[j - 1]:
+                cur[j] = prev[j - 1] + 1
+                if cur[j] > best:
+                    best, best_end_a, best_end_b = cur[j], i, j
+        prev = cur
+    suffix = (best and best_end_a == len(a) and best_end_b == len(b))
+    return best, suffix
+
+
+def hosts_related(a, b):
+    """Do two hostnames look like the same estate's old and new domain?
+
+    Domain migrations are common and they break naive "same netloc" link
+    filtering: `domainespierregaillard.com` now serves a shell while the content
+    lives on `famillepierregaillard.com`, and `domainecheze.com` points at
+    `louischeze.com`. Sharing a long brand word is the signal.
+
+    Guard rails: the shared run must be reasonably long, and a short run only
+    counts when it ends both names (the brand word is the tail in these cases).
+    """
+    ca, cb = _core_host(a), _core_host(b)
+    if not ca or not cb:
+        return False
+    if ca == cb:
+        return True
+    flat_a, flat_b = ca.replace('.', ''), cb.replace('.', '')
+    n, suffix = _lcs_suffix(flat_a, flat_b)
+    if n >= 6:
+        return True
+    return n >= 4 and suffix
+
+
 def wine_page_links(html, base):
     """Internal links whose URL or anchor text suggests a wines/products page."""
-    host = urlparse(base).netloc.replace('www.', '')
+    base_host = urlparse(base).netloc
     out, seen = [], set()
     for m in re.finditer(r'<a\b[^>]*href=["\']([^"\']+)["\'][^>]*>(.*?)</a>', html, re.I | re.S):
-        href, text = m.group(1), re.sub(r'<[^>]+>', ' ', m.group(2))
+        href, text = html_lib.unescape(m.group(1)), re.sub(r'<[^>]+>', ' ', m.group(2))
         text = re.sub(r'\s+', ' ', text).strip().lower()
         url = urljoin(base, href)
         pu = urlparse(url)
-        if pu.netloc.replace('www.', '') != host:
+        if _core_host(pu.netloc) != _core_host(base_host) \
+                and not hosts_related(base_host, pu.netloc):
             continue
         if any(url.lower().endswith(e) for e in IMG_EXT + ('.pdf', '.zip')):
             continue
@@ -281,9 +394,20 @@ def page_images(html, base):
     found = []
 
     def add(u, alt=''):
+        u = html_lib.unescape((u or '').strip())
         if not u:
             return
-        found.append((urljoin(base, u.strip()), alt))
+        # A srcset-like string that never got split ("a.png 720w, b.png 960w")
+        # used to be queued as one bogus URL; split it and keep the first token
+        # of each part ("Tradition-278x540.png 720w" -> "Tradition-278x540.png").
+        parts = [u] if ',' not in u else [p for p in u.split(',')]
+        for part in parts:
+            p = part.strip().split(' ')[0].split('\t')[0]
+            if not p:
+                continue
+            cand = urljoin(base, p)
+            if is_fetchable_url(cand):
+                found.append((cand, alt))
 
     for m in re.finditer(r'<img\b[^>]*>', html, re.I):
         tag = m.group(0)
@@ -453,7 +577,7 @@ def open_site(url, key, delay):
     last = None
     for cand in site_variants(url):
         try:
-            return fetch_html(cand, key, delay), cand
+            return fetch_html(cand, key, delay, referer=cand), cand
         except Exception as err:  # noqa: BLE001
             last = err
     raise last
@@ -605,7 +729,7 @@ def process(item, i, total):
             'width': w, 'height': h, 'aspect': round(h / w, 2) if w else None,
             'hasAlpha': alpha, 'bytes': len(raw),
             'sha256': hashlib.sha256(raw).hexdigest(),
-            'retrievedAt': '2026-09-13',
+            'retrievedAt': RUN_DATE,
             'rights': rights, 'watermark': '未去水印；未放大；仅原尺寸保存',
         })
         return role
@@ -673,15 +797,24 @@ def process(item, i, total):
         entry['websiteLive'] = live
         entry['pagesVisited'].append(live)
         wine_tokens |= wine_name_tokens(home, brand)
+        # Pages may now legitimately sit on a sibling host (estate migration),
+        # so robots.txt is consulted for whichever host each page lives on.
+        def allowed(u):
+            pu = urlparse(u)
+            if pu.netloc == urlparse(live).netloc:
+                local = rp
+            else:
+                local, _ = robots_for('%s://%s' % (pu.scheme, pu.netloc))
+            return local is None or local.can_fetch(HEADERS['User-Agent'], u)
+
         for link in wine_page_links(home, live):
-            if rp is not None and not rp.can_fetch(HEADERS['User-Agent'], link):
-                continue
-            pages.append(link)
+            if allowed(link):
+                pages.append(link)
         # a caller may name pages the generic link rules would miss (estate,
         # commitments, contact) - they carry the people and terroir pictures
         for extra in (item.get('extraPages') or []):
             u = extra if extra.startswith('http') else urljoin(live, extra)
-            if u not in pages and (rp is None or rp.can_fetch(HEADERS['User-Agent'], u)):
+            if u not in pages and allowed(u):
                 pages.append(u)
     except Exception as err:  # noqa: BLE001
         entry['failures'].append({'url': entry['website'],
@@ -698,7 +831,7 @@ def process(item, i, total):
             html, _ = fetch_html(
                 url, 'wsite-%s-%s' % (slug,
                                       re.sub(r'\W+', '-', urlparse(url).path)[-40:] or 'x'),
-                delay)
+                delay, referer=live)
             entry['pagesVisited'].append(url)
             wine_tokens |= wine_name_tokens(html, brand)
             for u, alt in page_images(html, url):
@@ -724,10 +857,10 @@ def process(item, i, total):
             break
         full = derive_full_size(u) or u
         try:
-            raw = fetch_bytes(full)
+            raw = fetch_bytes(full, referer=page)
         except Exception as err:  # noqa: BLE001
             try:
-                raw, full = fetch_bytes(u), u
+                raw, full = fetch_bytes(u, referer=page), u
             except Exception:  # noqa: BLE001
                 entry['failures'].append({'url': full, 'error': str(err)})
                 continue
@@ -770,7 +903,7 @@ def main():
     def _save():
         with _LOCK:
             _atomic_write(manifest_path, json.dumps(
-                {'date': '2026-09-13', 'producers': list(manifest.values())},
+                {'date': RUN_DATE, 'producers': list(manifest.values())},
                 ensure_ascii=False, indent=1) + '\n')
 
     save = _save

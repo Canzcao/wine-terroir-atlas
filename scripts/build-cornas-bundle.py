@@ -235,6 +235,100 @@ def main():
             '%d 张产区级图片，来自 AOC Cornas 官网（terroir / aoc / histoire / 活动页）。'
             '协会官网只提供 260–600px 小图，无更大原图，未做放大。' % len(region_images))
 
+    # 酒庄图片：各家官网的人物/庄园照与酒款瓶标图，已逐张人工目视复核
+    # （结论在 work/cornas/visual-review.json，回写后的 classificationMethod
+    # 为 'agent-visual-review'，reviewNote 为中文读标结论）。
+    prod_manifest = OUT / 'images' / 'wine-image-manifest.json'
+    prod_by_slug = {}
+    if prod_manifest.exists():
+        pm = json.loads(prod_manifest.read_text())
+        prod_by_slug = {p['slug']: p for p in pm['producers']}
+
+    # 名录写法与官网检索名不一致的，按别名对齐（名录把这家写成 "MICHEL JOHANN"，
+    # 官网/市场写法是 Domaine Johann Michel）。
+    MANIFEST_SLUG_ALIASES = {'michel-johann': 'domaine-johann-michel'}
+
+    producer_images, reviewed_images, unreached, partial = 0, 0, [], []
+    producers_with_images = 0
+    cornas_appellation = []
+    appellation_tally = {}
+    for rec in records:
+        if rec['kind'] != 'winery':
+            continue
+        slug = rec['id'][len('winery-cornas-'):]
+        entry = prod_by_slug.get(slug) or \
+            prod_by_slug.get(MANIFEST_SLUG_ALIASES.get(slug, ''))
+        if not entry:
+            continue
+        imgs = entry.get('images') or []
+        fails = entry.get('failures') or []
+        if fails:
+            # 有失败 URL 不等于整站抓不到：只有"一张都没下来"才算站点未达。
+            # 单个 URL 失败（空格未编码、重定向 /pages 缺 ID、老图 404、TLS 握手）很常见，
+            # 只留计数与前 3 条样例，错误串截断，避免把爬虫日志原样塞进交付包。
+            sample = []
+            for f in fails[:3]:
+                sample.append({
+                    'url': (f.get('url') or '')[:160],
+                    'error': str(f.get('error') or '')[:160],
+                })
+            item = {
+                'producer': rec['name'], 'slug': slug,
+                'website': entry.get('website'),
+                'kind': 'site-unreached' if not imgs else 'partial-image-failures',
+                'failureCount': len(fails),
+                'sampleFailures': sample,
+                'note': ('官网站点本次未能抓到任何图片（域名失效/403/502/超时等），'
+                         '不是“该庄没有图”，下次优先重试。' if not imgs else
+                         '多数图片已抓到，以下地址本次失败（空格未编码/老图 404/TLS 等），'
+                         '不影响已入库的图。'),
+            }
+            if not imgs:
+                unreached.append(item)
+            else:
+                partial.append(item)
+        if not imgs:
+            continue
+        out_imgs = []
+        for img in imgs:
+            row = {
+                'file': img['file'],
+                'relativePath': 'images/%s/%s' % (slug, img['file']),
+                'role': img.get('role'),
+                'attribution': img.get('attribution'),
+                'appellation': img.get('appellation'),
+                'confidence': img.get('confidence'),
+                'classificationMethod': img.get('classificationMethod'),
+                'reviewNote': img.get('reviewNote'),
+                'altText': img.get('altText'),
+                'sourcePage': img.get('sourcePage'),
+                'directURL': img.get('directURL'),
+                'width': img.get('width'), 'height': img.get('height'),
+                'bytes': img.get('bytes'), 'sha256': img.get('sha256'),
+                'checkedDate': DATE,
+            }
+            out_imgs.append(row)
+            if img.get('classificationMethod') == 'agent-visual-review':
+                reviewed_images += 1
+                if img.get('appellation'):
+                    appellation_tally[img['appellation']] = \
+                        appellation_tally.get(img['appellation'], 0) + 1
+            if img.get('appellation') == 'Cornas':
+                cornas_appellation.append({
+                    'producer': rec['name'], 'slug': slug, 'file': img['file'],
+                    'relativePath': row['relativePath'],
+                })
+        rec['data']['images'] = out_imgs
+        rec['data']['imageSummary'] = (
+            '%d 张官网图片（人物/庄园照 + 酒款瓶标图）；其中 %d 张经逐张目视复核，'
+            '%d 张标面读得出 Cornas。' % (
+                len(out_imgs),
+                sum(1 for i in out_imgs
+                    if i['classificationMethod'] == 'agent-visual-review'),
+                sum(1 for i in out_imgs if i['appellation'] == 'Cornas')))
+        producer_images += len(out_imgs)
+        producers_with_images += 1
+
     (OUT / 'catalog-additions.json').write_text(json.dumps({
         'date': DATE, 'regionId': 'cornas',
         'schemaNote': '字段与网站 public/wineries.js 读取的 winery 记录一致；含 1 条 region 记录。',
@@ -246,12 +340,20 @@ def main():
                                    if r['kind'] == 'winery' and r['data']['lat'] is not None),
             'withWebsite': sum(1 for r in records
                                if r['kind'] == 'winery' and r['data'].get('website')),
-            'withImages': len(region_images),
+            'withImages': len(region_images) + producer_images,
             'heldForReview': len(held),
             'noEvidencedLocation': sum(1 for r in records if r['kind'] == 'winery'
                                        and r['data']['lat'] is None) - len(held),
             'regionImages': len(region_images),
+            'producerImages': producer_images,
+            'producersWithImages': producers_with_images,
+            'reviewedImages': reviewed_images,
+            'cornasAppellationImages': len(cornas_appellation),
         },
+        'cornasAppellationImages': cornas_appellation,
+        'producerImagesUnreached': unreached,
+        'producerImagePartialFailures': partial,
+        'appellationTallyFromReview': appellation_tally,
         'records': records,
     }, ensure_ascii=False, indent=1) + '\n')
 
@@ -325,6 +427,10 @@ def main():
             'summary': '受欧洲遗产日启发的年度酒庄开放活动，Cornas 与 Saint-Péray 的酒庄同时开门接待。',
             'sourceName': 'AOC Cornas · 官方期刊', 'sourceURL':
                 'https://www.aoc-cornas.fr/actualite-vignobles-en-scene-18-et-19-octobre-2025_19.html',
+            'verification': '协会官方期刊页面标题即写明「18 et 19 octobre 2025」，'
+                            '正文说明 Cornas 与 Saint-Péray 酒庄同时开放。'
+                            '**单一官方一手来源**，未在其他独立来源交叉核对。',
+            'checkedDate': DATE,
         },
         {
             'id': 'event-cornas-degustation-lyon-2025',
@@ -339,6 +445,11 @@ def main():
             'summary': '面向酒商、餐厅、侍酒师与买家的两产区联合专业品鉴会。',
             'sourceName': 'AOC Cornas · 官方期刊', 'sourceURL':
                 'https://www.aoc-cornas.fr/actualite-degustation-professionnelle-lyon_20.html',
+            'verification': '协会官方期刊页面正文写明「Lundi 17 novembre 2025, '
+                            'de 14h à 18h30」，为单日专业场。场地 Château de Montchat '
+                            '(Lyon 3e) 为页面对应地点，坐标取自 OSM 实体而非页面文字。'
+                            '**单一官方一手来源**，未在其他独立来源交叉核对。',
+            'checkedDate': DATE,
         },
         {
             'id': 'event-cornas-masterclass-dvr-2025',
@@ -355,6 +466,12 @@ def main():
                        '主持「Cornas & Saint-Péray 双产区面对时代挑战」大师班。',
             'sourceName': 'AOC Cornas · 官方期刊', 'sourceURL':
                 'https://www.aoc-cornas.fr/actualite-decouvertes-en-vallee-du-rhone-evenement-pro--ne-manquez-pas-la-masterclass-%3C%3C-cornas--saint-peray-%3E%3E-de-xavier-thuizat-_18.html',
+            'verification': '协会官方期刊页面写明沙龙整体日期「31 mars au 3 avril 2025」，'
+                            '并列出 Xavier Thuizat 主持的 Cornas & Saint-Péray 大师班。'
+                            '**大师班的单场次日期页面未给出**，登记的 startDate/endDate 是'
+                            '沙龙区间、不是大师班当天，勿当作大师班日期引用。'
+                            '单一官方一手来源。',
+            'checkedDate': DATE,
         },
         {
             'id': 'event-cornas-journee-technique-2024',
@@ -372,6 +489,12 @@ def main():
                        '农户经验交流。',
             'sourceName': 'AOC Cornas · 官方期刊', 'sourceURL':
                 'https://www.aoc-cornas.fr/actualite-retour-sur-la-journee-technique-des-vignerons-de-cornas--saint-peray_17.html',
+            'verification': '协会官方期刊页面正文写「Le 15 novembre dernier」，'
+                            '**未直写年份**；年份 2024 由同页上下文（2024 年防治策略复盘）'
+                            '与页面图片文件名「Journée technique 2024.png」推定，属推定值。'
+                            '日期（11-15）与地点（Maison des Vins et du Tourisme, '
+                            'Saint-Péray）为页面所载。单一官方一手来源，年份为推定。',
+            'checkedDate': DATE,
         },
         {
             'id': 'event-cornas-marche-aux-vins-2024',
@@ -386,6 +509,10 @@ def main():
             'summary': '产区年度葡萄酒集市，酒农直接对公众开瓶销售。',
             'sourceName': 'AOC Cornas · 官方期刊', 'sourceURL':
                 'https://www.aoc-cornas.fr/actualite-68eme-marche-aux-vins-_15.html',
+            'verification': '协会官方期刊页面写明「Les 29, 30 novembre et '
+                            '1er décembre 2024」，并标明为第 68 届。'
+                            '**单一官方一手来源**，未在其他独立来源交叉核对。',
+            'checkedDate': DATE,
         },
         {
             'id': 'event-cornas-plaza-athenee-2024',
@@ -400,6 +527,10 @@ def main():
             'summary': '逾 500 名业内人参加的两产区双年品鉴会。',
             'sourceName': 'AOC Cornas · 官方期刊', 'sourceURL':
                 'https://www.aoc-cornas.fr/actualite-plaza-athenee-2024_16.html',
+            'verification': '协会官方期刊页面写明「Le mardi 07 novembre 2024」，'
+                            '地点 Hôtel Plaza Athénée（Paris 8e）为页面对应场地，'
+                            '坐标取自 OSM 实体。**单一官方一手来源**。',
+            'checkedDate': DATE,
         },
         {
             'id': 'event-cornas-80ans-2018',
@@ -415,6 +546,11 @@ def main():
             'summary': '产区协会在 Cornas 举办八十周年纪念晚会。',
             'sourceName': 'AOC Cornas · 官方期刊', 'sourceURL':
                 'https://www.aoc-cornas.fr/actualite-80-ans-de-laoc--porter-haut-les-couleurs-de-cornas-_4.html',
+            'verification': '协会官方期刊页面写「Le 29 novembre dernier」并称当日为产区 80 周年。'
+                            '**年份 2018 为推定值**（AOC 1938 年获批，1938+80=2018），'
+                            '页面未直写年份，日报也不得宣称直写了年份。'
+                            '单一官方一手来源，年份含推定成分。',
+            'checkedDate': DATE,
         },
     ]
 
@@ -485,6 +621,23 @@ def main():
                 ],
                 'action': '仅单一来源，未回查 Journal Officiel 原文；登记为“来源所载”而非定论。',
             },
+            {
+                'field': '名录生产者的出产区间',
+                'values': [
+                    {'value': '名录收录 71 条，其中含产区外酒商与合作社（官方名录）',
+                     'source': 'AOC Cornas 官方名录'},
+                    {'value': '官网图上实际读到 %d 个不同产区/级别：%s'
+                              % (len(appellation_tally),
+                                 '、'.join('%s %d 张' % (k, n) for k, n
+                                           in sorted(appellation_tally.items(),
+                                                     key=lambda x: -x[1]))),
+                     'source': '本次逐张读标（agent-visual-review）'},
+                ],
+                'action': 'Cornas 名录里的生产者普遍同时出产 Saint-Joseph / Crozes-Hermitage / '
+                          'Saint-Péray / Hermitage / Condrieu / Côtes du Rhône / IGP 等酒款。'
+                          '只有标面明确写 CORNAS 的图登记为 Cornas 酒款图；其余原样保留但 '
+                          'appellation 写明真实产区，配图时不得当作 Cornas 酒款使用。',
+            },
         ],
     }, ensure_ascii=False, indent=1) + '\n')
 
@@ -515,6 +668,13 @@ def main():
                                    if r['kind'] == 'winery' and r['data']['lat'] is not None))
     print('with website:', sum(1 for r in records
                                if r['kind'] == 'winery' and r['data'].get('website')))
+    print('region images:', len(region_images))
+    print('producer images:', producer_images,
+          '| producers with images:', producers_with_images,
+          '| reviewed:', reviewed_images,
+          '| read as Cornas:', len(cornas_appellation))
+    print('producer sites unreached (0 images):', len(unreached),
+          '| sites with partial URL failures:', len(partial))
     print('events:', len(events), 'heldBack:', len(held_back))
     print('out:', OUT)
 

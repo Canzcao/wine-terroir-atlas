@@ -1,7 +1,7 @@
 {
  "timeZone": "Asia/Shanghai",
  "startTime": "09:00",
- "activeRegion": "condrieu",
+ "activeRegion": "saint-peray",
  "strategy": "先完成未完成地区，再按官方边界选择下一个产区；大区可拆为真实子产区，逐日追踪覆盖。",
  "queue": [
   {
@@ -27,7 +27,59 @@
    "id": "cornas",
    "name": "Cornas AOC",
    "country": "法国",
-   "status": "queued"
+   "status": "collected",
+   "checkedDate": "2026-09-14",
+   "producerBaseline": 71,
+   "producersChecked": 71,
+   "note": "003期已采集并并入站点目录：官方名录 71 条照录，4 家有 OSM 坐标证据，698 张官网图（38 家有图）逐张复核，读标确认 Cornas 酒款图 28 张，7 条事件。并库结果：新增 63 条 + 9 家跨产区就地补齐，目录 254 → 317 条，对已发布记录 0 覆盖。缺口：仍无 wine/vintage 级记录。",
+   "sourceURL": "https://www.aoc-cornas.fr/cornas-producteurs.html",
+   "deliveredTo": "wine-content-studio/outputs/collect/2026-09-14/003期-Cornas-采集包-2026-09-14.zip"
+  },
+  {
+   "id": "saint-joseph",
+   "name": "Saint-Joseph AOC",
+   "country": "法国",
+   "status": "collected",
+   "checkedDate": "2026-09-14",
+   "producerBaseline": 190,
+   "directoryListed": 181,
+   "note": "005期。官方口径 190 metteurs en marché；协会名录单页列出 181 家（原页 182 条，含 1 条原样重复已去重）。入口 https://www.aoc-saint-joseph.fr/producteurs-saint-joseph.html 为静态字母序列表，含地址/电话/邮箱/官网。26 村镇（阿德什 23 + 卢瓦尔 3）。 005期已交付（zip 696 MB，于 2026-09-15 01:26 交 content studio）。",
+   "sourceURL": "https://www.aoc-saint-joseph.fr/producteurs-saint-joseph.html",
+   "regionFactsSource": "https://www.aoc-saint-joseph.fr/uploads/DP-STJO-2025(2)_compressed.pdf",
+   "deliveredTo": "wine-content-studio/outputs/collect/2026-09-14/005期-Saint-Joseph-采集包-2026-09-14.zip"
+  },
+  {
+   "id": "crozes-hermitage",
+   "name": "Crozes-Hermitage AOC",
+   "country": "法国",
+   "status": "collected",
+   "note": "006期。名录经 Joomla com_mymaplocations API 双端点核对（search + getListname，各 136 条）。官网 87/136；OSM 坐标证据 15 家（9 条转人工复核，4 条窗外真实企业）；官网图 608 张（102 家有图，酒款相关 302 张、289 张经人工读图复核）；产区图 23 张；事件 3（1 条 upcoming：La Grande Tablée 2026-09-20）+ 5 条 heldBack。并库：新增 91 条 + 46 家跨产区就地补齐，目录 460 → 551 条。缺口：wine/vintage 级结构化记录仍为 0；famillecheron.com 同域双记录（Poinard/Chéron）待主体确认。",
+   "checkedDate": "2026-09-15",
+   "producerBaseline": 136,
+   "producersChecked": 136,
+   "sourceURL": "https://www.crozes-hermitage-vin.fr/fr/caves-maisons",
+   "deliveredTo": "wine-content-studio/outputs/collect/2026-09-15/006期-Crozes-Hermitage-采集包-2026-09-15.zip"
+  },
+  {
+   "id": "saint-peray",
+   "name": "Saint-Péray AOC",
+   "country": "法国",
+   "status": "queued",
+   "note": "无自有 -vin.fr 名录站（saint-peray-vin.fr 返回 000）；待另找协会名录入口。"
+  },
+  {
+   "id": "hermitage",
+   "name": "Hermitage AOC",
+   "country": "法国",
+   "status": "queued",
+   "note": "无自有 -vin.fr 名录站（hermitage-vin.fr 返回 000）；待另找协会名录入口。"
+  },
+  {
+   "id": "cote-rotie",
+   "name": "Côte-Rôtie AOC",
+   "country": "法国",
+   "status": "queued",
+   "note": "无自有 -vin.fr 名录站（cote-rotie-vin.fr 返回 000）；待另找协会名录入口。"
   }
  ]
 }

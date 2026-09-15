@@ -10,6 +10,13 @@ image without ambiguity.
 
 Usage:
   python3 scripts/build-contact-sheets.py <manifest.json> <outdir> [--per-sheet 20]
+                                          [--mode all|wine|review|every]
+                                          [--skip-reviewed <visual-review.json>]
+
+--skip-reviewed is for incremental rounds: the manifest is rewritten every time a
+producer is added, so re-running the whole sheet set on each round is wasteful.
+Pass the review file already written and only the images still lacking a verdict
+get laid out. Keys are `slug|file`, matching what apply-visual-review.py consumes.
 """
 import io, json, sys
 from pathlib import Path
@@ -32,7 +39,16 @@ def load_font(size=16):
     return ImageFont.load_default()
 
 
-def select(manifest, mode='all'):
+def load_reviewed_keys(path):
+    """`slug|file` keys that already carry a verdict."""
+    if not path:
+        return set()
+    data = json.loads(Path(path).read_text())
+    reviews = data.get('reviews', data)
+    return {str(k) for k in reviews}
+
+
+def select(manifest, mode='all', skip=None):
     """Images whose role is uncertain enough to need eyes on them.
 
     mode 'wine'   -> everything currently called a bottle or a label
@@ -40,7 +56,9 @@ def select(manifest, mode='all'):
     mode 'every'  -> the whole set (for a single flagship estate)
     mode 'all'    -> wine plus queued
     """
+    skip = skip or set()
     out = []
+    skipped = 0
     for e in manifest.get('producers') or []:
         for g in e.get('images') or []:
             is_wine = g['role'] in ('wine-bottle', 'wine-label')
@@ -51,7 +69,12 @@ def select(manifest, mode='all'):
                 continue
             if mode == 'all' and not (is_wine or is_review):
                 continue
+            if '%s|%s' % (e['slug'], g['file']) in skip:
+                skipped += 1
+                continue
             out.append((e['slug'], e['name'], g))
+    if skip:
+        print('already reviewed, skipped: %d' % skipped)
     return out
 
 
@@ -70,7 +93,12 @@ def main():
         per_sheet = int(sys.argv[sys.argv.index('--per-sheet') + 1])
     rows = (per_sheet + COLS - 1) // COLS      # never clip the last row
 
-    items = select(manifest, mode)
+    skip_reviewed = None
+    if '--skip-reviewed' in sys.argv:
+        skip_reviewed = sys.argv[sys.argv.index('--skip-reviewed') + 1]
+    reviewed_keys = load_reviewed_keys(skip_reviewed)
+
+    items = select(manifest, mode, reviewed_keys)
     index, sheets = {}, []
     font = load_font(15)
 

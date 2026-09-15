@@ -24,9 +24,17 @@ Only the keys present are applied; anything omitted keeps its heuristic value
 but is marked as still unverified.
 
 Usage: python3 scripts/apply-visual-review.py <manifest.json> <review.json>
+
+The verdict is stamped `reviewedAt` with the day the review is applied, not with
+the manifest header date: a 2-hour crawl of 181 producers routinely runs past
+midnight, so hanging the review date off the collection date back-dates it by a
+day. Override with WINE_REVIEW_DATE to re-apply a past review.
 """
-import json, sys
+import json, os, sys
+from datetime import date
 from pathlib import Path
+
+REVIEW_DATE = os.environ.get('WINE_REVIEW_DATE') or date.today().isoformat()
 
 VALID_ROLES = {
     'wine-bottle', 'wine-label', 'wine-photo', 'producer-people',
@@ -50,6 +58,9 @@ def main():
     manifest = json.loads(manifest_path.read_text())
     review = json.loads(review_path.read_text())
 
+    already_reviewed = sum(
+        1 for e in (manifest.get('producers') or []) for i in (e.get('images') or [])
+        if i.get('classificationMethod') == 'agent-visual-review')
     changed, unknown = 0, []
     for entry in manifest.get('producers') or []:
         slug = entry['slug']
@@ -75,7 +86,7 @@ def main():
             else:
                 img['confidence'] = 'high'
             img['classificationMethod'] = 'agent-visual-review'
-            img['reviewedAt'] = manifest.get('date', '2026-09-13')
+            img['reviewedAt'] = REVIEW_DATE
             img['reviewNote'] = verdict.get('note')
             img['reviewAs'] = None
             changed += 1
@@ -88,7 +99,11 @@ def main():
                                      'classificationMethod 标明来源，便于下游区分机判与核判。')
     manifest_path.write_text(json.dumps(manifest, ensure_ascii=False, indent=1) + '\n')
 
-    print('applied %d verdicts' % changed)
+    print('applied %d verdicts (reviewedAt=%s)' % (changed, REVIEW_DATE))
+    print('  already carried a visual verdict before this run: %d' % already_reviewed)
+    print('  still heuristic (never reviewed): %d'
+          % sum(1 for e in (manifest.get('producers') or []) for i in (e.get('images') or [])
+                if i.get('classificationMethod') != 'agent-visual-review'))
     if missing:
         print('review keys with no matching image: %d' % len(missing))
         for k in missing[:10]:
