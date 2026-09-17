@@ -111,7 +111,19 @@ def main():
     if len(sys.argv) > 3:
         bbox = [float(x) for x in sys.argv[3].split(',')]
     results = []
+    done = set()
+    if target.exists() and '--fresh' not in sys.argv:
+        try:
+            prev = json.loads(target.read_text())
+            results = [r for r in prev if r.get('id') in {p['id'] for p in producers}]
+            done = {r['id'] for r in results}
+            if done:
+                print('resuming: %d/%d already collected' % (len(done), len(producers)), flush=True)
+        except Exception:
+            results, done = [], set()
     for index, item in enumerate(producers, 1):
+        if item['id'] in done:
+            continue
         query = '%s, %s' % (item['name'], item.get('country', 'France'))
         rows = fetch({'q': query, 'format': 'json', 'limit': 5,
                       'addressdetails': 1, 'extratags': 1})
@@ -159,6 +171,9 @@ def main():
             print('%3d/%d  %-42s none (%d rows seen)' % (index, len(producers), item['name'],
                                                          len(rows)), flush=True)
         time.sleep(1.1)  # Nominatim usage policy: max 1 request per second
+        # Save progressively: a run of ~40 producers takes longer than the
+        # execution window in some environments and used to lose everything.
+        target.write_text(json.dumps(results, ensure_ascii=False, indent=1) + '\n')
     target.write_text(json.dumps(results, ensure_ascii=False, indent=1) + '\n')
     matched = sum(1 for r in results if r['status'] == 'matched')
     print('\nwrote %s\nmatched %d/%d' % (target, matched, len(results)))

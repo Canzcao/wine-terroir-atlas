@@ -1,6 +1,6 @@
 {
- "updatedAt": "2026-09-15T12:40:28.000Z",
- "checkedAt": "2026-09-15T12:40:28.000Z",
+ "updatedAt": "2026-09-17T07:09:46.000Z",
+ "checkedAt": "2026-09-17T07:09:46.000Z",
  "schedule": "每天北京时间 09:00 检索更新",
  "events": [
   {
@@ -480,6 +480,46 @@
    "sourceURL": "https://billetterie.crozes-hermitage-vin.fr/billets/product/la-grande-tablee-des-crozes-hermitage",
    "verification": "协会自有售票站的商品页给出日期（Dimanche 20 septembre 2026）、时段（12h–17h）、地点（Tain-l’Hermitage，quai Arthur Rostaing）、票档（80 € / 40 €，10 张起 −15%）与出席生产者名单；协会官网首页轮播（crozes-hermitage-vin.fr/fr/）同文并给出同一售票入口。两处均为产区协会自有渠道，日期与地点互相印证。菜单细节（brasero、DJ、酒款年份举例）来自售票页叙述，属主办方自述。",
    "checkedDate": "2026-09-15"
+  },
+  {
+   "id": "event-saint-peray-maison-des-vins-afterworks-2026",
+   "title": "圣佩雷「葡萄酒之家」傍晚酒会：酒农×本地餐饮每周三配对开坛",
+   "type": "event",
+   "subtype": "wine-tourism",
+   "startDate": "2026-07-29",
+   "endDate": "2026-08-26",
+   "dateNote": "旅游局活动页逐场列出 2026 年 4 个周三场次（7/29、8/5、8/19、8/26，各 18:30-22:00）。startDate/endDate 取页面上首末两场的日期，是**系列场次区间**，不是官方写的一段时间；截至本期核对（2026-09-17）该页「There are no active availability」，列出场次均已过去，不得当作即将举行的活动发布。",
+   "publishedDate": null,
+   "lat": null,
+   "lng": null,
+   "precision": "法国阿尔代什省 Saint-Péray 2 rue de la République 的 Maison des Vins & du Tourisme（单一场地，露天悬铃木下）",
+   "country": "法国",
+   "region": "Saint-Péray",
+   "summary": "产区自己的「葡萄酒之家」夏季傍晚酒会：每个周三由罗讷-克吕索尔产区的酒农与本地餐饮从业者结对，在悬铃木树荫下做餐酒配对，16 € 一价。报名页显示当前无可订场次，本季场次已结束。",
+   "sourceName": "Rhône Crussol Tourisme（罗讷-克吕索尔旅游局）活动详情页",
+   "sourceURL": "https://www.rhone-crussol-tourisme.com/en/see-do-calendar/calendar/detail/wines/saint-peray-6425837/afterworks-a-la-maison-des-vins-7296902/",
+   "verification": "旅游局官方活动页，逐场写明日期、时间、地点与票价；页面上当前无可订场次（活动已过）。单一官方一手来源，未在其他独立来源交叉核对。",
+   "checkedDate": "2026-09-17"
+  },
+  {
+   "id": "event-northern-rhone-syrah-unesco-tasting-2026",
+   "title": "北罗讷「西拉摇篮」公众品鉴：八大 AOP 品种集体亮相（申遗配套活动）",
+   "type": "event",
+   "subtype": "tasting",
+   "startDate": "2026-09-19",
+   "endDate": "2026-09-20",
+   "dateNote": "旅游局日历页原文「From Saturday 19 to Sunday 20 September 2026 from 15 p.m. to 18 p.m.」。",
+   "publishedDate": null,
+   "lat": null,
+   "lng": null,
+   "precision": "法国罗讷省 Tupin-et-Semons（Côte-Rôtie 河段村镇）；该活动面向北罗讷八个 AOP，不在 Saint-Péray 村内",
+   "country": "法国",
+   "region": "北罗讷（Tupin-et-Semons，Côte-Rôtie 村镇；Saint-Péray 属同一批八个 AOP）",
+   "summary": "北罗讷申请联合国教科文组织世界遗产的配套公众活动：下午由侍酒师学生讲解北罗讷八个 AOP （含 Saint-Péray）的西拉、维欧尼耶、玛珊、胡珊等品种特征，免费参加。",
+   "sourceName": "Ardèche Grand Air Tourist Office（阿尔代什大 airs 旅游局）日历页",
+   "sourceURL": "https://en.ardechegrandair.com/calendar/7935100_northern-rhone-valley--cradle-of-Syrah",
+   "verification": "旅游局官方日历页写明日期、时段、地点与免费；活动说明其属于北罗讷申遗流程。单一官方一手来源，未在其他独立来源交叉核对。",
+   "checkedDate": "2026-09-17"
   }
  ]
 }

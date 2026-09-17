@@ -1,7 +1,7 @@
 {
  "timeZone": "Asia/Shanghai",
  "startTime": "09:00",
- "activeRegion": "saint-peray",
+ "activeRegion": "hermitage",
  "strategy": "先完成未完成地区，再按官方边界选择下一个产区；大区可拆为真实子产区，逐日追踪覆盖。",
  "queue": [
   {
@@ -64,8 +64,13 @@
    "id": "saint-peray",
    "name": "Saint-Péray AOC",
    "country": "法国",
-   "status": "queued",
-   "note": "无自有 -vin.fr 名录站（saint-peray-vin.fr 返回 000）；待另找协会名录入口。"
+   "status": "collected",
+   "note": "007期。协会官网 saint-peray.net（多页 profile 站，/producer/<slug>/）逐页核对 37 家；官网 31/37（名录 6 家未提供）；OSM 坐标两轮检索（无界 + 北罗讷有界 viewbox）采纳 7、同名异地等转人工复核 3、无实体证据 27；图片 666 张（协会模块 68 张人工读标复核：36 张标面 SAINT-PÉRAY、1 张实为 CORNAS、1 张 SVG 不可判读），产区级图 10 张；事件 2 条 + heldBack 4 条；并库新增 16 条 + 22 家跨产区就地补齐，目录 551→567。缺口：wine/vintage 级结构化记录仍为 0；598 张官网图未人工复核；6 家名录未给官网（Clape、Durand、Guillaume Gilles 等）；名录把 Hauts Chassis 官网误填为 Courvoisier 域名，本期不采纳。",
+   "checkedDate": "2026-09-17",
+   "producerBaseline": 37,
+   "producersChecked": 37,
+   "sourceURL": "https://saint-peray.net/nos-vignerons/",
+   "deliveredTo": "wine-content-studio/outputs/collect/2026-09-17/007期-Saint-Péray-采集包-2026-09-17.zip"
   },
   {
    "id": "hermitage",
