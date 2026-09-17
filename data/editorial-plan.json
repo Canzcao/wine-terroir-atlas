@@ -31,7 +31,7 @@
    "checkedDate": "2026-09-14",
    "producerBaseline": 71,
    "producersChecked": 71,
-   "note": "003期已采集并并入站点目录：官方名录 71 条照录，4 家有 OSM 坐标证据，698 张官网图（38 家有图）逐张复核，读标确认 Cornas 酒款图 28 张，7 条事件。并库结果：新增 63 条 + 9 家跨产区就地补齐，目录 254 → 317 条，对已发布记录 0 覆盖。缺口：仍无 wine/vintage 级记录。",
+   "note": "003期已采集并并入站点目录：官方名录 71 条照录，4 家有 OSM 坐标证据，698 张官网图（38 家有图）逐张复核，读标确认 Cornas 酒款图 28 张，7 条事件。并库结果：新增 63 条 + 9 家跨产区就地补齐，目录 254 → 317 条，对已发布记录 0 覆盖。缺口：仍无 wine/vintage 级记录。 2026-09-17 增补轮：官网搜索（新确认 julienpilon.fr、jdenuziere.fr 直采；domaine-durand.fr 归属存疑已隔离）+ 0 图酒庄重试（Lionnet +9），图片 698→730（41 家有图），人工复核 331→363 条；23 张新图与复核分类已同步进 catalog-seed。仍缺：wine/vintage 级记录、4 家连接重置、5 家 JS 渲染站、8 家小酒商官网未搜。",
    "sourceURL": "https://www.aoc-cornas.fr/cornas-producteurs.html",
    "deliveredTo": "wine-content-studio/outputs/collect/2026-09-14/003期-Cornas-采集包-2026-09-14.zip"
   },

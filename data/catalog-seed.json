@@ -15643,7 +15643,8 @@
      "height": 454,
      "bytes": 95279,
      "sha256": "7e903455b4bbd23d9a7d309f1addc3a084a080b1907b8b75ba22f3f7b60b7939",
-     "checkedDate": "2026-09-14"
+     "checkedDate": "2026-09-14",
+     "reviewedAt": "2026-09-17"
     },
     {
      "file": "02-cave_20de_20tain-26-e5542f74.jpg",
@@ -15993,7 +15994,8 @@
      "height": 273,
      "bytes": 124583,
      "sha256": "f2d3ba0115d0ffa4c08811392819e8c1694a0289ea32a5bdec36740f63c96406",
-     "checkedDate": "2026-09-14"
+     "checkedDate": "2026-09-14",
+     "reviewedAt": "2026-09-17"
     },
     {
      "file": "07-gammecarnet.png",
@@ -16011,7 +16013,8 @@
      "height": 291,
      "bytes": 101129,
      "sha256": "ae245b5fdaebf0e7a5f0bac908ff3048087f44b1796d1e6e8aad9b005a32c242",
-     "checkedDate": "2026-09-14"
+     "checkedDate": "2026-09-14",
+     "reviewedAt": "2026-09-17"
     },
     {
      "file": "08-gammesignature-vdef.png",
@@ -16029,7 +16032,8 @@
      "height": 291,
      "bytes": 176734,
      "sha256": "109626079b33a9adb6e6febf556405eb3908825d17fb9f3ee4c27c1ef43a3f50",
-     "checkedDate": "2026-09-14"
+     "checkedDate": "2026-09-14",
+     "reviewedAt": "2026-09-17"
     },
     {
      "file": "09-gammereserve-2.png",
@@ -16047,7 +16051,8 @@
      "height": 279,
      "bytes": 40870,
      "sha256": "183d4df557aca277282dd3f1995f1d1f2f0738f9ce2ff06618f9487877aa9e7b",
-     "checkedDate": "2026-09-14"
+     "checkedDate": "2026-09-14",
+     "reviewedAt": "2026-09-17"
     },
     {
      "file": "10-table_vins.png",
@@ -16065,7 +16070,8 @@
      "height": 575,
      "bytes": 399615,
      "sha256": "16dd663e9ca95096ecbe1db0b3e91e88678add41976be769f76476eb3a905ca7",
-     "checkedDate": "2026-09-14"
+     "checkedDate": "2026-09-14",
+     "reviewedAt": "2026-09-17"
     },
     {
      "file": "11-bann_texte.png",
@@ -16083,7 +16089,8 @@
      "height": 776,
      "bytes": 39859,
      "sha256": "8196f7d6d72d63fe2fd90a3d15747f05517d7499df68ab2866cabfc9bcc7227b",
-     "checkedDate": "2026-09-14"
+     "checkedDate": "2026-09-14",
+     "reviewedAt": "2026-09-17"
     },
     {
      "file": "12-bann_vignerons.png",
@@ -16101,7 +16108,8 @@
      "height": 877,
      "bytes": 1447284,
      "sha256": "3c7e660ad71e2921cf8a77a39f8728bd60ceb6f175a4b1e0f940bf522d093ce6",
-     "checkedDate": "2026-09-14"
+     "checkedDate": "2026-09-14",
+     "reviewedAt": "2026-09-17"
     },
     {
      "file": "13-background-mobile.jpg",
@@ -16300,7 +16308,8 @@
    "checkedDate": "2026-09-14",
    "notes": "产区官方名录收录的生产者条目，名称照录名录原文（法文），未做中文译名。地址/电话/邮箱来自名录；坐标按 OpenStreetMap 实体证据另行补齐。",
    "phone": "04 75 84 74 14",
-   "email": "contact@domainelesbruyeres.fr"
+   "email": "contact@domainelesbruyeres.fr",
+   "images": []
   },
   "version": 1,
   "updated": "2026-09-14T12:51:39.000Z",
@@ -16334,7 +16343,8 @@
    "checkedDate": "2026-09-14",
    "notes": "产区官方名录收录的生产者条目，名称照录名录原文（法文），未做中文译名。地址/电话/邮箱来自名录；坐标按 OpenStreetMap 实体证据另行补齐。",
    "phone": "03 80 53 74 35",
-   "email": "contact@lvod.fr"
+   "email": "contact@lvod.fr",
+   "images": []
   },
   "version": 1,
   "updated": "2026-09-14T12:51:39.000Z",
@@ -16422,7 +16432,8 @@
      "height": 2075,
      "bytes": 297825,
      "sha256": "0816e4af127ca0c260cb752e8e9b552060735042aa41841c5500034f12814720",
-     "checkedDate": "2026-09-14"
+     "checkedDate": "2026-09-14",
+     "reviewedAt": "2026-09-17"
     },
     {
      "file": "04-maison-delas-freres-collection-vins-rouges-scaled-e1784706546502-1440x0-c-center.jpg",
@@ -16476,7 +16487,8 @@
      "height": 540,
      "bytes": 19366,
      "sha256": "27260ac02c661d6e3dbd46c78d3a7be50d6c8918bc2b41ea7017b151a211f48d",
-     "checkedDate": "2026-09-14"
+     "checkedDate": "2026-09-14",
+     "reviewedAt": "2026-09-17"
     },
     {
      "file": "07-DELAS_BLASON_BOUTEILLE-scaled-750x0-c-center.webp",
@@ -16494,7 +16506,8 @@
      "height": 1080,
      "bytes": 51114,
      "sha256": "554881f2b039b040af5292da035cd672ce4f832c4fb4b35018a4576d856f332f",
-     "checkedDate": "2026-09-14"
+     "checkedDate": "2026-09-14",
+     "reviewedAt": "2026-09-17"
     },
     {
      "file": "08-DELAS_BLASON_BOUTEILLE-scaled-375x0-c-center.jpg",
@@ -16512,7 +16525,8 @@
      "height": 540,
      "bytes": 32801,
      "sha256": "9230c54feecdea124f0abcf1e14c18df77b9add0e4a8ea9837b782627e8829fa",
-     "checkedDate": "2026-09-14"
+     "checkedDate": "2026-09-14",
+     "reviewedAt": "2026-09-17"
     },
     {
      "file": "09-DELAS_BLASON_BOUTEILLE-scaled-750x0-c-center.jpg",
@@ -16530,7 +16544,8 @@
      "height": 1080,
      "bytes": 99338,
      "sha256": "e21d9f53231bb40e1f9b6a70cfb0026189ad7718e891ffe451cba6534ce26301",
-     "checkedDate": "2026-09-14"
+     "checkedDate": "2026-09-14",
+     "reviewedAt": "2026-09-17"
     },
     {
      "file": "10-DELAS_BLASON_BOUTEILLE-scaled-1440x0-c-center.webp",
@@ -16548,7 +16563,8 @@
      "height": 2075,
      "bytes": 124570,
      "sha256": "1655c997b53fcd1fdb236677d0279684a8dcd8e8c3a4ef7cbefa2ea983cdc3e9",
-     "checkedDate": "2026-09-14"
+     "checkedDate": "2026-09-14",
+     "reviewedAt": "2026-09-17"
     },
     {
      "file": "11-DELAS_BLASON_BOUTEILLE-scaled-1920x0-c-center.webp",
@@ -16566,7 +16582,8 @@
      "height": 2766,
      "bytes": 178958,
      "sha256": "21e89ca1124cababc5f8bea3e3aaaa2f91c91f97285f8b9b80fa107abd22c617",
-     "checkedDate": "2026-09-14"
+     "checkedDate": "2026-09-14",
+     "reviewedAt": "2026-09-17"
     },
     {
      "file": "12-DELAS_BLASON_BOUTEILLE-scaled-1920x0-c-center.jpg",
@@ -16584,7 +16601,8 @@
      "height": 2766,
      "bytes": 476290,
      "sha256": "55dce408f01ddde4a477d1b4a2e6c50a4e88f9c3348b6aff12073f9e46a8fb09",
-     "checkedDate": "2026-09-14"
+     "checkedDate": "2026-09-14",
+     "reviewedAt": "2026-09-17"
     },
     {
      "file": "13-maison-delas-freres-collection-vins-rouges-scaled-e1784706546502-750x0-c-center.webp",
@@ -16602,7 +16620,8 @@
      "height": 394,
      "bytes": 24832,
      "sha256": "d5015ad4185cac22acd7ee63a0c8247eca417121153bd461e84fde04e20889fa",
-     "checkedDate": "2026-09-14"
+     "checkedDate": "2026-09-14",
+     "reviewedAt": "2026-09-17"
     },
     {
      "file": "14-maison-delas-freres-collection-vins-rouges-scaled-e1784706546502-750x0-c-center.jpg",
@@ -16638,7 +16657,8 @@
      "height": 757,
      "bytes": 58714,
      "sha256": "92bfed0700ba12adeed862e5d243cef5801c31fd6da9c2bc434a8768e99c6251",
-     "checkedDate": "2026-09-14"
+     "checkedDate": "2026-09-14",
+     "reviewedAt": "2026-09-17"
     },
     {
      "file": "16-maison-delas-freres-collection-vins-rouges-scaled-e1784706546502-1920x0-c-center.webp",
@@ -16656,7 +16676,8 @@
      "height": 1009,
      "bytes": 81298,
      "sha256": "9b71760c761bcef129d1a321e15add7e600635ead7058d079df7faddd32cfe1e",
-     "checkedDate": "2026-09-14"
+     "checkedDate": "2026-09-14",
+     "reviewedAt": "2026-09-17"
     },
     {
      "file": "17-maison-delas-freres-collection-vins-rouges-scaled-e1784706546502-1920x0-c-center.jpg",
@@ -16692,7 +16713,8 @@
      "height": 386,
      "bytes": 24008,
      "sha256": "5ef08dec716579587bfdc45bbea92f4f8a9e8fa3d366ecbc475a11068475d43b",
-     "checkedDate": "2026-09-14"
+     "checkedDate": "2026-09-14",
+     "reviewedAt": "2026-09-17"
     },
     {
      "file": "19-test-3-vins-blancs-scaled-e1784706649486-750x0-c-center.jpg",
@@ -16728,7 +16750,8 @@
      "height": 742,
      "bytes": 57302,
      "sha256": "8d78270885cf9e29fdedb96120e2873c573fa66c82462d2070c84d77ad9cfaa1",
-     "checkedDate": "2026-09-14"
+     "checkedDate": "2026-09-14",
+     "reviewedAt": "2026-09-17"
     },
     {
      "file": "21-test-3-vins-blancs-scaled-e1784706649486-1920x0-c-center.webp",
@@ -16746,7 +16769,8 @@
      "height": 989,
      "bytes": 79998,
      "sha256": "5b478f5b1469bc320c892c280db4c3544559e154c29d06d4e708bfa87f2d9e7d",
-     "checkedDate": "2026-09-14"
+     "checkedDate": "2026-09-14",
+     "reviewedAt": "2026-09-17"
     },
     {
      "file": "22-test-3-vins-blancs-scaled-e1784706649486-1920x0-c-center.jpg",
@@ -16818,7 +16842,8 @@
      "height": 778,
      "bytes": 10950,
      "sha256": "d8057ddd7fb7c87ab03be52405666687ab77ee936f0642df2c3178cd7f3a9215",
-     "checkedDate": "2026-09-14"
+     "checkedDate": "2026-09-14",
+     "reviewedAt": "2026-09-17"
     },
     {
      "file": "26-les-bessards-7-proche-gilles-de-beauchene-hero-2-scaled-e1784129981718-1024x536-900x0-c-default.webp",
@@ -16940,7 +16965,8 @@
      "height": 1300,
      "bytes": 228439,
      "sha256": "fa203b001237434b17d7753b9967c0bf965b2f2506b4f80602491a8c0a2387d4",
-     "checkedDate": "2026-09-14"
+     "checkedDate": "2026-09-14",
+     "reviewedAt": "2026-09-17"
     },
     {
      "file": "02-vins-2-2.jpg.jpg",
@@ -16958,7 +16984,8 @@
      "height": 1300,
      "bytes": 145502,
      "sha256": "067580386c3044f15a84eff39f05fa050c87ca5e985a3fbdd6da4c06aa0d65f3",
-     "checkedDate": "2026-09-14"
+     "checkedDate": "2026-09-14",
+     "reviewedAt": "2026-09-17"
     },
     {
      "file": "03-vins-3-2.jpg.jpg",
@@ -16976,7 +17003,8 @@
      "height": 1200,
      "bytes": 140985,
      "sha256": "ed52c6331a56dd563137f6c0efc6195ccc8c1832ec1c924a0862881eacd0637b",
-     "checkedDate": "2026-09-14"
+     "checkedDate": "2026-09-14",
+     "reviewedAt": "2026-09-17"
     },
     {
      "file": "04-vins-4-2.jpg.jpg",
@@ -16994,7 +17022,8 @@
      "height": 1400,
      "bytes": 177277,
      "sha256": "7cb082f19bce5e879744bee0f992b6dc9cba9baab20e6e208ca105152853831f",
-     "checkedDate": "2026-09-14"
+     "checkedDate": "2026-09-14",
+     "reviewedAt": "2026-09-17"
     },
     {
      "file": "05-vins-5-2.jpg.jpg",
@@ -17012,7 +17041,8 @@
      "height": 1450,
      "bytes": 148587,
      "sha256": "c456c62e7395789e9e775dbd6e367504af89ce237f54a3ca4bcd86e8daf32caf",
-     "checkedDate": "2026-09-14"
+     "checkedDate": "2026-09-14",
+     "reviewedAt": "2026-09-17"
     },
     {
      "file": "06-vins-6-2.jpg.jpg",
@@ -17030,7 +17060,8 @@
      "height": 1100,
      "bytes": 152878,
      "sha256": "ed0fb89cbe15eb864b96dcdf717de11827bd19ee261e9fdc558306cf3cffe9f0",
-     "checkedDate": "2026-09-14"
+     "checkedDate": "2026-09-14",
+     "reviewedAt": "2026-09-17"
     },
     {
      "file": "07-vins-7-2.jpg.jpg",
@@ -17048,7 +17079,8 @@
      "height": 1250,
      "bytes": 192184,
      "sha256": "3f73a2548199fcb5c3a8148951aeb1a3ee5e008ea9445ec7a63bd8646860a415",
-     "checkedDate": "2026-09-14"
+     "checkedDate": "2026-09-14",
+     "reviewedAt": "2026-09-17"
     },
     {
      "file": "08-vins-8-2.jpg.jpg",
@@ -17084,7 +17116,8 @@
      "height": 1150,
      "bytes": 231662,
      "sha256": "c0306044f55577b42982fb40ff0b27347abeb7f87eaeb6f60c8738341b0a1a53",
-     "checkedDate": "2026-09-14"
+     "checkedDate": "2026-09-14",
+     "reviewedAt": "2026-09-17"
     },
     {
      "file": "10-vins-10-2.jpg.jpg",
@@ -17102,7 +17135,8 @@
      "height": 1150,
      "bytes": 182908,
      "sha256": "b5f903acb3e1fcbd6297003575de75c41bac62c16ac124c09074364ad6ff8dfc",
-     "checkedDate": "2026-09-14"
+     "checkedDate": "2026-09-14",
+     "reviewedAt": "2026-09-17"
     },
     {
      "file": "11-vins-11-2.jpg.jpg",
@@ -17120,7 +17154,8 @@
      "height": 1500,
      "bytes": 138852,
      "sha256": "0f56bd550abb3be7767a9f3b497f8e7ac49baaa96140781234e485612b34b979",
-     "checkedDate": "2026-09-14"
+     "checkedDate": "2026-09-14",
+     "reviewedAt": "2026-09-17"
     },
     {
      "file": "12-vins-1-1.jpg.jpg",
@@ -17982,7 +18017,8 @@
      "height": 1268,
      "bytes": 417721,
      "sha256": "7a250a7ea5496592602600ec06ace47d84d7e7d2cf50652ddbe1f25134354165",
-     "checkedDate": "2026-09-14"
+     "checkedDate": "2026-09-14",
+     "reviewedAt": "2026-09-17"
     },
     {
      "file": "02-PagusLuminis.png",
@@ -18000,7 +18036,8 @@
      "height": 1268,
      "bytes": 356404,
      "sha256": "71a8ea87072c3bf89356e6c2d9f939637b651b05c82d35874895f1c3a5db3263",
-     "checkedDate": "2026-09-14"
+     "checkedDate": "2026-09-14",
+     "reviewedAt": "2026-09-17"
     },
     {
      "file": "03-ro-ree-blanc.png",
@@ -18018,7 +18055,8 @@
      "height": 1234,
      "bytes": 388395,
      "sha256": "c9b2cc54705724533bb395754ae5ca530c0cd377496959ac30bd6a8b9fb8da81",
-     "checkedDate": "2026-09-14"
+     "checkedDate": "2026-09-14",
+     "reviewedAt": "2026-09-17"
     },
     {
      "file": "04-sixtus-blanc-domaine-cheze.png",
@@ -18036,7 +18074,8 @@
      "height": 1268,
      "bytes": 484099,
      "sha256": "150a41b573c0e5471bcdd1dcce0328ab6f41c6ea23288adcabcfd0835df8137d",
-     "checkedDate": "2026-09-14"
+     "checkedDate": "2026-09-14",
+     "reviewedAt": "2026-09-17"
     },
     {
      "file": "05-marsanne-blanc-domaine-cheze.png",
@@ -18054,7 +18093,8 @@
      "height": 1268,
      "bytes": 519465,
      "sha256": "5446ebd9cc8abdc070d73de9eaef04c523883348646f711e6778c5165ad23a54",
-     "checkedDate": "2026-09-14"
+     "checkedDate": "2026-09-14",
+     "reviewedAt": "2026-09-17"
     },
     {
      "file": "06-viognier-blanc-domaine-cheze.png",
@@ -18072,7 +18112,8 @@
      "height": 1268,
      "bytes": 550521,
      "sha256": "4bf9f5a4ee7436aec5c6700ce360d8b398e516ea191060245d918fdcb95bedd0",
-     "checkedDate": "2026-09-14"
+     "checkedDate": "2026-09-14",
+     "reviewedAt": "2026-09-17"
     },
     {
      "file": "07-NiVuMaisConnu.png",
@@ -18090,7 +18131,8 @@
      "height": 1268,
      "bytes": 388319,
      "sha256": "e59fa6c73e0b9f613dc46eacd45cc8a74928e5228578282a67d34b19d5bd6105",
-     "checkedDate": "2026-09-14"
+     "checkedDate": "2026-09-14",
+     "reviewedAt": "2026-09-17"
     },
     {
      "file": "08-50-blanc.png",
@@ -18108,7 +18150,8 @@
      "height": 1219,
      "bytes": 419692,
      "sha256": "1be808cee179049c310b835d6577de53866026a9881118d1e1ca8bc0e32eea52",
-     "checkedDate": "2026-09-14"
+     "checkedDate": "2026-09-14",
+     "reviewedAt": "2026-09-17"
     },
     {
      "file": "09-Anges.png",
@@ -18126,7 +18169,8 @@
      "height": 1268,
      "bytes": 355575,
      "sha256": "0ac6e18aa1b5c798cc758e842a34b9a73b96104c76f88ea19c56ec65f11a09e8",
-     "checkedDate": "2026-09-14"
+     "checkedDate": "2026-09-14",
+     "reviewedAt": "2026-09-17"
     },
     {
      "file": "10-Caroline-2.png",
@@ -18144,7 +18188,8 @@
      "height": 1268,
      "bytes": 366977,
      "sha256": "7e057da6ba4ab28e168348165c1128bc3879b6132f79168e10151aae1dbe00e7",
-     "checkedDate": "2026-09-14"
+     "checkedDate": "2026-09-14",
+     "reviewedAt": "2026-09-17"
     },
     {
      "file": "11-Ro-Re_e-1.png",
@@ -18162,7 +18207,8 @@
      "height": 1268,
      "bytes": 340400,
      "sha256": "7c9063c0aa88f3393920b788a768b450dcbffcd1d9175152d6acf0bae1d2bb00",
-     "checkedDate": "2026-09-14"
+     "checkedDate": "2026-09-14",
+     "reviewedAt": "2026-09-17"
     },
     {
      "file": "12-Saxeolum-1.png",
@@ -18180,7 +18226,8 @@
      "height": 1268,
      "bytes": 325526,
      "sha256": "e3c28eb6db1b272e6776ef7ff968944df1d4cdee7181546c4692c10fd556cb4d",
-     "checkedDate": "2026-09-14"
+     "checkedDate": "2026-09-14",
+     "reviewedAt": "2026-09-17"
     },
     {
      "file": "13-Sixtus-1.png",
@@ -18198,7 +18245,8 @@
      "height": 1268,
      "bytes": 327880,
      "sha256": "7f2d24f90f703a120f2ba641b033d3aacc083d042993b4fafd95af1e18d0d774",
-     "checkedDate": "2026-09-14"
+     "checkedDate": "2026-09-14",
+     "reviewedAt": "2026-09-17"
     },
     {
      "file": "14-Bellissima-1.png",
@@ -18216,7 +18264,8 @@
      "height": 1268,
      "bytes": 350560,
      "sha256": "f50fd916f00c41ea7520c4e85f536c03d55af8d2cb10b157a35a49608bc0c654",
-     "checkedDate": "2026-09-14"
+     "checkedDate": "2026-09-14",
+     "reviewedAt": "2026-09-17"
     },
     {
      "file": "15-cornas.png",
@@ -18234,7 +18283,8 @@
      "height": 1216,
      "bytes": 72218,
      "sha256": "ce4cf026406acd5e5b1a7eccdb8c258d8f6c045aa019255b45feb2a2c240ab35",
-     "checkedDate": "2026-09-14"
+     "checkedDate": "2026-09-14",
+     "reviewedAt": "2026-09-17"
     },
     {
      "file": "16-Syrahvissante-1.png",
@@ -18252,7 +18302,8 @@
      "height": 1268,
      "bytes": 354635,
      "sha256": "969909e35ff34bb8525337e38f844b8bc969604315ca7bbdb65848732d4935d9",
-     "checkedDate": "2026-09-14"
+     "checkedDate": "2026-09-14",
+     "reviewedAt": "2026-09-17"
     },
     {
      "file": "17-50-rouge-2.png",
@@ -18270,7 +18321,8 @@
      "height": 1268,
      "bytes": 357213,
      "sha256": "8d3b6f85b237b2943bb4f2cb38a8b1260c371e7cba9dfadc1f4ce2ce66ca683a",
-     "checkedDate": "2026-09-14"
+     "checkedDate": "2026-09-14",
+     "reviewedAt": "2026-09-17"
     }
    ],
    "imageSummary": "17 张官网图片（人物/庄园照 + 酒款瓶标图）；其中 17 张经逐张目视复核，1 张标面读得出 Cornas。"
@@ -18453,7 +18505,8 @@
      "height": 800,
      "bytes": 161407,
      "sha256": "8a93d54a9b75afb68aec528a1ad2792fdc4e87fe910c7a525e880a9b25f0a635",
-     "checkedDate": "2026-09-14"
+     "checkedDate": "2026-09-14",
+     "reviewedAt": "2026-09-17"
     },
     {
      "file": "05-syrah.png",
@@ -18471,7 +18524,8 @@
      "height": 800,
      "bytes": 156627,
      "sha256": "50dbe97748cd9bcf5625d68a6accd76bc9ac6edeacb890e65c80617b969b6cfa",
-     "checkedDate": "2026-09-14"
+     "checkedDate": "2026-09-14",
+     "reviewedAt": "2026-09-17"
     },
     {
      "file": "06-Photo-orchestres-symphonique.jpg",
@@ -18507,7 +18561,8 @@
      "height": 800,
      "bytes": 137664,
      "sha256": "d0e6712e3b82691b12db609ef10f0b4b2ecf4bf93291764946b5bffbb8d7c69f",
-     "checkedDate": "2026-09-14"
+     "checkedDate": "2026-09-14",
+     "reviewedAt": "2026-09-17"
     },
     {
      "file": "08-st-joseph-les-royes.png",
@@ -18525,7 +18580,8 @@
      "height": 800,
      "bytes": 145178,
      "sha256": "bb5096e1b9359d9c3924c3c45dc4b872c1933ad35e0886155036e658424887e4",
-     "checkedDate": "2026-09-14"
+     "checkedDate": "2026-09-14",
+     "reviewedAt": "2026-09-17"
     },
     {
      "file": "09-st-joseph-rouge.png",
@@ -18543,7 +18599,8 @@
      "height": 800,
      "bytes": 129255,
      "sha256": "b795bc1975389487684c62e6f0529fd9bad8300468846784ea2224037a6f43d4",
-     "checkedDate": "2026-09-14"
+     "checkedDate": "2026-09-14",
+     "reviewedAt": "2026-09-17"
     },
     {
      "file": "10-LES-ROYES-st-joseph-blanc.png",
@@ -18561,7 +18618,8 @@
      "height": 800,
      "bytes": 169684,
      "sha256": "0adc5425cb8edc4a68b6e8b500ffb5ac984629251d4bf60813f251fe03378423",
-     "checkedDate": "2026-09-14"
+     "checkedDate": "2026-09-14",
+     "reviewedAt": "2026-09-17"
     },
     {
      "file": "11-st-joseph-blanc.png",
@@ -18579,7 +18637,8 @@
      "height": 800,
      "bytes": 154078,
      "sha256": "538371c35d148f9f1ef1b7dd092afb53ee4238373d754db169f072644fada330",
-     "checkedDate": "2026-09-14"
+     "checkedDate": "2026-09-14",
+     "reviewedAt": "2026-09-17"
     },
     {
      "file": "12-st-joseph-cotte-sud.png",
@@ -18597,7 +18656,8 @@
      "height": 800,
      "bytes": 134258,
      "sha256": "69b78108ed53ab7f473811e1e6d7266c67bd7408c7d8ee666ca93fbe2eee5aff",
-     "checkedDate": "2026-09-14"
+     "checkedDate": "2026-09-14",
+     "reviewedAt": "2026-09-17"
     },
     {
      "file": "13-visuel_roussanne-removebg-preview.png",
@@ -18615,7 +18675,8 @@
      "height": 594,
      "bytes": 93466,
      "sha256": "63884bc1434c64ef746e4c4a4db41e33b44158743aa441bdc2f749218904e38c",
-     "checkedDate": "2026-09-14"
+     "checkedDate": "2026-09-14",
+     "reviewedAt": "2026-09-17"
     },
     {
      "file": "14-visuel_marsanne-removebg-preview.png",
@@ -18633,7 +18694,8 @@
      "height": 595,
      "bytes": 94753,
      "sha256": "f0580eefcfed64c354d36427c6620e5b6875672b8a3a06c37b961679291040c5",
-     "checkedDate": "2026-09-14"
+     "checkedDate": "2026-09-14",
+     "reviewedAt": "2026-09-17"
     },
     {
      "file": "15-laube.png",
@@ -18651,7 +18713,8 @@
      "height": 800,
      "bytes": 120585,
      "sha256": "b236a1d8b9635e1440d928e1630e702216e965e351d7930387aca9f799f7df6f",
-     "checkedDate": "2026-09-14"
+     "checkedDate": "2026-09-14",
+     "reviewedAt": "2026-09-17"
     },
     {
      "file": "16-M_ROUSSET_02_09_2024_0020.jpg",
@@ -18687,7 +18750,8 @@
      "height": 800,
      "bytes": 127978,
      "sha256": "aa62514c7af64ef2307e265743f721279642d05586bd23c83c567cfb8e3e2653",
-     "checkedDate": "2026-09-14"
+     "checkedDate": "2026-09-14",
+     "reviewedAt": "2026-09-17"
     },
     {
      "file": "18-eygats.png",
@@ -18705,7 +18769,8 @@
      "height": 800,
      "bytes": 124521,
      "sha256": "6d10fb1e7c4ea27fe9360ab7a65fcc96caf36f8a551740a6f73ece5135ce2802",
-     "checkedDate": "2026-09-14"
+     "checkedDate": "2026-09-14",
+     "reviewedAt": "2026-09-17"
     },
     {
      "file": "19-sabarotte.png",
@@ -18723,7 +18788,8 @@
      "height": 800,
      "bytes": 139751,
      "sha256": "c04aee7ef7580f7f5ff9a091d86a534bc7e785ab199b78136926cdbe76f14ae8",
-     "checkedDate": "2026-09-14"
+     "checkedDate": "2026-09-14",
+     "reviewedAt": "2026-09-17"
     },
     {
      "file": "20-champelrose.png",
@@ -18741,7 +18807,8 @@
      "height": 800,
      "bytes": 111416,
      "sha256": "f84fa126e9d071d83366e3939da61985120cd8dd0591fec4de8d7077908668a4",
-     "checkedDate": "2026-09-14"
+     "checkedDate": "2026-09-14",
+     "reviewedAt": "2026-09-17"
     },
     {
      "file": "21-chasse-au-tresor.jpg",
@@ -18813,7 +18880,8 @@
      "height": 505,
      "bytes": 145436,
      "sha256": "5cc40b523e917834030b2c9c1f8457c8d9ef77ed06c6549ea5786517b5180e12",
-     "checkedDate": "2026-09-14"
+     "checkedDate": "2026-09-14",
+     "reviewedAt": "2026-09-17"
     },
     {
      "file": "25-cuvees-igp.png",
@@ -18831,7 +18899,8 @@
      "height": 505,
      "bytes": 174739,
      "sha256": "3512b1ff52e26d28847747fe3b109a3efbce64a3be9a63056af2212decc245eb",
-     "checkedDate": "2026-09-14"
+     "checkedDate": "2026-09-14",
+     "reviewedAt": "2026-09-17"
     },
     {
      "file": "26-saint-peray-2.jpeg",
@@ -18849,7 +18918,8 @@
      "height": 1500,
      "bytes": 505242,
      "sha256": "380842ab6066b30713885a6515d1cb99880174c807f0cc33183a6c5b8e1f83aa",
-     "checkedDate": "2026-09-14"
+     "checkedDate": "2026-09-14",
+     "reviewedAt": "2026-09-17"
     }
    ],
    "imageSummary": "26 张官网图片（人物/庄园照 + 酒款瓶标图）；其中 18 张经逐张目视复核，3 张标面读得出 Cornas。",
@@ -18985,7 +19055,8 @@
      "height": 3098,
      "bytes": 1172396,
      "sha256": "e9f14ea167ce9c17b18c6b6c05383d25a34452fa71db733333a4eb460c4f4be6",
-     "checkedDate": "2026-09-14"
+     "checkedDate": "2026-09-14",
+     "reviewedAt": "2026-09-17"
     },
     {
      "file": "02-bouteillevin-cornas-domaine-lorient.png",
@@ -19003,7 +19074,8 @@
      "height": 3098,
      "bytes": 1218540,
      "sha256": "75db63dcd1907792b842eb981e5f093ff5409a1dd13d05847eaebccbd1693712",
-     "checkedDate": "2026-09-14"
+     "checkedDate": "2026-09-14",
+     "reviewedAt": "2026-09-17"
     },
     {
      "file": "03-bouteille-vin-Saint-joseph-domaine-lorient.png",
@@ -19021,7 +19093,8 @@
      "height": 3098,
      "bytes": 386813,
      "sha256": "ce081615549fefe944cb28249e74f0341a93284e35996bcb250ad9f8c21bc003",
-     "checkedDate": "2026-09-14"
+     "checkedDate": "2026-09-14",
+     "reviewedAt": "2026-09-17"
     },
     {
      "file": "04-photo-bouteille-poisson.jpg",
@@ -19039,7 +19112,8 @@
      "height": 1598,
      "bytes": 357748,
      "sha256": "e3ecf8986fe7fb49f7f7ce085c132dca57f799d5abff7a60bcda53341ae8cd4d",
-     "checkedDate": "2026-09-14"
+     "checkedDate": "2026-09-14",
+     "reviewedAt": "2026-09-17"
     },
     {
      "file": "05-photo-bouteille-LD.jpg",
@@ -19057,7 +19131,8 @@
      "height": 1602,
      "bytes": 427657,
      "sha256": "7e8d31f6881756173381ec0435a7a364935aabfee2a5defbf255e59e5b597b81",
-     "checkedDate": "2026-09-14"
+     "checkedDate": "2026-09-14",
+     "reviewedAt": "2026-09-17"
     },
     {
      "file": "06-photo-bouteille-automne.jpg",
@@ -19075,7 +19150,8 @@
      "height": 1602,
      "bytes": 404482,
      "sha256": "33058ec2e4ec56ab02bf3e5df4756455d6f975c52e9d7737724966895bd6da91",
-     "checkedDate": "2026-09-14"
+     "checkedDate": "2026-09-14",
+     "reviewedAt": "2026-09-17"
     },
     {
      "file": "07-domaine-de-lorient-travail.jpg",
@@ -19111,7 +19187,8 @@
      "height": 1600,
      "bytes": 401162,
      "sha256": "45cbe23227c7d41efe48846e759037a1b256fa4147e87441a7fa4702c9384f3f",
-     "checkedDate": "2026-09-14"
+     "checkedDate": "2026-09-14",
+     "reviewedAt": "2026-09-17"
     },
     {
      "file": "09-photo-resto-min.jpg",
@@ -19147,7 +19224,8 @@
      "height": 382,
      "bytes": 185638,
      "sha256": "6a8c789abae47ac5242b00e2983e2751b63487e412d3632fae95a2ff0908dc9e",
-     "checkedDate": "2026-09-14"
+     "checkedDate": "2026-09-14",
+     "reviewedAt": "2026-09-17"
     },
     {
      "file": "11-bouteilles-vin-domaine-lorient.jpg",
@@ -19165,7 +19243,8 @@
      "height": 1877,
      "bytes": 744450,
      "sha256": "d4f372e93a28b0c5b46986f7af51a3222ddd1726f29d681eca0e527e0a41c4be",
-     "checkedDate": "2026-09-14"
+     "checkedDate": "2026-09-14",
+     "reviewedAt": "2026-09-17"
     },
     {
      "file": "12-le-bruit-du-ble-V1.jpg",
@@ -19183,7 +19262,8 @@
      "height": 1078,
      "bytes": 132756,
      "sha256": "082987a263d35079444c13f68b4d1ec24b37842c121cd4ec032d7777ec8b04a2",
-     "checkedDate": "2026-09-14"
+     "checkedDate": "2026-09-14",
+     "reviewedAt": "2026-09-17"
     },
     {
      "file": "13-carte-domaine-de-lorient.png",
@@ -19201,7 +19281,8 @@
      "height": 2027,
      "bytes": 942339,
      "sha256": "46e699ca6d63eb5705df0c46b43431c2838c73e784503769d7bc57ddcbdaa6da",
-     "checkedDate": "2026-09-14"
+     "checkedDate": "2026-09-14",
+     "reviewedAt": "2026-09-17"
     },
     {
      "file": "14-photo-Dimitri.jpg",
@@ -19363,7 +19444,8 @@
      "height": 1918,
      "bytes": 414381,
      "sha256": "88a48e466037aa6387ed41ae90fa4e17c3d9dc765ec91efa87c5537724aa7855",
-     "checkedDate": "2026-09-14"
+     "checkedDate": "2026-09-14",
+     "reviewedAt": "2026-09-17"
     },
     {
      "file": "23-photo-salade.jpg",
@@ -19495,7 +19577,104 @@
    "notes": "产区官方名录收录的生产者条目，名称照录名录原文（法文），未做中文译名。地址/电话/邮箱来自名录；坐标按 OpenStreetMap 实体证据另行补齐。",
    "contactPerson": "Caroline Moro",
    "phone": "04 74 59 50 33",
-   "email": "contact@jdenuziere.fr"
+   "email": "contact@jdenuziere.fr",
+   "images": [
+    {
+     "file": "01-4._Lettrage_JD_blanc-1920w.png",
+     "role": "producer-logo",
+     "attribution": "producer-official",
+     "appellation": null,
+     "confidence": "high",
+     "classificationMethod": "agent-visual-review",
+     "reviewNote": "JD 花体字母标识（白色），官网品牌图形",
+     "reviewedAt": "2026-09-17",
+     "altText": null,
+     "sourcePage": "https://www.jdenuziere.fr",
+     "directURL": "https://le-cdn.website-editor.net/s/ab303ab4686947fa82c55104a1c35a9d/dms3rep/multi/opt/4.+Lettrage+JD+blanc-1920w.png?Expires=1791450819&Signature=arThxQZzrM2MP4NJ6-s-VE77T3AyaDOPGqlBJJ~W2aREiX~vq98ceNcQQq~8ze82j3XE5UAXCymv5oyjhdFeNe~kNLVC5vZwgLUrQLsgIV1VuHZycAHsFaiZwfa-Wi0szz69T0YqNTqqJ4SfJ7EPXFEpcWW8yyUSLTDYOboE8twVfocBVgJb4VzNc80SWPJfKJ24EX9BGjetUiCdPyQRedbV-P1csqTLPHK3FRXtEqwPzDtF8ynhspDRWhlgndwb~Y6U9mA8ukXq~4D5ZogoaC1WAMKCLmiqAjdJTFpk-Cz5vrwedBU1iuwU6Baj1JGjsGefVlXbXGswuHr8mmw0Iw__&Key-Pair-Id=K2NXBXLF010TJW",
+     "width": 797,
+     "height": 497,
+     "bytes": 15645,
+     "sha256": "84fc74dd028371b2a9e8b825faf6750fa5ba550d075bf20f4590dba2f5c1b612",
+     "relativePath": "images/domaine-denuziere/01-4._Lettrage_JD_blanc-1920w.png",
+     "checkedDate": "2026-09-17"
+    },
+    {
+     "file": "02-J.DENUZIERE_fonde_CC_81_en_1876-1920w.png",
+     "role": "producer-logo",
+     "attribution": "producer-official",
+     "appellation": null,
+     "confidence": "high",
+     "classificationMethod": "agent-visual-review",
+     "reviewNote": "J.Denuzière 盾徽 + FONDÉ EN 1876 品牌标识",
+     "reviewedAt": "2026-09-17",
+     "altText": null,
+     "sourcePage": "https://www.jdenuziere.fr",
+     "directURL": "https://le-cdn.website-editor.net/s/ab303ab4686947fa82c55104a1c35a9d/dms3rep/multi/opt/J.DENUZIERE+fonde%CC%81+en+1876-1920w.png?Expires=1791450819&Signature=Ir570bktxw-1T~WS75kqdpg9-NFYJ5fdPRRVrU2XaagQaNSWkAEhcMncTO8-FdrHBs-zDEqdMrs48OO0n8audIR60sSVST8eLFzRbO6pIPuRm4dNUFNAEq333QO5WzIQrHiuVx-FDmaj8rWHA3wCNK0aq-3XfZGc3Ml2rJdp2Q916otKRPNqzMTxd3tyYJ3IxCzePtFxcIvrKpWN9B1AVxG871xr9KIyVrY0rfDz2HAo6D~hkSfDRJIFwsT7U6Ue9WxIS7bamA1M93UzCm19tcBr4V~aYlpZkLuF5LI3SyXLg5uCh8EtW5GpZhKmhe5yq9RbibNX4qQl77~CXl~GEw__&Key-Pair-Id=K2NXBXLF010TJW",
+     "width": 1554,
+     "height": 876,
+     "bytes": 63816,
+     "sha256": "e053f297080411a6ea2e5658d1b1ec3b7aadcacad21b0baf28a80e98f8e4f221",
+     "relativePath": "images/domaine-denuziere/02-J.DENUZIERE_fonde_CC_81_en_1876-1920w.png",
+     "checkedDate": "2026-09-17"
+    },
+    {
+     "file": "03-LOGO_DENUZIERE_png_sans_domaine__281_29-1920w.png",
+     "role": "producer-logo",
+     "attribution": "producer-official",
+     "appellation": null,
+     "confidence": "high",
+     "classificationMethod": "agent-visual-review",
+     "reviewNote": "J.DENUZIERE 现代字体品牌标识",
+     "reviewedAt": "2026-09-17",
+     "altText": null,
+     "sourcePage": "https://www.jdenuziere.fr",
+     "directURL": "https://le-cdn.website-editor.net/s/ab303ab4686947fa82c55104a1c35a9d/dms3rep/multi/opt/LOGO+DENUZIERE+png+sans+domaine+%281%29-1920w.png?Expires=1791450819&Signature=MZ6FFfWB~C4OxcQWTGjmu5kezqWF4rTqrg4PwxPjTocoqPdsDCCFvHvBGHJX6gg2-cvkTpqc2RWYBzjVQUSSSkHlTZW5ZrRvHuGLJcuBMX39TBchCw1eR4QlbVIKfi8dcXgToxxl-zvPQlHCL5Q7m4ECu4oQ2QLncN-JGZE~4FMgc6BwDR9uMFq6L9mIShLj6hjEyn5lLrWBVNnT5CbFzYrZthsyWE3AYU606Gl-82FsjZb9QUuD-OGuF4cEBzwn1pBAbL8wHCQC9PpZRi5KR-RkvEhpi9dgcKstwAOTPOr3OX5WMRlKGyAd7bwlzgZO6l1HclYgURnokrHJ9azeSA__&Key-Pair-Id=K2NXBXLF010TJW",
+     "width": 1920,
+     "height": 1190,
+     "bytes": 134359,
+     "sha256": "ce1b418d42f90b87d26832ab1a6aa2acd6031ec7ac2a2cc04a6b46598e75c31f",
+     "relativePath": "images/domaine-denuziere/03-LOGO_DENUZIERE_png_sans_domaine__281_29-1920w.png",
+     "checkedDate": "2026-09-17"
+    },
+    {
+     "file": "04-LOGO-DENUZIERE-png-sans-domaine--281-29-fadf4c5b-1920w.png",
+     "role": "producer-logo",
+     "attribution": "producer-official",
+     "appellation": null,
+     "confidence": "high",
+     "classificationMethod": "agent-visual-review",
+     "reviewNote": "J.DENUZIERE 横排品牌标识（黑底）",
+     "reviewedAt": "2026-09-17",
+     "altText": null,
+     "sourcePage": "https://www.jdenuziere.fr",
+     "directURL": "https://le-cdn.website-editor.net/s/ab303ab4686947fa82c55104a1c35a9d/dms3rep/multi/opt/LOGO-DENUZIERE-png-sans-domaine--281-29-fadf4c5b-1920w.png?Expires=1791450819&Signature=Hw-8NTKOn~P3EJxI59YHrnViA8U4WWZdeXJa2H7bP9rNMgwX6kUpXKeNWXDck7qZiX5BLH~H6TIUG20zARZqUlRguSbMuCvjdn4W~VHQhALPUh-CwlMPSZ5547FxMK3ibZw-WarILr~1E9AJ1WQkZb3K~XFO4ng4jMF7sLpApTwo1J5~9NMMI4dxwzh7-ZAEZsyDdubZ6c4LEpn55~w~5-cRMFIgf3Ap9WjmKrHQGktyZ76Ws283eOBQyA4ieLu5Jpp82U-TgjI5xd-4RV1rrgwXcjU3V0wQU6Qfs67fRgXPdRQze7cwEuAST22Cg2KGO6RxEBPRu5uYUkCwftT-6g__&Key-Pair-Id=K2NXBXLF010TJW",
+     "width": 1920,
+     "height": 395,
+     "bytes": 89302,
+     "sha256": "50c5e23d45bc4c6e1e207481b971e28312c267555b1b847fc27fec3042f7bde7",
+     "relativePath": "images/domaine-denuziere/04-LOGO-DENUZIERE-png-sans-domaine--281-29-fadf4c5b-1920w.png",
+     "checkedDate": "2026-09-17"
+    },
+    {
+     "file": "05-Carte-J.Denuzie-re-fond-transparent-1920w.png",
+     "role": "document-map",
+     "attribution": "producer-official",
+     "appellation": null,
+     "confidence": "medium",
+     "classificationMethod": "agent-visual-review",
+     "reviewNote": "风格化地块示意图形（罗讷河与伊泽尔河之间的地块分布），非照片，无坐标价值",
+     "reviewedAt": "2026-09-17",
+     "altText": null,
+     "sourcePage": "https://www.jdenuziere.fr",
+     "directURL": "https://le-cdn.website-editor.net/s/ab303ab4686947fa82c55104a1c35a9d/dms3rep/multi/opt/Carte-J.Denuzie-re-fond-transparent-1920w.png?Expires=1791450819&Signature=ga6KSG6IH7ubHYyTwqlIm~0mjowZ2C5quF6K8mNS3v0CL6TnA4UXyOCRWoYM6soSnyTwnKt7oM2R1KeQDCOJiuydWxIsPYWM9s-Me3dPAVUumy3ghbVtsP56G8PHDjYnEz6FNkrlbAfRK8eUimXu0-OMdHlxfRXfVjjLkx95jLfj22rJcDF~-Bhv626jpeXE8g60gcycyouh~JlD090cpbmm6Xwc3UqsamN3AMMjGrJ8fqZJmtKgdJBZMii~LujYB52EwPc0CU6mw62d6MUAAhP0NRfztOkvgzek1vbYtWm8le0L3ehgTginO13zsp9Rcu45eY7RPx4~Mjt3lPnjeg__&Key-Pair-Id=K2NXBXLF010TJW",
+     "width": 1448,
+     "height": 2187,
+     "bytes": 374018,
+     "sha256": "755d9ad698919e089d0bf1d2f53be847df757b026f0602d5af268984b713107a",
+     "relativePath": "images/domaine-denuziere/05-Carte-J.Denuzie-re-fond-transparent-1920w.png",
+     "checkedDate": "2026-09-17"
+    }
+   ]
   },
   "version": 1,
   "updated": "2026-09-14T12:51:39.000Z",
@@ -19547,7 +19726,8 @@
      "height": 1622,
      "bytes": 777171,
      "sha256": "3a786699e0d75fa1217f6546c1d207682d415e2bc1ad3d41560be4af275c33d8",
-     "checkedDate": "2026-09-14"
+     "checkedDate": "2026-09-14",
+     "reviewedAt": "2026-09-17"
     },
     {
      "file": "02-Domaine_Serrette_057.jpg",
@@ -19565,7 +19745,8 @@
      "height": 1622,
      "bytes": 421771,
      "sha256": "1291eec32b531c83fa49f69b23513993c6dce744a19050303eed05f4a4f17822",
-     "checkedDate": "2026-09-14"
+     "checkedDate": "2026-09-14",
+     "reviewedAt": "2026-09-17"
     },
     {
      "file": "03-Domaine_Serrette_059.jpg",
@@ -19835,7 +20016,8 @@
      "height": 342,
      "bytes": 191202,
      "sha256": "3c51ad956f84833877a113e3cddb9c7dea5f80d554692baf8506d8e504ca6798",
-     "checkedDate": "2026-09-14"
+     "checkedDate": "2026-09-14",
+     "reviewedAt": "2026-09-17"
     },
     {
      "file": "03-Slide3-1140x342.jpg",
@@ -19935,7 +20117,8 @@
      "height": 941,
      "bytes": 241646,
      "sha256": "45bc993e95ede193f02304eecdce3978f749d3fdb55dc3c7eeee213debbda571",
-     "checkedDate": "2026-09-14"
+     "checkedDate": "2026-09-14",
+     "reviewedAt": "2026-09-17"
     },
     {
      "file": "02-Bouteille-Perle-noire-2025.png",
@@ -19953,7 +20136,8 @@
      "height": 941,
      "bytes": 221757,
      "sha256": "3a615cba7681b4d5e8606e5e3b457b8c3425dca9f4147ec2b064449616e476f2",
-     "checkedDate": "2026-09-14"
+     "checkedDate": "2026-09-14",
+     "reviewedAt": "2026-09-17"
     },
     {
      "file": "03-Bouteille-perle-ivoire-2025.png",
@@ -19971,7 +20155,8 @@
      "height": 941,
      "bytes": 238661,
      "sha256": "1934b8107a4b5d5d84a71a8f873585e1c927cc85788c067a404142dfd78fd299",
-     "checkedDate": "2026-09-14"
+     "checkedDate": "2026-09-14",
+     "reviewedAt": "2026-09-17"
     },
     {
      "file": "04-Pont-de-la-Deesse-Blanc-2025.png",
@@ -19989,7 +20174,8 @@
      "height": 941,
      "bytes": 167028,
      "sha256": "91bac231b4064a38514e0e47fba4aaa3e6a33b49fcfa656665e57d54692faf6d",
-     "checkedDate": "2026-09-14"
+     "checkedDate": "2026-09-14",
+     "reviewedAt": "2026-09-17"
     },
     {
      "file": "05-Pont-de-la-Deesse-Rose-2025.png",
@@ -20007,7 +20193,8 @@
      "height": 941,
      "bytes": 191636,
      "sha256": "cf3089fd5f305bb97e838ffb68a964ede391a015a1ec6c4035acfeca6ec75094",
-     "checkedDate": "2026-09-14"
+     "checkedDate": "2026-09-14",
+     "reviewedAt": "2026-09-17"
     },
     {
      "file": "06-bouteille-arlettes-2025.png",
@@ -20025,7 +20212,8 @@
      "height": 941,
      "bytes": 241035,
      "sha256": "6ffea21ba6e7768b79bbfff17778cc4b513633440d827d329526044bc069ffaa",
-     "checkedDate": "2026-09-14"
+     "checkedDate": "2026-09-14",
+     "reviewedAt": "2026-09-17"
     },
     {
      "file": "07-bouteille-esprit-2025.png",
@@ -20043,7 +20231,8 @@
      "height": 941,
      "bytes": 219330,
      "sha256": "9624823b9c7c4de4edb11173c31acf00a13eb61dd779cc2fb4973b78b86aa95a",
-     "checkedDate": "2026-09-14"
+     "checkedDate": "2026-09-14",
+     "reviewedAt": "2026-09-17"
     },
     {
      "file": "08-coffret-decouverte-2025.png",
@@ -20061,7 +20250,8 @@
      "height": 566,
      "bytes": 212381,
      "sha256": "8629a1fddc51495005104dbf3dfce853c519eb1fce1898ae8c89e51913ff80bf",
-     "checkedDate": "2026-09-14"
+     "checkedDate": "2026-09-14",
+     "reviewedAt": "2026-09-17"
     },
     {
      "file": "09-coffret-perle-2025.png",
@@ -20079,7 +20269,8 @@
      "height": 566,
      "bytes": 204786,
      "sha256": "56c09b5fd65f1a050a07cf605cd2311f1b8aeaf9c53241b1bfe6243c90eaae2f",
-     "checkedDate": "2026-09-14"
+     "checkedDate": "2026-09-14",
+     "reviewedAt": "2026-09-17"
     },
     {
      "file": "10-le-zouave.jpg",
@@ -20097,7 +20288,8 @@
      "height": 1000,
      "bytes": 214863,
      "sha256": "91bc9fb3f09e68bc31b9eafab58cf77e760e348eddd2bdf05f605859e967c4dc",
-     "checkedDate": "2026-09-14"
+     "checkedDate": "2026-09-14",
+     "reviewedAt": "2026-09-17"
     },
     {
      "file": "11-zouave-visuel.jpg",
@@ -20115,7 +20307,8 @@
      "height": 1255,
      "bytes": 218623,
      "sha256": "1730b5bd2f7983bc53505cfa22591f85eabb466899bae290f48aa52206b880e1",
-     "checkedDate": "2026-09-14"
+     "checkedDate": "2026-09-14",
+     "reviewedAt": "2026-09-17"
     },
     {
      "file": "12-visuel-feuille-vigne-cropped.jpg",
@@ -20151,7 +20344,8 @@
      "height": 1000,
      "bytes": 195675,
      "sha256": "b02e80c98f01a48fd4397639efd072e1629dcf1a7f0c4281d2756644993d27b6",
-     "checkedDate": "2026-09-14"
+     "checkedDate": "2026-09-14",
+     "reviewedAt": "2026-09-17"
     },
     {
      "file": "14-visuel-perles-noires.jpg",
@@ -20169,7 +20363,8 @@
      "height": 1255,
      "bytes": 191798,
      "sha256": "3180b79eb587c81d19b29066c791d3fc32dd037f7fb9b8e8b3f4cf89e78922b4",
-     "checkedDate": "2026-09-14"
+     "checkedDate": "2026-09-14",
+     "reviewedAt": "2026-09-17"
     },
     {
      "file": "15-perles-ivoire.jpg",
@@ -20187,7 +20382,8 @@
      "height": 1000,
      "bytes": 211249,
      "sha256": "e57b944de351493c7abb72da13a17e5309fdfa0fadadce151ac94b4ad1cc5c76",
-     "checkedDate": "2026-09-14"
+     "checkedDate": "2026-09-14",
+     "reviewedAt": "2026-09-17"
     },
     {
      "file": "16-visuel-perles-ivoire.jpg",
@@ -20205,7 +20401,8 @@
      "height": 1255,
      "bytes": 140963,
      "sha256": "1553b777ea69c3cba76045349a0420a606e3eb4533f8dee4c34d4318066beb9f",
-     "checkedDate": "2026-09-14"
+     "checkedDate": "2026-09-14",
+     "reviewedAt": "2026-09-17"
     },
     {
      "file": "17-pont-de-la-deesse-blanc.jpg",
@@ -20223,7 +20420,8 @@
      "height": 1000,
      "bytes": 184375,
      "sha256": "87e7089ed0f9a67099b5fee2c6402e609a5e3b62c8b37423d67b6f7e26894b6d",
-     "checkedDate": "2026-09-14"
+     "checkedDate": "2026-09-14",
+     "reviewedAt": "2026-09-17"
     },
     {
      "file": "18-visuel-deesse-blanc.jpg",
@@ -20241,7 +20439,8 @@
      "height": 1255,
      "bytes": 212363,
      "sha256": "9f0ee38d359e31ad53310d3aea26d4960bef37cfb53cae2f2ba095609d5a6b17",
-     "checkedDate": "2026-09-14"
+     "checkedDate": "2026-09-14",
+     "reviewedAt": "2026-09-17"
     },
     {
      "file": "19-visuel-montagne.jpg",
@@ -20412,11 +20611,11 @@
      "file": "01-DSCF0882-r5p7p2mqbegaw6eg33tms95qaw7jq26zv170rb4wbq.jpg",
      "relativePath": "images/domaine-lionnet/01-DSCF0882-r5p7p2mqbegaw6eg33tms95qaw7jq26zv170rb4wbq.jpg",
      "role": "producer-estate",
-     "attribution": "not-a-wine",
+     "attribution": "producer-official",
      "appellation": null,
-     "confidence": "medium",
-     "classificationMethod": "heuristic",
-     "reviewNote": null,
+     "confidence": "high",
+     "classificationMethod": "agent-visual-review",
+     "reviewNote": "酒窖内混凝土槽上成排橡木桶陈酿区实拍",
      "altText": "DSCF0882",
      "sourcePage": "https://domainelionnet.com/notre-cave",
      "directURL": "https://domainelionnet.com/wp-content/uploads/elementor/thumbs/DSCF0882-r5p7p2mqbegaw6eg33tms95qaw7jq26zv170rb4wbq.jpg",
@@ -20424,17 +20623,18 @@
      "height": 375,
      "bytes": 35403,
      "sha256": "97f4fa313e49a39f57a51c7fd7ebe9aac1be1b4494de4b24958708748ea3e774",
-     "checkedDate": "2026-09-14"
+     "checkedDate": "2026-09-14",
+     "reviewedAt": "2026-09-17"
     },
     {
      "file": "02-Nouvelle-cave-min-scaled-r5p7m78hfmirf2kmuv4o5z90yid67csistflyve7c6.jpg",
      "relativePath": "images/domaine-lionnet/02-Nouvelle-cave-min-scaled-r5p7m78hfmirf2kmuv4o5z90yid67csistflyve7c6.jpg",
      "role": "producer-estate",
-     "attribution": "not-a-wine",
+     "attribution": "producer-official",
      "appellation": null,
      "confidence": "medium",
-     "classificationMethod": "heuristic",
-     "reviewNote": null,
+     "classificationMethod": "agent-visual-review",
+     "reviewNote": "与 03 同图缩小重复尺寸（同一酒窖的缩略变体）",
      "altText": "Nouvelle cave-min",
      "sourcePage": "https://domainelionnet.com/notre-cave",
      "directURL": "https://domainelionnet.com/wp-content/uploads/elementor/thumbs/Nouvelle-cave-min-scaled-r5p7m78hfmirf2kmuv4o5z90yid67csistflyve7c6.jpg",
@@ -20442,17 +20642,18 @@
      "height": 375,
      "bytes": 40546,
      "sha256": "582fba9a7de65969782cd34568bb58f81e5b4feded0be0578f79ff516bad15c6",
-     "checkedDate": "2026-09-14"
+     "checkedDate": "2026-09-14",
+     "reviewedAt": "2026-09-17"
     },
     {
      "file": "03-Nouvelle-cave-min-scaled.jpg",
      "relativePath": "images/domaine-lionnet/03-Nouvelle-cave-min-scaled.jpg",
      "role": "producer-estate",
-     "attribution": "not-a-wine",
+     "attribution": "producer-official",
      "appellation": null,
-     "confidence": "medium",
-     "classificationMethod": "heuristic",
-     "reviewNote": null,
+     "confidence": "high",
+     "classificationMethod": "agent-visual-review",
+     "reviewNote": "新酒窖：陶罐（amphore）与旧桶陈酿区，官网“Nouvelle cave”实拍",
      "altText": null,
      "sourcePage": "https://domainelionnet.com/notre-cave",
      "directURL": "https://domainelionnet.com/wp-content/uploads/2025/05/Nouvelle-cave-min-scaled.jpg",
@@ -20460,17 +20661,18 @@
      "height": 1920,
      "bytes": 582825,
      "sha256": "b93bcef1ee14221ea8cc04c29f35706a6130f48a93e3e03918fcfdf3c17be0c3",
-     "checkedDate": "2026-09-14"
+     "checkedDate": "2026-09-14",
+     "reviewedAt": "2026-09-17"
     },
     {
      "file": "04-Cornas_07_vignes.jpg",
      "relativePath": "images/domaine-lionnet/04-Cornas_07_vignes.jpg",
      "role": "producer-estate",
-     "attribution": "not-a-wine",
+     "attribution": "producer-official",
      "appellation": null,
      "confidence": "high",
      "classificationMethod": "agent-visual-review",
-     "reviewNote": "葡萄园风景（夏季行列），**不是酒瓶**——启发式误判为 wine-bottle；文件名 Cornas 只是园址，不构成本图是酒款图的证据。",
+     "reviewNote": "官网横幅：葡萄园俯瞰罗讷河谷平原与对岸丘陵（Cornas vignes 系列）",
      "altText": null,
      "sourcePage": "https://domainelionnet.com/appellation-cornas",
      "directURL": "https://domainelionnet.com/wp-content/uploads/2025/04/Cornas_07_vignes.jpg",
@@ -20478,17 +20680,18 @@
      "height": 800,
      "bytes": 418485,
      "sha256": "dc83de0ffca8987fa5b1c66757d7047f8b363b815c96ad5285b4e5e021139bb8",
-     "checkedDate": "2026-09-14"
+     "checkedDate": "2026-09-14",
+     "reviewedAt": "2026-09-17"
     },
     {
      "file": "05-Cornas_01_vignes_automne.jpg",
      "relativePath": "images/domaine-lionnet/05-Cornas_01_vignes_automne.jpg",
      "role": "producer-estate",
-     "attribution": "not-a-wine",
+     "attribution": "producer-official",
      "appellation": null,
      "confidence": "high",
      "classificationMethod": "agent-visual-review",
-     "reviewNote": "葡萄园秋景（行列转黄），**不是酒瓶**——启发式误判。",
+     "reviewNote": "官网横幅：秋季葡萄园坡地（Cornas vignes automne 系列）",
      "altText": null,
      "sourcePage": "https://domainelionnet.com/appellation-cornas",
      "directURL": "https://domainelionnet.com/wp-content/uploads/2025/04/Cornas_01_vignes_automne.jpg",
@@ -20496,17 +20699,18 @@
      "height": 800,
      "bytes": 298615,
      "sha256": "e7ec724f7dc90ff0cd2623f30668b51c0988c7106ac0401e996c2912e1fc4c3e",
-     "checkedDate": "2026-09-14"
+     "checkedDate": "2026-09-14",
+     "reviewedAt": "2026-09-17"
     },
     {
      "file": "06-7d3d7f45-c3d4-445a-90f6-71038974f104.png",
      "relativePath": "images/domaine-lionnet/06-7d3d7f45-c3d4-445a-90f6-71038974f104.png",
-     "role": "producer-estate",
-     "attribution": "not-a-wine",
+     "role": "producer-people",
+     "attribution": "producer-official",
      "appellation": null,
-     "confidence": "medium",
-     "classificationMethod": "heuristic",
-     "reviewNote": null,
+     "confidence": "high",
+     "classificationMethod": "agent-visual-review",
+     "reviewNote": "庄主夫妇在自家葡萄园的人物照",
      "altText": null,
      "sourcePage": "https://domainelionnet.com/nos-vins-2",
      "directURL": "https://domainelionnet.com/wp-content/uploads/2025/05/7d3d7f45-c3d4-445a-90f6-71038974f104.png",
@@ -20514,17 +20718,18 @@
      "height": 1024,
      "bytes": 1693493,
      "sha256": "36a52dd9608fec16d350d7c9790e933f8bfb1ee58cff4153976f683abac4ad01",
-     "checkedDate": "2026-09-14"
+     "checkedDate": "2026-09-14",
+     "reviewedAt": "2026-09-17"
     },
     {
      "file": "07-5863f398-fefd-4a69-840d-501c0a01a7e0.png",
      "relativePath": "images/domaine-lionnet/07-5863f398-fefd-4a69-840d-501c0a01a7e0.png",
-     "role": "producer-estate",
-     "attribution": "not-a-wine",
+     "role": "wine-photo",
+     "attribution": "stock-or-generic",
      "appellation": null,
      "confidence": "medium",
-     "classificationMethod": "heuristic",
-     "reviewNote": null,
+     "classificationMethod": "agent-visual-review",
+     "reviewNote": "餐厅场景红/白葡萄酒杯，pexels 图库素材，非本庄酒款",
      "altText": null,
      "sourcePage": "https://domainelionnet.com/nos-vins",
      "directURL": "https://domainelionnet.com/wp-content/uploads/2025/05/5863f398-fefd-4a69-840d-501c0a01a7e0.png",
@@ -20532,17 +20737,18 @@
      "height": 1024,
      "bytes": 2011721,
      "sha256": "368671ca687b9b5bb9cdccf1c0935f3821666b8897e452471ca9d24898653772",
-     "checkedDate": "2026-09-14"
+     "checkedDate": "2026-09-14",
+     "reviewedAt": "2026-09-17"
     },
     {
      "file": "08-DSC9640_ret_600x600-1.webp",
      "relativePath": "images/domaine-lionnet/08-DSC9640_ret_600x600-1.webp",
-     "role": "producer-site",
-     "attribution": "not-a-wine",
+     "role": "wine-photo",
+     "attribution": "stock-or-generic",
      "appellation": null,
-     "confidence": "low",
-     "classificationMethod": "heuristic",
-     "reviewNote": null,
+     "confidence": "medium",
+     "classificationMethod": "agent-visual-review",
+     "reviewNote": "餐厅场景白葡萄酒杯与餐食，通用素材，非本庄酒款",
      "altText": null,
      "sourcePage": "https://domainelionnet.com",
      "directURL": "https://domainelionnet.com/wp-content/uploads/2025/05/DSC9640_ret_600x600-1.webp",
@@ -20550,17 +20756,18 @@
      "height": 399,
      "bytes": 120540,
      "sha256": "279b7b9e849ade9c882007612b27f47c8f701669066b7beb10f3795654aa456d",
-     "checkedDate": "2026-09-14"
+     "checkedDate": "2026-09-14",
+     "reviewedAt": "2026-09-17"
     },
     {
      "file": "09-pexels-creative-vix-370984-min-scaled-1.jpg",
      "relativePath": "images/domaine-lionnet/09-pexels-creative-vix-370984-min-scaled-1.jpg",
-     "role": "producer-site",
-     "attribution": "not-a-wine",
+     "role": "wine-photo",
+     "attribution": "stock-or-generic",
      "appellation": null,
-     "confidence": "low",
-     "classificationMethod": "heuristic",
-     "reviewNote": null,
+     "confidence": "medium",
+     "classificationMethod": "agent-visual-review",
+     "reviewNote": "餐厅场景红葡萄酒杯与餐食，pexels 图库素材",
      "altText": null,
      "sourcePage": "https://domainelionnet.com",
      "directURL": "https://domainelionnet.com/wp-content/uploads/2025/04/pexels-creative-vix-370984-min-scaled-1.jpg",
@@ -20568,7 +20775,8 @@
      "height": 1707,
      "bytes": 345062,
      "sha256": "741b9315e6414c4850d04628370082615014372c242c18d2709a1dc8239ef118",
-     "checkedDate": "2026-09-14"
+     "checkedDate": "2026-09-14",
+     "reviewedAt": "2026-09-17"
     }
    ],
    "additionalSources": [
@@ -20687,7 +20895,8 @@
      "height": 996,
      "bytes": 27086,
      "sha256": "d48026ea5a8352436d4fe49b93ea9a82f849eb9a646121ebe88e96c6260605c7",
-     "checkedDate": "2026-09-14"
+     "checkedDate": "2026-09-14",
+     "reviewedAt": "2026-09-17"
     }
    ],
    "imageSummary": "3 张官网图片（人物/庄园照 + 酒款瓶标图）；其中 1 张经逐张目视复核，0 张标面读得出 Cornas。",
@@ -20850,7 +21059,8 @@
      "height": 709,
      "bytes": 32530,
      "sha256": "d1998e2dd4c320a966406f604f7cab2b7179fc0a56e371fd007958ad97342a7b",
-     "checkedDate": "2026-09-14"
+     "checkedDate": "2026-09-14",
+     "reviewedAt": "2026-09-17"
     },
     {
      "file": "02-Crozes-hermitage-blanc-1.png",
@@ -20868,7 +21078,8 @@
      "height": 709,
      "bytes": 35885,
      "sha256": "82d316d28a928892ccd7f7b9455ec14824fa7a17667974d0bd6ccc4125505128",
-     "checkedDate": "2026-09-14"
+     "checkedDate": "2026-09-14",
+     "reviewedAt": "2026-09-17"
     },
     {
      "file": "03-Crozes-Rouge.jpg",
@@ -20886,7 +21097,8 @@
      "height": 709,
      "bytes": 30250,
      "sha256": "fb8b916e7935df8b3a33e976e453575b737007e496f8b4ed0c4d05360e4cea81",
-     "checkedDate": "2026-09-14"
+     "checkedDate": "2026-09-14",
+     "reviewedAt": "2026-09-17"
     },
     {
      "file": "04-Saint-joseph-blanc-1.png",
@@ -20904,7 +21116,8 @@
      "height": 709,
      "bytes": 34921,
      "sha256": "37a7c9276a99f4226a7e02143dc0c93ba313a651eb349d7fe15eaee3b62c43f8",
-     "checkedDate": "2026-09-14"
+     "checkedDate": "2026-09-14",
+     "reviewedAt": "2026-09-17"
     },
     {
      "file": "05-Saint-Joseph-Rouge.jpg",
@@ -20922,7 +21135,8 @@
      "height": 709,
      "bytes": 29930,
      "sha256": "78f8009e89b6ca38a804113ffdee52a02da1f034ccc66bb38c140f1a11de9bf3",
-     "checkedDate": "2026-09-14"
+     "checkedDate": "2026-09-14",
+     "reviewedAt": "2026-09-17"
     },
     {
      "file": "06-cornas-hypsos.png",
@@ -20940,7 +21154,8 @@
      "height": 709,
      "bytes": 121728,
      "sha256": "a158062782036c1f2fcd5143622d8e10cd6dab2dd8bdab8b8e6de97dd902ba05",
-     "checkedDate": "2026-09-14"
+     "checkedDate": "2026-09-14",
+     "reviewedAt": "2026-09-17"
     },
     {
      "file": "07-Mucyn_Home_03.jpg",
@@ -21084,7 +21299,8 @@
      "height": 422,
      "bytes": 6891,
      "sha256": "7317296191755b48d35165b87be8fae1ca0a8acf9be0d4125f8c2689135943eb",
-     "checkedDate": "2026-09-14"
+     "checkedDate": "2026-09-14",
+     "reviewedAt": "2026-09-17"
     },
     {
      "file": "15-IGP.png",
@@ -21102,7 +21318,8 @@
      "height": 709,
      "bytes": 29126,
      "sha256": "ee285485ebe72c2f474b50b7f8ead949ba91b1336b9f0774d604d1262d9a6359",
-     "checkedDate": "2026-09-14"
+     "checkedDate": "2026-09-14",
+     "reviewedAt": "2026-09-17"
     },
     {
      "file": "16-BAT-mucyn-col-rhodaniennes-vecto-1.jpg",
@@ -21192,7 +21409,8 @@
      "height": 600,
      "bytes": 78222,
      "sha256": "68abaf4508939273b9a6df530b8d7c457feb9b4ef0cd68047233aa3f7626498d",
-     "checkedDate": "2026-09-14"
+     "checkedDate": "2026-09-14",
+     "reviewedAt": "2026-09-17"
     },
     {
      "file": "21-Mucyn_Home_01-2.jpg",
@@ -21246,7 +21464,8 @@
      "height": 709,
      "bytes": 29378,
      "sha256": "de37cca7712c65a376f11cfa6bce3ce87d008a70587f23c9952636847dbdbc51",
-     "checkedDate": "2026-09-14"
+     "checkedDate": "2026-09-14",
+     "reviewedAt": "2026-09-17"
     },
     {
      "file": "24-Saint-Joseph-Rouge.png",
@@ -21264,7 +21483,8 @@
      "height": 709,
      "bytes": 29138,
      "sha256": "eb8551dd51831ef5575fb2a27ec6597f6726469069b55e85462bf51300f44584",
-     "checkedDate": "2026-09-14"
+     "checkedDate": "2026-09-14",
+     "reviewedAt": "2026-09-17"
     },
     {
      "file": "25-Hypsos_FB-1.png",
@@ -21282,7 +21502,8 @@
      "height": 709,
      "bytes": 120475,
      "sha256": "04e3d6499e1f104dc3e5433860df5ad942362fe8b22414f1130ded5bf1d53ad4",
-     "checkedDate": "2026-09-14"
+     "checkedDate": "2026-09-14",
+     "reviewedAt": "2026-09-17"
     },
     {
      "file": "26-Cornas.png",
@@ -21300,7 +21521,8 @@
      "height": 709,
      "bytes": 67044,
      "sha256": "3ee3dcbef5198064f4cd3a75f6fd6e862c78c4a545d9c1ca9b79338ece171b27",
-     "checkedDate": "2026-09-14"
+     "checkedDate": "2026-09-14",
+     "reviewedAt": "2026-09-17"
     }
    ],
    "imageSummary": "26 张官网图片（人物/庄园照 + 酒款瓶标图）；其中 13 张经逐张目视复核，3 张标面读得出 Cornas。",
@@ -21401,7 +21623,8 @@
    "notes": "产区官方名录收录的生产者条目，名称照录名录原文（法文），未做中文译名。地址/电话/邮箱来自名录；坐标按 OpenStreetMap 实体证据另行补齐。",
    "contactPerson": "FREY CAROLINE",
    "phone": "04 75 84 68 93",
-   "email": "e.bernard@jaboulet.com"
+   "email": "e.bernard@jaboulet.com",
+   "images": []
   },
   "version": 1,
   "updated": "2026-09-14T12:51:39.000Z",
@@ -21493,7 +21716,8 @@
      "height": 300,
      "bytes": 6409,
      "sha256": "3ac4e8c13cca45306393437d0c96672d3a962b949045ada7bf9ace60a939bb82",
-     "checkedDate": "2026-09-14"
+     "checkedDate": "2026-09-14",
+     "reviewedAt": "2026-09-17"
     },
     {
      "file": "03-saint-peray-la-beylesse-remy-nodin.jpg",
@@ -21511,7 +21735,8 @@
      "height": 300,
      "bytes": 6397,
      "sha256": "c3528ead24668e1edfa38ec993641ea2bfca39d00065da03c5afbb7d441f5592",
-     "checkedDate": "2026-09-14"
+     "checkedDate": "2026-09-14",
+     "reviewedAt": "2026-09-17"
     },
     {
      "file": "04-saint-peray-vieille-vigne-du-suchat-remy-nodin.jpg",
@@ -21529,7 +21754,8 @@
      "height": 300,
      "bytes": 6137,
      "sha256": "e326d0ea5bd0b3f5ae3d213ae185112bed55388a735f17aa78f8ff306266911a",
-     "checkedDate": "2026-09-14"
+     "checkedDate": "2026-09-14",
+     "reviewedAt": "2026-09-17"
     },
     {
      "file": "05-carte-cadeau-visite-de-cave.jpg",
@@ -21565,7 +21791,8 @@
      "height": 300,
      "bytes": 6105,
      "sha256": "bbedb316486b7bca0be5404e7c4474d342655c6d69e02ad76e8d346d77a86f7f",
-     "checkedDate": "2026-09-14"
+     "checkedDate": "2026-09-14",
+     "reviewedAt": "2026-09-17"
     },
     {
      "file": "07-segovellaunes-syrah-remy-nodin.jpg",
@@ -21583,7 +21810,8 @@
      "height": 300,
      "bytes": 6095,
      "sha256": "95e5c0e928b898f862d81a7127c15231d2f9b7f35db94f662cbf317628e20bd1",
-     "checkedDate": "2026-09-14"
+     "checkedDate": "2026-09-14",
+     "reviewedAt": "2026-09-17"
     },
     {
      "file": "08-crozes-hermitage-le-mazel-remy-nodin.jpg",
@@ -21601,7 +21829,8 @@
      "height": 300,
      "bytes": 6164,
      "sha256": "026083846b3787a8c22f4a72a751af963e14a42498edb3eaa02d6e3fca01a34c",
-     "checkedDate": "2026-09-14"
+     "checkedDate": "2026-09-14",
+     "reviewedAt": "2026-09-17"
     },
     {
      "file": "09-segovellaunes-cuvee-spahis-remy-nodin.jpg",
@@ -21619,7 +21848,8 @@
      "height": 300,
      "bytes": 6739,
      "sha256": "23d7a616562eeb1cccbc848ec7abe2bb661ea31199711d70eb1bac4bbc228af6",
-     "checkedDate": "2026-09-14"
+     "checkedDate": "2026-09-14",
+     "reviewedAt": "2026-09-17"
     },
     {
      "file": "10-terrine-au-cornas-les-eygas-remy-nodin.jpg",
@@ -21637,7 +21867,8 @@
      "height": 300,
      "bytes": 30529,
      "sha256": "cebfe1436c3de82cd025bca558d2abe4c776c522f27a13c6d6a8bedae8912c73",
-     "checkedDate": "2026-09-14"
+     "checkedDate": "2026-09-14",
+     "reviewedAt": "2026-09-17"
     },
     {
      "file": "11-crozes-hermitage-le-mazel-remy-nodin.jpg",
@@ -21655,7 +21886,8 @@
      "height": 1000,
      "bytes": 37393,
      "sha256": "95c43156f2a35e244c6f7bbbea2b64f6433595fda51ef401c2945b002b572d25",
-     "checkedDate": "2026-09-14"
+     "checkedDate": "2026-09-14",
+     "reviewedAt": "2026-09-17"
     },
     {
      "file": "12-crozes-hermitage-le-mazel-remy-nodin.jpg",
@@ -21673,7 +21905,8 @@
      "height": 452,
      "bytes": 11531,
      "sha256": "cd9f70328eb5cd2e17bb8b0b4abe0db2e12b4406440f23a242860e9ba2dc1e85",
-     "checkedDate": "2026-09-14"
+     "checkedDate": "2026-09-14",
+     "reviewedAt": "2026-09-17"
     },
     {
      "file": "13-crozes-hermitage-le-mazel-remy-nodin.jpg",
@@ -21691,7 +21924,8 @@
      "height": 452,
      "bytes": 55182,
      "sha256": "648e65bdd5bf20dc792ea88f0a4b8fd60ee06c6e213a690e042bc34f8a47acb8",
-     "checkedDate": "2026-09-14"
+     "checkedDate": "2026-09-14",
+     "reviewedAt": "2026-09-17"
     },
     {
      "file": "14-crozes-hermitage-le-mazel-remy-nodin.jpg",
@@ -21709,7 +21943,8 @@
      "height": 1000,
      "bytes": 211583,
      "sha256": "e177fc68c20b25ca1c56695bb416a90b47fcf5ff96e12bc3f7ef76cf73f9f1e4",
-     "checkedDate": "2026-09-14"
+     "checkedDate": "2026-09-14",
+     "reviewedAt": "2026-09-17"
     },
     {
      "file": "15-crozes-hermitage-le-mazel-remy-nodin.jpg",
@@ -21727,7 +21962,8 @@
      "height": 300,
      "bytes": 20635,
      "sha256": "4bd5bd2e50e6d48b8c8af814e8269081d62f638e47e46e3050319e2cefdc01b9",
-     "checkedDate": "2026-09-14"
+     "checkedDate": "2026-09-14",
+     "reviewedAt": "2026-09-17"
     },
     {
      "file": "16-crozes-hermitage-le-mazel-remy-nodin.jpg",
@@ -21745,7 +21981,8 @@
      "height": 452,
      "bytes": 40578,
      "sha256": "b033652b78549c5845c3a703163434fbae0fe047e1a68140943afb2468336c3b",
-     "checkedDate": "2026-09-14"
+     "checkedDate": "2026-09-14",
+     "reviewedAt": "2026-09-17"
     },
     {
      "file": "17-crozes-hermitage-le-mazel-remy-nodin.jpg",
@@ -21763,7 +22000,8 @@
      "height": 1000,
      "bytes": 121318,
      "sha256": "68580d55b8fc5aa0f6959ae071e9830da1c4a35bb37a45e2dfd5571742c6d18e",
-     "checkedDate": "2026-09-14"
+     "checkedDate": "2026-09-14",
+     "reviewedAt": "2026-09-17"
     },
     {
      "file": "18-crozes-hermitage-le-mazel-remy-nodin.jpg",
@@ -21781,7 +22019,8 @@
      "height": 300,
      "bytes": 17835,
      "sha256": "554e1138293647d09e59dafd02a100bc4c61c66ab2c8df53b952df7589d72464",
-     "checkedDate": "2026-09-14"
+     "checkedDate": "2026-09-14",
+     "reviewedAt": "2026-09-17"
     },
     {
      "file": "19-saint-peray-lys-florissant-remy-nodin.jpg",
@@ -21799,7 +22038,8 @@
      "height": 300,
      "bytes": 7023,
      "sha256": "f4bd08a38c137fc6e6603a154246f6511a8439fd528483e45cf1f03716948592",
-     "checkedDate": "2026-09-14"
+     "checkedDate": "2026-09-14",
+     "reviewedAt": "2026-09-17"
     },
     {
      "file": "20-saint-peray-la-beylesse-remy-nodin.jpg",
@@ -21817,7 +22057,8 @@
      "height": 1000,
      "bytes": 39076,
      "sha256": "d778d6d09ffab0daa046b5f4cd7e91c9d956ccb4383ba496ec99ce453d0a48cb",
-     "checkedDate": "2026-09-14"
+     "checkedDate": "2026-09-14",
+     "reviewedAt": "2026-09-17"
     },
     {
      "file": "21-saint-peray-la-beylesse-remy-nodin.jpg",
@@ -21835,7 +22076,8 @@
      "height": 452,
      "bytes": 11767,
      "sha256": "17eda3b17675b69b5dc45b4ff9ec322a681ef3c1d85a98ee9d5502cafd04d8d3",
-     "checkedDate": "2026-09-14"
+     "checkedDate": "2026-09-14",
+     "reviewedAt": "2026-09-17"
     },
     {
      "file": "22-saint-peray-la-beylesse-remy-nodin.jpg",
@@ -21853,7 +22095,8 @@
      "height": 452,
      "bytes": 51012,
      "sha256": "74b2496b7dde2e3a1f1275a816a6d82ac78776bcd63ea885b8891cca3df0db86",
-     "checkedDate": "2026-09-14"
+     "checkedDate": "2026-09-14",
+     "reviewedAt": "2026-09-17"
     },
     {
      "file": "23-saint-peray-la-beylesse-remy-nodin.jpg",
@@ -21871,7 +22114,8 @@
      "height": 1000,
      "bytes": 169876,
      "sha256": "76a36cfb3056db77b43e44304e67feafac63cda95c8a97f64285a5dcff76d3fd",
-     "checkedDate": "2026-09-14"
+     "checkedDate": "2026-09-14",
+     "reviewedAt": "2026-09-17"
     },
     {
      "file": "24-saint-peray-la-beylesse-remy-nodin.jpg",
@@ -21889,7 +22133,8 @@
      "height": 300,
      "bytes": 20106,
      "sha256": "bcaa1f3036cb86f9410c56cc4eaa84d66164d0f61c05ab17a64fd82e79c8e060",
-     "checkedDate": "2026-09-14"
+     "checkedDate": "2026-09-14",
+     "reviewedAt": "2026-09-17"
     },
     {
      "file": "25-saint-peray-la-beylesse-remy-nodin.jpg",
@@ -21907,7 +22152,8 @@
      "height": 452,
      "bytes": 62794,
      "sha256": "456a9aaf0ff405ee0776dfce25d13110b2b57cd9615205ece8e81bf3e3d00bdc",
-     "checkedDate": "2026-09-14"
+     "checkedDate": "2026-09-14",
+     "reviewedAt": "2026-09-17"
     },
     {
      "file": "26-saint-peray-la-beylesse-remy-nodin.jpg",
@@ -21925,7 +22171,8 @@
      "height": 1000,
      "bytes": 242779,
      "sha256": "4f15b58ed75afa0c76e2077f702c17b060903642200aebf1fb6e3a226cb18a66",
-     "checkedDate": "2026-09-14"
+     "checkedDate": "2026-09-14",
+     "reviewedAt": "2026-09-17"
     }
    ],
    "imageSummary": "26 张官网图片（人物/庄园照 + 酒款瓶标图）；其中 24 张经逐张目视复核，1 张标面读得出 Cornas。",
@@ -21997,7 +22244,8 @@
    "notes": "产区官方名录收录的生产者条目，名称照录名录原文（法文），未做中文译名。地址/电话/邮箱来自名录；坐标按 OpenStreetMap 实体证据另行补齐。",
    "contactPerson": "TEYSSEIRE JEAN-MARIE",
    "phone": "04 75 40 52 01",
-   "email": "jmes.teysseire@orange.fr"
+   "email": "jmes.teysseire@orange.fr",
+   "images": []
   },
   "version": 1,
   "updated": "2026-09-14T12:51:39.000Z",
@@ -22181,7 +22429,8 @@
      "height": 900,
      "bytes": 94545,
      "sha256": "228bd01d5b8a45365711fc0f4831bc6784af459cd8c81d251b94625ea18b37cb",
-     "checkedDate": "2026-09-14"
+     "checkedDate": "2026-09-14",
+     "reviewedAt": "2026-09-17"
     },
     {
      "file": "04-Premier_Mill_sime_dec88.png",
@@ -22199,7 +22448,8 @@
      "height": 932,
      "bytes": 1068973,
      "sha256": "7220f4565d82c7950c447505142e92c2836a8eecb5d993e57b0b058f54d19900",
-     "checkedDate": "2026-09-14"
+     "checkedDate": "2026-09-14",
+     "reviewedAt": "2026-09-17"
     },
     {
      "file": "05-premiere_extension.jpg",
@@ -22541,7 +22791,8 @@
      "height": 800,
      "bytes": 69298,
      "sha256": "d04c1b6c0fd6c1b488cb30ffdc49c2b7bfa062b430c95ce6dd8eb01801b34e6b",
-     "checkedDate": "2026-09-14"
+     "checkedDate": "2026-09-14",
+     "reviewedAt": "2026-09-17"
     },
     {
      "file": "24-Saint-Joseph---Lieu-Dit-Digue.webp",
@@ -22559,7 +22810,8 @@
      "height": 800,
      "bytes": 88138,
      "sha256": "8c49e08ad3c58e6c869ea3811d4e06da62920eadb5f2841e081b3227e6ae5943",
-     "checkedDate": "2026-09-14"
+     "checkedDate": "2026-09-14",
+     "reviewedAt": "2026-09-17"
     },
     {
      "file": "25-Crozes-Hermitage---Les-Rousses.webp",
@@ -22577,7 +22829,8 @@
      "height": 800,
      "bytes": 91792,
      "sha256": "ac3f7f4a541eb185f428435075239761f05481564d004cb2b1ee47476c7d0c4d",
-     "checkedDate": "2026-09-14"
+     "checkedDate": "2026-09-14",
+     "reviewedAt": "2026-09-17"
     },
     {
      "file": "26-Condrieu---Les-Chaillets.webp",
@@ -22595,7 +22848,8 @@
      "height": 800,
      "bytes": 87406,
      "sha256": "31111ccf099a2dc63a65951f04e2ef7ffc9bec784812761de1fe528fa35f6c32",
-     "checkedDate": "2026-09-14"
+     "checkedDate": "2026-09-14",
+     "reviewedAt": "2026-09-17"
     },
     {
      "file": "17-Saint-P_ray---Les-Potiers.png",
@@ -22613,7 +22867,8 @@
      "height": 800,
      "bytes": 248175,
      "sha256": "cd6c62807804104f725893271674a3f649c8dbc4786ec8da01a775da1c97f3f5",
-     "checkedDate": "2026-09-14"
+     "checkedDate": "2026-09-14",
+     "reviewedAt": "2026-09-17"
     },
     {
      "file": "18-Saint-P_ray---Lieu-Dit-Biousse.png",
@@ -22631,7 +22886,8 @@
      "height": 800,
      "bytes": 248275,
      "sha256": "562d46b0e854f65676daa05f8f5e2703a5ce5fcbd1990ea43a41da53b16c2d85",
-     "checkedDate": "2026-09-14"
+     "checkedDate": "2026-09-14",
+     "reviewedAt": "2026-09-17"
     },
     {
      "file": "20-Condrieu---La-Petite-C_te.png",
@@ -22649,7 +22905,8 @@
      "height": 800,
      "bytes": 218950,
      "sha256": "df82eb1f01eb9074b64b17bdefd582aa2a5efd781ac378ebe5949248df0d168c",
-     "checkedDate": "2026-09-14"
+     "checkedDate": "2026-09-14",
+     "reviewedAt": "2026-09-17"
     },
     {
      "file": "26-C_te-R_tie---Madini_re.png",
@@ -22667,7 +22924,8 @@
      "height": 800,
      "bytes": 225073,
      "sha256": "7f385cdfe1ba30b02ed0b330209c488db9ac4dac9ca37f57dc776e8f15faa586",
-     "checkedDate": "2026-09-14"
+     "checkedDate": "2026-09-14",
+     "reviewedAt": "2026-09-17"
     }
    ],
    "imageSummary": "30 张官网图片（人物/庄园照 + 酒款瓶标图）；其中 10 张经逐张目视复核，0 张标面读得出 Cornas。",
@@ -22844,7 +23102,8 @@
      "listedIn": "saint-joseph",
      "note": "该生产者同时出现在 AOC Saint-Joseph 官方名录中；本记录主来源保留原产区（cornas）不变，此处追加新增来源备查。"
     }
-   ]
+   ],
+   "images": []
   },
   "version": 2,
   "updated": "2026-09-14T17:25:30.000Z",
@@ -22878,7 +23137,256 @@
    "checkedDate": "2026-09-14",
    "notes": "产区官方名录收录的生产者条目，名称照录名录原文（法文），未做中文译名。地址/电话/邮箱来自名录；坐标按 OpenStreetMap 实体证据另行补齐。",
    "phone": "04 75 40 46 78",
-   "email": "ej.durand@wanadoo.fr"
+   "email": "ej.durand@wanadoo.fr",
+   "images": [
+    {
+     "file": "01-logo.png",
+     "role": "uncertain",
+     "attribution": "unverified",
+     "appellation": null,
+     "confidence": "high",
+     "classificationMethod": "agent-visual-review",
+     "reviewNote": "Domaine Durand 花体 Logo。域名归属存疑：domaine-durand.fr（罗讷旅游局 rhone-crussol-tourisme 标注为科尔纳斯 Eric & Joël Durand 官网）内容全为 Sancerre/卢瓦尔产区（Sancerre 酒标、Sancerrois 电动滑板车宣传、Cave Durand），疑为同名异地酒庄或旅游局过期链接；不得作为 Cornas 素材使用",
+     "reviewedAt": "2026-09-17",
+     "altText": null,
+     "sourcePage": "https://www.domaine-durand.fr",
+     "directURL": "https://www.domaine-durand.fr/wp-content/uploads/2025/01/logo.png",
+     "width": 794,
+     "height": 466,
+     "bytes": 19728,
+     "sha256": "c918c320f3453bcec4da1eda622806796b63bf2688a21bc2328ce6491caf6b16",
+     "relativePath": "images/gaec-du-lautaret/01-logo.png",
+     "checkedDate": "2026-09-17"
+    },
+    {
+     "file": "02-batch_2-famille-qui-travaille-sur-le-Domaine-1024x682.jpg",
+     "role": "uncertain",
+     "attribution": "unverified",
+     "appellation": null,
+     "confidence": "medium",
+     "classificationMethod": "agent-visual-review",
+     "reviewNote": "六人家庭合影于葡萄园，无标识可判归属；所在官网疑为 Sancerre 酒庄。域名归属存疑：domaine-durand.fr（罗讷旅游局 rhone-crussol-tourisme 标注为科尔纳斯 Eric & Joël Durand 官网）内容全为 Sancerre/卢瓦尔产区（Sancerre 酒标、Sancerrois 电动滑板车宣传、Cave Durand），疑为同名异地酒庄或旅游局过期链接；不得作为 Cornas 素材使用",
+     "reviewedAt": "2026-09-17",
+     "altText": null,
+     "sourcePage": "https://www.domaine-durand.fr",
+     "directURL": "https://www.domaine-durand.fr/wp-content/uploads/2026/02/batch_2-famille-qui-travaille-sur-le-Domaine-1024x682.jpg",
+     "width": 1024,
+     "height": 682,
+     "bytes": 106201,
+     "sha256": "6a79bb3ce88be49428773ef44e621045d972b74d86798a849cede01765aca3c7",
+     "relativePath": "images/gaec-du-lautaret/02-batch_2-famille-qui-travaille-sur-le-Domaine-1024x682.jpg",
+     "checkedDate": "2026-09-17"
+    },
+    {
+     "file": "03-Flyer-trot-1024x658.jpg",
+     "role": "uncertain",
+     "attribution": "unverified",
+     "appellation": null,
+     "confidence": "high",
+     "classificationMethod": "agent-visual-review",
+     "reviewNote": "VINORIZON 电动滑板车宣传卡，明示 terroir Sancerrois（桑塞尔），证实域名指向 Sancerre 酒庄。域名归属存疑：domaine-durand.fr（罗讷旅游局 rhone-crussol-tourisme 标注为科尔纳斯 Eric & Joël Durand 官网）内容全为 Sancerre/卢瓦尔产区（Sancerre 酒标、Sancerrois 电动滑板车宣传、Cave Durand），疑为同名异地酒庄或旅游局过期链接；不得作为 Cornas 素材使用",
+     "reviewedAt": "2026-09-17",
+     "altText": null,
+     "sourcePage": "https://www.domaine-durand.fr",
+     "directURL": "https://www.domaine-durand.fr/wp-content/uploads/2025/11/Flyer-trot-1024x658.jpg",
+     "width": 1024,
+     "height": 658,
+     "bytes": 124325,
+     "sha256": "0ba9c534b09b8363ff05a294e771a28e6c029f89759f6637923ac2bfee85d9fd",
+     "relativePath": "images/gaec-du-lautaret/03-Flyer-trot-1024x658.jpg",
+     "checkedDate": "2026-09-17"
+    },
+    {
+     "file": "04-logo.png",
+     "role": "uncertain",
+     "attribution": "unverified",
+     "appellation": null,
+     "confidence": "medium",
+     "classificationMethod": "agent-visual-review",
+     "reviewNote": "Domaine Durand 花体 Logo（黑底）。域名归属存疑：domaine-durand.fr（罗讷旅游局 rhone-crussol-tourisme 标注为科尔纳斯 Eric & Joël Durand 官网）内容全为 Sancerre/卢瓦尔产区（Sancerre 酒标、Sancerrois 电动滑板车宣传、Cave Durand），疑为同名异地酒庄或旅游局过期链接；不得作为 Cornas 素材使用",
+     "reviewedAt": "2026-09-17",
+     "altText": null,
+     "sourcePage": "https://www.domaine-durand.fr",
+     "directURL": "https://www.domaine-durand.fr/wp-content/uploads/2025/04/logo.png",
+     "width": 794,
+     "height": 468,
+     "bytes": 20944,
+     "sha256": "cf3ace94f1ad5a6f2572aca46fb08345005fd4d5d6055421f49ba08f7318c344",
+     "relativePath": "images/gaec-du-lautaret/04-logo.png",
+     "checkedDate": "2026-09-17"
+    },
+    {
+     "file": "05-favicon-1024x1024.png",
+     "role": "uncertain",
+     "attribution": "unverified",
+     "appellation": null,
+     "confidence": "medium",
+     "classificationMethod": "agent-visual-review",
+     "reviewNote": "金色圆形 dD 站标。域名归属存疑：domaine-durand.fr（罗讷旅游局 rhone-crussol-tourisme 标注为科尔纳斯 Eric & Joël Durand 官网）内容全为 Sancerre/卢瓦尔产区（Sancerre 酒标、Sancerrois 电动滑板车宣传、Cave Durand），疑为同名异地酒庄或旅游局过期链接；不得作为 Cornas 素材使用",
+     "reviewedAt": "2026-09-17",
+     "altText": null,
+     "sourcePage": "https://www.domaine-durand.fr",
+     "directURL": "https://www.domaine-durand.fr/wp-content/uploads/2025/04/favicon-1024x1024.png",
+     "width": 1024,
+     "height": 1024,
+     "bytes": 79324,
+     "sha256": "5d1ec882f52477cccd9f159db16b043e9f1083ea0d55a33dbe67e83ab239d1a1",
+     "relativePath": "images/gaec-du-lautaret/05-favicon-1024x1024.png",
+     "checkedDate": "2026-09-17"
+    },
+    {
+     "file": "06-ETA-SANCERRE-blanc-rouge-et-rose.jpg",
+     "role": "wine-label",
+     "attribution": "unverified",
+     "appellation": "Sancerre",
+     "confidence": "high",
+     "classificationMethod": "agent-visual-review",
+     "reviewNote": "酒标明读 SANCERRE（桑塞尔 AOC），非 Cornas 酒款。域名归属存疑：domaine-durand.fr（罗讷旅游局 rhone-crussol-tourisme 标注为科尔纳斯 Eric & Joël Durand 官网）内容全为 Sancerre/卢瓦尔产区（Sancerre 酒标、Sancerrois 电动滑板车宣传、Cave Durand），疑为同名异地酒庄或旅游局过期链接；不得作为 Cornas 素材使用",
+     "reviewedAt": "2026-09-17",
+     "altText": null,
+     "sourcePage": "https://www.domaine-durand.fr",
+     "directURL": "https://www.domaine-durand.fr/wp-content/uploads/2025/07/ETA-SANCERRE-blanc-rouge-et-rose.jpg",
+     "width": 878,
+     "height": 1054,
+     "bytes": 48457,
+     "sha256": "15f16c63e7434470c247a159e95c1faaeb15921d5f564c7fa60aff95ca8315d7",
+     "relativePath": "images/gaec-du-lautaret/06-ETA-SANCERRE-blanc-rouge-et-rose.jpg",
+     "checkedDate": "2026-09-17"
+    },
+    {
+     "file": "07-ETA-MENETOU-SALON-blanc-rouge.jpg",
+     "role": "wine-label",
+     "attribution": "unverified",
+     "appellation": "Menetou-Salon",
+     "confidence": "high",
+     "classificationMethod": "agent-visual-review",
+     "reviewNote": "Cave Durand Menetou-Salon 标签图，非 Cornas 酒款。域名归属存疑：domaine-durand.fr（罗讷旅游局 rhone-crussol-tourisme 标注为科尔纳斯 Eric & Joël Durand 官网）内容全为 Sancerre/卢瓦尔产区（Sancerre 酒标、Sancerrois 电动滑板车宣传、Cave Durand），疑为同名异地酒庄或旅游局过期链接；不得作为 Cornas 素材使用",
+     "reviewedAt": "2026-09-17",
+     "altText": null,
+     "sourcePage": "https://www.domaine-durand.fr",
+     "directURL": "https://www.domaine-durand.fr/wp-content/uploads/2025/07/ETA-MENETOU-SALON-blanc-rouge.jpg",
+     "width": 880,
+     "height": 1057,
+     "bytes": 44401,
+     "sha256": "ec6f3692933d1285b0f6510a91746319e3a892997f442fd3227e4c37104ff423",
+     "relativePath": "images/gaec-du-lautaret/07-ETA-MENETOU-SALON-blanc-rouge.jpg",
+     "checkedDate": "2026-09-17"
+    },
+    {
+     "file": "08-ETA-POUILLY-FUME.jpg",
+     "role": "wine-label",
+     "attribution": "unverified",
+     "appellation": "Pouilly-Fumé",
+     "confidence": "high",
+     "classificationMethod": "agent-visual-review",
+     "reviewNote": "Cave Durand Pouilly-Fumé 标签图，非 Cornas 酒款。域名归属存疑：domaine-durand.fr（罗讷旅游局 rhone-crussol-tourisme 标注为科尔纳斯 Eric & Joël Durand 官网）内容全为 Sancerre/卢瓦尔产区（Sancerre 酒标、Sancerrois 电动滑板车宣传、Cave Durand），疑为同名异地酒庄或旅游局过期链接；不得作为 Cornas 素材使用",
+     "reviewedAt": "2026-09-17",
+     "altText": null,
+     "sourcePage": "https://www.domaine-durand.fr",
+     "directURL": "https://www.domaine-durand.fr/wp-content/uploads/2025/07/ETA-POUILLY-FUME.jpg",
+     "width": 876,
+     "height": 1052,
+     "bytes": 34125,
+     "sha256": "ade9f5a056c29cafe6290805d1b6bca801ea700a88bd46d194b559edb97994c5",
+     "relativePath": "images/gaec-du-lautaret/08-ETA-POUILLY-FUME.jpg",
+     "checkedDate": "2026-09-17"
+    },
+    {
+     "file": "09-ETA-CUVEE-VIEILLES-VIGNES.jpg",
+     "role": "wine-label",
+     "attribution": "unverified",
+     "appellation": "Sancerre",
+     "confidence": "high",
+     "classificationMethod": "agent-visual-review",
+     "reviewNote": "明读 SANCERRE VIEILLES VIGNES，非 Cornas 酒款。域名归属存疑：domaine-durand.fr（罗讷旅游局 rhone-crussol-tourisme 标注为科尔纳斯 Eric & Joël Durand 官网）内容全为 Sancerre/卢瓦尔产区（Sancerre 酒标、Sancerrois 电动滑板车宣传、Cave Durand），疑为同名异地酒庄或旅游局过期链接；不得作为 Cornas 素材使用",
+     "reviewedAt": "2026-09-17",
+     "altText": null,
+     "sourcePage": "https://www.domaine-durand.fr",
+     "directURL": "https://www.domaine-durand.fr/wp-content/uploads/2025/07/ETA-CUVEE-VIEILLES-VIGNES.jpg",
+     "width": 880,
+     "height": 938,
+     "bytes": 38825,
+     "sha256": "1bc98707ff7974c56896b9652c0993dd95c5029153438357753e7a99d33b7180",
+     "relativePath": "images/gaec-du-lautaret/09-ETA-CUVEE-VIEILLES-VIGNES.jpg",
+     "checkedDate": "2026-09-17"
+    },
+    {
+     "file": "10-ETA-CUVEE-ACACIA.jpg",
+     "role": "wine-label",
+     "attribution": "unverified",
+     "appellation": "Sancerre",
+     "confidence": "high",
+     "classificationMethod": "agent-visual-review",
+     "reviewNote": "明读 SANCERRE VINIFIÉ EN FÛT D’ACACIA，非 Cornas 酒款。域名归属存疑：domaine-durand.fr（罗讷旅游局 rhone-crussol-tourisme 标注为科尔纳斯 Eric & Joël Durand 官网）内容全为 Sancerre/卢瓦尔产区（Sancerre 酒标、Sancerrois 电动滑板车宣传、Cave Durand），疑为同名异地酒庄或旅游局过期链接；不得作为 Cornas 素材使用",
+     "reviewedAt": "2026-09-17",
+     "altText": null,
+     "sourcePage": "https://www.domaine-durand.fr",
+     "directURL": "https://www.domaine-durand.fr/wp-content/uploads/2025/07/ETA-CUVEE-ACACIA.jpg",
+     "width": 585,
+     "height": 627,
+     "bytes": 22222,
+     "sha256": "9f620af1c77ac74f1e2404dc2b1818ee7ad9eec001b79ea8bc7b0778dfcf10a3",
+     "relativePath": "images/gaec-du-lautaret/10-ETA-CUVEE-ACACIA.jpg",
+     "checkedDate": "2026-09-17"
+    },
+    {
+     "file": "11-ETA-CUVEE-DU-RANG-DE-RIVES.jpg",
+     "role": "wine-label",
+     "attribution": "unverified",
+     "appellation": "Sancerre",
+     "confidence": "high",
+     "classificationMethod": "agent-visual-review",
+     "reviewNote": "明读 SANCERRE du Rang de Rives，非 Cornas 酒款。域名归属存疑：domaine-durand.fr（罗讷旅游局 rhone-crussol-tourisme 标注为科尔纳斯 Eric & Joël Durand 官网）内容全为 Sancerre/卢瓦尔产区（Sancerre 酒标、Sancerrois 电动滑板车宣传、Cave Durand），疑为同名异地酒庄或旅游局过期链接；不得作为 Cornas 素材使用",
+     "reviewedAt": "2026-09-17",
+     "altText": null,
+     "sourcePage": "https://www.domaine-durand.fr",
+     "directURL": "https://www.domaine-durand.fr/wp-content/uploads/2025/07/ETA-CUVEE-DU-RANG-DE-RIVES.jpg",
+     "width": 606,
+     "height": 647,
+     "bytes": 31930,
+     "sha256": "419f25dbef619a3e8f15d60169aecb26d953028d0640badf2985620bc7f369e1",
+     "relativePath": "images/gaec-du-lautaret/11-ETA-CUVEE-DU-RANG-DE-RIVES.jpg",
+     "checkedDate": "2026-09-17"
+    },
+    {
+     "file": "12-ETA-CUVEE-CHENE.jpg",
+     "role": "wine-label",
+     "attribution": "unverified",
+     "appellation": "Sancerre",
+     "confidence": "high",
+     "classificationMethod": "agent-visual-review",
+     "reviewNote": "明读 SANCERRE ÉLEVÉ EN FÛT DE CHÊNE，非 Cornas 酒款。域名归属存疑：domaine-durand.fr（罗讷旅游局 rhone-crussol-tourisme 标注为科尔纳斯 Eric & Joël Durand 官网）内容全为 Sancerre/卢瓦尔产区（Sancerre 酒标、Sancerrois 电动滑板车宣传、Cave Durand），疑为同名异地酒庄或旅游局过期链接；不得作为 Cornas 素材使用",
+     "reviewedAt": "2026-09-17",
+     "altText": null,
+     "sourcePage": "https://www.domaine-durand.fr",
+     "directURL": "https://www.domaine-durand.fr/wp-content/uploads/2025/07/ETA-CUVEE-CHENE.jpg",
+     "width": 878,
+     "height": 939,
+     "bytes": 42977,
+     "sha256": "4413322f417a74d984b65aadb9153ea70a935b28f3338a96333a32b4d64d0a08",
+     "relativePath": "images/gaec-du-lautaret/12-ETA-CUVEE-CHENE.jpg",
+     "checkedDate": "2026-09-17"
+    },
+    {
+     "file": "13-ETA-CUVEE-ARCANDIER.jpg",
+     "role": "wine-label",
+     "attribution": "unverified",
+     "appellation": "Vin de France",
+     "confidence": "high",
+     "classificationMethod": "agent-visual-review",
+     "reviewNote": "明读 Cuvée de L’Arcandier / CAVE DURAND / VIN DE FRANCE，非 Cornas 酒款。域名归属存疑：domaine-durand.fr（罗讷旅游局 rhone-crussol-tourisme 标注为科尔纳斯 Eric & Joël Durand 官网）内容全为 Sancerre/卢瓦尔产区（Sancerre 酒标、Sancerrois 电动滑板车宣传、Cave Durand），疑为同名异地酒庄或旅游局过期链接；不得作为 Cornas 素材使用",
+     "reviewedAt": "2026-09-17",
+     "altText": null,
+     "sourcePage": "https://www.domaine-durand.fr",
+     "directURL": "https://www.domaine-durand.fr/wp-content/uploads/2025/07/ETA-CUVEE-ARCANDIER.jpg",
+     "width": 1408,
+     "height": 1051,
+     "bytes": 163325,
+     "sha256": "e11df9f1bfd18429bd988802e46de99697601a4b0f8edd6849e99964cdd56e44",
+     "relativePath": "images/gaec-du-lautaret/13-ETA-CUVEE-ARCANDIER.jpg",
+     "checkedDate": "2026-09-17"
+    }
+   ]
   },
   "version": 1,
   "updated": "2026-09-14T12:51:39.000Z",
@@ -23047,7 +23555,8 @@
    "checkedDate": "2026-09-14",
    "notes": "产区官方名录收录的生产者条目，名称照录名录原文（法文），未做中文译名。地址/电话/邮箱来自名录；坐标按 OpenStreetMap 实体证据另行补齐。",
    "phone": "04 75 07 44 28",
-   "email": "contact@domaineremizieres.com"
+   "email": "contact@domaineremizieres.com",
+   "images": []
   },
   "version": 1,
   "updated": "2026-09-14T12:51:39.000Z",
@@ -23137,7 +23646,8 @@
      "height": 3000,
      "bytes": 72548,
      "sha256": "063165b869fb4c9173103bbd1232f4468482e04d23f1c04bf0b53a9559b916ff",
-     "checkedDate": "2026-09-14"
+     "checkedDate": "2026-09-14",
+     "reviewedAt": "2026-09-17"
     },
     {
      "file": "03-CABANON_ROUGE.jpg",
@@ -23155,7 +23665,8 @@
      "height": 3000,
      "bytes": 76628,
      "sha256": "7bbb4e71800c25c5eeac55029d3474b42533be50e98b8572f4fb0e9aa7dbb991",
-     "checkedDate": "2026-09-14"
+     "checkedDate": "2026-09-14",
+     "reviewedAt": "2026-09-17"
     },
     {
      "file": "04-MLA_TERRASSE_DE_L_ERIDAN_BLANC.jpg",
@@ -23173,7 +23684,8 @@
      "height": 3000,
      "bytes": 130022,
      "sha256": "8ca389b4d4878be77068db9b72ea27969355cb0234f00be3ba2dfbdff5dc96eb",
-     "checkedDate": "2026-09-14"
+     "checkedDate": "2026-09-14",
+     "reviewedAt": "2026-09-17"
     },
     {
      "file": "05-MLA_TERRASSE_DE_L_ERIDAN_RG.jpg",
@@ -23191,7 +23703,8 @@
      "height": 3000,
      "bytes": 111982,
      "sha256": "36bb8ca2ec9dcf47f9ed7c33a17e7dc693ae1ecc68bdd4286f0a8e8a61ccf5a0",
-     "checkedDate": "2026-09-14"
+     "checkedDate": "2026-09-14",
+     "reviewedAt": "2026-09-17"
     },
     {
      "file": "06-CRAIES_BLANCHES_2636a7cb-3bff-4387-a9c1-f158b56329ba.jpg",
@@ -23209,7 +23722,8 @@
      "height": 3000,
      "bytes": 152538,
      "sha256": "ec336cd5e791bcfe99c2e9709a83b8c61ec51463c16462ab3381bd83ecc1ca38",
-     "checkedDate": "2026-09-14"
+     "checkedDate": "2026-09-14",
+     "reviewedAt": "2026-09-17"
     },
     {
      "file": "07-CRAIES_ROUGES_6e1c5f2e-db72-46e1-b8b5-27a603206b43.jpg",
@@ -23227,7 +23741,8 @@
      "height": 3000,
      "bytes": 142162,
      "sha256": "e50ab3223547a0709cbaa993695628d755dad1704ad8f470face074e2e6e8867",
-     "checkedDate": "2026-09-14"
+     "checkedDate": "2026-09-14",
+     "reviewedAt": "2026-09-17"
     },
     {
      "file": "08-MLA_CROZES-HERMITAGE_BL.jpg",
@@ -23245,7 +23760,8 @@
      "height": 3000,
      "bytes": 106200,
      "sha256": "d7f14c0ac37edbd13953235a695f8f64071ee2c1d20770b52962b50fb8244b2e",
-     "checkedDate": "2026-09-14"
+     "checkedDate": "2026-09-14",
+     "reviewedAt": "2026-09-17"
     },
     {
      "file": "09-MLA_CROZES-HERMITAGE_RG_e38815a2-8f32-4dcc-9380-d626e1c54d4f.jpg",
@@ -23263,7 +23779,8 @@
      "height": 3000,
      "bytes": 107478,
      "sha256": "339253b5a77bf73d771ce4f6be5bae37c94ff575afa025e242c9913f17015332",
-     "checkedDate": "2026-09-14"
+     "checkedDate": "2026-09-14",
+     "reviewedAt": "2026-09-17"
     },
     {
      "file": "10-MLA_ST-JOSPEH_BLANC_d942ae2f-5764-4402-97b9-2c9f38261290.jpg",
@@ -23281,7 +23798,8 @@
      "height": 3000,
      "bytes": 107242,
      "sha256": "10f2afbef25f3e52e8f1fb99c58c30f7eb9b435250cea69f77f403583cb7a3d9",
-     "checkedDate": "2026-09-14"
+     "checkedDate": "2026-09-14",
+     "reviewedAt": "2026-09-17"
     },
     {
      "file": "11-MLA_ST-JOSPEH_RG.jpg",
@@ -23299,7 +23817,8 @@
      "height": 3000,
      "bytes": 102922,
      "sha256": "a544431bd7fe1ccde565200562d4c69a37cc13b03d9a2b8a9a252109e01b70f6",
-     "checkedDate": "2026-09-14"
+     "checkedDate": "2026-09-14",
+     "reviewedAt": "2026-09-17"
     },
     {
      "file": "12-MLA_CONDRIEU_BLANC.jpg",
@@ -23317,7 +23836,8 @@
      "height": 3000,
      "bytes": 108902,
      "sha256": "0fe3f7aef2a6dc8e7ac3235a0942c04610e92d4e479b8431505bed65848db74b",
-     "checkedDate": "2026-09-14"
+     "checkedDate": "2026-09-14",
+     "reviewedAt": "2026-09-17"
     },
     {
      "file": "13-MLA_CORNAS_RG_2561851c-6e9e-466f-b4e7-c63aced36ebe.jpg",
@@ -23335,7 +23855,8 @@
      "height": 3000,
      "bytes": 105320,
      "sha256": "8ce2729fa5d9d14e4ab1c7a941b8fc4e373bed9ef345b9020f341f07c2006211",
-     "checkedDate": "2026-09-14"
+     "checkedDate": "2026-09-14",
+     "reviewedAt": "2026-09-17"
     },
     {
      "file": "14-MLA_COTES-ROTIE_ROUGE_6766d729-a65e-4bc9-92ca-0986133c604f.jpg",
@@ -23353,7 +23874,8 @@
      "height": 3000,
      "bytes": 102980,
      "sha256": "4923ed67bf17d8322aa1cc8d1b27ee0314a67d5da8f5253a8d18cd7878dbb877",
-     "checkedDate": "2026-09-14"
+     "checkedDate": "2026-09-14",
+     "reviewedAt": "2026-09-17"
     },
     {
      "file": "15-MLA_HERMITAGE_BLANC.jpg",
@@ -23371,7 +23893,8 @@
      "height": 3000,
      "bytes": 107994,
      "sha256": "504ee7d099175bffd9aafb9cf7ac064aa23bb7f9b0536ac811fae50f0f23e2ee",
-     "checkedDate": "2026-09-14"
+     "checkedDate": "2026-09-14",
+     "reviewedAt": "2026-09-17"
     },
     {
      "file": "16-MLA_CROZES-HERMITAGE_RG.jpg",
@@ -23389,7 +23912,8 @@
      "height": 3000,
      "bytes": 106164,
      "sha256": "810dbc30405530c217c4a95c9a54d597c787d503567c9953c1b50052c122b2e9",
-     "checkedDate": "2026-09-14"
+     "checkedDate": "2026-09-14",
+     "reviewedAt": "2026-09-17"
     },
     {
      "file": "17-DLA_CROZES-HERMITAGE_BLC.jpg",
@@ -23407,7 +23931,8 @@
      "height": 3000,
      "bytes": 88188,
      "sha256": "b6c635ef17d6dbad34c34b98af30e4d4bc4f1afa670bbf6a866370c74e39bbaa",
-     "checkedDate": "2026-09-14"
+     "checkedDate": "2026-09-14",
+     "reviewedAt": "2026-09-17"
     },
     {
      "file": "18-DLA_CROZES-HERMITAGE_RG.jpg",
@@ -23425,7 +23950,8 @@
      "height": 3000,
      "bytes": 112916,
      "sha256": "20e69d6ce570f6540b4251c820d212cea0ebb5ea3130b143e6a5aaf3f0a27076",
-     "checkedDate": "2026-09-14"
+     "checkedDate": "2026-09-14",
+     "reviewedAt": "2026-09-17"
     },
     {
      "file": "19-DLA_CONDRIEU_BLC.jpg",
@@ -23443,7 +23969,8 @@
      "height": 3000,
      "bytes": 77546,
      "sha256": "d96102c10acfdba2e646297f2fc1891ac6dee417a8242ddbc49809413aedbfb7",
-     "checkedDate": "2026-09-14"
+     "checkedDate": "2026-09-14",
+     "reviewedAt": "2026-09-17"
     },
     {
      "file": "20-DLA_ST-JOSEPH_RG.jpg",
@@ -23461,7 +23988,8 @@
      "height": 3000,
      "bytes": 115234,
      "sha256": "2d70ea2075341c8586353d70738b6943bcb88781a2687a08189794d57cee086d",
-     "checkedDate": "2026-09-14"
+     "checkedDate": "2026-09-14",
+     "reviewedAt": "2026-09-17"
     }
    ],
    "imageSummary": "20 张官网图片（人物/庄园照 + 酒款瓶标图）；其中 19 张经逐张目视复核，1 张标面读得出 Cornas。",
@@ -23608,7 +24136,8 @@
     }
    ],
    "contactPerson": "Jean-Baptiste Souillard",
-   "directoryCategoryNote": "名录名称含 maison / cave / cellier / négoce 等词，可能是酒商或门市而非自有酒庄；名录未分类，此处仅记录名称特征，不改变其生产者身份。"
+   "directoryCategoryNote": "名录名称含 maison / cave / cellier / négoce 等词，可能是酒商或门市而非自有酒庄；名录未分类，此处仅记录名称特征，不改变其生产者身份。",
+   "images": []
   },
   "version": 3,
   "updated": "2026-09-15T12:40:28.000Z",
@@ -24749,7 +25278,8 @@
      "height": 500,
      "bytes": 724598,
      "sha256": "474f1f567b34f129c1d2d1ee84013c0543aec319929d35452cc6fba20581294f",
-     "checkedDate": "2026-09-14"
+     "checkedDate": "2026-09-14",
+     "reviewedAt": "2026-09-17"
     },
     {
      "file": "02-faf45952a94f1a932d4087b66d42fb4a-lolorddiapo-5.jpg",
@@ -24785,7 +25315,8 @@
      "height": 500,
      "bytes": 702453,
      "sha256": "b51d06ede8dc951d817c20e0a36bcd13443dd67772cd7feb80a9de4669015651",
-     "checkedDate": "2026-09-14"
+     "checkedDate": "2026-09-14",
+     "reviewedAt": "2026-09-17"
     },
     {
      "file": "04-faf45952a94f1a932d4087b66d42fb4a-degustverre-10.png",
@@ -24803,7 +25334,8 @@
      "height": 500,
      "bytes": 807946,
      "sha256": "3e2c70bb7704d209202bdaa120a7f28bf9e3b3f17051799c193d4874d2e8da05",
-     "checkedDate": "2026-09-14"
+     "checkedDate": "2026-09-14",
+     "reviewedAt": "2026-09-17"
     },
     {
      "file": "05-faf45952a94f1a932d4087b66d42fb4a-10-14.png",
@@ -24821,7 +25353,8 @@
      "height": 500,
      "bytes": 851908,
      "sha256": "bb0238bba3803a422d645523fec87a62a01b7e15fc18cbcd5c5a291a2fa48be6",
-     "checkedDate": "2026-09-14"
+     "checkedDate": "2026-09-14",
+     "reviewedAt": "2026-09-17"
     },
     {
      "file": "06-faf45952a94f1a932d4087b66d42fb4a-7-13.png",
@@ -24839,7 +25372,8 @@
      "height": 500,
      "bytes": 797282,
      "sha256": "4c21ae49fc24808abfbfdf78c7324ace3af53b4018af157c302d14cdd44a6f90",
-     "checkedDate": "2026-09-14"
+     "checkedDate": "2026-09-14",
+     "reviewedAt": "2026-09-17"
     },
     {
      "file": "07-faf45952a94f1a932d4087b66d42fb4a-10-16.png",
@@ -24857,7 +25391,8 @@
      "height": 500,
      "bytes": 980934,
      "sha256": "3622332e7aba99708726dd70589d23e5ca1d13c16e098e9d26d7536e5bbce2c6",
-     "checkedDate": "2026-09-14"
+     "checkedDate": "2026-09-14",
+     "reviewedAt": "2026-09-17"
     },
     {
      "file": "08-faf45952a94f1a932d4087b66d42fb4a-13-19.jpg",
@@ -24893,7 +25428,8 @@
      "height": 500,
      "bytes": 1006983,
      "sha256": "eb7b70c25d1f61341b0d4911195f2cab73b120183d545a90eb0031f238190c27",
-     "checkedDate": "2026-09-14"
+     "checkedDate": "2026-09-14",
+     "reviewedAt": "2026-09-17"
     },
     {
      "file": "10-fa8dacca016e20530f4e21acbc456a9e-salons2023poursiteweb-83.png",
@@ -25069,7 +25605,8 @@
      "height": 800,
      "bytes": 76502,
      "sha256": "d88654373e765753c94344506b33f2c9e6e762d685910bc1b7caa67975e720a7",
-     "checkedDate": "2026-09-14"
+     "checkedDate": "2026-09-14",
+     "reviewedAt": "2026-09-17"
     },
     {
      "file": "02-vins-blancs-et-champagnes-bons-pour-le-coeur.webp",
@@ -25087,7 +25624,8 @@
      "height": 800,
      "bytes": 81988,
      "sha256": "e63dca47526e82a43cf7d07b980ac9dd2d809a6b2bae169aaae0a6af791e726f",
-     "checkedDate": "2026-09-14"
+     "checkedDate": "2026-09-14",
+     "reviewedAt": "2026-09-17"
     },
     {
      "file": "03-quel-vin-avec-un-magret-de-canard.webp",
@@ -25123,7 +25661,8 @@
      "height": 800,
      "bytes": 75862,
      "sha256": "5617a3f8181ecc460601407dbf6c59d28778978e972c7c5c5044cea687c2b10d",
-     "checkedDate": "2026-09-14"
+     "checkedDate": "2026-09-14",
+     "reviewedAt": "2026-09-17"
     },
     {
      "file": "05-limoncino.webp",
@@ -25159,7 +25698,8 @@
      "height": 800,
      "bytes": 83296,
      "sha256": "86f9dbb0d5d278d5279c25d7049d503a5de9eb053a510ec8dab70f562a03630c",
-     "checkedDate": "2026-09-14"
+     "checkedDate": "2026-09-14",
+     "reviewedAt": "2026-09-17"
     },
     {
      "file": "07-dose-de-whisky-en-cl.webp",
@@ -25231,7 +25771,8 @@
      "height": 800,
      "bytes": 87986,
      "sha256": "da9c242d68aceacb1a5ef5f6b5cef0f4ed822bcb6cb3cd1e2928c042c836eeaa",
-     "checkedDate": "2026-09-14"
+     "checkedDate": "2026-09-14",
+     "reviewedAt": "2026-09-17"
     },
     {
      "file": "11-vin-paris-fr-portrait.jpg",
@@ -25393,7 +25934,8 @@
      "height": 800,
      "bytes": 123266,
      "sha256": "a903a03e090f66cde14e0fe69f3355679ec4a7deaa71b11fe61a443cc7444fda",
-     "checkedDate": "2026-09-14"
+     "checkedDate": "2026-09-14",
+     "reviewedAt": "2026-09-17"
     },
     {
      "file": "20-jeroboam-de-Champagne.webp",
@@ -25411,7 +25953,8 @@
      "height": 800,
      "bytes": 67340,
      "sha256": "5dfc5d6fd5827239b6529e37c000f1c61cb1c577221ccdf19409e3dba545ca1c",
-     "checkedDate": "2026-09-14"
+     "checkedDate": "2026-09-14",
+     "reviewedAt": "2026-09-17"
     },
     {
      "file": "21-6a71e32ed68be740602869.png",
@@ -25664,7 +26207,8 @@
      "height": 329,
      "bytes": 12079,
      "sha256": "8ccd1c78764bf8bdca991bc5daef7fe12a8c679ec3349fa7fcfd643b756d9462",
-     "checkedDate": "2026-09-14"
+     "checkedDate": "2026-09-14",
+     "reviewedAt": "2026-09-17"
     }
    ],
    "imageSummary": "6 张官网图片（人物/庄园照 + 酒款瓶标图）；其中 1 张经逐张目视复核，0 张标面读得出 Cornas。"
@@ -25990,7 +26534,8 @@
      "height": 1062,
      "bytes": 80198,
      "sha256": "3691c1885794ebac9539b29c0250082bfb2ae0eb129edb1127784b446ef470c2",
-     "checkedDate": "2026-09-14"
+     "checkedDate": "2026-09-14",
+     "reviewedAt": "2026-09-17"
     },
     {
      "file": "13-Etiq-Gigondas-Domaine-Grand-Romane-blanc-NM.jpg",
@@ -26026,7 +26571,8 @@
      "height": 531,
      "bytes": 103618,
      "sha256": "31150c4f161fc082fb1984b43327ed84567e5a620b72b69b78c1887e599cdba0",
-     "checkedDate": "2026-09-14"
+     "checkedDate": "2026-09-14",
+     "reviewedAt": "2026-09-17"
     },
     {
      "file": "15-Tunnel-V2.png",
@@ -26062,7 +26608,8 @@
      "height": 639,
      "bytes": 436032,
      "sha256": "a23c85ab894b7aaf0f63851c67246b51eb93a4886ab2f90308ee6d4d4b912370",
-     "checkedDate": "2026-09-14"
+     "checkedDate": "2026-09-14",
+     "reviewedAt": "2026-09-17"
     },
     {
      "file": "17-Vieilles-photos.png",
@@ -26116,7 +26663,8 @@
      "height": 638,
      "bytes": 431150,
      "sha256": "22885bab742076aa3da62ac53dc436e4c4efcc4594c1d690bdd795773647553b",
-     "checkedDate": "2026-09-14"
+     "checkedDate": "2026-09-14",
+     "reviewedAt": "2026-09-17"
     },
     {
      "file": "20-nouveau-chai-V2.png",
@@ -26260,7 +26808,8 @@
      "height": 500,
      "bytes": 28866,
      "sha256": "4a9d4196ed88841343558419e8e72827d4d3ead19eef6ddacc09d3d59a7ab884",
-     "checkedDate": "2026-09-14"
+     "checkedDate": "2026-09-14",
+     "reviewedAt": "2026-09-17"
     },
     {
      "file": "22-r_union-agents.png",
@@ -26278,7 +26827,8 @@
      "height": 639,
      "bytes": 637718,
      "sha256": "73ed7aeebc5160d6a2ea5632f5a8f9c9ceac8a63dbcdb6abb0b07b3f24ca46c1",
-     "checkedDate": "2026-09-14"
+     "checkedDate": "2026-09-14",
+     "reviewedAt": "2026-09-17"
     },
     {
      "file": "24-Salari_s.png",
@@ -26296,7 +26846,8 @@
      "height": 639,
      "bytes": 629518,
      "sha256": "873e0d96433f3cf5da8989beffa13a947f332a3e4cfbe2cdfd1a94d3ac2a0412",
-     "checkedDate": "2026-09-14"
+     "checkedDate": "2026-09-14",
+     "reviewedAt": "2026-09-17"
     }
    ],
    "imageSummary": "29 张官网图片（人物/庄园照 + 酒款瓶标图）；其中 7 张经逐张目视复核，0 张标面读得出 Cornas。"
@@ -26333,7 +26884,47 @@
    "checkedDate": "2026-09-14",
    "notes": "产区官方名录收录的生产者条目，名称照录名录原文（法文），未做中文译名。地址/电话/邮箱来自名录；坐标按 OpenStreetMap 实体证据另行补齐。",
    "phone": "04 74 48 65 38",
-   "email": "julienpilon@yahoo.fr"
+   "email": "julienpilon@yahoo.fr",
+   "images": [
+    {
+     "file": "01-Julien-Pilon-viticulteur-portrait-1-scaled.jpg",
+     "role": "producer-people",
+     "attribution": "producer-official",
+     "appellation": null,
+     "confidence": "high",
+     "classificationMethod": "agent-visual-review",
+     "reviewNote": "Julien Pilon 在酒窖桶阵前的人物肖像（官网人物页）",
+     "reviewedAt": "2026-09-17",
+     "altText": null,
+     "sourcePage": "https://www.julienpilon.fr",
+     "directURL": "https://julienpilon.fr/wp-content/uploads/2020/12/Julien-Pilon-viticulteur-portrait-1-scaled.jpg",
+     "width": 1708,
+     "height": 2560,
+     "bytes": 497753,
+     "sha256": "9ee99112aa2e3ae4466412bd76e4cae68158f22d8487708f7e62b1b15c2dc855",
+     "relativePath": "images/pilon-julien/01-Julien-Pilon-viticulteur-portrait-1-scaled.jpg",
+     "checkedDate": "2026-09-17"
+    },
+    {
+     "file": "02-Julien-Pilon-vins-blancs-rhone.jpg",
+     "role": "producer-estate",
+     "attribution": "producer-official",
+     "appellation": null,
+     "confidence": "high",
+     "classificationMethod": "agent-visual-review",
+     "reviewNote": "罗讷河畔葡萄园木桩支架风土照（官网用图）",
+     "reviewedAt": "2026-09-17",
+     "altText": null,
+     "sourcePage": "https://www.julienpilon.fr",
+     "directURL": "https://julienpilon.fr/wp-content/uploads/2020/12/Julien-Pilon-vins-blancs-rhone.jpg",
+     "width": 2000,
+     "height": 1335,
+     "bytes": 484150,
+     "sha256": "6aa5532e6e4a4abff282e3dd96ff88fbb039106b3bccba87fef8fa5099ccaebc",
+     "relativePath": "images/pilon-julien/02-Julien-Pilon-vins-blancs-rhone.jpg",
+     "checkedDate": "2026-09-17"
+    }
+   ]
   },
   "version": 1,
   "updated": "2026-09-14T12:51:39.000Z",
@@ -26405,7 +26996,8 @@
      "height": 366,
      "bytes": 90014,
      "sha256": "965c8c5154fe3d8e509ce9d08719a9c42ce3cbc7b18e15d7fe8bd3df7d59333e",
-     "checkedDate": "2026-09-14"
+     "checkedDate": "2026-09-14",
+     "reviewedAt": "2026-09-17"
     },
     {
      "file": "03-parkerlogo.png",
@@ -26477,7 +27069,8 @@
      "height": 1772,
      "bytes": 182634,
      "sha256": "532d51974b352bf9450cd152473c94952f605fc8448662a312f54ea308daf911",
-     "checkedDate": "2026-09-14"
+     "checkedDate": "2026-09-14",
+     "reviewedAt": "2026-09-17"
     },
     {
      "file": "07-VIOGNIER-1-scaled-e1761292877180.jpg",
@@ -26495,7 +27088,8 @@
      "height": 1766,
      "bytes": 168507,
      "sha256": "6a17f8218cf14b690cf38fb6295c719034a5d0f4acf42b1e0f78f5bdba815e28",
-     "checkedDate": "2026-09-14"
+     "checkedDate": "2026-09-14",
+     "reviewedAt": "2026-09-17"
     },
     {
      "file": "08-LES-CHATAIGNIERS-scaled-e1761292965415.jpg",
@@ -26513,7 +27107,8 @@
      "height": 1715,
      "bytes": 168677,
      "sha256": "01f6ee13711d1d4245599c814d0c1aa15b662c3eef510a11a8579e82b902a947",
-     "checkedDate": "2026-09-14"
+     "checkedDate": "2026-09-14",
+     "reviewedAt": "2026-09-17"
     },
     {
      "file": "09-PAPILLON-B-scaled-e1761293039204.jpg",
@@ -26531,7 +27126,8 @@
      "height": 1702,
      "bytes": 164761,
      "sha256": "b3794772a22047819fc0418bc647f74fba6f665c7c6274e0f69a8d670285e4c8",
-     "checkedDate": "2026-09-14"
+     "checkedDate": "2026-09-14",
+     "reviewedAt": "2026-09-17"
     },
     {
      "file": "10-Marelles-24-e1761293186322.jpg",
@@ -26549,7 +27145,8 @@
      "height": 1570,
      "bytes": 96066,
      "sha256": "de746f4aba760dacc32ddf87151ebdfc1dfd9d6dfc6b0c02e535f04a2911657d",
-     "checkedDate": "2026-09-14"
+     "checkedDate": "2026-09-14",
+     "reviewedAt": "2026-09-17"
     },
     {
      "file": "11-PETITE-PIERRE-1-scaled-e1761293247679.jpg",
@@ -26567,7 +27164,8 @@
      "height": 1644,
      "bytes": 168069,
      "sha256": "5c63b1392aceaeba7168e3b777628aa1682a9713974b45e48542245dfbc2e068",
-     "checkedDate": "2026-09-14"
+     "checkedDate": "2026-09-14",
+     "reviewedAt": "2026-09-17"
     },
     {
      "file": "12-HERMITAGE-BLC-scaled-e1761293323555.jpg",
@@ -26585,7 +27183,8 @@
      "height": 1760,
      "bytes": 151284,
      "sha256": "9e4bbb48fae868c1427d4c4d492a15365d65cc3530c79a721870cf75695cb547",
-     "checkedDate": "2026-09-14"
+     "checkedDate": "2026-09-14",
+     "reviewedAt": "2026-09-17"
     },
     {
      "file": "13-LEFFET-1-scaled-e1761293385945.jpg",
@@ -26603,7 +27202,8 @@
      "height": 1638,
      "bytes": 149063,
      "sha256": "6a5831a3133829673895ba4c65e2a620c66fc6348ff8b89ffba60918600a6fa3",
-     "checkedDate": "2026-09-14"
+     "checkedDate": "2026-09-14",
+     "reviewedAt": "2026-09-17"
     },
     {
      "file": "14-SYRALOUETTE-1-scaled-e1761293480850.jpg",
@@ -26621,7 +27221,8 @@
      "height": 1740,
      "bytes": 183739,
      "sha256": "17be1086bed6e492ad35f8904871287242a70bc8db067f9e95878478d556c2bd",
-     "checkedDate": "2026-09-14"
+     "checkedDate": "2026-09-14",
+     "reviewedAt": "2026-09-17"
     },
     {
      "file": "15-PAPILLON-scaled-e1761293969859.jpg",
@@ -26639,7 +27240,8 @@
      "height": 1683,
      "bytes": 170003,
      "sha256": "4f9e8b6ab0915e6bebe3b7c73231597beb0349805610ce5300c5add6416cb1d3",
-     "checkedDate": "2026-09-14"
+     "checkedDate": "2026-09-14",
+     "reviewedAt": "2026-09-17"
     },
     {
      "file": "16-AB-24-e1761294020158.jpg",
@@ -26657,7 +27259,8 @@
      "height": 1670,
      "bytes": 103273,
      "sha256": "12606ad1e15fd7e6cf18c94d9c3ef8f014e962778441edec260e753b74e7b046",
-     "checkedDate": "2026-09-14"
+     "checkedDate": "2026-09-14",
+     "reviewedAt": "2026-09-17"
     },
     {
      "file": "17-1920-1-scaled-e1761293914750.jpg",
@@ -26675,7 +27278,8 @@
      "height": 1593,
      "bytes": 164103,
      "sha256": "78a70a4062602f6978120543e9e78473981fd219f02067faafe21ec9bf24d708",
-     "checkedDate": "2026-09-14"
+     "checkedDate": "2026-09-14",
+     "reviewedAt": "2026-09-17"
     },
     {
      "file": "18-SAINT-JOSEPH-2024-e1761298903335.jpg",
@@ -26693,7 +27297,8 @@
      "height": 1526,
      "bytes": 96573,
      "sha256": "07e0c6438a23c46b005cc79fdb75b8a31943d29226874341de990e3cac4a596c",
-     "checkedDate": "2026-09-14"
+     "checkedDate": "2026-09-14",
+     "reviewedAt": "2026-09-17"
     },
     {
      "file": "19-PEALAT-1-e1761299964521.jpg",
@@ -26711,7 +27316,8 @@
      "height": 1537,
      "bytes": 99019,
      "sha256": "0f0e3dbc0b29a34566a8eb61a2d095fd78b5aee30d3a62ceb54fcdb2494d56d1",
-     "checkedDate": "2026-09-14"
+     "checkedDate": "2026-09-14",
+     "reviewedAt": "2026-09-17"
     },
     {
      "file": "20-CORNAS-1-scaled-e1761300030797.jpg",
@@ -26729,7 +27335,8 @@
      "height": 1696,
      "bytes": 150072,
      "sha256": "fc1f28cc3eae889b9b812adeb017097403d8594fa8dff0f4fdbd2388fdd815fb",
-     "checkedDate": "2026-09-14"
+     "checkedDate": "2026-09-14",
+     "reviewedAt": "2026-09-17"
     },
     {
      "file": "21-HERMITAGE-scaled-e1761300113405.jpg",
@@ -26747,7 +27354,8 @@
      "height": 1619,
      "bytes": 130646,
      "sha256": "f13fead637b9004844d667dc1d44b37f77cca115d76257500e20b08de43edb7f",
-     "checkedDate": "2026-09-14"
+     "checkedDate": "2026-09-14",
+     "reviewedAt": "2026-09-17"
     },
     {
      "file": "22-decouverte-en-vallee-du-rhone.jpg",
@@ -26801,7 +27409,8 @@
      "height": 270,
      "bytes": 129108,
      "sha256": "913d3f5ac16437992b2c1f3925d32f6e3ebfa6cb1a93b995a0af020eb495a052",
-     "checkedDate": "2026-09-14"
+     "checkedDate": "2026-09-14",
+     "reviewedAt": "2026-09-17"
     },
     {
      "file": "25-TABLE-12.jpg",
@@ -26960,7 +27569,8 @@
      "listedIn": "crozes-hermitage",
      "note": "该生产者同时出现在 AOC Crozes-Hermitage 官方名录中；本记录主来源保留原产区（cornas）不变，此处追加新增来源备查。"
     }
-   ]
+   ],
+   "images": []
   },
   "version": 3,
   "updated": "2026-09-15T12:40:28.000Z",
@@ -27140,7 +27750,8 @@
      "height": 2560,
      "bytes": 198600,
      "sha256": "7797ac294e88951e61df40cf1805114a87226b06cddb9cda1468d861b5f371af",
-     "checkedDate": "2026-09-14"
+     "checkedDate": "2026-09-14",
+     "reviewedAt": "2026-09-17"
     },
     {
      "file": "07-BT_PETIT_TRACTEUR_ROUGE.webp",
@@ -27158,7 +27769,8 @@
      "height": 2560,
      "bytes": 402034,
      "sha256": "b8e434920b53e1580ca34f8f0f743ce5d2886efd867f13e023c2530087b3b722",
-     "checkedDate": "2026-09-14"
+     "checkedDate": "2026-09-14",
+     "reviewedAt": "2026-09-17"
     },
     {
      "file": "08-BT_VOITURETTE_CHARDONNAY.webp",
@@ -27176,7 +27788,8 @@
      "height": 2560,
      "bytes": 298398,
      "sha256": "42d4b2df716ac0084cc00ae1f268b91e2637cbc11edf19b50ac7fd3c21477c60",
-     "checkedDate": "2026-09-14"
+     "checkedDate": "2026-09-14",
+     "reviewedAt": "2026-09-17"
     },
     {
      "file": "09-VISUEL-VALLEE-DU-RHONE_2x.webp",
@@ -27302,7 +27915,8 @@
      "height": 5120,
      "bytes": 200720,
      "sha256": "12f8c4fd948a24caaecba64a15cc4af149c00ae148aed8e37bc6bb561b3d1415",
-     "checkedDate": "2026-09-14"
+     "checkedDate": "2026-09-14",
+     "reviewedAt": "2026-09-17"
     },
     {
      "file": "16-BT_CAPITAINE_MARINETTE.jpg",
@@ -27320,7 +27934,8 @@
      "height": 2560,
      "bytes": 144173,
      "sha256": "fdd24cb8762b133db2ec653fe454fec1a3d41e3d84f01f5a286b835a72327b48",
-     "checkedDate": "2026-09-14"
+     "checkedDate": "2026-09-14",
+     "reviewedAt": "2026-09-17"
     },
     {
      "file": "17-BT_CAPITAINE_MARINETTE_2x.jpg",
@@ -27338,7 +27953,8 @@
      "height": 5120,
      "bytes": 359742,
      "sha256": "7589748c87056a79aeca66063d6ab0d5ce33ae17a6b7509a4cba0c2ae72dfe2a",
-     "checkedDate": "2026-09-14"
+     "checkedDate": "2026-09-14",
+     "reviewedAt": "2026-09-17"
     },
     {
      "file": "18-BT_PETIT_TRACTEUR_ROUGE_2x.webp",
@@ -27356,7 +27972,8 @@
      "height": 5120,
      "bytes": 363232,
      "sha256": "5aab5d7ba338e398f2fbfcae11102d2ba00aa20699d9aec02efaf2abd45a4fdd",
-     "checkedDate": "2026-09-14"
+     "checkedDate": "2026-09-14",
+     "reviewedAt": "2026-09-17"
     },
     {
      "file": "19-BT_PETIT_TRACTEUR_ROUGE.jpg",
@@ -27374,7 +27991,8 @@
      "height": 2560,
      "bytes": 206319,
      "sha256": "ff2239c35686623f5187b77eb241cde37916b908c44097bbc90691de91014e85",
-     "checkedDate": "2026-09-14"
+     "checkedDate": "2026-09-14",
+     "reviewedAt": "2026-09-17"
     },
     {
      "file": "20-BT_PETIT_TRACTEUR_ROUGE_2x.jpg",
@@ -27392,7 +28010,8 @@
      "height": 5120,
      "bytes": 484376,
      "sha256": "065f48de6f008ff7ef7eeff65f4ff0c1abde654bf2e13b82fa55131859a2ff92",
-     "checkedDate": "2026-09-14"
+     "checkedDate": "2026-09-14",
+     "reviewedAt": "2026-09-17"
     },
     {
      "file": "21-BT_VOITURETTE_CHARDONNAY_2x.webp",
@@ -27410,7 +28029,8 @@
      "height": 5120,
      "bytes": 250204,
      "sha256": "de17df782852d79ee0c77ebdb0cdb815541995840128c54e005daf5049a04c9b",
-     "checkedDate": "2026-09-14"
+     "checkedDate": "2026-09-14",
+     "reviewedAt": "2026-09-17"
     },
     {
      "file": "22-BT_VOITURETTE_CHARDONNAY.jpg",
@@ -27428,7 +28048,8 @@
      "height": 2560,
      "bytes": 148546,
      "sha256": "059d52c23f46955933937d8334c0fcaf3583b2c552d04d028cc4a5b89abd35ee",
-     "checkedDate": "2026-09-14"
+     "checkedDate": "2026-09-14",
+     "reviewedAt": "2026-09-17"
     },
     {
      "file": "23-BT_VOITURETTE_CHARDONNAY_2x.jpg",
@@ -27446,7 +28067,8 @@
      "height": 5120,
      "bytes": 381837,
      "sha256": "25e0a7e5a23086765cbde3f8a337e214fe81765f19e78c5cbaa624559d77ad85",
-     "checkedDate": "2026-09-14"
+     "checkedDate": "2026-09-14",
+     "reviewedAt": "2026-09-17"
     },
     {
      "file": "24-VISUEL-IMAGE-DE-FOND-HERO-COLLECTION-A-CEUX-QUI-REVENT-bonne-couleur.webp",
@@ -27482,7 +28104,8 @@
      "height": 2560,
      "bytes": 276990,
      "sha256": "87cfd59e19cd3bf3e6e7fc4eb241e480c110ddb9053e31ba473ce92ee3244594",
-     "checkedDate": "2026-09-14"
+     "checkedDate": "2026-09-14",
+     "reviewedAt": "2026-09-17"
     },
     {
      "file": "26-BT_A_CEUX_QUI_REVENT_HERMITAGE_BLANC.webp",
@@ -27500,7 +28123,8 @@
      "height": 2560,
      "bytes": 312680,
      "sha256": "c7e34de9e062c15a1dd345786ce31af0d76014bd10713649aac3b7ae51c0347e",
-     "checkedDate": "2026-09-14"
+     "checkedDate": "2026-09-14",
+     "reviewedAt": "2026-09-17"
     },
     {
      "file": "01-BT-CUVEE-S-COSTIERES-DE-NIMES-BLANC.webp",
@@ -27843,7 +28467,8 @@
      "height": 298,
      "bytes": 54242,
      "sha256": "093ec9aaf7a019894aee83f96f6c52b02bdfc4a37ddd3c0be3c6485fc76bbd12",
-     "checkedDate": "2026-09-14"
+     "checkedDate": "2026-09-14",
+     "reviewedAt": "2026-09-17"
     },
     {
      "file": "03-250x298-1595942801coffret-bois-magnum-vide2-2.png",
@@ -27861,7 +28486,8 @@
      "height": 298,
      "bytes": 38652,
      "sha256": "bbe78033642bc3d8d94b564a697d9008227cf2010d7b3b19fc2791ea3ce596ab",
-     "checkedDate": "2026-09-14"
+     "checkedDate": "2026-09-14",
+     "reviewedAt": "2026-09-17"
     },
     {
      "file": "04-250x298-1595942824SAC-KRAFT-1-BOUTEILLE-2.png",
@@ -27879,7 +28505,8 @@
      "height": 298,
      "bytes": 30104,
      "sha256": "3e326fdee987141b365a431187348cee4985ee2d32c297731ef1a00ebba491fb",
-     "checkedDate": "2026-09-14"
+     "checkedDate": "2026-09-14",
+     "reviewedAt": "2026-09-17"
     },
     {
      "file": "05-250x298-1595942866SAC-KRAFT-2-BOUTEILLES-2.png",
@@ -27897,7 +28524,8 @@
      "height": 298,
      "bytes": 44779,
      "sha256": "b53300b6d36b9561172462b8e431456c57a5b883cdd7070e9c071bbccfad1c33",
-     "checkedDate": "2026-09-14"
+     "checkedDate": "2026-09-14",
+     "reviewedAt": "2026-09-17"
     },
     {
      "file": "06-250x298-1595942881SAC-KRAFT-3-BOUTEILLES-2.png",
@@ -27915,7 +28543,8 @@
      "height": 298,
      "bytes": 58579,
      "sha256": "1bfee061bad65a2923dca5d0a82b5fa5259f4819867cbbf64d41da92a517c834",
-     "checkedDate": "2026-09-14"
+     "checkedDate": "2026-09-14",
+     "reviewedAt": "2026-09-17"
     },
     {
      "file": "07-250x298-1595942848SAC-KRAFT-1-MAGNUM.png",
@@ -27933,7 +28562,8 @@
      "height": 298,
      "bytes": 35835,
      "sha256": "536ca9e5e5a8d1639c54dd4459af948c53d30a1b8765474054bbdaf922fac1c1",
-     "checkedDate": "2026-09-14"
+     "checkedDate": "2026-09-14",
+     "reviewedAt": "2026-09-17"
     },
     {
      "file": "08-1000x668-1580207780SMontez-nov2019-D-219-redim.jpg",
@@ -28275,7 +28905,8 @@
      "height": 385,
      "bytes": 28935,
      "sha256": "a896d47fd2b1cd9b88cef4a1127ce40013367ee8538751c622ae90b15a6fac4e",
-     "checkedDate": "2026-09-14"
+     "checkedDate": "2026-09-14",
+     "reviewedAt": "2026-09-17"
     }
    ],
    "imageSummary": "26 张官网图片（人物/庄园照 + 酒款瓶标图）；其中 7 张经逐张目视复核，0 张标面读得出 Cornas。"
@@ -28356,7 +28987,8 @@
      "height": 345,
      "bytes": 147947,
      "sha256": "aa0621b9394ba19df13a1f951eb3e5f7a589f8a6d8252665dc3c602e371319a8",
-     "checkedDate": "2026-09-14"
+     "checkedDate": "2026-09-14",
+     "reviewedAt": "2026-09-17"
     },
     {
      "file": "02-Design-sans-titre-2.jpg",
@@ -28374,7 +29006,8 @@
      "height": 2000,
      "bytes": 109128,
      "sha256": "b6ca536cc4ce1f8079b5bfc847c6b54569f185e2da7a185519979690d5bad2c1",
-     "checkedDate": "2026-09-14"
+     "checkedDate": "2026-09-14",
+     "reviewedAt": "2026-09-17"
     },
     {
      "file": "03-Design-sans-titre-3.jpg",
@@ -28392,7 +29025,8 @@
      "height": 2000,
      "bytes": 109687,
      "sha256": "b3054da888312478e08d621301e2fb49a10dd62aa9a43b021dbdda5d13b5a7b0",
-     "checkedDate": "2026-09-14"
+     "checkedDate": "2026-09-14",
+     "reviewedAt": "2026-09-17"
     },
     {
      "file": "04-Design-sans-titre-4.jpg",
@@ -28410,7 +29044,8 @@
      "height": 2000,
      "bytes": 103255,
      "sha256": "145c71417e8e6dde2e3c866db1407ff95915dbb28ea3dfc3a813b614656bd39d",
-     "checkedDate": "2026-09-14"
+     "checkedDate": "2026-09-14",
+     "reviewedAt": "2026-09-17"
     },
     {
      "file": "05-Design-sans-titre-5.jpg",
@@ -28428,7 +29063,8 @@
      "height": 2000,
      "bytes": 92480,
      "sha256": "baa7bfeef5e7765fbac35e8f191b23871df186fecb85dc493e269f6942130616",
-     "checkedDate": "2026-09-14"
+     "checkedDate": "2026-09-14",
+     "reviewedAt": "2026-09-17"
     },
     {
      "file": "06-Design-sans-titre-19.jpg",
@@ -28446,7 +29082,8 @@
      "height": 2000,
      "bytes": 98557,
      "sha256": "d5a3e3a56dc7fe929b37ffb0d1cba2c09f167c19e26e3619324551e0b5eaec45",
-     "checkedDate": "2026-09-14"
+     "checkedDate": "2026-09-14",
+     "reviewedAt": "2026-09-17"
     },
     {
      "file": "07-Design-sans-titre-20.jpg",
@@ -28464,7 +29101,8 @@
      "height": 2000,
      "bytes": 97749,
      "sha256": "27931c1e7a91ff99de556c557b65085d7ca4987d57c914acd457cfe89794da46",
-     "checkedDate": "2026-09-14"
+     "checkedDate": "2026-09-14",
+     "reviewedAt": "2026-09-17"
     },
     {
      "file": "08-Design-sans-titre-21.jpg",
@@ -28482,7 +29120,8 @@
      "height": 2000,
      "bytes": 93831,
      "sha256": "76afa69781878adb098ea8a720611a6b053694d1928ffd74e9706545023860ef",
-     "checkedDate": "2026-09-14"
+     "checkedDate": "2026-09-14",
+     "reviewedAt": "2026-09-17"
     },
     {
      "file": "09-Design-sans-titre-13.jpg",
@@ -28500,7 +29139,8 @@
      "height": 2000,
      "bytes": 94635,
      "sha256": "07eb287f1c7d2d75ac87e8a2463ee7cdce68de15b45fb9a836bee4ce58788568",
-     "checkedDate": "2026-09-14"
+     "checkedDate": "2026-09-14",
+     "reviewedAt": "2026-09-17"
     },
     {
      "file": "10-Design-sans-titre-18.jpg",
@@ -28518,7 +29158,8 @@
      "height": 2000,
      "bytes": 100253,
      "sha256": "65338f579e3f277e851273b5d57e75bd5ab890d4ff78a2c403e4a41854e78ad3",
-     "checkedDate": "2026-09-14"
+     "checkedDate": "2026-09-14",
+     "reviewedAt": "2026-09-17"
     },
     {
      "file": "11-Design-sans-titre-12.jpg",
@@ -28536,7 +29177,8 @@
      "height": 2000,
      "bytes": 92269,
      "sha256": "6339ba5033b8d7a691ba4699c7601f0a4afe87f169a0b27f5fe52701a96b8f95",
-     "checkedDate": "2026-09-14"
+     "checkedDate": "2026-09-14",
+     "reviewedAt": "2026-09-17"
     },
     {
      "file": "12-Design-sans-titre-7.jpg",
@@ -28554,7 +29196,8 @@
      "height": 2000,
      "bytes": 121713,
      "sha256": "11ad7e8ae26c2b7547297148ed0600513ddf090984e12795eccdc1770246b232",
-     "checkedDate": "2026-09-14"
+     "checkedDate": "2026-09-14",
+     "reviewedAt": "2026-09-17"
     },
     {
      "file": "13-Design-sans-titre-6.jpg",
@@ -28572,7 +29215,8 @@
      "height": 2000,
      "bytes": 94066,
      "sha256": "5f77491c7e4a5cc4ac009871015b8a3f1301b004a3f46a0d57ec1fc950639eed",
-     "checkedDate": "2026-09-14"
+     "checkedDate": "2026-09-14",
+     "reviewedAt": "2026-09-17"
     },
     {
      "file": "14-Design-sans-titre-15.jpg",
@@ -28590,7 +29234,8 @@
      "height": 2000,
      "bytes": 93853,
      "sha256": "ff9090244820396b7141d491ff94f413d750c9e0dba05d52e859f9c54c015c5d",
-     "checkedDate": "2026-09-14"
+     "checkedDate": "2026-09-14",
+     "reviewedAt": "2026-09-17"
     },
     {
      "file": "15-Design-sans-titre.jpg",
@@ -28608,7 +29253,8 @@
      "height": 2000,
      "bytes": 83324,
      "sha256": "c86372a2173340415b00fd575f15af949ac93c66266fde105334fef395022e80",
-     "checkedDate": "2026-09-14"
+     "checkedDate": "2026-09-14",
+     "reviewedAt": "2026-09-17"
     },
     {
      "file": "16-Design-sans-titre-17.jpg",
@@ -28626,7 +29272,8 @@
      "height": 2000,
      "bytes": 102117,
      "sha256": "6fa415d819a3465c8c93cb268ff2b95028583db245d1312387c1bde1f18fa658",
-     "checkedDate": "2026-09-14"
+     "checkedDate": "2026-09-14",
+     "reviewedAt": "2026-09-17"
     },
     {
      "file": "17-Design-sans-titre-8.jpg",
@@ -28644,7 +29291,8 @@
      "height": 2000,
      "bytes": 112203,
      "sha256": "4dd6068f6007fae187cab63f53780dfedbf68a87f0ebe658023d7ed950fcb435",
-     "checkedDate": "2026-09-14"
+     "checkedDate": "2026-09-14",
+     "reviewedAt": "2026-09-17"
     },
     {
      "file": "18-Design-sans-titre-24.jpg",
@@ -28662,7 +29310,8 @@
      "height": 2000,
      "bytes": 92561,
      "sha256": "59520ceeed0ec640bcd2eb530bb2d6645e939432edc29170bd7a4611ccc25584",
-     "checkedDate": "2026-09-14"
+     "checkedDate": "2026-09-14",
+     "reviewedAt": "2026-09-17"
     },
     {
      "file": "19-Design-sans-titre-22.jpg",
@@ -28680,7 +29329,8 @@
      "height": 2000,
      "bytes": 92421,
      "sha256": "252539970d286eefd74dff527192d87c92286fdfdef52681eab7748865fe8331",
-     "checkedDate": "2026-09-14"
+     "checkedDate": "2026-09-14",
+     "reviewedAt": "2026-09-17"
     },
     {
      "file": "20-Design-sans-titre-25.jpg",
@@ -28698,7 +29348,8 @@
      "height": 2000,
      "bytes": 86663,
      "sha256": "bf7f265d42be5f6d3d808ec795d5f7bff00635566849dce14916141bb8fe94c1",
-     "checkedDate": "2026-09-14"
+     "checkedDate": "2026-09-14",
+     "reviewedAt": "2026-09-17"
     },
     {
      "file": "21-Design-sans-titre-1.jpg",
@@ -28716,7 +29367,8 @@
      "height": 2000,
      "bytes": 99047,
      "sha256": "6703ef8ea2173858f702063112e49e284ffc3ef28b4b0765602fee08cf3d0b40",
-     "checkedDate": "2026-09-14"
+     "checkedDate": "2026-09-14",
+     "reviewedAt": "2026-09-17"
     },
     {
      "file": "22-Design-sans-titre-10.jpg",
@@ -28734,7 +29386,8 @@
      "height": 2000,
      "bytes": 111060,
      "sha256": "e4a50e9ee4ec7a12589a55abd32243a52d8819535778ded4cd79a73c953bcdbc",
-     "checkedDate": "2026-09-14"
+     "checkedDate": "2026-09-14",
+     "reviewedAt": "2026-09-17"
     },
     {
      "file": "23-Design-sans-titre-9.jpg",
@@ -28752,7 +29405,8 @@
      "height": 2000,
      "bytes": 119520,
      "sha256": "eb5112739a87b186e4ba7ae4646c950af961624416b5c1dcb77b435bbd6b2a24",
-     "checkedDate": "2026-09-14"
+     "checkedDate": "2026-09-14",
+     "reviewedAt": "2026-09-17"
     },
     {
      "file": "24-verticale-ruchets.jpg",
@@ -28788,7 +29442,8 @@
      "height": 512,
      "bytes": 46465,
      "sha256": "d3c5604eb8bc1b1d080f1d23612854d78cf73e0679653979e79f24ce4a299f62",
-     "checkedDate": "2026-09-14"
+     "checkedDate": "2026-09-14",
+     "reviewedAt": "2026-09-17"
     },
     {
      "file": "26-preload_pattern.png",
@@ -28923,7 +29578,8 @@
      "height": 426,
      "bytes": 103024,
      "sha256": "8c1134fbdf38a271400fd7390ccedc9f9ec8be0dad4d46dc197a1546fd4153c5",
-     "checkedDate": "2026-09-14"
+     "checkedDate": "2026-09-14",
+     "reviewedAt": "2026-09-17"
     },
     {
      "file": "02-plants-de-syrah-mars-2011.jpg",
@@ -28959,7 +29615,8 @@
      "height": 500,
      "bytes": 20660,
      "sha256": "e6031bc2a944b9dbf518e6b6142199b6c3ba303d1615ad79c50555138c6191eb",
-     "checkedDate": "2026-09-14"
+     "checkedDate": "2026-09-14",
+     "reviewedAt": "2026-09-17"
     },
     {
      "file": "04-baseline-domaine-vendome-scaled.png",
@@ -28977,7 +29634,8 @@
      "height": 1442,
      "bytes": 43984,
      "sha256": "c0aefc45168ec812da855446ad0aa56d6b05fc494ffe215c0dc64c932fa95629",
-     "checkedDate": "2026-09-14"
+     "checkedDate": "2026-09-14",
+     "reviewedAt": "2026-09-17"
     },
     {
      "file": "05-202310-domainevendome-cornas-006-copie-scaled.jpg",
@@ -28995,7 +29653,8 @@
      "height": 1707,
      "bytes": 290298,
      "sha256": "64be21ee65c74024ae55a31021def537c4997860083ad43ffeac3603ef67cfe7",
-     "checkedDate": "2026-09-14"
+     "checkedDate": "2026-09-14",
+     "reviewedAt": "2026-09-17"
     },
     {
      "file": "06-202308-domainevendome-infrastructure-009-copie-scaled.jpg",
@@ -29031,7 +29690,8 @@
      "height": 500,
      "bytes": 14796,
      "sha256": "ab84c0bed90db7bfa67bc9c6d3c5e6dff9645f21602686727885293fa637a056",
-     "checkedDate": "2026-09-14"
+     "checkedDate": "2026-09-14",
+     "reviewedAt": "2026-09-17"
     },
     {
      "file": "08-roche.png",
@@ -29049,7 +29709,8 @@
      "height": 500,
      "bytes": 29426,
      "sha256": "af20dbd201b189035b5b8e663a04dd4b2f6db5d37bfd68f07b0b68499dbc2b5d",
-     "checkedDate": "2026-09-14"
+     "checkedDate": "2026-09-14",
+     "reviewedAt": "2026-09-17"
     },
     {
      "file": "09-secateur.png",
@@ -29067,7 +29728,8 @@
      "height": 500,
      "bytes": 10694,
      "sha256": "8234d6d97ac559fc14419d554f4eaf032cd9f84da0fb5c062c302623b73632f3",
-     "checkedDate": "2026-09-14"
+     "checkedDate": "2026-09-14",
+     "reviewedAt": "2026-09-17"
     },
     {
      "file": "10-vinification.png",
@@ -29085,7 +29747,8 @@
      "height": 500,
      "bytes": 7438,
      "sha256": "06300e2870a63c1a15ef3ce26cd96bba1819c7a78b03af5118f3868e5b930bbe",
-     "checkedDate": "2026-09-14"
+     "checkedDate": "2026-09-14",
+     "reviewedAt": "2026-09-17"
     },
     {
      "file": "11-cuve.png",
@@ -29103,7 +29766,8 @@
      "height": 500,
      "bytes": 15610,
      "sha256": "b17c16371953ac9973c2acc368db8c8e584fe7d420b40220d6336b9144b72a1e",
-     "checkedDate": "2026-09-14"
+     "checkedDate": "2026-09-14",
+     "reviewedAt": "2026-09-17"
     },
     {
      "file": "12-gamme-les-bruclas.png",
@@ -29121,7 +29785,8 @@
      "height": 1000,
      "bytes": 29730,
      "sha256": "1cf769ac57fc27fc77bb6ae68a2dc231061e208f78b4eddd724feb52c02cec1d",
-     "checkedDate": "2026-09-14"
+     "checkedDate": "2026-09-14",
+     "reviewedAt": "2026-09-17"
     },
     {
      "file": "13-gamme-les-coulaires.png",
@@ -29139,7 +29804,8 @@
      "height": 1000,
      "bytes": 24216,
      "sha256": "5e7208e4c214e1587fc2f91b2670aacc2fc92b5b8ceac7a5121bb39de17f4d60",
-     "checkedDate": "2026-09-14"
+     "checkedDate": "2026-09-14",
+     "reviewedAt": "2026-09-17"
     },
     {
      "file": "14-gamme-le-puits-des-mejeans.png",
@@ -29157,7 +29823,8 @@
      "height": 1000,
      "bytes": 28556,
      "sha256": "65b73f2754d49fe2ce8e6dde6153112c8238198f2290c69ac3578c88e522fefa",
-     "checkedDate": "2026-09-14"
+     "checkedDate": "2026-09-14",
+     "reviewedAt": "2026-09-17"
     },
     {
      "file": "15-gamme-terre-des-chaux.png",
@@ -29175,7 +29842,8 @@
      "height": 1000,
      "bytes": 23204,
      "sha256": "f1ca72a0830834574554251dd04284653a508ef7d600f0c29a4ba73980776342",
-     "checkedDate": "2026-09-14"
+     "checkedDate": "2026-09-14",
+     "reviewedAt": "2026-09-17"
     },
     {
      "file": "16-gamme-lehm.png",
@@ -29193,7 +29861,8 @@
      "height": 1000,
      "bytes": 25688,
      "sha256": "c7b385aa587db0674dfdacdb7153195c94185d1ab5a379656b79b809689840ad",
-     "checkedDate": "2026-09-14"
+     "checkedDate": "2026-09-14",
+     "reviewedAt": "2026-09-17"
     },
     {
      "file": "17-gamme-ergeron.png",
@@ -29211,7 +29880,8 @@
      "height": 1000,
      "bytes": 23674,
      "sha256": "b3b724c834d6a70bd09f89c58902733d031d055b7c1ae31a25732a9ae28b115a",
-     "checkedDate": "2026-09-14"
+     "checkedDate": "2026-09-14",
+     "reviewedAt": "2026-09-17"
     },
     {
      "file": "18-design-sans-titre-1.png",
@@ -29229,7 +29899,8 @@
      "height": 1000,
      "bytes": 33070,
      "sha256": "ae620c8300936251460366d72dafdbc080e9e0ff96ac54daa0eebae94fe915a7",
-     "checkedDate": "2026-09-14"
+     "checkedDate": "2026-09-14",
+     "reviewedAt": "2026-09-17"
     },
     {
      "file": "19-slider-gamme.png",
@@ -29265,7 +29936,8 @@
      "height": 750,
      "bytes": 10862,
      "sha256": "0678b0ddb6dca37a3ff53881b316aaf553e57886a9abe6e680c394ae0aed8b1d",
-     "checkedDate": "2026-09-14"
+     "checkedDate": "2026-09-14",
+     "reviewedAt": "2026-09-17"
     },
     {
      "file": "21-baryte.png",
@@ -29283,7 +29955,8 @@
      "height": 750,
      "bytes": 10970,
      "sha256": "61cf75e78f9d98199ceee9cf3ae369e15f5e9a7ef8dd998295704b2c51c07fac",
-     "checkedDate": "2026-09-14"
+     "checkedDate": "2026-09-14",
+     "reviewedAt": "2026-09-17"
     },
     {
      "file": "22-terre-des-chaux.png",
@@ -29301,7 +29974,8 @@
      "height": 750,
      "bytes": 15838,
      "sha256": "87db0f19245347b3849b50794a9590141eccaf7dae396f9f5206d9418a3f870a",
-     "checkedDate": "2026-09-14"
+     "checkedDate": "2026-09-14",
+     "reviewedAt": "2026-09-17"
     },
     {
      "file": "23-le-puits-des-mejeans.png",
@@ -29319,7 +29993,8 @@
      "height": 750,
      "bytes": 17942,
      "sha256": "9d36b366ab70ce7d7a5f33338f789bc0ec10ee7721dc315fc8ace160cee4558f",
-     "checkedDate": "2026-09-14"
+     "checkedDate": "2026-09-14",
+     "reviewedAt": "2026-09-17"
     },
     {
      "file": "24-les-bruclas.png",
@@ -29337,7 +30012,8 @@
      "height": 750,
      "bytes": 17128,
      "sha256": "14aa897823367850d2f7790ddd7291d8ea60b0fd425ff3c8bd23a105be432f2b",
-     "checkedDate": "2026-09-14"
+     "checkedDate": "2026-09-14",
+     "reviewedAt": "2026-09-17"
     },
     {
      "file": "25-ergeron.png",
@@ -29355,7 +30031,8 @@
      "height": 750,
      "bytes": 62084,
      "sha256": "bfb168941f756debc42538904eadd81a0443142416874196500267413e07d968",
-     "checkedDate": "2026-09-14"
+     "checkedDate": "2026-09-14",
+     "reviewedAt": "2026-09-17"
     },
     {
      "file": "26-les-coulaires.png",
@@ -29373,7 +30050,8 @@
      "height": 750,
      "bytes": 16088,
      "sha256": "2afbcd89607328c0a07122a865231dd0224f0449a8a5e79c6f14abdc34c87b99",
-     "checkedDate": "2026-09-14"
+     "checkedDate": "2026-09-14",
+     "reviewedAt": "2026-09-17"
     }
    ],
    "imageSummary": "26 张官网图片（人物/庄园照 + 酒款瓶标图）；其中 23 张经逐张目视复核，2 张标面读得出 Cornas。",
@@ -29498,7 +30176,8 @@
      "height": 5118,
      "bytes": 248996,
      "sha256": "837153e915d30a4284ff129f9cbf39abbaa331ed80613a8e73ca0ea488781943",
-     "checkedDate": "2026-09-14"
+     "checkedDate": "2026-09-14",
+     "reviewedAt": "2026-09-17"
     },
     {
      "file": "03-brisecailloux.jpg",
@@ -29516,7 +30195,8 @@
      "height": 5217,
      "bytes": 246104,
      "sha256": "717a4f2b73110b4bc5d97218159fc62068765baf0b22c1bc18a69af675b19c50",
-     "checkedDate": "2026-09-14"
+     "checkedDate": "2026-09-14",
+     "reviewedAt": "2026-09-17"
     },
     {
      "file": "04-BRISECAILLOUXORANGE.jpg",
@@ -29534,7 +30214,8 @@
      "height": 640,
      "bytes": 60158,
      "sha256": "a11ebd84b40bfc37d6c878546d391f7dddc37fcfdbbb4d779a2f1d999f83180e",
-     "checkedDate": "2026-09-14"
+     "checkedDate": "2026-09-14",
+     "reviewedAt": "2026-09-17"
     },
     {
      "file": "05-5_SAOULS.jpg",
@@ -29552,7 +30233,8 @@
      "height": 4096,
      "bytes": 205720,
      "sha256": "97d4cd39545cddec2f1897e3a21020a86fe43de316bdd6e3f6854c5799b4a81d",
-     "checkedDate": "2026-09-14"
+     "checkedDate": "2026-09-14",
+     "reviewedAt": "2026-09-17"
     },
     {
      "file": "06-LaBanniere.jpg",
@@ -29570,7 +30252,8 @@
      "height": 640,
      "bytes": 47494,
      "sha256": "0177e5c4d82e5711e0d4c95aa45244da8b973bd713ebf815369f4920fe44ffd2",
-     "checkedDate": "2026-09-14"
+     "checkedDate": "2026-09-14",
+     "reviewedAt": "2026-09-17"
     },
     {
      "file": "07-geniale_patronne_copie.jpg",
@@ -29588,7 +30271,8 @@
      "height": 3923,
      "bytes": 168452,
      "sha256": "4d390748d775bd97962e128f6613bb944ea4b930a8b32cb22360b1b59a4887f3",
-     "checkedDate": "2026-09-14"
+     "checkedDate": "2026-09-14",
+     "reviewedAt": "2026-09-17"
     },
     {
      "file": "08-NOWINESLAND_341d7886-8a4a-4f48-bf35-dd3f2dd70f5d.jpg",
@@ -29606,7 +30290,8 @@
      "height": 640,
      "bytes": 33772,
      "sha256": "1db8a130c55dd84b3274e8722c8429b6b0d0f6f726e27721ac84814b2967707e",
-     "checkedDate": "2026-09-14"
+     "checkedDate": "2026-09-14",
+     "reviewedAt": "2026-09-17"
     },
     {
      "file": "09-NO_WINE_S_LAND.jpg",
@@ -29624,7 +30309,8 @@
      "height": 4096,
      "bytes": 146102,
      "sha256": "f7965f7fbf1f6d26a075dadb3d0450e71ba6a903eed137269993b8b108edc32c",
-     "checkedDate": "2026-09-14"
+     "checkedDate": "2026-09-14",
+     "reviewedAt": "2026-09-17"
     },
     {
      "file": "10-vivrelibreouMourirbis.jpg",
@@ -29642,7 +30328,8 @@
      "height": 640,
      "bytes": 38080,
      "sha256": "551fa185864fbb047eaf0cc6363e55885c083100cee892b7b8e65cee73580a9a",
-     "checkedDate": "2026-09-14"
+     "checkedDate": "2026-09-14",
+     "reviewedAt": "2026-09-17"
     },
     {
      "file": "11-INGLOURIOUS_BROCARD.jpg",
@@ -29660,7 +30347,8 @@
      "height": 4096,
      "bytes": 190176,
      "sha256": "6a17a8b42bb3281a281d5562dc48398f1c456799e673a1da2baaaecda63d2882",
-     "checkedDate": "2026-09-14"
+     "checkedDate": "2026-09-14",
+     "reviewedAt": "2026-09-17"
     },
     {
      "file": "12-j_auraitapeauter.jpg",
@@ -29678,7 +30366,8 @@
      "height": 640,
      "bytes": 46332,
      "sha256": "ef94a5e9b72fe519453125b5d315857f9cf9f11406855bfbc430db5bfe32080c",
-     "checkedDate": "2026-09-14"
+     "checkedDate": "2026-09-14",
+     "reviewedAt": "2026-09-17"
     },
     {
      "file": "13-JESUISTONPEREBIS.jpg",
@@ -29696,7 +30385,8 @@
      "height": 640,
      "bytes": 43234,
      "sha256": "63980cc3067ab7331cb3f40a02699ea3dd701adec4a6d4ed045d8d6c7ebaeee7",
-     "checkedDate": "2026-09-14"
+     "checkedDate": "2026-09-14",
+     "reviewedAt": "2026-09-17"
     },
     {
      "file": "14-OURS_BRUT.jpg",
@@ -29732,7 +30422,8 @@
      "height": 640,
      "bytes": 59376,
      "sha256": "c2cb49b5386a804672761fbb3a6f77d8174c2253e7df726969598590ce58dc37",
-     "checkedDate": "2026-09-14"
+     "checkedDate": "2026-09-14",
+     "reviewedAt": "2026-09-17"
     },
     {
      "file": "16-cornas.jpg",
@@ -29750,7 +30441,8 @@
      "height": 390,
      "bytes": 78087,
      "sha256": "0fd1058bf4733eb77ba4f8a0731084e3a966a5c391df37160e44d05ee18fd844",
-     "checkedDate": "2026-09-14"
+     "checkedDate": "2026-09-14",
+     "reviewedAt": "2026-09-17"
     },
     {
      "file": "17-terreCornas.png",
@@ -29768,7 +30460,8 @@
      "height": 272,
      "bytes": 10798,
      "sha256": "1511526a1c464d742f1ffec6c3403a3fbcf5cb5cc26022d735b12680c57fb488",
-     "checkedDate": "2026-09-14"
+     "checkedDate": "2026-09-14",
+     "reviewedAt": "2026-09-17"
     },
     {
      "file": "18-20210126_161519_002.jpg",
@@ -29804,7 +30497,8 @@
      "height": 300,
      "bytes": 27805,
      "sha256": "6a9bb91539e48ccf10a209fecabf44090e9852594ceca54b279b224ddb9fd1b3",
-     "checkedDate": "2026-09-14"
+     "checkedDate": "2026-09-14",
+     "reviewedAt": "2026-09-17"
     },
     {
      "file": "20-Untitled_design.png",
@@ -29894,7 +30588,8 @@
      "height": 1772,
      "bytes": 943369,
      "sha256": "ccd1855910a7c4b162de72b64cf66dde26afd978a2ed14b9fe92d9c6a7d93504",
-     "checkedDate": "2026-09-14"
+     "checkedDate": "2026-09-14",
+     "reviewedAt": "2026-09-17"
     }
    ],
    "imageSummary": "24 张官网图片（人物/庄园照 + 酒款瓶标图）；其中 17 张经逐张目视复核，4 张标面读得出 Cornas。",
