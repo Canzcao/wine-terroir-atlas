@@ -187,4 +187,6 @@ SERVER=root@your.server.ip REMOTE_DIR=/opt/terroir-atlas \
 ## 许可
 
 - **代码**：[MIT](LICENSE)
-- **数据**（`data/`、`public/*.geojson`）：[CC BY 4.0](https://creativecommons.org/licenses/by/4.0/) —— 可自由使用，请注明来源，并遵守上游数据源各自的许可（见上表）。
+- **数据**（`data/`、`public/*.geojson`）：[CC BY 4.0](LICENSE-DATA.md) —— 可自由使用，请注明来源。
+  注意上游 OpenStreetMap 派生的部分（葡萄园分布、酒庄点位）是 **ODbL 1.0** 传染性许可，
+  混合分发时需同样开放 —— 细节见 [`LICENSE-DATA.md`](LICENSE-DATA.md)。
