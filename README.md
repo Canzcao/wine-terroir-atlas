@@ -1,32 +1,160 @@
 # 风土图鉴 · Terroir Atlas
 
-中文交互式葡萄酒地图、世界动态与共享资料库。初始收录19个国家、34个产区、53个品种、38家酒庄、3款酒及3条独立年份资料；另有2处已核对品种的地块。支持查询全球视野内的 OpenStreetMap 葡萄园和酒庄。
+一个**中文交互式葡萄酒产区地图**，也是一份**结构化的世界葡萄酒产区数据资产**。
+
+![产区](https://img.shields.io/badge/产区-196-informational) ![国家](https://img.shields.io/badge/国家-29-informational) ![酒庄](https://img.shields.io/badge/酒庄-2794-informational) ![酒款](https://img.shields.io/badge/酒款-1352-informational) ![边界](https://img.shields.io/badge/法定边界-183-success) ![许可](https://img.shields.io/badge/license-MIT-blue)
+<!-- 建仓后把下面一行的 OWNER/REPO 换成实际值，CI 徽章即生效 -->
+![CI](https://github.com/OWNER/REPO/actions/workflows/ci.yml/badge.svg)
+
+## 这是什么
+
+一张地图 + 一套数据。**重点在数据口径**：
+
+- **产区分级严格对齐权威标准**。法国产区按 **WSET Level 3 官方考纲**（2024 Issue 2）的 98 条列名产区逐条核对，覆盖率 100%；层级按 WSET 四阶梯（大区 → 次区 → 村庄 → 地块）挂载。
+- **边界是官方法定范围，不是近似**。法国 AOC 的法定范围由 `cahier des charges` 以 commune 清单定义，直接取 **INAO**（法国农业部下属国家原产地与质量研究所）的开放数据；意大利/西班牙等取 EU eAmbrosia PDO；美国取 AVA。每一次导入都记录来源、许可、检索时间与几何指纹。
+- **每个字段都能追到源头**。实体带 `sourceTitle` / `sourceURL` / `checkedDate`；边界带 `sourceName` / `sourceURL` / `license`；图片带 `sha256` 与原页地址（便于按请求下架）。
+- **不猜、不补、不推断**。未知的坐标、品种、产权、产量一律留 `null` 并显式标注，不用相邻产区的数据填充。
+
+## 数据规模
+
+| 类型 | 数量 | 说明 |
+|---|---|---|
+| 产区 region | **196** | 覆盖 29 个国家 |
+| 酒庄 winery | **2794** | 带坐标的才上图 |
+| 酒款 wine | **1352** | |
+| 年份 vintage | **469** | |
+| 品种 grape | **299** | |
+| 法定边界 | **183** | 含 AOC / PDO / AVA / 行政区兜底 |
+| 世界动态 event | **149** | 新闻 / 事件 / 采收 / 天气 / 灾害 |
+
+### 法国产区（WSET L3 对齐成果）
+
+按 WSET L3 考纲的 8 大区重组，覆盖率 **100%（98/98 条列名）**：
+
+```
+波尔多 bordeaux ── 左岸 / 右岸 / 两海之间 ── 各 AOC（Pauillac / Margaux / Pomerol …）
+勃艮第 burgundy ── Côte de Beaune / Côte Chalonnaise / Chablis / Mâconnais ── 村庄 AOC
+罗讷河谷 rhone ── 北罗讷 8 个 Crus（Côte-Rôtie / Condrieu / Hermitage …）+ 南罗讷 Crus
+卢瓦尔河谷 loire ── Anjou / Saumur / Touraine …
+阿尔萨斯 alsace ── Alsace Grand Cru（51 个单一园并集）
+博若莱 beaujolais ── Beaujolais / Brouilly / Fleurie / Morgon …
+法国西南 south-west ── Bergerac / Cahors / Madiran / Jurançon …
+法国南部 southern-france ── Languedoc / Roussillon / Provence / IGP Pays d'Oc
+```
+
+> **大区本身不画边界**。波尔多、罗讷河谷、勃艮第这些是**聚合层级**，不是法定产区 ——
+> 拿其中某一支 AOC 的范围冒充整个大区，会让人误以为「罗讷河谷只有这么一小块」。
+> 所以只给各个 AOC 的法定范围，大区留给使用者点开子项查看。（唯一例外是 `bordeaux`
+> 下的三个岸分区，它们本身有明确的官方地理定义。）
+
+## 数据格式
+
+`data/catalog-seed.json` 是**顶层数组**，每条形如：
+
+```json
+{
+  "id": "pauillac",
+  "kind": "region",
+  "name": "波亚克",
+  "data": {
+    "name": "波亚克",
+    "en": "Pauillac",
+    "country": "法国",
+    "regionId": "haut-medoc",
+    "geoZone": "Haut-Médoc（左岸，Médoc 南部）",
+    "sourceTitle": "Conseil Interprofessionnel du Vin de Bordeaux (CIVB)",
+    "sourceURL": "https://www.bordeaux.com/",
+    "checkedDate": "2026-09-29"
+  },
+  "version": 1,
+  "updated": "2026-09-29T10:00:00.000Z"
+}
+```
+
+关键字段：
+
+- `kind` — `region` / `winery` / `wine` / `vintage` / `grape` / `parcel`
+- `data.regionId` — **父级指针**。产区树靠它表达层级（村 `pauillac` → 次区 `haut-medoc` → 岸 `bordeaux-left-bank` → 大区 `bordeaux`）
+- `data.geoZone` — 人类可读的地理分区标签
+- `data.sourceURL` — **每个实体必有**，校验器会强制
+
+`public/region-boundaries.geojson` 是标准 GeoJSON FeatureCollection，每个 Feature 的 `properties` 含 `regionId` / `boundaryType` / `precision` / `areaKm2` / `sourceName` / `sourceURL` / `license` / `note`。
+
+`boundaryType` 的取值与含义：
+
+| 值 | 数量 | 含义 |
+|---|---|---|
+| `geographical_indication` | 131 | 地理标志范围（IGP / GI / AOC 法定 aire），**权威** |
+| `appellation_geographical_area` | 21 | 法定产区（AOC/AOP）官方地理范围 |
+| `vineyard_distribution` | 15 | **非边界**：无官方边界时用 OSM 实测葡萄园地块的分布范围，`note` 明确声明「不是法定产区界线」 |
+| `administrative_fallback` | 10 | **行政兜底**，不是法定产区范围（明确标注） |
+| `american_viticultural_area` | 3 | 美国 TTB 登记的 AVA |
+| `administrative_county` | 3 | 官方县界兜底（美国 Sonoma / 英国 Sussex / 中国台湾地区） |
+
+> 为什么分这么细？因为**「这块地是什么」会改变用户对它的信任程度**。法定范围可以拿来判断酒庄归属，葡萄园分布只能说明「这一带种葡萄」，行政兜底只是「大致在这一片」。混在一起会让人把示意当成法条。
+
+`precision` 字段进一步区分精度：`parcellaire`（地块级，最高）> `commune`（市镇级）> `province` / `county`。
 
 ## 使用
 
-主页为地图，侧栏可切换产区探索与世界动态；`/catalog` 查看关联资料、来源和修订历史；`/community` 提交、审核、导入和管理共建成员。选择产区查看主要品种和酒庄；放大后查询当前位置的公开地块。搜索框支持中文或英文；右侧箭头在 Nominatim 中查找地理位置。
+环境要求：**Node.js 22+**（无其他系统依赖；GIS 相关的导入脚本另需 Python 3 + `pyshp`/`pyproj`/`shapely`）。
 
-`npm run build` 构建，`npm run dev` 在4173端口启动仅供本地使用的预览（注入本地测试身份，不会发布）。`npm test` 检验共享资料、权限、并发修改、审核、文件访问和导入重试；`node scripts/validate-data.mjs` 检查资料关联与动态字段。生成数据库迁移使用 `npm run db:generate`。
+```bash
+npm install
 
-## 数据口径
+npm run build          # 构建（把 public/ 静态资源嵌入 dist/server/index.js）
+npm run dev            # 本地预览 http://localhost:4173
+npm test               # 测试（授权 / 并发 / 审核 / 文件访问 / 边界口径）
+node scripts/validate-data.mjs    # 校验数据关联与来源字段
+node scripts/validate-reports.mjs # 校验简报
+```
 
-- 产区标记是浏览中心，不是法定边界；索引不构成完整的全球产区名录。
-- 产区概况来自条目链接的协会、行业机构、酒庄及专业资料。整理日期 2026-09-12，不保证与当前种植情况同步。
-- 地块几何与酒庄位置来自 OpenStreetMap，ODbL 1.0，© OpenStreetMap contributors。OSM 葡萄园记录可能指用地或命名葡萄园区域，不等同于地籍或产权边界；也不保证均为酿酒葡萄。
-- 已收录的沃恩-罗曼尼周边 GeoJSON 包含 131 处葡萄园，来自 2026-09-12 的 OSM 数据。原始查询范围：南 47.15、西 4.93、北 47.17、东 4.97。
-- 罗曼尼·康帝园和拉塔希园的品种、经营者信息据酒庄公开资料单独补充，并与 OSM 轮廓分别标注来源。其他记录没有品种标签时明确显示未提供，不用产区品种填充。
-- 地图图形面积是球面近似计算，不是登记面积。
-- 详细地图为 OpenTopoMap（CC-BY-SA 3.0）/ OSM / SRTM；基础地图为 Natural Earth 公有领域数据。原始数据：https://github.com/nvkelso/natural-earth-vector/blob/master/geojson/ne_110m_admin_0_countries.geojson
-- 外部地块服务只在用户点击时请求小范围数据，有超时、备用端点和内存缓存。地点检索不进行自动补全。
+推送与 PR 都会触发 CI（`.github/workflows/ci.yml`）：校验数据 → 跑测试 → 构建。
 
-## 第三方库
+### 部署
 
-Leaflet 1.9.4（BSD-2-Clause）与 osmtogeojson 3.0.0-beta.5（MIT）；授权文本保留在 `public/assets`。ExcelJS 4.4.0（MIT）用于读取用户选择的 Excel 表格。
+部署目标通过环境变量提供，仓库里**不含任何具体服务器地址**：
 
-## 部署
+```bash
+SERVER=root@your.server.ip REMOTE_DIR=/opt/terroir-atlas \
+  npm run build && bash deploy/deploy.sh
+```
 
-Sites Worker 站点，逻辑 D1 绑定为 DB，R2 绑定为 BUCKET；平台负责生产资源。源码中的 public 资源在构建时嵌入 Worker。结构化资料、草稿、审核状态、成员和历史持久保存在 D1，文件保存在 R2。数据库结构由 db/schema.ts 和生成的 drizzle 迁移管理，运行时不修改结构。
+`deploy/` 下：
 
-身份来自 Sites 转发的已登录访客身份。生产 OWNER_EMAIL 是经过所有者同意设置的运行时秘密，用于确定唯一初始管理员；其他成员通过明确邀请登记。共建角色与网站访问权限分开管理。共享链接不会自动发送邮件或改变网站访问范围。
+- `deploy.sh` — macOS/Linux 版（rsync）
+- `deploy.local.sh` — Windows / Git Bash 版（无 rsync，用 `tar | ssh`，photos 走增量）
+- `server-setup.sh` — 服务器初始化（nginx + pm2 + 证书）
+- `nginx.conf.example` — nginx 站点配置模板
 
-每日采编流程和来源要求见 AGENTS.md。定时任务更新 data/events.json 和新增的官方来源资料后，核验并发布到同一网站；社区数据库不受每日资料发布影响。未知坐标、种植或产权信息均不推断。
+## 数据来源与许可
+
+本项目的数据来自**官方机构与开放数据**，逐条记录来源与许可：
+
+| 来源 | 用途 | 许可 |
+|---|---|---|
+| [INAO](https://www.data.gouv.fr/fr/datasets/aires-geographiques-des-aoc-aop/) — Aires géographiques des AOC/AOP | 法国 AOC 法定范围（commune 级） | Licence Ouverte / Etalab |
+| [geo.api.gouv.fr](https://geo.api.gouv.fr/) | 法国市镇边界几何 | Licence Ouverte / Etalab |
+| [IGN Admin Express](https://github.com/gregoiredavid/france-geojson) | 法国省级行政界 | Licence Ouverte / Etalab |
+| [EU eAmbrosia](https://ec.europa.eu/agriculture/eambrosia/) | 欧盟 PDO/PGI 地理标志 | EU 开放数据 |
+| [OpenStreetMap](https://www.openstreetmap.org/) | 葡萄园 / 酒庄点位 | ODbL 1.0，© OpenStreetMap contributors |
+| [Natural Earth](https://www.naturalearthdata.com/) | 底图 | 公有领域 |
+| [WSET](https://www.wsetglobal.cn/) Level 3 考纲 | 产区分级结构依据 | 结构参照，非内容转载 |
+
+> **图片**：本仓库不包含第三方图片素材。原始项目中收集的图片版权归各酒庄/协会/摄影师所有，仅供本地研究，未随本仓库分发。
+
+## 设计原则
+
+1. **官方图形，绝不反推**。不接受「把几个酒庄点位连起来」「用行政区拼出产区」这类做法；官方只给行政界时，`boundaryType` 必须标 `administrative_fallback` 并在 `note` 里说明它不是法定范围。
+2. **大区不能悄悄缩成更小的产区**。宁可不给边界，也不给一个误导的——因为地图上点开会让人误以为「这块地就是这个大区」。
+3. **来源可追、修订留痕**。每个实体带版本号、来源、校验日期；编辑需带预期版本号；审核者不能批准自己的提交。
+4. **数据校验是硬门槛**。`validate-data.mjs` 会拦下缺来源、断链引用、重复 ID 的数据。
+
+## 参与贡献
+
+见 [CONTRIBUTING.md](CONTRIBUTING.md)。
+
+## 许可
+
+- **代码**：[MIT](LICENSE)
+- **数据**（`data/`、`public/*.geojson`）：[CC BY 4.0](https://creativecommons.org/licenses/by/4.0/) —— 可自由使用，请注明来源，并遵守上游数据源各自的许可（见上表）。

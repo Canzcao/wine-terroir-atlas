@@ -5,13 +5,13 @@ Used after HANDOFF.md or events-additions.json is edited, so the delivered archi
 always matches the files on disk. Does NOT touch data/catalog-seed.json or
 data/events.json — see merge-grillet-bundle.py for the merge.
 """
-import json, shutil, zipfile
+import json, os, shutil, zipfile
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
 DATE = '2026-09-13'
 OUT = ROOT / 'outputs' / 'collect' / 'chateau-grillet'
-STUDIO = Path('/Users/jingyang/Documents/Codex/2026-09-12/wine-content-studio') \
+STUDIO = Path(os.environ.get('CONTENT_STUDIO', Path(__file__).resolve().parent.parent.parent / 'wine-content-studio')) \
     / 'outputs' / 'collect' / DATE
 
 # ---- image provenance / takedown index --------------------------------------

@@ -1,0 +1,10 @@
+import {test} from 'node:test';
+import assert from 'node:assert/strict';
+import '../public/map-model.js';
+const {hierarchy,cluster}=globalThis.WineMapModel;
+const records=[{id:'rhone',kind:'region',name:'罗讷河谷',data:{country:'法国',en:'Rhône'}},{id:'cornas',kind:'region',name:'科尔纳斯',data:{country:'法国',regionId:'rhone',en:'Cornas'}},{id:'other',kind:'region',name:'Other',data:{country:'意大利'}}];
+test('country and regional levels follow declared parents, with descendants included',()=>{const t=hierarchy(records);assert.deepEqual(t.children('', '法国').map(e=>e.id),['rhone']);assert.deepEqual(t.children('rhone','法国').map(e=>e.id),['cornas']);assert(t.within('cornas','rhone'));assert(!t.within('other','rhone'));assert(!t.within(null,'cornas'));assert.deepEqual(t.ancestors('cornas').map(e=>e.id),['rhone','cornas'])});
+test('event matching uses names and country, never proximity',()=>{const t=hierarchy(records);assert.equal(t.eventRegion({country:'法国',region:'Cornas'}),'cornas');assert.equal(t.eventRegion({country:'意大利',region:'Cornas'}),null);assert.equal(t.eventRegion({country:'法国',region:'Unknown',lat:44.96,lng:4.84}),null)});
+test('co-located winery and events retain every record at all zooms',()=>{const entries=['winery','news','event'].map(id=>({id,point:[45,4]}));for(const zoom of [1,10,100000]){const groups=cluster(entries,p=>({x:p[0]*zoom,y:p[1]*zoom}));assert.equal(groups.length,1);assert.equal(groups[0].samePoint,true);assert.equal(groups[0].items.length,3)}});
+test('nearby points split on zoom and are not described as the same location',()=>{const entries=[{id:'one',point:[45,4]},{id:'two',point:[45.01,4]}];const low=cluster(entries,p=>({x:p[0]*100,y:p[1]*100}));assert.equal(low.length,1);assert.equal(low[0].samePoint,false);assert.equal(cluster(entries,p=>({x:p[0]*100000,y:p[1]*100000})).length,2);assert.equal(cluster([{point:[null,1]}],()=>({x:0,y:0})).length,0)});
+test('cyclic region data terminates without duplicate breadcrumbs',()=>{const t=hierarchy([{id:'a',kind:'region',data:{regionId:'b'}},{id:'b',kind:'region',data:{regionId:'a'}}]);assert.equal(t.ancestors('a').length,2)});

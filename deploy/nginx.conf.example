@@ -1,0 +1,98 @@
+# 风土图鉴 · your-domain.example.com
+# 位置：/etc/nginx/conf.d/your-domain.example.com.conf
+#
+# 与 VINCODE 主站（/etc/nginx/conf.d/wineapp.conf，端口 8868）完全隔离：
+# 独立 server_name、独立上游端口 3020、独立配置文件。
+# 不修改 wineapp.conf，不影响宝塔面板。
+#
+# 【重要】80 和 443 两个端口都必须直接出内容，不能做 http->https 跳转。
+# 原因：本域名的 Cloudflare SSL 模式是 Flexible —— 边缘节点是用 80 端口回源的
+# （主站 wineapp.conf 的 80 端口块同样不做跳转，就是这个道理）。
+# 如果在 80 上 return 301 https://...，Cloudflare 会把 301 透传给访客，
+# 访客再走 https 又被 CF 用 80 回源，形成无限跳转（实测已踩过）。
+# 想要强制 HTTPS，请在 Cloudflare 后台开 "Always Use HTTPS"（边缘层跳转，不会循环），
+# 而不是在这里做源站跳转。
+
+upstream terroir_atlas {
+    server 127.0.0.1:3020;
+    keepalive 16;
+}
+
+server {
+    listen 80;
+    listen [::]:80;
+    server_name your-domain.example.com;
+
+    # 留给将来换真证书（acme.sh）用
+    location /.well-known/acme-challenge/ {
+        root /var/www/certbot;
+    }
+
+    # 主页面的安全加固：拦掉源站配置文件之类的隐藏资源
+    location ~ /\. { deny all; access_log off; return 404; }
+    location = /server.mjs      { deny all; return 404; }
+    location = /ecosystem.config.cjs { deny all; return 404; }
+    location = /var/            { deny all; return 404; }
+
+    client_max_body_size 12m;
+
+    location / {
+        proxy_pass http://terroir_atlas;
+        proxy_http_version 1.1;
+        proxy_set_header Connection "";
+
+        proxy_set_header Host              $host;
+        proxy_set_header X-Real-IP         $remote_addr;
+        proxy_set_header X-Forwarded-For   $proxy_add_x_forwarded_for;
+        # 关键：站点会校验 Origin 与协议一致，必须透传真实协议，否则所有 POST 都会 403
+        proxy_set_header X-Forwarded-Proto $scheme;
+
+        proxy_connect_timeout 10s;
+        proxy_read_timeout    60s;
+
+        gzip on;
+        gzip_types text/css text/javascript application/javascript application/json image/svg+xml;
+        gzip_min_length 1024;
+        gzip_proxied any;
+    }
+}
+
+server {
+    listen 443 ssl;
+    listen [::]:443 ssl;
+    http2 on;
+    server_name your-domain.example.com;
+
+    ssl_certificate     /etc/nginx/ssl/your-domain.example.com.crt;
+    ssl_certificate_key /etc/nginx/ssl/your-domain.example.com.key;
+    ssl_protocols       TLSv1.2 TLSv1.3;
+    ssl_ciphers         HIGH:!aNULL:!MD5;
+    ssl_session_cache   shared:SSL:10m;
+    ssl_session_timeout 10m;
+
+    location ~ /\. { deny all; access_log off; return 404; }
+    location = /server.mjs      { deny all; return 404; }
+    location = /ecosystem.config.cjs { deny all; return 404; }
+    location = /var/            { deny all; return 404; }
+
+    client_max_body_size 12m;
+
+    location / {
+        proxy_pass http://terroir_atlas;
+        proxy_http_version 1.1;
+        proxy_set_header Connection "";
+
+        proxy_set_header Host              $host;
+        proxy_set_header X-Real-IP         $remote_addr;
+        proxy_set_header X-Forwarded-For   $proxy_add_x_forwarded_for;
+        proxy_set_header X-Forwarded-Proto $scheme;
+
+        proxy_connect_timeout 10s;
+        proxy_read_timeout    60s;
+
+        gzip on;
+        gzip_types text/css text/javascript application/javascript application/json image/svg+xml;
+        gzip_min_length 1024;
+        gzip_proxied any;
+    }
+}

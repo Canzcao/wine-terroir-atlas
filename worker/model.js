@@ -54,6 +54,10 @@ export function normalize(data,kind,complete=false){
  d.parcelIds=Array.isArray(data.parcelIds)?[...new Set(data.parcelIds.map(v=>cleanText(v)))].slice(0,30):[];
  d.lat=data.lat==null||data.lat===''?null:Number(data.lat);d.lng=data.lng==null||data.lng===''?null:Number(data.lng);
  if((d.lat==null)!==(d.lng==null)||d.lat!=null&&(!Number.isFinite(d.lat)||!Number.isFinite(d.lng)||Math.abs(d.lat)>90||Math.abs(d.lng)>180))fail('请同时填写有效的纬度和经度。');
+ // 约略坐标标记：只解析到街道／城镇／产区级时必须为 true，前端据此画虚线点、并从「只看精确位置」里排除。
+ // 没有坐标时强制清空，避免留下「标了约略但其实没坐标」的脏数据。不在这里就丢掉它 ——
+ // normalize 是白名单，不写进 d 的话社区投稿带过来的这个字段会被静默吞掉。
+ d.locationApproximate=d.lat==null?false:data.locationApproximate===true||data.locationApproximate==='true';
  d.year=data.year==null||data.year===''?null:Number(data.year);if(d.year!==null&&(!Number.isInteger(d.year)||d.year<1800||d.year>new Date().getUTCFullYear()+1))fail('年份不在有效范围内。');
  d.geometry=null;if(data.geometry){const g=data.geometry.type==='Feature'?data.geometry.geometry:data.geometry;let count=0;const ring=r=>Array.isArray(r)&&r.length>=4&&r.every(p=>Array.isArray(p)&&p.length===2&&p.every(Number.isFinite)&&Math.abs(p[0])<=180&&Math.abs(p[1])<=90&&++count<=5000)&&JSON.stringify(r[0])===JSON.stringify(r.at(-1));if(!g||g.type!=='Polygon'||!Array.isArray(g.coordinates)||!g.coordinates.length||!g.coordinates.every(ring))fail('地块轮廓请使用闭合的 GeoJSON Polygon，最多5000个点。');d.geometry={type:'Polygon',coordinates:g.coordinates}}
  if(complete){if(!d.name)fail('请填写名称。');if(!d.sourceURL&&!d.attachments.length)fail('请附原始资料链接或证明文件。');if(!d.sourceTitle)fail('请注明资料来源名称。');if(['winery','region','parcel'].includes(kind)&&!d.country)fail('请填写国家。');if(kind==='wine'&&!d.wineryId)fail('请选择对应酒庄。');if(kind==='vintage'){if(!d.wineId)fail('请选择对应酒款。');if(!['vintage','nv','unknown'].includes(d.yearType))fail('请选择年份类型。');if(d.yearType==='vintage'&&!d.year)fail('请填写年份。');if(d.yearType!=='vintage')d.year=null}if(kind==='parcel'&&(!d.regionId||(!d.geometry&&d.lat==null)))fail('地块需要产区和位置或轮廓。');if(d.lat!==null&&!d.locationPrecision)fail('请注明位置精度。')}

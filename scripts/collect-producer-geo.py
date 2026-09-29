@@ -30,9 +30,17 @@ POI_CLASSES = {
 POI_TYPES = {'winery', 'vineyard', 'wine', 'cellar'}
 
 STOPWORDS = {
+    # 法语
     'domaine', 'domaines', 'cave', 'caves', 'vignoble', 'vignobles', 'maison', 'et', 'fils',
     'pere', 'père', 'freres', 'frères', 'sarl', 'eurl', 'scea', 'earl', 'les', 'du', 'de', 'la',
     'le', 'aux', 'des', 'sur', 'saint', 'sainte', 'st', 'a', 'and', 'the', 'wines', 'wine',
+    # 西班牙语（2026-09-26 补：里奥哈/杜埃罗河岸用法定实体全名登记，
+    # 若不去掉法律后缀与通用词，name_match 会因分母过大而拒掉正确匹配）
+    'bodega', 'bodegas', 'bodegueros', 'vinedo', 'vinedos', 'viñedo', 'viñedos', 'vino', 'vinos',
+    'vinicola', 'vitivinicola', 'agricola', 'agropecuaria', 'explotaciones', 'propiedad',
+    'y', 'e', 'el', 'los', 'las', 'del', 'espanola', 'española', 'hermanos', 'hno', 'hnos',
+    'familia', 'grupo', 'sociedad', 'limitada', 'anonima', 'unipersonal', 'responsabilidad',
+    'sl', 'slu', 'sa', 'sc', 'scoop', 'sll', 'sau', 'srl', 'cb', 'sat',
 }
 
 
@@ -124,7 +132,10 @@ def main():
     for index, item in enumerate(producers, 1):
         if item['id'] in done:
             continue
-        query = '%s, %s' % (item['name'], item.get('country', 'France'))
+        # queryName 可选：官方名录常用法定实体全名，直接检索召回差；
+        # 允许调用方给一个「干净名」只用于检索，name_match 仍比对原 name。
+        query = '%s, %s' % (item.get('queryName') or item['name'],
+                             item.get('country', 'France'))
         rows = fetch({'q': query, 'format': 'json', 'limit': 5,
                       'addressdetails': 1, 'extratags': 1})
         if isinstance(rows, dict) and rows.get('error'):

@@ -33,10 +33,15 @@
   const walker=document.createTreeWalker(root,NodeFilter.SHOW_TEXT);let node;while(node=walker.nextNode())translateText(node);
  }
  function start(){
-  const label=document.createElement('label');label.className='language-switch';label.dataset.noI18n='';label.innerHTML='<span aria-hidden="true">◎</span><select id="siteLanguage" aria-label="Language / 语言">'+Object.entries(core.languages).map(([id,title])=>'<option value="'+id+'" '+(id===locale?'selected':'')+'>'+title+'</option>').join('')+'</select>';
+  const label=document.createElement('label');label.className='language-switch';label.dataset.noI18n='';
+  const icon=document.createElement('span');icon.setAttribute('aria-hidden','true');icon.textContent='◎';
+  const caption=document.createElement('span');caption.className='language-switch-label';caption.textContent=t('界面语言');
+  const select=document.createElement('select');select.id='siteLanguage';select.setAttribute('aria-label','Language / 语言');
+  select.innerHTML=Object.entries(core.languages).map(([id,title])=>'<option value="'+id+'" '+(id===locale?'selected':'')+'>'+title+'</option>').join('');
+  label.append(icon,caption,select);
   const header=document.querySelector('.masthead');header?.append(label);if(header){const measure=()=>document.documentElement.style.setProperty('--masthead-height',header.getBoundingClientRect().height+'px');new ResizeObserver(measure).observe(header);measure()}
   label.querySelector('select').onchange=e=>{const value=e.target.value;try{localStorage.setItem('terroir-language',value)}catch{}const url=new URL(location.href);url.searchParams.set('lang',value);location.assign(url.href)};
-  translate(document.body);
+  translate(document.body);document.title=t(document.title);
   const observer=new MutationObserver(mutations=>{const roots=new Set();for(const mutation of mutations){if(mutation.type==='characterData')roots.add(mutation.target);else for(const node of mutation.addedNodes)roots.add(node)}for(const node of roots)translate(node)});
   observer.observe(document.body,{subtree:true,childList:true,characterData:true});
   document.addEventListener('click',event=>{const a=event.target.closest('a[href]');if(!a||a.hasAttribute('download'))return;const url=new URL(a.href,location.href);if(url.origin===location.origin&&!url.pathname.startsWith('/api/')&&!url.pathname.startsWith('/signin-')){if(!url.searchParams.has('lang'))url.searchParams.set('lang',locale);a.href=url.href}});

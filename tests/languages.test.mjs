@@ -1,5 +1,6 @@
 import {test} from 'node:test';
 import assert from 'node:assert/strict';
+import fs from 'node:fs';
 import '../public/language-core.js';
 import {normalize,mergeLocalizedData,supportedLanguages} from '../worker/model.js';
 const L=globalThis.WineLanguage;
@@ -73,4 +74,35 @@ test('an explicit draft can retract an incorrect translation without deleting ot
  const revised=normalize(mergeLocalizedData(old,{originalLanguage:'',localizations:{fr:{name:'',description:'',sourceURL:'',sourceTitle:'',checkedDate:'',status:'draft'}}}),'winery');
  assert.equal(revised.originalLanguage,'');assert.equal(revised.localizations.fr.status,'draft');assert.equal(revised.localizations.fr.name,'');assert.deepEqual(revised.localizations.en,old.localizations.en);assert.deepEqual(L.available(revised),['en']);
  assert.throws(()=>normalize({localizations:{fr:{...checked(''),description:''}}},'winery'));
+});
+
+test('the requested language beats a verified translation in another language',()=>{
+ // 目录自带的中文名不能被「已核实的外文本地语条目」盖掉 ——
+ // 否则中文页会把勃艮第显示成 Bourgogne、纳帕谷显示成 Napa Valley（实测 91/109 个产区中招）
+ const frOnly={name:'勃艮第',en:'Bourgogne',originalLanguage:'fr',country:'法国',notes:'中文简介',localizations:{fr:checked('Bourgogne')}};
+ const zh=L.field(frOnly,'name','zh');
+ assert.equal(zh.text,'勃艮第');assert.equal(zh.language,'zh');assert.equal(zh.fallback,false);assert.equal(zh.verified,false);
+ assert.equal(L.field(frOnly,'description','zh').text,'中文简介');
+ // 但切到别的语言时，那条已核实的外文条目必须照常生效
+ assert.equal(L.field(frOnly,'name','en').text,'Bourgogne');
+ assert.equal(L.field(frOnly,'name','fr').text,'Bourgogne');
+ // 已核实的中文条目依然优先级最高
+ const withZh={...frOnly,localizations:{fr:checked('Bourgogne'),zh:checked('勃艮第产区','中文简介（已核实）')}};
+ const best=L.field(withZh,'name','zh');
+ assert.equal(best.text,'勃艮第产区');assert.equal(best.verified,true);assert.equal(best.sourceURL,'https://example.com/official');
+ // 目录本来就没有中文名时，外文条目该顶上就得顶上
+ const noZhName={name:'Domaine X',en:'Domaine X',originalLanguage:'fr',country:'法国',localizations:{fr:checked('Domaine X')}};
+ assert.equal(L.field(noZhName,'name','zh').text,'Domaine X');
+});
+
+test('no catalogue record hides an available Chinese name behind a foreign one',()=>{
+ const catalogue=JSON.parse(fs.readFileSync('data/catalog-seed.json'));
+ const cjk=/[\u3400-\u9fff]/;
+ const hidden=[];
+ for(const e of catalogue){
+  const f=L.field(e,'name','zh'),own=(e.data||e).name||'';
+  // d.name 里明明有中文，中文页却给了别的语言的串 → 就是被盖掉了
+  if(cjk.test(own)&&f.language!=='zh')hidden.push(e.kind+'/'+e.id+'：'+own+' → '+f.text);
+ }
+ assert.deepEqual(hidden.slice(0,10),[],'中文页有中文名可用却显示了外文名的记录：'+hidden.length+' 条');
 });

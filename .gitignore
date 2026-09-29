@@ -1,7 +1,45 @@
-work/
-outputs/
-.DS_Store
+# ---- 敏感 / 本地环境 ----
+.env
+.env.*
+!.env.example
+.workbuddy/
+.openai/
+.pre-paths-migration/
 .sites-runtime/
+
+# ---- 构建产物 / 依赖 ----
 node_modules/
 dist/
-.env
+out/
+
+# ---- 大体积采集与工作目录（含原始素材、缓存、备份）----
+work/
+outputs/
+var/
+img_fetch.log
+
+# ---- 内部运维台账（对使用者无价值，且含线上地址/采集节奏）----
+data/collection-progress.json
+data/country-rotation.json
+
+# ---- 临时故障产物（当日坏图快照，仅供本机排查）----
+*.broken-*.json
+
+# ---- 一次性迁移/本机专用脚本（含本机绝对路径，不入库）----
+scripts/_fix-mac-paths.py
+.pre-paths-migration/
+
+# ---- Python 缓存 ----
+__pycache__/
+*.pyc
+
+# ---- 系统 ----
+.DS_Store
+Thumbs.db
+*.swp
+*~
+
+# ---- 编辑器 ----
+.idea/
+.vscode/
+*.code-workspace

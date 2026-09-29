@@ -5,7 +5,8 @@
 import json
 from pathlib import Path
 
-ROOT = Path('/Users/jingyang/Documents/Codex/2026-09-12/ban')
+import os as _os
+ROOT = Path(_os.environ.get('TERROIR_ROOT', Path(__file__).resolve().parent.parent))
 MANIFEST = ROOT / 'outputs/collect/crozes-hermitage/images/wine-image-manifest.json'
 REVIEW = ROOT / 'work/crozes-hermitage/visual-review.json'
 IX = ROOT / 'work/crozes-hermitage/review-r2/sheet-index.json'

@@ -1,0 +1,44 @@
+.collected-wineries{border-top:1px solid var(--line);margin-top:22px;padding-top:18px}
+.collected-counts{display:flex;flex-wrap:wrap;gap:4px 14px;margin:0 0 14px;font-size:11px;color:#8a9083}
+.collected-count b{font-weight:600;color:var(--ink);font-variant-numeric:tabular-nums}
+.collected-loading{font-size:11px;color:#93988d;margin:0}
+.collected-rich{display:flex;flex-direction:column;gap:14px}
+.collected-winery{border:1px solid var(--line);border-radius:8px;padding:12px;background:var(--paper)}
+.collected-thumb{display:block;margin:-12px -12px 10px;border-radius:7px 7px 0 0;overflow:hidden;background:#f4f5ef;line-height:0}
+.collected-thumb img{display:block;width:100%;height:auto}
+.collected-head h4{margin:0;font-size:14px;font-weight:600;line-height:1.5;color:var(--ink)}
+.collected-en{display:block;font-size:11px;color:#9a9f95;margin-top:1px}
+.collected-meta{margin:7px 0 0;font-size:11px;line-height:1.7;color:#8a9083}
+.collected-desc{margin:8px 0 0;font-size:12px;line-height:1.8;color:#70786a}
+.collected-wines{margin-top:11px;border-top:1px solid var(--line);padding-top:10px}
+.collected-wine{display:flex;gap:8px;align-items:flex-start;padding:8px 0;border-top:1px solid #f0f1ed}
+.collected-wine:first-child{border-top:0;padding-top:0}
+.collected-wine-thumb{flex:0 0 auto;width:38px;overflow:hidden;border-radius:4px;background:#f4f5ef;line-height:0}
+.collected-wine-thumb img{display:block;width:100%;height:auto}
+.collected-wine-body{min-width:0;flex:1}
+.collected-wine-name{display:block;font-size:12.5px;line-height:1.5;color:var(--wine);word-break:break-word}
+.collected-wine-tags{display:flex;flex-wrap:wrap;gap:4px 8px;margin-top:3px;align-items:center}
+.collected-wine-tags em{font-style:normal;font-size:10.5px;color:#93988d}
+.collected-wine-tags b{font-size:10.5px;font-weight:500;color:#6c765f;border:1px solid var(--line);border-radius:9px;padding:0 6px;line-height:16px;font-variant-numeric:tabular-nums}
+.collected-links{display:flex;flex-wrap:wrap;align-items:center;gap:6px 14px;margin-top:11px}
+.collected-links a,.collected-locate{font-family:inherit;font-size:11px;color:#868e7e;background:none;border:0;padding:0;cursor:pointer;text-decoration:underline;text-underline-offset:2px}
+.collected-locate{color:var(--wine)}
+.collected-links a:hover{color:var(--wine)}
+.collected-plain-wrap{margin-top:16px;border-top:1px solid var(--line);padding-top:14px}
+.collected-plain{display:flex;flex-direction:column}
+.collected-row{display:flex;justify-content:space-between;align-items:baseline;gap:10px;width:100%;padding:7px 0;border:0;border-bottom:1px solid #f0f1ed;background:none;font-family:inherit;font-size:11.5px;line-height:1.5;color:#5e6459;text-align:left;cursor:pointer}
+.collected-row:hover{color:var(--wine)}
+.collected-row-meta{flex:0 0 auto;font-size:10.5px;color:#a0a59b}
+.collected-more{margin-top:10px;padding:5px 12px;border:1px solid var(--line);border-radius:14px;background:none;font-family:inherit;font-size:11px;color:#6c765f;cursor:pointer}
+.collected-more:hover{border-color:#c9cec3;color:var(--wine)}
+/* 图集：把采集到的其余照片都铺出来，缩小屏自动降列。用 contain 而不是 cover，
+   酒标/瓶身不会被裁掉——用户要的正是「看得出是哪款酒」。 */
+.collected-gallery{display:grid;grid-template-columns:repeat(auto-fill,minmax(78px,1fr));gap:6px;margin-top:10px}
+.collected-gallery.is-limited .collected-shot:nth-child(n+7){display:none}
+.collected-shot{display:block;overflow:hidden;border-radius:6px;border:1px solid #eceee8;background:#f7f8f3;line-height:0}
+.collected-shot img{display:block;width:100%;height:100%;aspect-ratio:1/1;object-fit:contain}
+.collected-shot:hover{border-color:#c9cec3}
+.collected-gallery-more{margin-top:9px;padding:5px 12px;border:1px solid var(--line);border-radius:14px;background:none;font-family:inherit;font-size:11px;color:#6c765f;cursor:pointer}
+.collected-gallery-more:hover{border-color:#c9cec3;color:var(--wine)}
+.collected-region-media{margin:0 0 16px;padding-bottom:14px;border-bottom:1px solid var(--line)}
+.collected-region-media .detail-label{margin-bottom:0}

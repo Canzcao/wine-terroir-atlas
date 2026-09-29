@@ -17,14 +17,14 @@ the whole bundle to the content-studio task.
 After editing HANDOFF.md, re-run scripts/repack-grillet-bundle.py to regenerate the
 image index and the archive without touching the catalogue again.
 """
-import json, shutil, zipfile
+import json, os, shutil, zipfile
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
 DATE = '2026-09-13'
 OUT = ROOT / 'outputs' / 'collect' / 'chateau-grillet'
 NOW = '2026-09-13T15:30:00.000Z'
-STUDIO = Path('/Users/jingyang/Documents/Codex/2026-09-12/wine-content-studio') \
+STUDIO = Path(os.environ.get('CONTENT_STUDIO', Path(__file__).resolve().parent.parent.parent / 'wine-content-studio')) \
     / 'outputs' / 'collect' / DATE
 
 EMPTY = (None, '', [], {})

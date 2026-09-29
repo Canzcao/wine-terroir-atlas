@@ -24,3 +24,9 @@
 .submit-steps span{font-size:13px;color:#737b6f;line-height:1.75}
 @media(max-width:900px){.contact-hero{grid-template-columns:1fr}.contact-hero>div:first-child{padding-bottom:0}.submit-steps ol{grid-template-columns:repeat(2,minmax(0,1fr))}}
 @media(max-width:620px){.download-grid,.submit-steps ol{grid-template-columns:1fr}.download-section,.submit-steps{padding:20px 16px}.download-section>div:first-child{display:block}.contact-card{padding:22px}.contact-hero h1{font-size:2.2rem}}
+
+/* 共建联系表单 */
+.contact-form-section{margin:22px 0}
+.contact-form-section>p{color:#747c70;margin:0;line-height:1.8}
+.contact-form{margin-top:20px;padding-top:22px;border-top:1px solid var(--line)}
+.contact-form .form-actions{margin-top:20px}

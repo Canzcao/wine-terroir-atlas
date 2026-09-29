@@ -1,0 +1,102 @@
+/* 待共建清单（community 页「待共建清单」视图）
+   依赖 style.css 的 :root 变量：--wine / --wine-dark / --ink / --muted / --line / --paper / --green */
+
+.cob{--cob-wine:var(--wine,#592a42);--cob-wine2:#753b59;--cob-soft:#faf7f8}
+.cob-head{margin-bottom:22px}
+.cob-eyebrow{font-family:Arial,sans-serif;font-size:11px;letter-spacing:2.4px;font-weight:700;color:var(--cob-wine);margin:0 0 6px}
+.cob-head h2{font-family:'Noto Serif SC',serif;font-size:28px;margin:0 0 10px;letter-spacing:1px}
+.cob-lede{margin:0;font-size:14px;line-height:1.85;color:var(--ink);max-width:78ch}
+.cob-lede strong{color:var(--cob-wine)}
+.cob-meta{margin:10px 0 0;font-size:12.5px;color:var(--muted);line-height:1.7}
+.cob code{background:#f3f1f0;padding:1px 5px;border-radius:4px;font-size:12px}
+
+/* ---- 数字卡 ---- */
+.cob-stats{display:grid;grid-template-columns:repeat(auto-fit,minmax(132px,1fr));gap:10px;margin:18px 0 22px}
+.cob-stat{background:var(--paper);border:1px solid var(--line);border-radius:12px;padding:14px 14px 12px;display:flex;flex-direction:column;gap:6px}
+.cob-stat b{font-size:19px;font-weight:700;color:var(--cob-wine);letter-spacing:.4px;line-height:1.2}
+.cob-stat span{font-size:12px;color:var(--muted)}
+.cob-stat em{font-size:11px;color:#a8a5a1;font-style:normal;letter-spacing:.2px}
+
+/* ---- Tab ---- */
+.cob-tabs{display:flex;gap:6px;border-bottom:1px solid var(--line);margin-bottom:18px;flex-wrap:wrap}
+.cob-tabs button{padding:10px 16px;font-size:14px;color:#72746f;border-bottom:3px solid transparent;margin-bottom:-1px;display:flex;align-items:center;gap:7px}
+.cob-tabs button span{font-size:11.5px;background:#f0eeef;color:var(--muted);border-radius:20px;padding:1px 7px}
+.cob-tabs button.active{color:var(--cob-wine);font-weight:600;border-bottom-color:var(--cob-wine)}
+.cob-tabs button.active span{background:#f6ecf1;color:var(--cob-wine)}
+
+/* ---- 筛选器 ---- */
+.cob-filters{display:flex;flex-wrap:wrap;gap:10px;align-items:flex-end;margin-bottom:14px;padding:14px;background:var(--cob-soft);border:1px solid var(--line);border-radius:12px}
+.cob-filters label{display:flex;flex-direction:column;gap:5px;font-size:11.5px;color:var(--muted);letter-spacing:.4px}
+.cob-filters select,.cob-filters input{border:1px solid #ddd8da;border-radius:8px;padding:7px 9px;font-size:13px;background:#fff;color:var(--ink);min-width:112px}
+.cob-search{flex:1 1 200px}
+.cob-search input{width:100%}
+.cob-reset,.cob-export{border:1px solid var(--cob-wine);color:var(--cob-wine);border-radius:8px;padding:8px 14px;font-size:13px;background:#fff}
+.cob-export{background:var(--cob-wine);color:#fff}
+.cob-reset:hover{background:#f7f0f3}
+.cob-export:hover{background:var(--wine-dark,#3c1c2e)}
+
+/* ---- 计数 / 标题 ---- */
+.cob-count{font-size:13.5px;color:var(--muted);margin:0 0 12px}
+.cob-count b{color:var(--cob-wine);font-size:15px}
+.cob-h3{font-family:'Noto Serif SC',serif;font-size:17px;margin:26px 0 12px;letter-spacing:.5px}
+
+/* ---- 表格 ---- */
+.cob-table-wrap{overflow-x:auto;border:1px solid var(--line);border-radius:12px;background:var(--paper);margin-bottom:8px}
+.cob-table{width:100%;border-collapse:collapse;font-size:13px;min-width:880px}
+.cob-table th{text-align:left;padding:11px 12px;background:#fbfaf9;border-bottom:1px solid var(--line);font-size:12px;color:var(--muted);font-weight:600;white-space:nowrap;position:sticky;top:0;z-index:1}
+.cob-table td{padding:10px 12px;border-bottom:1px solid #f2f1ef;vertical-align:top;line-height:1.6}
+.cob-table tr:last-child td{border-bottom:0}
+.cob-table tbody tr:hover{background:#fdfcfc}
+.cob-name{font-weight:600;color:var(--ink)}
+.cob-table td a{color:var(--cob-wine2);text-decoration:none;font-size:12.5px;word-break:break-all}
+.cob-table td a:hover{text-decoration:underline}
+.cob-dim{color:#b8b6b2}
+.cob-empty{text-align:center;color:var(--muted);padding:34px 12px!important}
+
+.cob-pill{display:inline-block;font-size:11px;font-weight:700;padding:2px 7px;border-radius:5px;letter-spacing:.5px;white-space:nowrap}
+.cob-pill-P0{background:#fbeaf0;color:#8d2b52}
+.cob-pill-P1{background:#fdf2e3;color:#8a5a13}
+.cob-pill-P2{background:#eaf1f6;color:#33607f}
+.cob-pill-P3{background:#f0f2ef;color:#5f6b5c}
+
+.cob-tag{display:inline-block;font-size:11.5px;background:#f5f2f3;color:#6d5a63;border:1px solid #ece6e9;border-radius:5px;padding:1px 6px;margin:0 4px 3px 0;white-space:nowrap}
+
+.cob-bar{display:inline-block;width:66px;height:6px;background:#eeecea;border-radius:20px;overflow:hidden;vertical-align:middle;margin-right:6px}
+.cob-bar i{display:block;height:100%;background:var(--cob-wine);border-radius:20px}
+.cob-list{margin:0;padding-left:20px;font-size:13.5px;line-height:2;color:var(--ink)}
+
+/* ---- 分页 ---- */
+.cob-pager{display:flex;align-items:center;gap:14px;justify-content:center;padding:14px 0 6px;font-size:13.5px;color:var(--muted)}
+.cob-pager button{border:1px solid #ddd8da;border-radius:8px;padding:7px 14px;font-size:13px;background:#fff;color:var(--ink)}
+.cob-pager button:hover:not(:disabled){border-color:var(--cob-wine);color:var(--cob-wine)}
+.cob-pager button:disabled{opacity:.4;cursor:default}
+
+/* ---- 移动端：表格转卡片 ---- */
+@media(max-width:720px){
+  .cob-head h2{font-size:22px}
+  .cob-stats{grid-template-columns:repeat(2,minmax(0,1fr));gap:8px}
+  .cob-stat{padding:11px}
+  .cob-stat b{font-size:16px}
+  .cob-tabs button{padding:9px 11px;font-size:13px}
+  .cob-filters{padding:12px;gap:8px}
+  .cob-filters label{flex:1 1 calc(50% - 4px)}
+  .cob-filters select,.cob-filters input{min-width:0;width:100%}
+  .cob-search{flex:1 1 100%}
+  .cob-reset,.cob-export{flex:1}
+  .cob-table-wrap{border:0;background:none;overflow:visible}
+  .cob-table{min-width:0;display:block}
+  .cob-table thead{display:none}
+  .cob-table tbody{display:block}
+  .cob-table tr{display:block;border:1px solid var(--line);border-radius:11px;background:var(--paper);margin-bottom:9px;padding:10px 12px}
+  .cob-table td{display:flex;flex-wrap:wrap;justify-content:space-between;align-items:baseline;gap:6px 12px;padding:4px 0;border:0;text-align:right;min-width:0}
+  .cob-table td:before{content:attr(data-l);color:var(--muted);font-size:11.5px;flex:0 0 auto;text-align:left}
+  /* 缺失项是多个 nowrap 标签，flex 行里会撑破屏幕 → 该列改块级，标签自然换行 */
+  .cob-table td[data-l="缺什么"]{display:block;text-align:left}
+  .cob-table td[data-l="缺什么"]:before{display:block;margin-bottom:5px}
+  .cob-tag{max-width:100%;white-space:normal;word-break:break-word}
+  .cob-table td.cob-name{font-size:15px;padding-bottom:7px;border-bottom:1px solid #f2f1ef;margin-bottom:5px}
+  .cob-table td.cob-name:before{font-size:11.5px}
+  .cob-table td a{word-break:break-all}
+  .cob-empty{justify-content:center!important}
+  .cob-pager{gap:10px}
+}

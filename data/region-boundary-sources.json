@@ -1,0 +1,3486 @@
+{
+ "checkedDate": "2026-09-28",
+ "count": 183,
+ "regionIds": [
+  "alentejo",
+  "aloxe-corton",
+  "alsace",
+  "alsace-grand-cru",
+  "alto-adige",
+  "anjou",
+  "bandol",
+  "barossa",
+  "barsac",
+  "beaujolais-aoc",
+  "beaujolais-villages",
+  "beaune-village",
+  "bergerac",
+  "bierzo",
+  "bolgheri",
+  "bordeaux",
+  "bordeaux-superieur",
+  "bourgogne-cote-chalonnaise",
+  "bourgogne-cote-d-or",
+  "bourgogne-hautes-cotes-de-beaune",
+  "bourgogne-hautes-cotes-de-nuits",
+  "bourgueil",
+  "brouilly",
+  "brunello",
+  "burgenland",
+  "burgundy",
+  "cahors",
+  "casablanca",
+  "chablis",
+  "champagne",
+  "chassagne-montrachet",
+  "chateau-grillet",
+  "chateauneuf-du-pape",
+  "chianti",
+  "chinon",
+  "codru",
+  "colchagua",
+  "condrieu",
+  "coonawarra",
+  "corbieres",
+  "cornas",
+  "cote-de-beaune",
+  "cote-de-beaune-villages",
+  "cote-rotie",
+  "coteaux-du-layon",
+  "cotes-de-bordeaux",
+  "cotes-de-nuits-villages",
+  "cotes-de-provence",
+  "cotes-du-rhone-villages",
+  "cotes-du-roussillon",
+  "cotes-du-roussillon-villages",
+  "crozes-hermitage",
+  "dao",
+  "douro",
+  "entre-deux-mers",
+  "etna",
+  "fitou",
+  "fleurie",
+  "franciacorta",
+  "gevrey-chambertin",
+  "gigondas",
+  "givry",
+  "graves",
+  "haut-medoc",
+  "hawkes",
+  "hemel-en-aarde",
+  "hermitage",
+  "hokkaido",
+  "huailai",
+  "hunter-valley",
+  "istria",
+  "itata",
+  "jerez",
+  "jumilla",
+  "jura",
+  "jurancon",
+  "kakheti",
+  "kamptal",
+  "languedoc",
+  "lirac",
+  "loire",
+  "macon",
+  "macon-villages",
+  "madeira",
+  "madiran",
+  "maipo",
+  "margaret",
+  "margaux",
+  "marlborough",
+  "martinborough",
+  "mclaren-vale",
+  "medoc",
+  "mendoza",
+  "menetou-salon",
+  "mercurey",
+  "meursault",
+  "mile",
+  "minervois",
+  "monbazillac",
+  "montagny",
+  "morgon",
+  "mosel",
+  "moulin-a-vent",
+  "muscadet",
+  "muscadet-sevre-et-maine",
+  "nagano",
+  "naoussa",
+  "napa",
+  "nemea",
+  "niagara",
+  "ningxia",
+  "nuit-saint-georges",
+  "okanagan",
+  "otago",
+  "paso-robles",
+  "patagonia",
+  "pauillac",
+  "pays-d-oc",
+  "penedes",
+  "penglai",
+  "pessac-leognan",
+  "pfalz",
+  "picpoul-de-pinet",
+  "piedmont",
+  "pomerol",
+  "pommard",
+  "pouilly-fuisse",
+  "pouilly-fume",
+  "primorska",
+  "priorat",
+  "puligny-montrachet",
+  "rheingau",
+  "rias-baixas",
+  "ribera",
+  "rioja",
+  "rose-de-loire",
+  "rueda",
+  "rully",
+  "saint-emilion",
+  "saint-emilion-grand-cru",
+  "saint-estephe",
+  "saint-joseph",
+  "saint-julien",
+  "saint-peray",
+  "saint-veran",
+  "salta",
+  "sancerre",
+  "santorini",
+  "saumur",
+  "saumur-champigny",
+  "sauternes",
+  "savennieres",
+  "shangri-la",
+  "soave",
+  "sonoma",
+  "stellenbosch",
+  "sussex",
+  "swartland",
+  "taigu",
+  "taiwan",
+  "tavel",
+  "thrace",
+  "tokaj",
+  "toro",
+  "touraine",
+  "vacqueyras",
+  "valais",
+  "vale-dos-vinhedos",
+  "valle-de-guadalupe",
+  "valpolicella",
+  "villany",
+  "vinho-verde",
+  "volnay",
+  "vosne-romanee",
+  "vougeot",
+  "vouvray",
+  "wachau",
+  "willamette",
+  "wuwei",
+  "xinjiang",
+  "yamanashi",
+  "yarra-valley",
+  "yili"
+ ],
+ "inputs": [
+  {
+   "file": "/tmp/terroir-inao/2026-09-21_delim-aire-geographique-shp.shp",
+   "sha256": "907d02102f53bab6a01948a8b0568327073d40b4e1551b5330ca408c611a735e"
+  },
+  {
+   "file": "/tmp/terroir-inao/2026-09-21_delim-aire-geographique-shp.dbf",
+   "sha256": "7a770cfb1661c3a3ebba924a9c3ccfa505f3b3c9d66eaa95ac52d0465a3f5bc2"
+  },
+  {
+   "file": "/tmp/terroir-inao/2026-09-21_delim-aire-geographique-shp.prj",
+   "sha256": "487b77472e9a777944236cd237bc070c90ccc81c58d8138ee70146e3f8128853"
+  },
+  {
+   "file": "/tmp/aus-gi-regions.geojson",
+   "sha256": "999264fd97d3eda98958576b4c93fcb63aa4e9c6f569dc03b1297329f5d235b7"
+  },
+  {
+   "file": "/tmp/terroir-us/napa.geojson",
+   "sha256": "6bd8daab1b3790c92fc063a4e93a9616fa236fd46ded5f2452add0c6ee81c1cb"
+  },
+  {
+   "file": "/tmp/terroir-us/paso-robles.geojson",
+   "sha256": "42515900dd3131f91b7c34aaf3c679a2a884830dbe537309e25efd54eafa88bb"
+  },
+  {
+   "file": "/tmp/terroir-us/willamette.geojson",
+   "sha256": "fac38752618eab47769a6f0a3c39b85e848d86fff336410d57d63d12811a6300"
+  },
+  {
+   "file": "/tmp/terroir-us-county/sonoma.geojson",
+   "sha256": "6191fbc4228b82283818b9780f68970e46308038c14bb947c96a3aa25f117bdd"
+  },
+  {
+   "file": "/tmp/terroir-nz/Central-Otago-GI-boundary/Central_Otago.dbf",
+   "sha256": "8c76b401bff1276f4b16f2ce482a21b17ca530b5195faf21b51ef1ec019d79c5"
+  },
+  {
+   "file": "/tmp/terroir-nz/Central-Otago-GI-boundary/Central_Otago.prj",
+   "sha256": "7ee0bdf05110b304b812d3d627ed337305736de04c1e1f4fbde7ac0311cd3055"
+  },
+  {
+   "file": "/tmp/terroir-nz/Central-Otago-GI-boundary/Central_Otago.shp",
+   "sha256": "7f76c28ff0f3a4bc3572f146303372a9801d8db02a59d2bd7df1b5cd47a8a88d"
+  },
+  {
+   "file": "/tmp/terroir-nz/Hawkes-Bay-GI-boundary/Hawkes_Bay.dbf",
+   "sha256": "8847eff79a733c2e9b75bac819f04ecf69d65efcb9cbf5f6aeb2f815c68bc6f1"
+  },
+  {
+   "file": "/tmp/terroir-nz/Hawkes-Bay-GI-boundary/Hawkes_Bay.prj",
+   "sha256": "7ee0bdf05110b304b812d3d627ed337305736de04c1e1f4fbde7ac0311cd3055"
+  },
+  {
+   "file": "/tmp/terroir-nz/Hawkes-Bay-GI-boundary/Hawkes_Bay.shp",
+   "sha256": "97c56854feefe7172f48980e7736443370cc9dc2a417e1efa6fe99515372b77c"
+  },
+  {
+   "file": "/tmp/terroir-nz/Marlborough-GI-boundary/Marlborough.dbf",
+   "sha256": "b3131499d6990820037dabf39508223a07773f2868b3f57d0479d72d90663fbb"
+  },
+  {
+   "file": "/tmp/terroir-nz/Marlborough-GI-boundary/Marlborough.prj",
+   "sha256": "7ee0bdf05110b304b812d3d627ed337305736de04c1e1f4fbde7ac0311cd3055"
+  },
+  {
+   "file": "/tmp/terroir-nz/Marlborough-GI-boundary/Marlborough.shp",
+   "sha256": "4fdcf40d873f16c76c6a8aa6a8119b0ee277a0c4e39cea22b3d6818bf7421a5f"
+  },
+  {
+   "file": "/tmp/terroir-nz/Martinborough-GI-boundary/Martinborough.dbf",
+   "sha256": "2ab54a731ca13e6abd15888847d1d8657986aca617b9aa37a76f2eb0c660cd04"
+  },
+  {
+   "file": "/tmp/terroir-nz/Martinborough-GI-boundary/Martinborough.prj",
+   "sha256": "7ee0bdf05110b304b812d3d627ed337305736de04c1e1f4fbde7ac0311cd3055"
+  },
+  {
+   "file": "/tmp/terroir-nz/Martinborough-GI-boundary/Martinborough.shp",
+   "sha256": "68da9a13cd3723e62e2e621b607b8e84f47c437758a4b6be84533f35b2fcd118"
+  },
+  {
+   "file": "D:\\wb-restore\\Codex\\2026-09-12\\ban\\work\\eu-pdo-2026-09\\EU_PDO.gpkg",
+   "sha256": "8df0dc759f9c1bc17fff12d653b224282382d6a10f4a15c2cf937d5ab13f0356",
+   "source": "https://doi.org/10.6084/m9.figshare.19312094",
+   "license": "CC0 1.0"
+  },
+  {
+   "path": "work/uk-sussex-2026-09/sussex-counties.geojson",
+   "sha256": "0a109907e124a0a55b39c5cff207607ae0ed7d98e63204a7cbe1994d3b71d495",
+   "note": "ONS Counties (December 2024) Boundaries EN BFC，East/West Sussex 两郡",
+   "retrievedDate": "2026-09-27"
+  },
+  {
+   "path": "work/south-africa-wo.geojson",
+   "sha256": "13fcde2fd57f721a607dea3be2e50ece7cf2bf39e97f05ad1d8932ec9c5fb5cf",
+   "note": "VinPro（南非葡萄酒生产商组织）· Wine of Origin System 抓取缓存",
+   "retrievedDate": "2026-09-27"
+  }
+ ],
+ "sources": [
+  {
+   "name": "INAO — Délimitation des aires géographiques des SIQO",
+   "url": "https://www.data.gouv.fr/datasets/delimitation-des-aires-geographiques-des-siqo",
+   "snapshot": "2026-09-21",
+   "crs": "EPSG:2154",
+   "note": "2026-09-14 与 2026-09-21 两版 .shp 字节完全相同，既有法国边界不会因换版漂移。"
+  },
+  {
+   "name": "Wine Australia — Wine Geographical Indications Australia",
+   "url": "https://services6.arcgis.com/s8j6JbJJCqmhNgh7/arcgis/rest/services/Wine_Geographical_Indications_Australia/FeatureServer/1",
+   "itemPage": "https://www.arcgis.com/home/item.html?id=2dd4c385f0ed4d109c2e18ae99e819e2",
+   "layer": 1,
+   "crs": "EPSG:4326",
+   "note": "图层 1 = Regions（64 个）；Zone 层 (2) 与 Subregion 层 (0) 未使用。"
+  },
+  {
+   "name": "TTB — American Viticultural Areas（AVA Map Explorer）",
+   "url": "https://services7.arcgis.com/ykuAbKu9MbV93nAe/arcgis/rest/services/AVAs_Production/FeatureServer/0",
+   "itemPage": "https://www.ttb.gov/wine/ava-map-explorer",
+   "layer": 0,
+   "crs": "EPSG:4326",
+   "note": "查询条件 Name=… AND Status='Established'（库里混有 Pending / Historic 同名条目）。TTB 声明下载与使用无限制。法律边界以 27 CFR part 9 成文描述为准。"
+  },
+  {
+   "name": "U.S. Census Bureau — TIGERweb State_County（Counties, layer 1）",
+   "url": "https://tigerweb.geo.census.gov/arcgis/rest/services/TIGERweb/State_County/MapServer/1",
+   "itemPage": "https://www.census.gov/geographies/mapping-files/time-series/geo/tiger-line-file.html",
+   "layer": 1,
+   "crs": "EPSG:4326",
+   "vintage": "January 1, 2026",
+   "note": "**行政边界，非葡萄酒产区法定范围**，仅用于 boundaryType='administrative_county' 的兜底条目。按 GEOID 精确查询单县；导入时用官方 AREALAND 交叉验证几何面积（容差 3%）。TIGER/Line 属美国联邦政府作品，人口普查局不主张版权。"
+  },
+  {
+   "name": "IPONZ — New Zealand Geographical Indications register",
+   "url": "https://www.iponz.govt.nz/get-ip/geographical-indications/register/",
+   "crs": "EPSG:4167",
+   "note": "每个 GI 一个 Geodata ZIP（shapefile + ESRI JSON + 静态图）。申请方按 IPONZ 要求提交：NZGD2000 未投影经纬度、2D Polygon/MultiPolygon、环闭合。"
+  },
+  {
+   "name": "EU_PDO / eAmbrosia（欧盟地理标志注册库）",
+   "url": "https://doi.org/10.6084/m9.figshare.19312094",
+   "date": "2022-06-20",
+   "license": "CC0 1.0",
+   "licenseURL": "https://creativecommons.org/publicdomain/zero/1.0/",
+   "paper": "Candiago et al. 2022, Scientific Data, doi:10.1038/s41597-022-01513-0",
+   "note": "边界由论文作者依据欧盟官方 eAmbrosia 注册库中的法规文件、以市镇单元空间化而来（见论文 Technical Validation：多数国家 Corine Land Cover 葡萄园落入率 >90%）。不是种植地块实测边界，法律定义以产区规范的市镇清单为准。",
+   "records": [
+    "alentejo",
+    "alto-adige",
+    "bierzo",
+    "bolgheri",
+    "brunello",
+    "burgenland",
+    "chianti",
+    "dao",
+    "douro",
+    "etna",
+    "franciacorta",
+    "istria",
+    "jerez",
+    "jumilla",
+    "kamptal",
+    "madeira",
+    "mosel",
+    "naoussa",
+    "nemea",
+    "penedes",
+    "pfalz",
+    "piedmont",
+    "primorska",
+    "priorat",
+    "rheingau",
+    "rias-baixas",
+    "ribera",
+    "rioja",
+    "rueda",
+    "santorini",
+    "soave",
+    "tokaj",
+    "toro",
+    "valpolicella",
+    "villany",
+    "vinho-verde",
+    "wachau"
+   ]
+  },
+  {
+   "name": "英国国家统计局（Office for National Statistics, ONS）Open Geography Portal",
+   "url": "https://services1.arcgis.com/ESMARspQHYMw9BZ9/arcgis/rest/services/Counties_December_2024_Boundaries_EN_BFC/FeatureServer/0",
+   "license": "Open Government Licence v3.0（英国政府开放许可）",
+   "licenseURL": "https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/",
+   "note": "英国官方行政边界。Sussex PDO 的法定界线即 East + West Sussex 两郡。",
+   "retrievedDate": "2026-09-27"
+  },
+  {
+   "name": "VinPro（南非葡萄酒生产商组织）· Wine of Origin System",
+   "url": "https://services-eu1.arcgis.com/u4YTgbzxcollBKYL/arcgis/rest/services/WINE_OF_ORIGIN_SYSTEM_20260626/FeatureServer/2",
+   "license": "公开可查的南非法定葡萄种植区官方图层（VinPro 托管）；使用请注明来源",
+   "licenseURL": "https://www.vinpro.co.za/",
+   "note": "南非 Wine of Origin 体系官方图层（VinPro 托管）",
+   "retrievedDate": "2026-09-27"
+  },
+  {
+   "name": "OpenStreetMap · landuse=vineyard",
+   "url": "https://www.openstreetmap.org/",
+   "license": "ODbL 1.0（© OpenStreetMap contributors）",
+   "licenseURL": "https://www.openstreetmap.org/copyright",
+   "note": "真实葡萄园地块，经闭运算聚合为「产区分布近似」；boundaryType=vineyard_distribution，非法定界线",
+   "retrievedDate": "2026-09-28"
+  }
+ ],
+ "skipped": {
+  "beaune": "伯恩丘是 «région viticole»（目录 areaNote 已写明官方不给单一 AOC）。INAO 里只有 «Beaune» / «Côte de Beaune»（id_denom 307 / 551，同为 31.1 km²，只覆盖 Beaune 一个市镇）与 «Côte de Beaune-Villages»（552，172.6 km²，覆盖的是各村 AOC 之外的市镇）。套上 31.1 km² 会把一条南北 20 公里、含 Meursault/Puligny/Pommard/Volnay 等 18 个市镇的大区悄悄缩成一个镇 → 按 §2 不导入。",
+  "rhone": "罗讷河谷（Rhône Valley）是含 14 个独立子 AOC 的顶层大区，不可用其中任一个 AOC 冒充：INAO 开放数据中的「Côtes du Rhône AOC」（172 个 commune）只覆盖南罗讷一部分，不含北罗讷的 Côte-Rôtie / Condrieu / Hermitage / Cornas / Saint-Joseph / Crozes-Hermitage / Saint-Péray / Château-Grillet 等独立法定产区。为免误导，本大区不提供边界；各子 AOC 的法定边界单独提供。"
+ },
+ "administrativeFallbacks": {
+  "sonoma": {
+   "boundaryType": "administrative_county",
+   "sourceRecordId": "06097",
+   "officialName": "Sonoma County",
+   "whyNotAProtectedArea": "目录这一条的主体是**县**：id=sonoma、name=索诺玛县、en=Sonoma County。TTB 的 AVA 库里没有任何叫 «Sonoma County» 的 AVA（只有 Sonoma Valley / Coast / Mountain / Northern Sonoma / West Sonoma Coast / Moon Mountain District of Sonoma County 等），套任何一个都会把整个县缩成其中一块 → 按 §2 不能当 AVA 用。"
+  },
+  "sussex": {
+   "boundaryType": "administrative_county",
+   "sourceRecordId": "E10000011 + E10000032",
+   "officialName": "East Sussex / West Sussex（英国 ONS GSS 代码）",
+   "whyNotAProtectedArea": "★ 与 sonoma 不同，这一条不是「找不到法定几何只好拿行政界顶替」——Sussex PDO 的法定界线**本身就是** East Sussex ＋ West Sussex 两个行政郡的现行边界。官方产品规范（Defra 提交、欧盟官方公报 SINGLE DOCUMENT 编号 PDO-GB-02365）原文：「all grapes used for Sussex wine must come from vineyards located inside the current boundaries for East and West Sussex … and all winemaking, vinification, on-lees storage and finishing processes must be carried out within the same demarcated boundaries」，申请人并自注「these are administrative demarcations」。因此改用 ONS 官方郡界不是近似，而是直接取法定几何。之所以不在 EU_PDO 数据集里：该 gpkg 快照截至 2022-06-20，而 Sussex 2023-07 才注册（英国脱欧后新增）。"
+  },
+  "taiwan": {
+   "boundaryType": "administrative_county",
+   "sourceRecordId": "taiwan",
+   "sourceName": "OpenStreetMap / Nominatim（中国台湾地区县市，admin_level=6）",
+   "sourceURL": "https://www.openstreetmap.org/",
+   "whyNotAProtectedArea": "★ 本条是行政区划兜底（administrative fallback），不是法定产区范围、不是实际种植分布。中国绝大多数葡萄酒产区没有官方公布的法定产区地图几何，故以「该产区所涉县级行政区的官方行政边界之并集」作示意。所涉县级行政区：彰化縣、臺中市、南投縣。官方 GI/产业依据：中国台湾地区无官方葡萄酒 GI 制度；彰化县二林、台中市后里、南投县等为主要酿酒葡萄产地。★本几何为上述县市行政边界并集。。使用限制：不得据本条做面积/地块级判断；行政边界包含大量非葡萄园用地，明显大于实际种植范围。"
+  }
+ },
+ "unavailable": {
+  "西班牙": "2026-09-23 实测：MAPA（农业渔业食品部）的 PDO/PGI 国家制图只提供 WMS （https://wms.mapama.gob.es/sig/Alimentacion/CDVinos/wms.aspx，实测返回 .NET NullReferenceException/InvalidFormat，服务本身故障）；同路径没有 WFS （wfs.aspx 回 \"service is not WMS\"）；INSPIRE ATOM 下载服务 （https://www.mapama.gob.es/ide/inspire/atom/CategAlimentacion/downloadservice.xml）是空 feed，零 entry。故目前取不到西班牙任何 DO 的多边形。后续可试：各 Consejo Regulador 自建 GIS（Rioja / Ribera del Duero / Jerez 各自有图，多为 PDF）、加泰罗尼亚 ICGC 开放数据（覆盖 Penedès / Priorat）。"
+ },
+ "note": "No inferred polygons: every geometry comes from an official published source. French polygons are AOC/IGP geographical areas, not planted parcels or necessarily entire broader wine regions. Regions whose only official geometry is a narrower appellation are deliberately left without a boundary (see skipped). Regions whose subject is an administrative district and which have no equivalent protected-area geometry use an official administrative boundary instead, always flagged with boundaryType=administrative_county and disclosed in label/note (see administrativeFallbacks). Countries whose official channels yielded no usable geometry are recorded in unavailable. Remaining catalogue regions have no imported boundaries yet. Coordinates rounded to 5 decimals; simplification tolerance is adaptive (<=8000 points per geometry).",
+ "euPdo": {
+  "dataset": "EU_PDO.gpkg",
+  "doi": "10.6084/m9.figshare.19312094",
+  "recordsImported": 37,
+  "nameMapping": "work/eu-pdo-2026-09/eambrosia-pdo-names.json —— gpkg 只有 PDOid 无名称，名称由 EU 官方 eAmbrosia 公开 API 反查",
+  "caveats": {
+   "primorska": "Goriška Brda 子产区范围，不是 Primorska 整区",
+   "chianti": "Chianti 整体范围，未缩成 Chianti Classico",
+   "piedmont": "大区级 Piemonte PDO，不是 Barolo/Barbaresco",
+   "istria": "克罗地亚侧 Hrvatska Istra，非斯洛文尼亚 Slovenska Istra",
+   "tokaj": "匈牙利侧 Tokaj，非斯洛伐克侧"
+  }
+ },
+ "ukSussex": {
+  "regionId": "sussex",
+  "pdoId": "PDO-GB-02365",
+  "notInEuPdoSnapshot": true,
+  "reason": "EU_PDO.gpkg 快照截至 2022-06-20，Sussex 于 2023-07 注册，故不在其中",
+  "gssCodes": [
+   "E10000011",
+   "E10000032"
+  ],
+  "caveats": [
+   "法定界线 = East Sussex + West Sussex 两郡现行边界（官方产品规范原文如此定义）",
+   "PDO 另有土壤/气候等附加合规条件，不改变法定界线",
+   "ONS 郡界为 EPSG:27700 原生，已简化至顶点预算内后转 EPSG:4326"
+  ]
+ },
+ "importLog": [
+  {
+   "date": "2026-09-27",
+   "regionId": "stellenbosch",
+   "officialName": "Stellenbosch",
+   "sourceRecordId": "WO District: Stellenbosch (2026-06-26)",
+   "boundaryType": "geographical_indication",
+   "vertices": 208,
+   "tolM": 50,
+   "areaKm2": 820.7
+  },
+  {
+   "date": "2026-09-27",
+   "regionId": "swartland",
+   "officialName": "Swartland",
+   "sourceRecordId": "WO District: Swartland (2026-06-26)",
+   "boundaryType": "geographical_indication",
+   "vertices": 1107,
+   "tolM": 50,
+   "areaKm2": 9993.7
+  },
+  {
+   "date": "2026-09-27",
+   "regionId": "hemel-en-aarde",
+   "officialName": "Hemel-en-Aarde Valley / Upper Hemel-en-Aarde Valley / Hemel-en-Aarde Ridge",
+   "sourceRecordId": "WO Wards: Hemel-en-Aarde Valley / Upper / Ridge (2026-06-26)",
+   "boundaryType": "geographical_indication",
+   "vertices": 57,
+   "tolM": 50,
+   "areaKm2": 59.7
+  },
+  {
+   "date": "2026-09-28",
+   "regionId": "valais",
+   "officialName": "Valais",
+   "sourceRecordId": "OSM landuse=vineyard × 1851",
+   "boundaryType": "vineyard_distribution",
+   "vertices": 303,
+   "tolM": 50,
+   "areaKm2": 248.7,
+   "blocks": 1846,
+   "bufferKm": 3.0,
+   "caveat": "vineyard_distribution —— 非官方边界，仅供地图展示"
+  },
+  {
+   "date": "2026-09-28",
+   "regionId": "valais",
+   "officialName": "Valais",
+   "sourceRecordId": "OSM landuse=vineyard × 1851",
+   "boundaryType": "vineyard_distribution",
+   "vertices": 303,
+   "tolM": 50,
+   "areaKm2": 248.7,
+   "blocks": 1846,
+   "bufferKm": 3.0,
+   "caveat": "vineyard_distribution —— 非官方边界，仅供地图展示"
+  },
+  {
+   "date": "2026-09-28",
+   "regionId": "casablanca",
+   "officialName": "Casablanca Valley",
+   "sourceRecordId": "OSM landuse=vineyard × 559",
+   "boundaryType": "vineyard_distribution",
+   "vertices": 149,
+   "tolM": 50,
+   "areaKm2": 251.6,
+   "blocks": 559,
+   "bufferKm": 3.0,
+   "caveat": "vineyard_distribution —— 非官方边界，仅供地图展示"
+  },
+  {
+   "date": "2026-09-28",
+   "regionId": "itata",
+   "officialName": "Itata Valley",
+   "sourceRecordId": "OSM landuse=vineyard × 438",
+   "boundaryType": "vineyard_distribution",
+   "vertices": 189,
+   "tolM": 50,
+   "areaKm2": 212.0,
+   "blocks": 438,
+   "bufferKm": 3.0,
+   "caveat": "vineyard_distribution —— 非官方边界，仅供地图展示"
+  },
+  {
+   "date": "2026-09-28",
+   "regionId": "salta",
+   "officialName": "Salta (Valles Calchaquíes)",
+   "sourceRecordId": "OSM landuse=vineyard × 231",
+   "boundaryType": "vineyard_distribution",
+   "vertices": 71,
+   "tolM": 50,
+   "areaKm2": 71.3,
+   "blocks": 231,
+   "bufferKm": 3.0,
+   "caveat": "vineyard_distribution —— 非官方边界，仅供地图展示"
+  },
+  {
+   "date": "2026-09-28",
+   "regionId": "patagonia",
+   "officialName": "Patagonia (Río Negro / Neuquén)",
+   "sourceRecordId": "OSM landuse=vineyard × 41",
+   "boundaryType": "vineyard_distribution",
+   "vertices": 14,
+   "tolM": 50,
+   "areaKm2": 6.1,
+   "blocks": 41,
+   "bufferKm": 3.0,
+   "caveat": "vineyard_distribution —— 非官方边界，仅供地图展示"
+  },
+  {
+   "date": "2026-09-28",
+   "regionId": "valais",
+   "officialName": "Valais",
+   "sourceRecordId": "OSM landuse=vineyard × 1851",
+   "boundaryType": "vineyard_distribution",
+   "vertices": 303,
+   "tolM": 50,
+   "areaKm2": 248.7,
+   "blocks": 1846,
+   "bufferKm": 3.0,
+   "caveat": "vineyard_distribution —— 非官方边界，仅供地图展示"
+  },
+  {
+   "date": "2026-09-28",
+   "regionId": "casablanca",
+   "officialName": "Casablanca Valley",
+   "sourceRecordId": "OSM landuse=vineyard × 559",
+   "boundaryType": "vineyard_distribution",
+   "vertices": 149,
+   "tolM": 50,
+   "areaKm2": 251.6,
+   "blocks": 559,
+   "bufferKm": 3.0,
+   "caveat": "vineyard_distribution —— 非官方边界，仅供地图展示"
+  },
+  {
+   "date": "2026-09-28",
+   "regionId": "itata",
+   "officialName": "Itata Valley",
+   "sourceRecordId": "OSM landuse=vineyard × 438",
+   "boundaryType": "vineyard_distribution",
+   "vertices": 189,
+   "tolM": 50,
+   "areaKm2": 212.0,
+   "blocks": 438,
+   "bufferKm": 3.0,
+   "caveat": "vineyard_distribution —— 非官方边界，仅供地图展示"
+  },
+  {
+   "date": "2026-09-28",
+   "regionId": "salta",
+   "officialName": "Salta (Valles Calchaquíes)",
+   "sourceRecordId": "OSM landuse=vineyard × 231",
+   "boundaryType": "vineyard_distribution",
+   "vertices": 71,
+   "tolM": 50,
+   "areaKm2": 71.3,
+   "blocks": 231,
+   "bufferKm": 3.0,
+   "caveat": "vineyard_distribution —— 非官方边界，仅供地图展示"
+  },
+  {
+   "date": "2026-09-28",
+   "regionId": "patagonia",
+   "officialName": "Patagonia (Río Negro / Neuquén)",
+   "sourceRecordId": "OSM landuse=vineyard × 41",
+   "boundaryType": "vineyard_distribution",
+   "vertices": 14,
+   "tolM": 50,
+   "areaKm2": 6.1,
+   "blocks": 41,
+   "bufferKm": 3.0,
+   "caveat": "vineyard_distribution —— 非官方边界，仅供地图展示"
+  },
+  {
+   "date": "2026-09-28",
+   "regionId": "okanagan",
+   "officialName": "Okanagan Valley",
+   "sourceRecordId": "OSM landuse=vineyard × 1307",
+   "boundaryType": "vineyard_distribution",
+   "vertices": 355,
+   "tolM": 50,
+   "areaKm2": 280.8,
+   "blocks": 1307,
+   "bufferKm": 3.0,
+   "caveat": "vineyard_distribution —— 非官方边界，仅供地图展示"
+  },
+  {
+   "date": "2026-09-28",
+   "regionId": "niagara",
+   "officialName": "Niagara Peninsula",
+   "sourceRecordId": "OSM landuse=vineyard × 836",
+   "boundaryType": "vineyard_distribution",
+   "vertices": 168,
+   "tolM": 50,
+   "areaKm2": 219.4,
+   "blocks": 835,
+   "bufferKm": 3.0,
+   "caveat": "vineyard_distribution —— 非官方边界，仅供地图展示"
+  },
+  {
+   "date": "2026-09-28",
+   "source": "GeoBoundaries gbOpen JPN ADM1",
+   "sourceURL": "https://www.geoboundaries.org/api/current/gbOpen/JPN/ADM1/",
+   "license": "ODbL 1.0",
+   "added": [
+    {
+     "id": "hokkaido",
+     "vertices": 7827,
+     "tolM": 50,
+     "areaKm2": 78411.7,
+     "officialName": "北海道",
+     "giName": "GI 北海道（Hokkaido）",
+     "shapeISO": "JP-01",
+     "sourceName": "GeoBoundaries gbOpen JPN ADM1",
+     "sourceURL": "https://www.geoboundaries.org/api/current/gbOpen/JPN/ADM1/",
+     "license": "ODbL 1.0（源自 OpenStreetMap / osm-boundaries.com）",
+     "licenseURL": "https://www.openstreetmap.org/copyright",
+     "boundaryType": "geographical_indication",
+     "legalBasis": "https://www.nta.go.jp/taxes/sake/hyoji/chiri/ichiran.htm",
+     "giDesignated": "2018-06-28"
+    },
+    {
+     "id": "nagano",
+     "vertices": 2159,
+     "tolM": 50,
+     "areaKm2": 13567.8,
+     "officialName": "長野",
+     "giName": "GI 長野（Nagano）",
+     "shapeISO": "JP-20",
+     "sourceName": "GeoBoundaries gbOpen JPN ADM1",
+     "sourceURL": "https://www.geoboundaries.org/api/current/gbOpen/JPN/ADM1/",
+     "license": "ODbL 1.0（源自 OpenStreetMap / osm-boundaries.com）",
+     "licenseURL": "https://www.openstreetmap.org/copyright",
+     "boundaryType": "geographical_indication",
+     "legalBasis": "https://www.nta.go.jp/taxes/sake/hyoji/chiri/ichiran.htm",
+     "giDesignated": "2021-06-30"
+    },
+    {
+     "id": "yamanashi",
+     "vertices": 827,
+     "tolM": 50,
+     "areaKm2": 4471.5,
+     "officialName": "山梨",
+     "giName": "GI 山梨（Yamanashi）",
+     "shapeISO": "JP-19",
+     "sourceName": "GeoBoundaries gbOpen JPN ADM1",
+     "sourceURL": "https://www.geoboundaries.org/api/current/gbOpen/JPN/ADM1/",
+     "license": "ODbL 1.0（源自 OpenStreetMap / osm-boundaries.com）",
+     "licenseURL": "https://www.openstreetmap.org/copyright",
+     "boundaryType": "geographical_indication",
+     "legalBasis": "https://www.nta.go.jp/taxes/sake/hyoji/chiri/ichiran.htm",
+     "giDesignated": "2013-07-16"
+    }
+   ],
+   "note": "日本葡萄酒 GI 法定范围=整县，用官方县级行政界（等值，非近似）"
+  },
+  {
+   "date": "2026-09-28",
+   "regionId": "kakheti",
+   "officialName": "Kakheti",
+   "sourceRecordId": "OSM landuse=vineyard × 577",
+   "boundaryType": "vineyard_distribution",
+   "vertices": 313,
+   "tolM": 50,
+   "areaKm2": 579.0,
+   "blocks": 577,
+   "bufferKm": 3.0,
+   "caveat": "vineyard_distribution —— 非官方边界，仅供地图展示"
+  },
+  {
+   "date": "2026-09-28",
+   "regionId": "casablanca",
+   "officialName": "Casablanca Valley",
+   "sourceRecordId": "OSM landuse=vineyard × 559",
+   "boundaryType": "vineyard_distribution",
+   "vertices": 149,
+   "tolM": 50,
+   "areaKm2": 251.6,
+   "blocks": 559,
+   "bufferKm": 3.0,
+   "caveat": "vineyard_distribution —— 非官方边界，仅供地图展示"
+  },
+  {
+   "date": "2026-09-28",
+   "regionId": "maipo",
+   "officialName": "Maipo Valley",
+   "sourceRecordId": "OSM landuse=vineyard × 530",
+   "boundaryType": "vineyard_distribution",
+   "vertices": 353,
+   "tolM": 50,
+   "areaKm2": 345.3,
+   "blocks": 530,
+   "bufferKm": 3.0,
+   "caveat": "vineyard_distribution —— 非官方边界，仅供地图展示"
+  },
+  {
+   "date": "2026-09-28",
+   "regionId": "colchagua",
+   "officialName": "Colchagua Valley",
+   "sourceRecordId": "OSM landuse=vineyard × 1697",
+   "boundaryType": "vineyard_distribution",
+   "vertices": 1017,
+   "tolM": 50,
+   "areaKm2": 1437.0,
+   "blocks": 1697,
+   "bufferKm": 3.0,
+   "caveat": "vineyard_distribution —— 非官方边界，仅供地图展示"
+  },
+  {
+   "date": "2026-09-28",
+   "regionId": "itata",
+   "officialName": "Itata Valley",
+   "sourceRecordId": "OSM landuse=vineyard × 438",
+   "boundaryType": "vineyard_distribution",
+   "vertices": 189,
+   "tolM": 50,
+   "areaKm2": 212.0,
+   "blocks": 438,
+   "bufferKm": 3.0,
+   "caveat": "vineyard_distribution —— 非官方边界，仅供地图展示"
+  },
+  {
+   "date": "2026-09-28",
+   "regionId": "mendoza",
+   "officialName": "Mendoza",
+   "sourceRecordId": "OSM landuse=vineyard × 4671",
+   "boundaryType": "vineyard_distribution",
+   "vertices": 1382,
+   "tolM": 50,
+   "areaKm2": 4500.6,
+   "blocks": 4670,
+   "bufferKm": 3.0,
+   "caveat": "vineyard_distribution —— 非官方边界，仅供地图展示"
+  },
+  {
+   "date": "2026-09-28",
+   "regionId": "salta",
+   "officialName": "Salta (Valles Calchaquíes)",
+   "sourceRecordId": "OSM landuse=vineyard × 231",
+   "boundaryType": "vineyard_distribution",
+   "vertices": 71,
+   "tolM": 50,
+   "areaKm2": 71.3,
+   "blocks": 231,
+   "bufferKm": 3.0,
+   "caveat": "vineyard_distribution —— 非官方边界，仅供地图展示"
+  },
+  {
+   "date": "2026-09-28",
+   "regionId": "patagonia",
+   "officialName": "Patagonia (Río Negro / Neuquén)",
+   "sourceRecordId": "OSM landuse=vineyard × 41",
+   "boundaryType": "vineyard_distribution",
+   "vertices": 14,
+   "tolM": 50,
+   "areaKm2": 6.1,
+   "blocks": 41,
+   "bufferKm": 3.0,
+   "caveat": "vineyard_distribution —— 非官方边界，仅供地图展示"
+  },
+  {
+   "date": "2026-09-28",
+   "regionId": "niagara",
+   "officialName": "Niagara Peninsula",
+   "sourceRecordId": "OSM landuse=vineyard × 836",
+   "boundaryType": "vineyard_distribution",
+   "vertices": 168,
+   "tolM": 50,
+   "areaKm2": 219.4,
+   "blocks": 835,
+   "bufferKm": 3.0,
+   "caveat": "vineyard_distribution —— 非官方边界，仅供地图展示"
+  },
+  {
+   "date": "2026-09-28",
+   "regionId": "okanagan",
+   "officialName": "Okanagan Valley",
+   "sourceRecordId": "OSM landuse=vineyard × 1307",
+   "boundaryType": "vineyard_distribution",
+   "vertices": 355,
+   "tolM": 50,
+   "areaKm2": 280.8,
+   "blocks": 1307,
+   "bufferKm": 3.0,
+   "caveat": "vineyard_distribution —— 非官方边界，仅供地图展示"
+  },
+  {
+   "date": "2026-09-28",
+   "regionId": "valais",
+   "officialName": "Valais",
+   "sourceRecordId": "OSM landuse=vineyard × 1851",
+   "boundaryType": "vineyard_distribution",
+   "vertices": 303,
+   "tolM": 50,
+   "areaKm2": 248.7,
+   "blocks": 1846,
+   "bufferKm": 3.0,
+   "caveat": "vineyard_distribution —— 非官方边界，仅供地图展示"
+  },
+  {
+   "date": "2026-09-28",
+   "regionId": "kakheti",
+   "officialName": "Kakheti",
+   "sourceRecordId": "OSM landuse=vineyard × 577",
+   "boundaryType": "vineyard_distribution",
+   "vertices": 313,
+   "tolM": 50,
+   "areaKm2": 579.0,
+   "blocks": 577,
+   "bufferKm": 3.0,
+   "caveat": "vineyard_distribution —— 非官方边界，仅供地图展示"
+  },
+  {
+   "date": "2026-09-28",
+   "regionId": "casablanca",
+   "officialName": "Casablanca Valley",
+   "sourceRecordId": "OSM landuse=vineyard × 559",
+   "boundaryType": "vineyard_distribution",
+   "vertices": 149,
+   "tolM": 50,
+   "areaKm2": 251.6,
+   "blocks": 559,
+   "bufferKm": 3.0,
+   "caveat": "vineyard_distribution —— 非官方边界，仅供地图展示"
+  },
+  {
+   "date": "2026-09-28",
+   "regionId": "maipo",
+   "officialName": "Maipo Valley",
+   "sourceRecordId": "OSM landuse=vineyard × 530",
+   "boundaryType": "vineyard_distribution",
+   "vertices": 353,
+   "tolM": 50,
+   "areaKm2": 345.3,
+   "blocks": 530,
+   "bufferKm": 3.0,
+   "caveat": "vineyard_distribution —— 非官方边界，仅供地图展示"
+  },
+  {
+   "date": "2026-09-28",
+   "regionId": "colchagua",
+   "officialName": "Colchagua Valley",
+   "sourceRecordId": "OSM landuse=vineyard × 1697",
+   "boundaryType": "vineyard_distribution",
+   "vertices": 1017,
+   "tolM": 50,
+   "areaKm2": 1437.0,
+   "blocks": 1697,
+   "bufferKm": 3.0,
+   "caveat": "vineyard_distribution —— 非官方边界，仅供地图展示"
+  },
+  {
+   "date": "2026-09-28",
+   "regionId": "itata",
+   "officialName": "Itata Valley",
+   "sourceRecordId": "OSM landuse=vineyard × 438",
+   "boundaryType": "vineyard_distribution",
+   "vertices": 189,
+   "tolM": 50,
+   "areaKm2": 212.0,
+   "blocks": 438,
+   "bufferKm": 3.0,
+   "caveat": "vineyard_distribution —— 非官方边界，仅供地图展示"
+  },
+  {
+   "date": "2026-09-28",
+   "regionId": "mendoza",
+   "officialName": "Mendoza",
+   "sourceRecordId": "OSM landuse=vineyard × 4671",
+   "boundaryType": "vineyard_distribution",
+   "vertices": 1382,
+   "tolM": 50,
+   "areaKm2": 4500.6,
+   "blocks": 4670,
+   "bufferKm": 3.0,
+   "caveat": "vineyard_distribution —— 非官方边界，仅供地图展示"
+  },
+  {
+   "date": "2026-09-28",
+   "regionId": "salta",
+   "officialName": "Salta (Valles Calchaquíes)",
+   "sourceRecordId": "OSM landuse=vineyard × 231",
+   "boundaryType": "vineyard_distribution",
+   "vertices": 71,
+   "tolM": 50,
+   "areaKm2": 71.3,
+   "blocks": 231,
+   "bufferKm": 3.0,
+   "caveat": "vineyard_distribution —— 非官方边界，仅供地图展示"
+  },
+  {
+   "date": "2026-09-28",
+   "regionId": "patagonia",
+   "officialName": "Patagonia (Río Negro / Neuquén)",
+   "sourceRecordId": "OSM landuse=vineyard × 41",
+   "boundaryType": "vineyard_distribution",
+   "vertices": 14,
+   "tolM": 50,
+   "areaKm2": 6.1,
+   "blocks": 41,
+   "bufferKm": 3.0,
+   "caveat": "vineyard_distribution —— 非官方边界，仅供地图展示"
+  },
+  {
+   "date": "2026-09-28",
+   "regionId": "niagara",
+   "officialName": "Niagara Peninsula",
+   "sourceRecordId": "OSM landuse=vineyard × 836",
+   "boundaryType": "vineyard_distribution",
+   "vertices": 168,
+   "tolM": 50,
+   "areaKm2": 219.4,
+   "blocks": 835,
+   "bufferKm": 3.0,
+   "caveat": "vineyard_distribution —— 非官方边界，仅供地图展示"
+  },
+  {
+   "date": "2026-09-28",
+   "regionId": "okanagan",
+   "officialName": "Okanagan Valley",
+   "sourceRecordId": "OSM landuse=vineyard × 1307",
+   "boundaryType": "vineyard_distribution",
+   "vertices": 355,
+   "tolM": 50,
+   "areaKm2": 280.8,
+   "blocks": 1307,
+   "bufferKm": 3.0,
+   "caveat": "vineyard_distribution —— 非官方边界，仅供地图展示"
+  },
+  {
+   "date": "2026-09-28",
+   "regionId": "valais",
+   "officialName": "Valais",
+   "sourceRecordId": "OSM landuse=vineyard × 1851",
+   "boundaryType": "vineyard_distribution",
+   "vertices": 303,
+   "tolM": 50,
+   "areaKm2": 248.7,
+   "blocks": 1846,
+   "bufferKm": 3.0,
+   "caveat": "vineyard_distribution —— 非官方边界，仅供地图展示"
+  },
+  {
+   "date": "2026-09-28",
+   "regionId": "kakheti",
+   "officialName": "Kakheti",
+   "sourceRecordId": "OSM landuse=vineyard × 577",
+   "boundaryType": "vineyard_distribution",
+   "vertices": 313,
+   "tolM": 50,
+   "areaKm2": 579.0,
+   "blocks": 577,
+   "bufferKm": 3.0,
+   "caveat": "vineyard_distribution —— 非官方边界，仅供地图展示"
+  },
+  {
+   "date": "2026-09-28",
+   "regionId": "casablanca",
+   "officialName": "Casablanca Valley",
+   "sourceRecordId": "OSM landuse=vineyard × 559",
+   "boundaryType": "vineyard_distribution",
+   "vertices": 149,
+   "tolM": 50,
+   "areaKm2": 251.6,
+   "blocks": 559,
+   "bufferKm": 3.0,
+   "caveat": "vineyard_distribution —— 非官方边界，仅供地图展示"
+  },
+  {
+   "date": "2026-09-28",
+   "regionId": "maipo",
+   "officialName": "Maipo Valley",
+   "sourceRecordId": "OSM landuse=vineyard × 530",
+   "boundaryType": "vineyard_distribution",
+   "vertices": 353,
+   "tolM": 50,
+   "areaKm2": 345.3,
+   "blocks": 530,
+   "bufferKm": 3.0,
+   "caveat": "vineyard_distribution —— 非官方边界，仅供地图展示"
+  },
+  {
+   "date": "2026-09-28",
+   "regionId": "colchagua",
+   "officialName": "Colchagua Valley",
+   "sourceRecordId": "OSM landuse=vineyard × 1697",
+   "boundaryType": "vineyard_distribution",
+   "vertices": 1017,
+   "tolM": 50,
+   "areaKm2": 1437.0,
+   "blocks": 1697,
+   "bufferKm": 3.0,
+   "caveat": "vineyard_distribution —— 非官方边界，仅供地图展示"
+  },
+  {
+   "date": "2026-09-28",
+   "regionId": "itata",
+   "officialName": "Itata Valley",
+   "sourceRecordId": "OSM landuse=vineyard × 438",
+   "boundaryType": "vineyard_distribution",
+   "vertices": 189,
+   "tolM": 50,
+   "areaKm2": 212.0,
+   "blocks": 438,
+   "bufferKm": 3.0,
+   "caveat": "vineyard_distribution —— 非官方边界，仅供地图展示"
+  },
+  {
+   "date": "2026-09-28",
+   "regionId": "mendoza",
+   "officialName": "Mendoza",
+   "sourceRecordId": "OSM landuse=vineyard × 4671",
+   "boundaryType": "vineyard_distribution",
+   "vertices": 1382,
+   "tolM": 50,
+   "areaKm2": 4500.6,
+   "blocks": 4670,
+   "bufferKm": 3.0,
+   "caveat": "vineyard_distribution —— 非官方边界，仅供地图展示"
+  },
+  {
+   "date": "2026-09-28",
+   "regionId": "salta",
+   "officialName": "Salta (Valles Calchaquíes)",
+   "sourceRecordId": "OSM landuse=vineyard × 231",
+   "boundaryType": "vineyard_distribution",
+   "vertices": 71,
+   "tolM": 50,
+   "areaKm2": 71.3,
+   "blocks": 231,
+   "bufferKm": 3.0,
+   "caveat": "vineyard_distribution —— 非官方边界，仅供地图展示"
+  },
+  {
+   "date": "2026-09-28",
+   "regionId": "patagonia",
+   "officialName": "Patagonia (Río Negro / Neuquén)",
+   "sourceRecordId": "OSM landuse=vineyard × 41",
+   "boundaryType": "vineyard_distribution",
+   "vertices": 14,
+   "tolM": 50,
+   "areaKm2": 6.1,
+   "blocks": 41,
+   "bufferKm": 3.0,
+   "caveat": "vineyard_distribution —— 非官方边界，仅供地图展示"
+  },
+  {
+   "date": "2026-09-28",
+   "regionId": "niagara",
+   "officialName": "Niagara Peninsula",
+   "sourceRecordId": "OSM landuse=vineyard × 836",
+   "boundaryType": "vineyard_distribution",
+   "vertices": 168,
+   "tolM": 50,
+   "areaKm2": 219.4,
+   "blocks": 835,
+   "bufferKm": 3.0,
+   "caveat": "vineyard_distribution —— 非官方边界，仅供地图展示"
+  },
+  {
+   "date": "2026-09-28",
+   "regionId": "okanagan",
+   "officialName": "Okanagan Valley",
+   "sourceRecordId": "OSM landuse=vineyard × 1307",
+   "boundaryType": "vineyard_distribution",
+   "vertices": 355,
+   "tolM": 50,
+   "areaKm2": 280.8,
+   "blocks": 1307,
+   "bufferKm": 3.0,
+   "caveat": "vineyard_distribution —— 非官方边界，仅供地图展示"
+  },
+  {
+   "date": "2026-09-28",
+   "regionId": "valais",
+   "officialName": "Valais",
+   "sourceRecordId": "OSM landuse=vineyard × 1851",
+   "boundaryType": "vineyard_distribution",
+   "vertices": 303,
+   "tolM": 50,
+   "areaKm2": 248.7,
+   "blocks": 1846,
+   "bufferKm": 3.0,
+   "caveat": "vineyard_distribution —— 非官方边界，仅供地图展示"
+  },
+  {
+   "date": "2026-09-28",
+   "regionId": "kakheti",
+   "officialName": "Kakheti",
+   "sourceRecordId": "OSM landuse=vineyard × 577",
+   "boundaryType": "vineyard_distribution",
+   "vertices": 313,
+   "tolM": 50,
+   "areaKm2": 579.0,
+   "blocks": 577,
+   "bufferKm": 3.0,
+   "caveat": "vineyard_distribution —— 非官方边界，仅供地图展示"
+  },
+  {
+   "date": "2026-09-28",
+   "regionId": "codru",
+   "officialName": "Codru",
+   "sourceRecordId": "OSM landuse=vineyard × 11744",
+   "boundaryType": "vineyard_distribution",
+   "vertices": 599,
+   "tolM": 50,
+   "areaKm2": 1612.9,
+   "blocks": 11741,
+   "bufferKm": 3.0,
+   "caveat": "vineyard_distribution —— 非官方边界，仅供地图展示"
+  },
+  {
+   "date": "2026-09-28",
+   "regionId": "casablanca",
+   "officialName": "Casablanca Valley",
+   "sourceRecordId": "OSM landuse=vineyard × 559",
+   "boundaryType": "vineyard_distribution",
+   "vertices": 149,
+   "tolM": 50,
+   "areaKm2": 251.6,
+   "blocks": 559,
+   "bufferKm": 3.0,
+   "caveat": "vineyard_distribution —— 非官方边界，仅供地图展示"
+  },
+  {
+   "date": "2026-09-28",
+   "regionId": "maipo",
+   "officialName": "Maipo Valley",
+   "sourceRecordId": "OSM landuse=vineyard × 530",
+   "boundaryType": "vineyard_distribution",
+   "vertices": 353,
+   "tolM": 50,
+   "areaKm2": 345.3,
+   "blocks": 530,
+   "bufferKm": 3.0,
+   "caveat": "vineyard_distribution —— 非官方边界，仅供地图展示"
+  },
+  {
+   "date": "2026-09-28",
+   "regionId": "colchagua",
+   "officialName": "Colchagua Valley",
+   "sourceRecordId": "OSM landuse=vineyard × 1697",
+   "boundaryType": "vineyard_distribution",
+   "vertices": 1017,
+   "tolM": 50,
+   "areaKm2": 1437.0,
+   "blocks": 1697,
+   "bufferKm": 3.0,
+   "caveat": "vineyard_distribution —— 非官方边界，仅供地图展示"
+  },
+  {
+   "date": "2026-09-28",
+   "regionId": "itata",
+   "officialName": "Itata Valley",
+   "sourceRecordId": "OSM landuse=vineyard × 438",
+   "boundaryType": "vineyard_distribution",
+   "vertices": 189,
+   "tolM": 50,
+   "areaKm2": 212.0,
+   "blocks": 438,
+   "bufferKm": 3.0,
+   "caveat": "vineyard_distribution —— 非官方边界，仅供地图展示"
+  },
+  {
+   "date": "2026-09-28",
+   "regionId": "mendoza",
+   "officialName": "Mendoza",
+   "sourceRecordId": "OSM landuse=vineyard × 4671",
+   "boundaryType": "vineyard_distribution",
+   "vertices": 1382,
+   "tolM": 50,
+   "areaKm2": 4500.6,
+   "blocks": 4670,
+   "bufferKm": 3.0,
+   "caveat": "vineyard_distribution —— 非官方边界，仅供地图展示"
+  },
+  {
+   "date": "2026-09-28",
+   "regionId": "salta",
+   "officialName": "Salta (Valles Calchaquíes)",
+   "sourceRecordId": "OSM landuse=vineyard × 231",
+   "boundaryType": "vineyard_distribution",
+   "vertices": 71,
+   "tolM": 50,
+   "areaKm2": 71.3,
+   "blocks": 231,
+   "bufferKm": 3.0,
+   "caveat": "vineyard_distribution —— 非官方边界，仅供地图展示"
+  },
+  {
+   "date": "2026-09-28",
+   "regionId": "patagonia",
+   "officialName": "Patagonia (Río Negro / Neuquén)",
+   "sourceRecordId": "OSM landuse=vineyard × 41",
+   "boundaryType": "vineyard_distribution",
+   "vertices": 14,
+   "tolM": 50,
+   "areaKm2": 6.1,
+   "blocks": 41,
+   "bufferKm": 3.0,
+   "caveat": "vineyard_distribution —— 非官方边界，仅供地图展示"
+  },
+  {
+   "date": "2026-09-28",
+   "regionId": "niagara",
+   "officialName": "Niagara Peninsula",
+   "sourceRecordId": "OSM landuse=vineyard × 836",
+   "boundaryType": "vineyard_distribution",
+   "vertices": 168,
+   "tolM": 50,
+   "areaKm2": 219.4,
+   "blocks": 835,
+   "bufferKm": 3.0,
+   "caveat": "vineyard_distribution —— 非官方边界，仅供地图展示"
+  },
+  {
+   "date": "2026-09-28",
+   "regionId": "okanagan",
+   "officialName": "Okanagan Valley",
+   "sourceRecordId": "OSM landuse=vineyard × 1307",
+   "boundaryType": "vineyard_distribution",
+   "vertices": 355,
+   "tolM": 50,
+   "areaKm2": 280.8,
+   "blocks": 1307,
+   "bufferKm": 3.0,
+   "caveat": "vineyard_distribution —— 非官方边界，仅供地图展示"
+  },
+  {
+   "date": "2026-09-28",
+   "regionId": "valais",
+   "officialName": "Valais",
+   "sourceRecordId": "OSM landuse=vineyard × 1851",
+   "boundaryType": "vineyard_distribution",
+   "vertices": 303,
+   "tolM": 50,
+   "areaKm2": 248.7,
+   "blocks": 1846,
+   "bufferKm": 3.0,
+   "caveat": "vineyard_distribution —— 非官方边界，仅供地图展示"
+  },
+  {
+   "date": "2026-09-28",
+   "regionId": "kakheti",
+   "officialName": "Kakheti",
+   "sourceRecordId": "OSM landuse=vineyard × 577",
+   "boundaryType": "vineyard_distribution",
+   "vertices": 313,
+   "tolM": 50,
+   "areaKm2": 579.0,
+   "blocks": 577,
+   "bufferKm": 3.0,
+   "caveat": "vineyard_distribution —— 非官方边界，仅供地图展示"
+  },
+  {
+   "date": "2026-09-28",
+   "regionId": "codru",
+   "officialName": "Codru",
+   "sourceRecordId": "OSM landuse=vineyard × 11744",
+   "boundaryType": "vineyard_distribution",
+   "vertices": 599,
+   "tolM": 50,
+   "areaKm2": 1612.9,
+   "blocks": 11741,
+   "bufferKm": 3.0,
+   "caveat": "vineyard_distribution —— 非官方边界，仅供地图展示"
+  },
+  {
+   "date": "2026-09-28",
+   "regionId": "thrace",
+   "officialName": "Thrace",
+   "sourceRecordId": "OSM landuse=vineyard × 460",
+   "boundaryType": "vineyard_distribution",
+   "vertices": 120,
+   "tolM": 50,
+   "areaKm2": 83.2,
+   "blocks": 460,
+   "bufferKm": 3.0,
+   "caveat": "vineyard_distribution —— 非官方边界，仅供地图展示"
+  },
+  {
+   "date": "2026-09-28",
+   "regionId": "vale-dos-vinhedos",
+   "officialName": "Vale dos Vinhedos",
+   "sourceRecordId": "OSM landuse=vineyard × 142",
+   "boundaryType": "vineyard_distribution",
+   "vertices": 57,
+   "tolM": 50,
+   "areaKm2": 42.7,
+   "blocks": 142,
+   "bufferKm": 3.0,
+   "caveat": "vineyard_distribution —— 非官方边界，仅供地图展示"
+  },
+  {
+   "date": "2026-09-28",
+   "regionId": "casablanca",
+   "officialName": "Casablanca Valley",
+   "sourceRecordId": "OSM landuse=vineyard × 559",
+   "boundaryType": "vineyard_distribution",
+   "vertices": 149,
+   "tolM": 50,
+   "areaKm2": 251.6,
+   "blocks": 559,
+   "bufferKm": 3.0,
+   "caveat": "vineyard_distribution —— 非官方边界，仅供地图展示"
+  },
+  {
+   "date": "2026-09-28",
+   "regionId": "maipo",
+   "officialName": "Maipo Valley",
+   "sourceRecordId": "OSM landuse=vineyard × 530",
+   "boundaryType": "vineyard_distribution",
+   "vertices": 353,
+   "tolM": 50,
+   "areaKm2": 345.3,
+   "blocks": 530,
+   "bufferKm": 3.0,
+   "caveat": "vineyard_distribution —— 非官方边界，仅供地图展示"
+  },
+  {
+   "date": "2026-09-28",
+   "regionId": "colchagua",
+   "officialName": "Colchagua Valley",
+   "sourceRecordId": "OSM landuse=vineyard × 1697",
+   "boundaryType": "vineyard_distribution",
+   "vertices": 1017,
+   "tolM": 50,
+   "areaKm2": 1437.0,
+   "blocks": 1697,
+   "bufferKm": 3.0,
+   "caveat": "vineyard_distribution —— 非官方边界，仅供地图展示"
+  },
+  {
+   "date": "2026-09-28",
+   "regionId": "itata",
+   "officialName": "Itata Valley",
+   "sourceRecordId": "OSM landuse=vineyard × 438",
+   "boundaryType": "vineyard_distribution",
+   "vertices": 189,
+   "tolM": 50,
+   "areaKm2": 212.0,
+   "blocks": 438,
+   "bufferKm": 3.0,
+   "caveat": "vineyard_distribution —— 非官方边界，仅供地图展示"
+  },
+  {
+   "date": "2026-09-28",
+   "regionId": "mendoza",
+   "officialName": "Mendoza",
+   "sourceRecordId": "OSM landuse=vineyard × 4671",
+   "boundaryType": "vineyard_distribution",
+   "vertices": 1382,
+   "tolM": 50,
+   "areaKm2": 4500.6,
+   "blocks": 4670,
+   "bufferKm": 3.0,
+   "caveat": "vineyard_distribution —— 非官方边界，仅供地图展示"
+  },
+  {
+   "date": "2026-09-28",
+   "regionId": "salta",
+   "officialName": "Salta (Valles Calchaquíes)",
+   "sourceRecordId": "OSM landuse=vineyard × 231",
+   "boundaryType": "vineyard_distribution",
+   "vertices": 71,
+   "tolM": 50,
+   "areaKm2": 71.3,
+   "blocks": 231,
+   "bufferKm": 3.0,
+   "caveat": "vineyard_distribution —— 非官方边界，仅供地图展示"
+  },
+  {
+   "date": "2026-09-28",
+   "regionId": "patagonia",
+   "officialName": "Patagonia (Río Negro / Neuquén)",
+   "sourceRecordId": "OSM landuse=vineyard × 41",
+   "boundaryType": "vineyard_distribution",
+   "vertices": 14,
+   "tolM": 50,
+   "areaKm2": 6.1,
+   "blocks": 41,
+   "bufferKm": 3.0,
+   "caveat": "vineyard_distribution —— 非官方边界，仅供地图展示"
+  },
+  {
+   "date": "2026-09-28",
+   "regionId": "niagara",
+   "officialName": "Niagara Peninsula",
+   "sourceRecordId": "OSM landuse=vineyard × 836",
+   "boundaryType": "vineyard_distribution",
+   "vertices": 168,
+   "tolM": 50,
+   "areaKm2": 219.4,
+   "blocks": 835,
+   "bufferKm": 3.0,
+   "caveat": "vineyard_distribution —— 非官方边界，仅供地图展示"
+  },
+  {
+   "date": "2026-09-28",
+   "regionId": "okanagan",
+   "officialName": "Okanagan Valley",
+   "sourceRecordId": "OSM landuse=vineyard × 1307",
+   "boundaryType": "vineyard_distribution",
+   "vertices": 355,
+   "tolM": 50,
+   "areaKm2": 280.8,
+   "blocks": 1307,
+   "bufferKm": 3.0,
+   "caveat": "vineyard_distribution —— 非官方边界，仅供地图展示"
+  },
+  {
+   "date": "2026-09-28",
+   "regionId": "valais",
+   "officialName": "Valais",
+   "sourceRecordId": "OSM landuse=vineyard × 1851",
+   "boundaryType": "vineyard_distribution",
+   "vertices": 303,
+   "tolM": 50,
+   "areaKm2": 248.7,
+   "blocks": 1846,
+   "bufferKm": 3.0,
+   "caveat": "vineyard_distribution —— 非官方边界，仅供地图展示"
+  },
+  {
+   "date": "2026-09-28",
+   "regionId": "kakheti",
+   "officialName": "Kakheti",
+   "sourceRecordId": "OSM landuse=vineyard × 577",
+   "boundaryType": "vineyard_distribution",
+   "vertices": 313,
+   "tolM": 50,
+   "areaKm2": 579.0,
+   "blocks": 577,
+   "bufferKm": 3.0,
+   "caveat": "vineyard_distribution —— 非官方边界，仅供地图展示"
+  },
+  {
+   "date": "2026-09-28",
+   "regionId": "codru",
+   "officialName": "Codru",
+   "sourceRecordId": "OSM landuse=vineyard × 11744",
+   "boundaryType": "vineyard_distribution",
+   "vertices": 599,
+   "tolM": 50,
+   "areaKm2": 1612.9,
+   "blocks": 11741,
+   "bufferKm": 3.0,
+   "caveat": "vineyard_distribution —— 非官方边界，仅供地图展示"
+  },
+  {
+   "date": "2026-09-28",
+   "regionId": "thrace",
+   "officialName": "Thrace",
+   "sourceRecordId": "OSM landuse=vineyard × 460",
+   "boundaryType": "vineyard_distribution",
+   "vertices": 120,
+   "tolM": 50,
+   "areaKm2": 83.2,
+   "blocks": 460,
+   "bufferKm": 3.0,
+   "caveat": "vineyard_distribution —— 非官方边界，仅供地图展示"
+  },
+  {
+   "date": "2026-09-28",
+   "regionId": "vale-dos-vinhedos",
+   "officialName": "Vale dos Vinhedos",
+   "sourceRecordId": "OSM landuse=vineyard × 142",
+   "boundaryType": "vineyard_distribution",
+   "vertices": 57,
+   "tolM": 50,
+   "areaKm2": 42.7,
+   "blocks": 142,
+   "bufferKm": 3.0,
+   "caveat": "vineyard_distribution —— 非官方边界，仅供地图展示"
+  },
+  {
+   "date": "2026-09-28",
+   "regionId": "casablanca",
+   "officialName": "Casablanca Valley",
+   "sourceRecordId": "OSM landuse=vineyard × 559",
+   "boundaryType": "vineyard_distribution",
+   "vertices": 149,
+   "tolM": 50,
+   "areaKm2": 251.6,
+   "blocks": 559,
+   "bufferKm": 3.0,
+   "caveat": "vineyard_distribution —— 非官方边界，仅供地图展示"
+  },
+  {
+   "date": "2026-09-28",
+   "regionId": "maipo",
+   "officialName": "Maipo Valley",
+   "sourceRecordId": "OSM landuse=vineyard × 530",
+   "boundaryType": "vineyard_distribution",
+   "vertices": 353,
+   "tolM": 50,
+   "areaKm2": 345.3,
+   "blocks": 530,
+   "bufferKm": 3.0,
+   "caveat": "vineyard_distribution —— 非官方边界，仅供地图展示"
+  },
+  {
+   "date": "2026-09-28",
+   "regionId": "colchagua",
+   "officialName": "Colchagua Valley",
+   "sourceRecordId": "OSM landuse=vineyard × 1697",
+   "boundaryType": "vineyard_distribution",
+   "vertices": 1017,
+   "tolM": 50,
+   "areaKm2": 1437.0,
+   "blocks": 1697,
+   "bufferKm": 3.0,
+   "caveat": "vineyard_distribution —— 非官方边界，仅供地图展示"
+  },
+  {
+   "date": "2026-09-28",
+   "regionId": "itata",
+   "officialName": "Itata Valley",
+   "sourceRecordId": "OSM landuse=vineyard × 438",
+   "boundaryType": "vineyard_distribution",
+   "vertices": 189,
+   "tolM": 50,
+   "areaKm2": 212.0,
+   "blocks": 438,
+   "bufferKm": 3.0,
+   "caveat": "vineyard_distribution —— 非官方边界，仅供地图展示"
+  },
+  {
+   "date": "2026-09-28",
+   "regionId": "mendoza",
+   "officialName": "Mendoza",
+   "sourceRecordId": "OSM landuse=vineyard × 4671",
+   "boundaryType": "vineyard_distribution",
+   "vertices": 1382,
+   "tolM": 50,
+   "areaKm2": 4500.6,
+   "blocks": 4670,
+   "bufferKm": 3.0,
+   "caveat": "vineyard_distribution —— 非官方边界，仅供地图展示"
+  },
+  {
+   "date": "2026-09-28",
+   "regionId": "salta",
+   "officialName": "Salta (Valles Calchaquíes)",
+   "sourceRecordId": "OSM landuse=vineyard × 231",
+   "boundaryType": "vineyard_distribution",
+   "vertices": 71,
+   "tolM": 50,
+   "areaKm2": 71.3,
+   "blocks": 231,
+   "bufferKm": 3.0,
+   "caveat": "vineyard_distribution —— 非官方边界，仅供地图展示"
+  },
+  {
+   "date": "2026-09-28",
+   "regionId": "patagonia",
+   "officialName": "Patagonia (Río Negro / Neuquén)",
+   "sourceRecordId": "OSM landuse=vineyard × 41",
+   "boundaryType": "vineyard_distribution",
+   "vertices": 14,
+   "tolM": 50,
+   "areaKm2": 6.1,
+   "blocks": 41,
+   "bufferKm": 3.0,
+   "caveat": "vineyard_distribution —— 非官方边界，仅供地图展示"
+  },
+  {
+   "date": "2026-09-28",
+   "regionId": "niagara",
+   "officialName": "Niagara Peninsula",
+   "sourceRecordId": "OSM landuse=vineyard × 836",
+   "boundaryType": "vineyard_distribution",
+   "vertices": 168,
+   "tolM": 50,
+   "areaKm2": 219.4,
+   "blocks": 835,
+   "bufferKm": 3.0,
+   "caveat": "vineyard_distribution —— 非官方边界，仅供地图展示"
+  },
+  {
+   "date": "2026-09-28",
+   "regionId": "okanagan",
+   "officialName": "Okanagan Valley",
+   "sourceRecordId": "OSM landuse=vineyard × 1307",
+   "boundaryType": "vineyard_distribution",
+   "vertices": 355,
+   "tolM": 50,
+   "areaKm2": 280.8,
+   "blocks": 1307,
+   "bufferKm": 3.0,
+   "caveat": "vineyard_distribution —— 非官方边界，仅供地图展示"
+  },
+  {
+   "date": "2026-09-28",
+   "regionId": "yamanashi",
+   "officialName": "Yamanashi (Koshu)",
+   "sourceRecordId": "OSM landuse=vineyard × 11069",
+   "boundaryType": "vineyard_distribution",
+   "vertices": 136,
+   "tolM": 50,
+   "areaKm2": 234.2,
+   "blocks": 11068,
+   "bufferKm": 3.0,
+   "caveat": "vineyard_distribution —— 非官方边界，仅供地图展示"
+  },
+  {
+   "date": "2026-09-28",
+   "regionId": "valais",
+   "officialName": "Valais",
+   "sourceRecordId": "OSM landuse=vineyard × 1851",
+   "boundaryType": "vineyard_distribution",
+   "vertices": 303,
+   "tolM": 50,
+   "areaKm2": 248.7,
+   "blocks": 1846,
+   "bufferKm": 3.0,
+   "caveat": "vineyard_distribution —— 非官方边界，仅供地图展示"
+  },
+  {
+   "date": "2026-09-28",
+   "regionId": "kakheti",
+   "officialName": "Kakheti",
+   "sourceRecordId": "OSM landuse=vineyard × 577",
+   "boundaryType": "vineyard_distribution",
+   "vertices": 313,
+   "tolM": 50,
+   "areaKm2": 579.0,
+   "blocks": 577,
+   "bufferKm": 3.0,
+   "caveat": "vineyard_distribution —— 非官方边界，仅供地图展示"
+  },
+  {
+   "date": "2026-09-28",
+   "regionId": "codru",
+   "officialName": "Codru",
+   "sourceRecordId": "OSM landuse=vineyard × 11744",
+   "boundaryType": "vineyard_distribution",
+   "vertices": 599,
+   "tolM": 50,
+   "areaKm2": 1612.9,
+   "blocks": 11741,
+   "bufferKm": 3.0,
+   "caveat": "vineyard_distribution —— 非官方边界，仅供地图展示"
+  },
+  {
+   "date": "2026-09-28",
+   "regionId": "thrace",
+   "officialName": "Thrace",
+   "sourceRecordId": "OSM landuse=vineyard × 460",
+   "boundaryType": "vineyard_distribution",
+   "vertices": 120,
+   "tolM": 50,
+   "areaKm2": 83.2,
+   "blocks": 460,
+   "bufferKm": 3.0,
+   "caveat": "vineyard_distribution —— 非官方边界，仅供地图展示"
+  },
+  {
+   "date": "2026-09-28",
+   "regionId": "vale-dos-vinhedos",
+   "officialName": "Vale dos Vinhedos",
+   "sourceRecordId": "OSM landuse=vineyard × 142",
+   "boundaryType": "vineyard_distribution",
+   "vertices": 57,
+   "tolM": 50,
+   "areaKm2": 42.7,
+   "blocks": 142,
+   "bufferKm": 3.0,
+   "caveat": "vineyard_distribution —— 非官方边界，仅供地图展示"
+  },
+  {
+   "date": "2026-09-28",
+   "regionId": "valle-de-guadalupe",
+   "officialName": "Valle de Guadalupe",
+   "sourceRecordId": "OSM landuse=vineyard × 505",
+   "boundaryType": "vineyard_distribution",
+   "vertices": 107,
+   "tolM": 50,
+   "areaKm2": 117.7,
+   "blocks": 505,
+   "bufferKm": 3.0,
+   "caveat": "vineyard_distribution —— 非官方边界，仅供地图展示"
+  },
+  {
+   "date": "2026-09-28",
+   "source": "GeoBoundaries gbOpen JPN ADM1",
+   "sourceURL": "https://www.geoboundaries.org/api/current/gbOpen/JPN/ADM1/",
+   "license": "ODbL 1.0",
+   "added": [
+    {
+     "id": "hokkaido",
+     "vertices": 7827,
+     "tolM": 50,
+     "areaKm2": 78411.7,
+     "officialName": "北海道",
+     "giName": "GI 北海道（Hokkaido）",
+     "shapeISO": "JP-01",
+     "sourceName": "GeoBoundaries gbOpen JPN ADM1",
+     "sourceURL": "https://www.geoboundaries.org/api/current/gbOpen/JPN/ADM1/",
+     "license": "ODbL 1.0（源自 OpenStreetMap / osm-boundaries.com）",
+     "licenseURL": "https://www.openstreetmap.org/copyright",
+     "boundaryType": "geographical_indication",
+     "legalBasis": "https://www.nta.go.jp/taxes/sake/hyoji/chiri/ichiran.htm",
+     "giDesignated": "2018-06-28"
+    },
+    {
+     "id": "nagano",
+     "vertices": 2159,
+     "tolM": 50,
+     "areaKm2": 13567.8,
+     "officialName": "長野",
+     "giName": "GI 長野（Nagano）",
+     "shapeISO": "JP-20",
+     "sourceName": "GeoBoundaries gbOpen JPN ADM1",
+     "sourceURL": "https://www.geoboundaries.org/api/current/gbOpen/JPN/ADM1/",
+     "license": "ODbL 1.0（源自 OpenStreetMap / osm-boundaries.com）",
+     "licenseURL": "https://www.openstreetmap.org/copyright",
+     "boundaryType": "geographical_indication",
+     "legalBasis": "https://www.nta.go.jp/taxes/sake/hyoji/chiri/ichiran.htm",
+     "giDesignated": "2021-06-30"
+    },
+    {
+     "id": "yamanashi",
+     "vertices": 827,
+     "tolM": 50,
+     "areaKm2": 4471.5,
+     "officialName": "山梨",
+     "giName": "GI 山梨（Yamanashi）",
+     "shapeISO": "JP-19",
+     "sourceName": "GeoBoundaries gbOpen JPN ADM1",
+     "sourceURL": "https://www.geoboundaries.org/api/current/gbOpen/JPN/ADM1/",
+     "license": "ODbL 1.0（源自 OpenStreetMap / osm-boundaries.com）",
+     "licenseURL": "https://www.openstreetmap.org/copyright",
+     "boundaryType": "geographical_indication",
+     "legalBasis": "https://www.nta.go.jp/taxes/sake/hyoji/chiri/ichiran.htm",
+     "giDesignated": "2013-07-16"
+    }
+   ],
+   "note": "日本葡萄酒 GI 法定范围=整县，用官方县级行政界（等值，非近似）"
+  },
+  {
+   "date": "2026-09-28",
+   "regionId": "casablanca",
+   "officialName": "Casablanca Valley",
+   "sourceRecordId": "OSM landuse=vineyard × 559",
+   "boundaryType": "vineyard_distribution",
+   "vertices": 149,
+   "tolM": 50,
+   "areaKm2": 251.6,
+   "blocks": 559,
+   "bufferKm": 3.0,
+   "caveat": "vineyard_distribution —— 非官方边界，仅供地图展示"
+  },
+  {
+   "date": "2026-09-28",
+   "regionId": "maipo",
+   "officialName": "Maipo Valley",
+   "sourceRecordId": "OSM landuse=vineyard × 530",
+   "boundaryType": "vineyard_distribution",
+   "vertices": 353,
+   "tolM": 50,
+   "areaKm2": 345.3,
+   "blocks": 530,
+   "bufferKm": 3.0,
+   "caveat": "vineyard_distribution —— 非官方边界，仅供地图展示"
+  },
+  {
+   "date": "2026-09-28",
+   "regionId": "colchagua",
+   "officialName": "Colchagua Valley",
+   "sourceRecordId": "OSM landuse=vineyard × 1697",
+   "boundaryType": "vineyard_distribution",
+   "vertices": 1017,
+   "tolM": 50,
+   "areaKm2": 1437.0,
+   "blocks": 1697,
+   "bufferKm": 3.0,
+   "caveat": "vineyard_distribution —— 非官方边界，仅供地图展示"
+  },
+  {
+   "date": "2026-09-28",
+   "regionId": "itata",
+   "officialName": "Itata Valley",
+   "sourceRecordId": "OSM landuse=vineyard × 438",
+   "boundaryType": "vineyard_distribution",
+   "vertices": 189,
+   "tolM": 50,
+   "areaKm2": 212.0,
+   "blocks": 438,
+   "bufferKm": 3.0,
+   "caveat": "vineyard_distribution —— 非官方边界，仅供地图展示"
+  },
+  {
+   "date": "2026-09-28",
+   "regionId": "mendoza",
+   "officialName": "Mendoza",
+   "sourceRecordId": "OSM landuse=vineyard × 4671",
+   "boundaryType": "vineyard_distribution",
+   "vertices": 1382,
+   "tolM": 50,
+   "areaKm2": 4500.6,
+   "blocks": 4670,
+   "bufferKm": 3.0,
+   "caveat": "vineyard_distribution —— 非官方边界，仅供地图展示"
+  },
+  {
+   "date": "2026-09-28",
+   "regionId": "salta",
+   "officialName": "Salta (Valles Calchaquíes)",
+   "sourceRecordId": "OSM landuse=vineyard × 231",
+   "boundaryType": "vineyard_distribution",
+   "vertices": 71,
+   "tolM": 50,
+   "areaKm2": 71.3,
+   "blocks": 231,
+   "bufferKm": 3.0,
+   "caveat": "vineyard_distribution —— 非官方边界，仅供地图展示"
+  },
+  {
+   "date": "2026-09-28",
+   "regionId": "patagonia",
+   "officialName": "Patagonia (Río Negro / Neuquén)",
+   "sourceRecordId": "OSM landuse=vineyard × 41",
+   "boundaryType": "vineyard_distribution",
+   "vertices": 14,
+   "tolM": 50,
+   "areaKm2": 6.1,
+   "blocks": 41,
+   "bufferKm": 3.0,
+   "caveat": "vineyard_distribution —— 非官方边界，仅供地图展示"
+  },
+  {
+   "date": "2026-09-28",
+   "regionId": "niagara",
+   "officialName": "Niagara Peninsula",
+   "sourceRecordId": "OSM landuse=vineyard × 836",
+   "boundaryType": "vineyard_distribution",
+   "vertices": 168,
+   "tolM": 50,
+   "areaKm2": 219.4,
+   "blocks": 835,
+   "bufferKm": 3.0,
+   "caveat": "vineyard_distribution —— 非官方边界，仅供地图展示"
+  },
+  {
+   "date": "2026-09-28",
+   "regionId": "okanagan",
+   "officialName": "Okanagan Valley",
+   "sourceRecordId": "OSM landuse=vineyard × 1307",
+   "boundaryType": "vineyard_distribution",
+   "vertices": 355,
+   "tolM": 50,
+   "areaKm2": 280.8,
+   "blocks": 1307,
+   "bufferKm": 3.0,
+   "caveat": "vineyard_distribution —— 非官方边界，仅供地图展示"
+  },
+  {
+   "date": "2026-09-28",
+   "regionId": "valais",
+   "officialName": "Valais",
+   "sourceRecordId": "OSM landuse=vineyard × 1851",
+   "boundaryType": "vineyard_distribution",
+   "vertices": 303,
+   "tolM": 50,
+   "areaKm2": 248.7,
+   "blocks": 1846,
+   "bufferKm": 3.0,
+   "caveat": "vineyard_distribution —— 非官方边界，仅供地图展示"
+  },
+  {
+   "date": "2026-09-28",
+   "regionId": "kakheti",
+   "officialName": "Kakheti",
+   "sourceRecordId": "OSM landuse=vineyard × 577",
+   "boundaryType": "vineyard_distribution",
+   "vertices": 313,
+   "tolM": 50,
+   "areaKm2": 579.0,
+   "blocks": 577,
+   "bufferKm": 3.0,
+   "caveat": "vineyard_distribution —— 非官方边界，仅供地图展示"
+  },
+  {
+   "date": "2026-09-28",
+   "regionId": "codru",
+   "officialName": "Codru",
+   "sourceRecordId": "OSM landuse=vineyard × 11744",
+   "boundaryType": "vineyard_distribution",
+   "vertices": 599,
+   "tolM": 50,
+   "areaKm2": 1612.9,
+   "blocks": 11741,
+   "bufferKm": 3.0,
+   "caveat": "vineyard_distribution —— 非官方边界，仅供地图展示"
+  },
+  {
+   "date": "2026-09-28",
+   "regionId": "thrace",
+   "officialName": "Thrace",
+   "sourceRecordId": "OSM landuse=vineyard × 460",
+   "boundaryType": "vineyard_distribution",
+   "vertices": 120,
+   "tolM": 50,
+   "areaKm2": 83.2,
+   "blocks": 460,
+   "bufferKm": 3.0,
+   "caveat": "vineyard_distribution —— 非官方边界，仅供地图展示"
+  },
+  {
+   "date": "2026-09-28",
+   "regionId": "vale-dos-vinhedos",
+   "officialName": "Vale dos Vinhedos",
+   "sourceRecordId": "OSM landuse=vineyard × 142",
+   "boundaryType": "vineyard_distribution",
+   "vertices": 57,
+   "tolM": 50,
+   "areaKm2": 42.7,
+   "blocks": 142,
+   "bufferKm": 3.0,
+   "caveat": "vineyard_distribution —— 非官方边界，仅供地图展示"
+  },
+  {
+   "date": "2026-09-28",
+   "regionId": "valle-de-guadalupe",
+   "officialName": "Valle de Guadalupe",
+   "sourceRecordId": "OSM landuse=vineyard × 505",
+   "boundaryType": "vineyard_distribution",
+   "vertices": 107,
+   "tolM": 50,
+   "areaKm2": 117.7,
+   "blocks": 505,
+   "bufferKm": 3.0,
+   "caveat": "vineyard_distribution —— 非官方边界，仅供地图展示"
+  },
+  {
+   "date": "2026-09-28",
+   "regionId": "casablanca",
+   "officialName": "Casablanca Valley",
+   "sourceRecordId": "OSM landuse=vineyard × 559",
+   "boundaryType": "vineyard_distribution",
+   "vertices": 149,
+   "tolM": 50,
+   "areaKm2": 251.6,
+   "blocks": 559,
+   "bufferKm": 3.0,
+   "caveat": "vineyard_distribution —— 非官方边界，仅供地图展示"
+  },
+  {
+   "date": "2026-09-28",
+   "regionId": "maipo",
+   "officialName": "Maipo Valley",
+   "sourceRecordId": "OSM landuse=vineyard × 530",
+   "boundaryType": "vineyard_distribution",
+   "vertices": 353,
+   "tolM": 50,
+   "areaKm2": 345.3,
+   "blocks": 530,
+   "bufferKm": 3.0,
+   "caveat": "vineyard_distribution —— 非官方边界，仅供地图展示"
+  },
+  {
+   "date": "2026-09-28",
+   "regionId": "colchagua",
+   "officialName": "Colchagua Valley",
+   "sourceRecordId": "OSM landuse=vineyard × 1697",
+   "boundaryType": "vineyard_distribution",
+   "vertices": 1017,
+   "tolM": 50,
+   "areaKm2": 1437.0,
+   "blocks": 1697,
+   "bufferKm": 3.0,
+   "caveat": "vineyard_distribution —— 非官方边界，仅供地图展示"
+  },
+  {
+   "date": "2026-09-28",
+   "regionId": "itata",
+   "officialName": "Itata Valley",
+   "sourceRecordId": "OSM landuse=vineyard × 438",
+   "boundaryType": "vineyard_distribution",
+   "vertices": 189,
+   "tolM": 50,
+   "areaKm2": 212.0,
+   "blocks": 438,
+   "bufferKm": 3.0,
+   "caveat": "vineyard_distribution —— 非官方边界，仅供地图展示"
+  },
+  {
+   "date": "2026-09-28",
+   "regionId": "mendoza",
+   "officialName": "Mendoza",
+   "sourceRecordId": "OSM landuse=vineyard × 4671",
+   "boundaryType": "vineyard_distribution",
+   "vertices": 1382,
+   "tolM": 50,
+   "areaKm2": 4500.6,
+   "blocks": 4670,
+   "bufferKm": 3.0,
+   "caveat": "vineyard_distribution —— 非官方边界，仅供地图展示"
+  },
+  {
+   "date": "2026-09-28",
+   "regionId": "salta",
+   "officialName": "Salta (Valles Calchaquíes)",
+   "sourceRecordId": "OSM landuse=vineyard × 231",
+   "boundaryType": "vineyard_distribution",
+   "vertices": 71,
+   "tolM": 50,
+   "areaKm2": 71.3,
+   "blocks": 231,
+   "bufferKm": 3.0,
+   "caveat": "vineyard_distribution —— 非官方边界，仅供地图展示"
+  },
+  {
+   "date": "2026-09-28",
+   "regionId": "patagonia",
+   "officialName": "Patagonia (Río Negro / Neuquén)",
+   "sourceRecordId": "OSM landuse=vineyard × 41",
+   "boundaryType": "vineyard_distribution",
+   "vertices": 14,
+   "tolM": 50,
+   "areaKm2": 6.1,
+   "blocks": 41,
+   "bufferKm": 3.0,
+   "caveat": "vineyard_distribution —— 非官方边界，仅供地图展示"
+  },
+  {
+   "date": "2026-09-28",
+   "regionId": "niagara",
+   "officialName": "Niagara Peninsula",
+   "sourceRecordId": "OSM landuse=vineyard × 836",
+   "boundaryType": "vineyard_distribution",
+   "vertices": 168,
+   "tolM": 50,
+   "areaKm2": 219.4,
+   "blocks": 835,
+   "bufferKm": 3.0,
+   "caveat": "vineyard_distribution —— 非官方边界，仅供地图展示"
+  },
+  {
+   "date": "2026-09-28",
+   "regionId": "okanagan",
+   "officialName": "Okanagan Valley",
+   "sourceRecordId": "OSM landuse=vineyard × 1307",
+   "boundaryType": "vineyard_distribution",
+   "vertices": 355,
+   "tolM": 50,
+   "areaKm2": 280.8,
+   "blocks": 1307,
+   "bufferKm": 3.0,
+   "caveat": "vineyard_distribution —— 非官方边界，仅供地图展示"
+  },
+  {
+   "date": "2026-09-28",
+   "regionId": "valais",
+   "officialName": "Valais",
+   "sourceRecordId": "OSM landuse=vineyard × 1851",
+   "boundaryType": "vineyard_distribution",
+   "vertices": 303,
+   "tolM": 50,
+   "areaKm2": 248.7,
+   "blocks": 1846,
+   "bufferKm": 3.0,
+   "caveat": "vineyard_distribution —— 非官方边界，仅供地图展示"
+  },
+  {
+   "date": "2026-09-28",
+   "regionId": "kakheti",
+   "officialName": "Kakheti",
+   "sourceRecordId": "OSM landuse=vineyard × 577",
+   "boundaryType": "vineyard_distribution",
+   "vertices": 313,
+   "tolM": 50,
+   "areaKm2": 579.0,
+   "blocks": 577,
+   "bufferKm": 3.0,
+   "caveat": "vineyard_distribution —— 非官方边界，仅供地图展示"
+  },
+  {
+   "date": "2026-09-28",
+   "regionId": "codru",
+   "officialName": "Codru",
+   "sourceRecordId": "OSM landuse=vineyard × 11744",
+   "boundaryType": "vineyard_distribution",
+   "vertices": 599,
+   "tolM": 50,
+   "areaKm2": 1612.9,
+   "blocks": 11741,
+   "bufferKm": 3.0,
+   "caveat": "vineyard_distribution —— 非官方边界，仅供地图展示"
+  },
+  {
+   "date": "2026-09-28",
+   "regionId": "thrace",
+   "officialName": "Thrace",
+   "sourceRecordId": "OSM landuse=vineyard × 460",
+   "boundaryType": "vineyard_distribution",
+   "vertices": 120,
+   "tolM": 50,
+   "areaKm2": 83.2,
+   "blocks": 460,
+   "bufferKm": 3.0,
+   "caveat": "vineyard_distribution —— 非官方边界，仅供地图展示"
+  },
+  {
+   "date": "2026-09-28",
+   "regionId": "vale-dos-vinhedos",
+   "officialName": "Vale dos Vinhedos",
+   "sourceRecordId": "OSM landuse=vineyard × 142",
+   "boundaryType": "vineyard_distribution",
+   "vertices": 57,
+   "tolM": 50,
+   "areaKm2": 42.7,
+   "blocks": 142,
+   "bufferKm": 3.0,
+   "caveat": "vineyard_distribution —— 非官方边界，仅供地图展示"
+  },
+  {
+   "date": "2026-09-28",
+   "regionId": "valle-de-guadalupe",
+   "officialName": "Valle de Guadalupe",
+   "sourceRecordId": "OSM landuse=vineyard × 505",
+   "boundaryType": "vineyard_distribution",
+   "vertices": 107,
+   "tolM": 50,
+   "areaKm2": 117.7,
+   "blocks": 505,
+   "bufferKm": 3.0,
+   "caveat": "vineyard_distribution —— 非官方边界，仅供地图展示"
+  },
+  {
+   "date": "2026-09-28",
+   "source": "INAO Aires géographiques des AOC/AOP",
+   "sourceURL": "https://www.data.gouv.fr/fr/datasets/aires-geographiques-des-aoc-aop/",
+   "license": "Licence Ouverte / Open Licence（Etalab）",
+   "note": "commune 级法定 aire；几何取 geo.api.gouv.fr 官方市镇边界 union",
+   "added": [
+    {
+     "id": "rhone",
+     "vertices": 1611,
+     "tolM": 50,
+     "areaKm2": 2742.1,
+     "communeCount": 172,
+     "appellationNames": [
+      "Côtes du Rhône"
+     ],
+     "sourceName": "INAO · Aires géographiques des AOC/AOP",
+     "sourceURL": "https://www.data.gouv.fr/fr/datasets/aires-geographiques-des-aoc-aop/",
+     "license": "Licence Ouverte / Open Licence（Etalab）",
+     "licenseURL": "https://www.etalab.gouv.fr/licence-ouverte-open-licence/",
+     "boundaryType": "geographical_indication"
+    },
+    {
+     "id": "beaune",
+     "vertices": 380,
+     "tolM": 50,
+     "areaKm2": 214.1,
+     "communeCount": 19,
+     "appellationNames": [
+      "Aloxe-Corton",
+      "Auxey-Duresses",
+      "Beaune",
+      "Blagny",
+      "Chassagne-Montrachet",
+      "Chorey-lès-Beaune",
+      "Côte de Beaune-Villages",
+      "Ladoix-Serrigny",
+      "Meursault",
+      "Monthélie",
+      "Pernand-Vergelesses",
+      "Puligny-Montrachet",
+      "Saint-Aubin",
+      "Saint-Romain",
+      "Santenay",
+      "Savigny-lès-Beaune",
+      "Volnay"
+     ],
+     "sourceName": "INAO · Aires géographiques des AOC/AOP",
+     "sourceURL": "https://www.data.gouv.fr/fr/datasets/aires-geographiques-des-aoc-aop/",
+     "license": "Licence Ouverte / Open Licence（Etalab）",
+     "licenseURL": "https://www.etalab.gouv.fr/licence-ouverte-open-licence/",
+     "boundaryType": "geographical_indication"
+    }
+   ]
+  },
+  {
+   "date": "2026-09-28",
+   "source": "阿里云 DataV.GeoAtlas（行政区划兜底）+ OSM/Nominatim（中国台湾地区）",
+   "license": "公开可用 / ODbL",
+   "note": "★ administrative_fallback：中国的法定产区地图几何几乎不存在，经用户同意以县级行政边界并集作示意，非法定范围、非种植分布",
+   "added": [
+    {
+     "id": "huailai",
+     "vertices": 1231,
+     "tolM": 50,
+     "areaKm2": 4572.4,
+     "countyNames": [
+      "怀来县",
+      "涿鹿县"
+     ],
+     "boundaryType": "administrative_fallback",
+     "sourceName": "阿里云 DataV.GeoAtlas",
+     "sourceURL": "https://geo.datav.aliyun.com/areas_v3/bound/",
+     "license": "公开可用"
+    },
+    {
+     "id": "mile",
+     "vertices": 669,
+     "tolM": 50,
+     "areaKm2": 3911.3,
+     "countyNames": [
+      "弥勒市"
+     ],
+     "boundaryType": "administrative_fallback",
+     "sourceName": "阿里云 DataV.GeoAtlas",
+     "sourceURL": "https://geo.datav.aliyun.com/areas_v3/bound/",
+     "license": "公开可用"
+    },
+    {
+     "id": "ningxia",
+     "vertices": 3007,
+     "tolM": 50,
+     "areaKm2": 13040.4,
+     "countyNames": [
+      "西夏区",
+      "金凤区",
+      "永宁县",
+      "贺兰县",
+      "平罗县",
+      "青铜峡市",
+      "红寺堡区",
+      "中宁县"
+     ],
+     "boundaryType": "administrative_fallback",
+     "sourceName": "阿里云 DataV.GeoAtlas",
+     "sourceURL": "https://geo.datav.aliyun.com/areas_v3/bound/",
+     "license": "公开可用"
+    },
+    {
+     "id": "penglai",
+     "vertices": 625,
+     "tolM": 50,
+     "areaKm2": 1238.6,
+     "countyNames": [
+      "蓬莱区"
+     ],
+     "boundaryType": "administrative_fallback",
+     "sourceName": "阿里云 DataV.GeoAtlas",
+     "sourceURL": "https://geo.datav.aliyun.com/areas_v3/bound/",
+     "license": "公开可用"
+    },
+    {
+     "id": "shangri-la",
+     "vertices": 2301,
+     "tolM": 50,
+     "areaKm2": 23196.4,
+     "countyNames": [
+      "香格里拉市",
+      "德钦县",
+      "维西傈僳族自治县"
+     ],
+     "boundaryType": "administrative_fallback",
+     "sourceName": "阿里云 DataV.GeoAtlas",
+     "sourceURL": "https://geo.datav.aliyun.com/areas_v3/bound/",
+     "license": "公开可用"
+    },
+    {
+     "id": "taigu",
+     "vertices": 194,
+     "tolM": 50,
+     "areaKm2": 1037.5,
+     "countyNames": [
+      "太谷区"
+     ],
+     "boundaryType": "administrative_fallback",
+     "sourceName": "阿里云 DataV.GeoAtlas",
+     "sourceURL": "https://geo.datav.aliyun.com/areas_v3/bound/",
+     "license": "公开可用"
+    },
+    {
+     "id": "wuwei",
+     "vertices": 1336,
+     "tolM": 50,
+     "areaKm2": 25931.2,
+     "countyNames": [
+      "凉州区",
+      "民勤县",
+      "古浪县"
+     ],
+     "boundaryType": "administrative_fallback",
+     "sourceName": "阿里云 DataV.GeoAtlas",
+     "sourceURL": "https://geo.datav.aliyun.com/areas_v3/bound/",
+     "license": "公开可用"
+    },
+    {
+     "id": "xinjiang",
+     "vertices": 1669,
+     "tolM": 50,
+     "areaKm2": 15169.7,
+     "countyNames": [
+      "焉耆回族自治县",
+      "和硕县"
+     ],
+     "boundaryType": "administrative_fallback",
+     "sourceName": "阿里云 DataV.GeoAtlas",
+     "sourceURL": "https://geo.datav.aliyun.com/areas_v3/bound/",
+     "license": "公开可用"
+    },
+    {
+     "id": "taiwan",
+     "vertices": 994,
+     "tolM": 50,
+     "areaKm2": 7585.0,
+     "countyNames": [
+      "彰化縣",
+      "臺中市",
+      "南投縣"
+     ],
+     "boundaryType": "admin_county",
+     "sourceName": "OSM/Nominatim（中国台湾地区）",
+     "sourceURL": "https://www.openstreetmap.org/",
+     "license": "ODbL 1.0"
+    }
+   ]
+  },
+  {
+   "date": "2026-09-28",
+   "source": "阿里云 DataV.GeoAtlas（行政区划兜底）+ OSM/Nominatim（中国台湾地区）",
+   "license": "公开可用 / ODbL",
+   "note": "★ administrative_fallback：中国的法定产区地图几何几乎不存在，经用户同意以县级行政边界并集作示意，非法定范围、非种植分布",
+   "added": [
+    {
+     "id": "yili",
+     "vertices": 2773,
+     "tolM": 50,
+     "areaKm2": 10604.3,
+     "countyNames": [
+      "伊宁市",
+      "霍尔果斯市",
+      "可克达拉市",
+      "霍城县",
+      "察布查尔锡伯自治县"
+     ],
+     "boundaryType": "administrative_fallback",
+     "sourceName": "阿里云 DataV.GeoAtlas",
+     "sourceURL": "https://geo.datav.aliyun.com/areas_v3/bound/",
+     "license": "公开可用"
+    }
+   ]
+  },
+  {
+   "date": "2026-09-28",
+   "source": "INAO Aires géographiques des AOC/AOP",
+   "sourceURL": "https://www.data.gouv.fr/fr/datasets/aires-geographiques-des-aoc-aop/",
+   "license": "Licence Ouverte / Open Licence（Etalab）",
+   "note": "commune 级法定 aire；几何取 geo.api.gouv.fr 官方市镇边界 union",
+   "added": [
+    {
+     "id": "jura",
+     "vertices": 1076,
+     "tolM": 50,
+     "areaKm2": 767.9,
+     "communeCount": 94,
+     "appellationNames": [
+      "Côtes du Jura"
+     ],
+     "sourceName": "INAO · Aires géographiques des AOC/AOP",
+     "sourceURL": "https://www.data.gouv.fr/fr/datasets/aires-geographiques-des-aoc-aop/",
+     "license": "Licence Ouverte / Open Licence（Etalab）",
+     "licenseURL": "https://www.etalab.gouv.fr/licence-ouverte-open-licence/",
+     "boundaryType": "geographical_indication"
+    }
+   ]
+  },
+  {
+   "date": "2026-09-28",
+   "source": "INAO Aires géographiques des AOC/AOP",
+   "sourceURL": "https://www.data.gouv.fr/fr/datasets/aires-geographiques-des-aoc-aop/",
+   "license": "Licence Ouverte / Open Licence（Etalab）",
+   "note": "commune 级法定 aire；几何取 geo.api.gouv.fr 官方市镇边界 union",
+   "added": [
+    {
+     "id": "pays-d-oc",
+     "vertices": 3197,
+     "tolM": 50,
+     "areaKm2": 27787.4,
+     "departementCodes": [
+      "11",
+      "30",
+      "34",
+      "66",
+      "48"
+     ],
+     "boundaryType": "administrative_fallback",
+     "sourceName": "IGN Admin Express（省级行政界）",
+     "sourceURL": "https://github.com/gregoiredavid/france-geojson",
+     "license": "Licence Ouverte / Open Licence（Etalab）"
+    }
+   ]
+  },
+  {
+   "date": "2026-09-29",
+   "source": "INAO Délimitation parcellaire des AOC viticoles（地块级）",
+   "sourceURL": "https://www.data.gouv.fr/fr/datasets/delimitation-parcellaire-des-aoc-viticoles-de-linao/",
+   "license": "Licence Ouverte / Open Licence（Etalab）",
+   "note": "★ 把法国 AOC 从 commune 级升级为地块级（最高精度公开几何）；手写 SHP 解析（无 GDAL），Lambert-93 → WGS84",
+   "added": [
+    {
+     "id": "beaune",
+     "vertices": 3134,
+     "tolM": 50,
+     "areaKm2": 39.6,
+     "previousAreaKm2": 214.1,
+     "parcelFeatureCount": 357,
+     "communeCount": 20,
+     "appellationNames": [
+      "Aloxe-Corton",
+      "Auxey-Duresses",
+      "Beaune",
+      "Blagny",
+      "Chassagne-Montrachet",
+      "Chorey-lès-Beaune",
+      "Côte de Beaune-Villages",
+      "Ladoix",
+      "Meursault",
+      "Monthélie",
+      "Pernand-Vergelesses",
+      "Puligny-Montrachet",
+      "Saint-Aubin",
+      "Saint-Romain",
+      "Santenay",
+      "Savigny-lès-Beaune",
+      "Volnay"
+     ],
+     "boundaryType": "geographical_indication",
+     "precision": "parcellaire",
+     "sourceName": "INAO · Délimitation parcellaire des AOC viticoles",
+     "sourceURL": "https://www.data.gouv.fr/fr/datasets/delimitation-parcellaire-des-aoc-viticoles-de-linao/",
+     "license": "Licence Ouverte / Open Licence（Etalab）"
+    },
+    {
+     "id": "jura",
+     "vertices": 6063,
+     "tolM": 100,
+     "areaKm2": 97.6,
+     "previousAreaKm2": 767.9,
+     "parcelFeatureCount": 105,
+     "communeCount": 97,
+     "appellationNames": [
+      "Côtes du Jura"
+     ],
+     "boundaryType": "geographical_indication",
+     "precision": "parcellaire",
+     "sourceName": "INAO · Délimitation parcellaire des AOC viticoles",
+     "sourceURL": "https://www.data.gouv.fr/fr/datasets/delimitation-parcellaire-des-aoc-viticoles-de-linao/",
+     "license": "Licence Ouverte / Open Licence（Etalab）"
+    }
+   ]
+  }
+ ],
+ "batches": [
+  {
+   "batch": "WSET-L3-法国结构对齐",
+   "date": "2026-09-29",
+   "source": "INAO aires géographiques des AOC/AOP（commune 级）+ geo.api.gouv.fr",
+   "added": [
+    {
+     "id": "bordeaux-superieur",
+     "label": "优级波尔多 Bordeaux Supérieur",
+     "vertices": 1105,
+     "tolM": 50,
+     "areaKm2": 7180.4,
+     "communes": 501,
+     "missing": 0,
+     "aires": [
+      "Bordeaux supérieur"
+     ]
+    },
+    {
+     "id": "cotes-de-bordeaux",
+     "label": "波尔多丘 Côtes de Bordeaux",
+     "vertices": 983,
+     "tolM": 50,
+     "areaKm2": 1269.5,
+     "communes": 111,
+     "missing": 0,
+     "aires": [
+      "Côtes de Bordeaux"
+     ]
+    },
+    {
+     "id": "entre-deux-mers",
+     "label": "两海之间 Entre-Deux-Mers",
+     "vertices": 656,
+     "tolM": 50,
+     "areaKm2": 1120.8,
+     "communes": 133,
+     "missing": 0,
+     "aires": [
+      "Entre-deux-Mers"
+     ]
+    },
+    {
+     "id": "haut-medoc",
+     "label": "上梅多克 Haut-Médoc",
+     "vertices": 180,
+     "tolM": 50,
+     "areaKm2": 977.9,
+     "communes": 29,
+     "missing": 0,
+     "aires": [
+      "Haut-Médoc"
+     ]
+    },
+    {
+     "id": "saint-estephe",
+     "label": "圣埃斯泰夫 Saint-Estèphe",
+     "vertices": 46,
+     "tolM": 50,
+     "areaKm2": 33.1,
+     "communes": 1,
+     "missing": 0,
+     "aires": [
+      "Saint-Estèphe"
+     ]
+    },
+    {
+     "id": "pauillac",
+     "label": "波亚克 Pauillac",
+     "vertices": 87,
+     "tolM": 50,
+     "areaKm2": 135.1,
+     "communes": 5,
+     "missing": 0,
+     "aires": [
+      "Pauillac"
+     ]
+    },
+    {
+     "id": "margaux",
+     "label": "玛歌 Margaux",
+     "vertices": 86,
+     "tolM": 50,
+     "areaKm2": 74.4,
+     "communes": 5,
+     "missing": 0,
+     "aires": [
+      "Margaux"
+     ]
+    },
+    {
+     "id": "saint-julien",
+     "label": "圣朱利安 Saint-Julien",
+     "vertices": 107,
+     "tolM": 50,
+     "areaKm2": 216.6,
+     "communes": 4,
+     "missing": 0,
+     "aires": [
+      "Saint-Julien"
+     ]
+    },
+    {
+     "id": "graves",
+     "label": "格拉夫 Graves",
+     "vertices": 380,
+     "tolM": 50,
+     "areaKm2": 910.4,
+     "communes": 42,
+     "missing": 0,
+     "aires": [
+      "Graves"
+     ]
+    },
+    {
+     "id": "pessac-leognan",
+     "label": "佩萨克-雷奥良 Pessac-Léognan",
+     "vertices": 155,
+     "tolM": 50,
+     "areaKm2": 230.8,
+     "communes": 10,
+     "missing": 0,
+     "aires": [
+      "Pessac-Léognan"
+     ]
+    },
+    {
+     "id": "pomerol",
+     "label": "波美侯 Pomerol",
+     "vertices": 173,
+     "tolM": 50,
+     "areaKm2": 129.6,
+     "communes": 8,
+     "missing": 0,
+     "aires": [
+      "Pomerol"
+     ]
+    },
+    {
+     "id": "sauternes",
+     "label": "苏玳 Sauternes",
+     "vertices": 105,
+     "tolM": 50,
+     "areaKm2": 60.3,
+     "communes": 5,
+     "missing": 0,
+     "aires": [
+      "Sauternes"
+     ]
+    },
+    {
+     "id": "barsac",
+     "label": "巴萨克 Barsac",
+     "vertices": 40,
+     "tolM": 50,
+     "areaKm2": 14.6,
+     "communes": 1,
+     "missing": 0,
+     "aires": [
+      "Barsac"
+     ]
+    },
+    {
+     "id": "saint-emilion-grand-cru",
+     "label": "圣埃美隆特级园 Saint-Émilion Grand Cru",
+     "vertices": 145,
+     "tolM": 50,
+     "areaKm2": 99.3,
+     "communes": 9,
+     "missing": 0,
+     "aires": [
+      "Saint-Emilion grand cru"
+     ]
+    },
+    {
+     "id": "bergerac",
+     "label": "贝尔热拉克 Bergerac",
+     "vertices": 1027,
+     "tolM": 50,
+     "areaKm2": 1313.5,
+     "communes": 90,
+     "missing": 0,
+     "aires": [
+      "Bergerac"
+     ]
+    },
+    {
+     "id": "monbazillac",
+     "label": "蒙巴兹雅克 Monbazillac",
+     "vertices": 124,
+     "tolM": 50,
+     "areaKm2": 60.9,
+     "communes": 5,
+     "missing": 0,
+     "aires": [
+      "Monbazillac"
+     ]
+    },
+    {
+     "id": "cahors",
+     "label": "卡奥尔 Cahors",
+     "vertices": 548,
+     "tolM": 50,
+     "areaKm2": 683.6,
+     "communes": 45,
+     "missing": 0,
+     "aires": [
+      "Cahors"
+     ]
+    },
+    {
+     "id": "madiran",
+     "label": "马迪朗 Madiran",
+     "vertices": 348,
+     "tolM": 50,
+     "areaKm2": 312.3,
+     "communes": 37,
+     "missing": 0,
+     "aires": [
+      "Madiran"
+     ]
+    },
+    {
+     "id": "jurancon",
+     "label": "朱朗松 Jurançon",
+     "vertices": 356,
+     "tolM": 50,
+     "areaKm2": 419.1,
+     "communes": 25,
+     "missing": 0,
+     "aires": [
+      "Jurançon"
+     ]
+    },
+    {
+     "id": "bourgogne-cote-d-or",
+     "label": "勃艮第-金丘 Bourgogne Côte d'Or",
+     "vertices": 663,
+     "tolM": 50,
+     "areaKm2": 441.5,
+     "communes": 40,
+     "missing": 0,
+     "aires": [
+      "Bourgogne Côte d'Or"
+     ]
+    },
+    {
+     "id": "bourgogne-hautes-cotes-de-nuits",
+     "label": "勃艮第-上夜丘 Bourgogne Hautes Côtes de Nuits",
+     "vertices": 225,
+     "tolM": 50,
+     "areaKm2": 118.3,
+     "communes": 19,
+     "missing": 0,
+     "aires": [
+      "Bourgogne Hautes Côtes de Nuits"
+     ]
+    },
+    {
+     "id": "cotes-de-nuits-villages",
+     "label": "夜丘村庄 Côtes de Nuits-Villages",
+     "vertices": 130,
+     "tolM": 50,
+     "areaKm2": 42.5,
+     "communes": 5,
+     "missing": 0,
+     "aires": [
+      "Côte de Nuits-Villages"
+     ]
+    },
+    {
+     "id": "gevrey-chambertin",
+     "label": "热夫雷-香贝丹 Gevrey-Chambertin",
+     "vertices": 61,
+     "tolM": 50,
+     "areaKm2": 32.4,
+     "communes": 2,
+     "missing": 0,
+     "aires": [
+      "Gevrey-Chambertin"
+     ]
+    },
+    {
+     "id": "vougeot",
+     "label": "武乔 Vougeot",
+     "vertices": 14,
+     "tolM": 50,
+     "areaKm2": 0.9,
+     "communes": 1,
+     "missing": 0,
+     "aires": [
+      "Vougeot"
+     ]
+    },
+    {
+     "id": "vosne-romanee",
+     "label": "沃恩-罗曼尼 Vosne-Romanée",
+     "vertices": 48,
+     "tolM": 50,
+     "areaKm2": 11.7,
+     "communes": 2,
+     "missing": 0,
+     "aires": [
+      "Vosne-Romanée"
+     ]
+    },
+    {
+     "id": "bourgogne-hautes-cotes-de-beaune",
+     "label": "勃艮第-上博讷丘 Bourgogne Hautes Côtes de Beaune",
+     "vertices": 365,
+     "tolM": 50,
+     "areaKm2": 284.1,
+     "communes": 29,
+     "missing": 0,
+     "aires": [
+      "Bourgogne Hautes Côtes de Beaune"
+     ]
+    },
+    {
+     "id": "cote-de-beaune-villages",
+     "label": "博讷丘村庄 Côte de Beaune-Villages",
+     "vertices": 348,
+     "tolM": 50,
+     "areaKm2": 172.8,
+     "communes": 16,
+     "missing": 0,
+     "aires": [
+      "Côte de Beaune-Villages"
+     ]
+    },
+    {
+     "id": "aloxe-corton",
+     "label": "阿罗克斯-科通 Aloxe-Corton",
+     "vertices": 78,
+     "tolM": 50,
+     "areaKm2": 33.0,
+     "communes": 3,
+     "missing": 0,
+     "aires": [
+      "Aloxe-Corton"
+     ]
+    },
+    {
+     "id": "beaune-village",
+     "label": "博讷 Beaune",
+     "vertices": 73,
+     "tolM": 50,
+     "areaKm2": 31.1,
+     "communes": 1,
+     "missing": 0,
+     "aires": [
+      "Beaune"
+     ]
+    },
+    {
+     "id": "pommard",
+     "label": "玻玛 Pommard",
+     "vertices": 40,
+     "tolM": 50,
+     "areaKm2": 10.1,
+     "communes": 1,
+     "missing": 0,
+     "aires": [
+      "Pommard"
+     ]
+    },
+    {
+     "id": "volnay",
+     "label": "沃尔奈 Volnay",
+     "vertices": 79,
+     "tolM": 50,
+     "areaKm2": 23.7,
+     "communes": 2,
+     "missing": 0,
+     "aires": [
+      "Volnay"
+     ]
+    },
+    {
+     "id": "meursault",
+     "label": "默尔索 Meursault",
+     "vertices": 55,
+     "tolM": 50,
+     "areaKm2": 16.2,
+     "communes": 1,
+     "missing": 0,
+     "aires": [
+      "Meursault"
+     ]
+    },
+    {
+     "id": "puligny-montrachet",
+     "label": "普里尼-蒙哈榭 Puligny-Montrachet",
+     "vertices": 34,
+     "tolM": 50,
+     "areaKm2": 7.3,
+     "communes": 1,
+     "missing": 0,
+     "aires": [
+      "Puligny-Montrachet"
+     ]
+    },
+    {
+     "id": "chassagne-montrachet",
+     "label": "夏山-蒙哈榭 Chassagne-Montrachet",
+     "vertices": 42,
+     "tolM": 50,
+     "areaKm2": 9.0,
+     "communes": 2,
+     "missing": 0,
+     "aires": [
+      "Chassagne-Montrachet"
+     ]
+    },
+    {
+     "id": "bourgogne-cote-chalonnaise",
+     "label": "勃艮第-夏隆内丘 Bourgogne Côte Chalonnaise",
+     "vertices": 533,
+     "tolM": 50,
+     "areaKm2": 376.1,
+     "communes": 44,
+     "missing": 0,
+     "aires": [
+      "Bourgogne Côte Chalonnaise"
+     ]
+    },
+    {
+     "id": "rully",
+     "label": "吕利 Rully",
+     "vertices": 78,
+     "tolM": 50,
+     "areaKm2": 34.6,
+     "communes": 2,
+     "missing": 0,
+     "aires": [
+      "Rully"
+     ]
+    },
+    {
+     "id": "mercurey",
+     "label": "梅尔居雷 Mercurey",
+     "vertices": 81,
+     "tolM": 50,
+     "areaKm2": 19.1,
+     "communes": 2,
+     "missing": 0,
+     "aires": [
+      "Mercurey"
+     ]
+    },
+    {
+     "id": "givry",
+     "label": "日夫里 Givry",
+     "vertices": 109,
+     "tolM": 50,
+     "areaKm2": 40.8,
+     "communes": 3,
+     "missing": 0,
+     "aires": [
+      "Givry"
+     ]
+    },
+    {
+     "id": "montagny",
+     "label": "蒙达涅 Montagny",
+     "vertices": 73,
+     "tolM": 50,
+     "areaKm2": 40.7,
+     "communes": 4,
+     "missing": 0,
+     "aires": [
+      "Montagny"
+     ]
+    },
+    {
+     "id": "macon",
+     "label": "马孔 Mâcon",
+     "vertices": 799,
+     "tolM": 50,
+     "areaKm2": 860.7,
+     "communes": 91,
+     "missing": 0,
+     "aires": [
+      "Mâcon"
+     ]
+    },
+    {
+     "id": "macon-villages",
+     "label": "马孔村庄 Mâcon Villages",
+     "vertices": 838,
+     "tolM": 50,
+     "areaKm2": 771.5,
+     "communes": 84,
+     "missing": 0,
+     "aires": [
+      "Mâcon Villages"
+     ]
+    },
+    {
+     "id": "pouilly-fuisse",
+     "label": "普依-富塞 Pouilly-Fuissé",
+     "vertices": 76,
+     "tolM": 50,
+     "areaKm2": 20.1,
+     "communes": 4,
+     "missing": 0,
+     "aires": [
+      "Pouilly-Fuissé"
+     ]
+    },
+    {
+     "id": "saint-veran",
+     "label": "圣韦朗 Saint-Véran",
+     "vertices": 147,
+     "tolM": 50,
+     "areaKm2": 33.6,
+     "communes": 7,
+     "missing": 0,
+     "aires": [
+      "Saint-Véran"
+     ]
+    },
+    {
+     "id": "beaujolais-aoc",
+     "label": "博若莱 Beaujolais",
+     "vertices": 430,
+     "tolM": 50,
+     "areaKm2": 872.8,
+     "communes": 96,
+     "missing": 0,
+     "aires": [
+      "Beaujolais"
+     ]
+    },
+    {
+     "id": "beaujolais-villages",
+     "label": "博若莱村庄 Beaujolais Villages",
+     "vertices": 330,
+     "tolM": 50,
+     "areaKm2": 391.9,
+     "communes": 38,
+     "missing": 0,
+     "aires": [
+      "Beaujolais Villages"
+     ]
+    },
+    {
+     "id": "brouilly",
+     "label": "布鲁依 Brouilly",
+     "vertices": 108,
+     "tolM": 50,
+     "areaKm2": 64.3,
+     "communes": 6,
+     "missing": 0,
+     "aires": [
+      "Brouilly"
+     ]
+    },
+    {
+     "id": "fleurie",
+     "label": "富瑶 Fleurie",
+     "vertices": 37,
+     "tolM": 50,
+     "areaKm2": 14.0,
+     "communes": 1,
+     "missing": 0,
+     "aires": [
+      "Fleurie"
+     ]
+    },
+    {
+     "id": "morgon",
+     "label": "墨贡 Morgon",
+     "vertices": 46,
+     "tolM": 50,
+     "areaKm2": 18.5,
+     "communes": 1,
+     "missing": 0,
+     "aires": [
+      "Morgon"
+     ]
+    },
+    {
+     "id": "moulin-a-vent",
+     "label": "风磨坊 Moulin-à-Vent",
+     "vertices": 71,
+     "tolM": 50,
+     "areaKm2": 17.9,
+     "communes": 2,
+     "missing": 0,
+     "aires": [
+      "Moulin-à-Vent"
+     ]
+    },
+    {
+     "id": "alsace-grand-cru",
+     "label": "阿尔萨斯特级葡萄园 Alsace Grand Cru（51 个单园并集）",
+     "vertices": 1072,
+     "tolM": 50,
+     "areaKm2": 543.2,
+     "communes": 47,
+     "missing": 0,
+     "aires": [
+      "Alsace grand cru Altenberg de Bergbieten",
+      "Alsace grand cru Altenberg de Bergheim",
+      "Alsace grand cru Altenberg de Wolxheim",
+      "Alsace grand cru Brand",
+      "Alsace grand cru Bruderthal",
+      "Alsace grand cru Eichberg",
+      "Alsace grand cru Engelberg",
+      "Alsace grand cru Florimont",
+      "Alsace grand cru Frankstein",
+      "Alsace grand cru Froehn",
+      "Alsace grand cru Furstentum",
+      "Alsace grand cru Geisberg",
+      "Alsace grand cru Gloeckelberg",
+      "Alsace grand cru Goldert",
+      "Alsace grand cru Hatschbourg",
+      "Alsace grand cru Hengst",
+      "Alsace grand cru Kaefferkopf",
+      "Alsace grand cru Kanzlerberg",
+      "Alsace grand cru Kastelberg",
+      "Alsace grand cru Kessler",
+      "Alsace grand cru Kirchberg de Barr",
+      "Alsace grand cru Kirchberg de Ribeauvillé",
+      "Alsace grand cru Kitterlé",
+      "Alsace grand cru Mambourg",
+      "Alsace grand cru Mandelberg",
+      "Alsace grand cru Marckrain",
+      "Alsace grand cru Moenchberg",
+      "Alsace grand cru Muenchberg",
+      "Alsace grand cru Ollwiller",
+      "Alsace grand cru Osterberg",
+      "Alsace grand cru Pfersigberg",
+      "Alsace grand cru Pfingstberg",
+      "Alsace grand cru Praelatenberg",
+      "Alsace grand cru Rangen",
+      "Alsace grand cru Rosacker",
+      "Alsace grand cru Saering",
+      "Alsace grand cru Schlossberg",
+      "Alsace grand cru Schoenenbourg",
+      "Alsace grand cru Sommerberg",
+      "Alsace grand cru Sonnenglanz",
+      "Alsace grand cru Spiegel",
+      "Alsace grand cru Sporen",
+      "Alsace grand cru Steinert",
+      "Alsace grand cru Steingrubler",
+      "Alsace grand cru Steinklotz",
+      "Alsace grand cru Vorbourg",
+      "Alsace grand cru Wiebelsberg",
+      "Alsace grand cru Wineck-Schlossberg",
+      "Alsace grand cru Winzenberg",
+      "Alsace grand cru Zinnkoepfle",
+      "Alsace grand cru Zotzenberg"
+     ]
+    },
+    {
+     "id": "muscadet",
+     "label": "慕斯卡德 Muscadet",
+     "vertices": 1541,
+     "tolM": 50,
+     "areaKm2": 2650.9,
+     "communes": 79,
+     "missing": 0,
+     "aires": [
+      "Muscadet"
+     ]
+    },
+    {
+     "id": "muscadet-sevre-et-maine",
+     "label": "慕斯卡德-塞夫勒曼 Muscadet Sèvre et Maine",
+     "vertices": 541,
+     "tolM": 50,
+     "areaKm2": 665.3,
+     "communes": 23,
+     "missing": 0,
+     "aires": [
+      "Muscadet Sèvre et Maine"
+     ]
+    },
+    {
+     "id": "anjou",
+     "label": "安茹 Anjou",
+     "vertices": 1802,
+     "tolM": 50,
+     "areaKm2": 3233.2,
+     "communes": 150,
+     "missing": 0,
+     "aires": [
+      "Anjou"
+     ]
+    },
+    {
+     "id": "coteaux-du-layon",
+     "label": "莱昂丘 Coteaux du Layon",
+     "vertices": 742,
+     "tolM": 50,
+     "areaKm2": 951.3,
+     "communes": 27,
+     "missing": 0,
+     "aires": [
+      "Coteaux du Layon"
+     ]
+    },
+    {
+     "id": "savennieres",
+     "label": "萨维涅尔 Savennières",
+     "vertices": 74,
+     "tolM": 50,
+     "areaKm2": 60.6,
+     "communes": 3,
+     "missing": 0,
+     "aires": [
+      "Savennières"
+     ]
+    },
+    {
+     "id": "saumur",
+     "label": "索米尔 Saumur（静态酒红+白桃红并集）",
+     "vertices": 516,
+     "tolM": 50,
+     "areaKm2": 664.5,
+     "communes": 38,
+     "missing": 0,
+     "aires": [
+      "Saumur (vins tranquilles rouges)",
+      "Saumur (vins tranquilles blancs et rosés)"
+     ]
+    },
+    {
+     "id": "saumur-champigny",
+     "label": "索米尔-尚皮尼 Saumur-Champigny",
+     "vertices": 172,
+     "tolM": 50,
+     "areaKm2": 134.5,
+     "communes": 8,
+     "missing": 0,
+     "aires": [
+      "Saumur-Champigny"
+     ]
+    },
+    {
+     "id": "touraine",
+     "label": "图赖讷 Touraine",
+     "vertices": 1904,
+     "tolM": 50,
+     "areaKm2": 3145.7,
+     "communes": 143,
+     "missing": 0,
+     "aires": [
+      "Touraine"
+     ]
+    },
+    {
+     "id": "bourgueil",
+     "label": "布尔格伊 Bourgueil",
+     "vertices": 175,
+     "tolM": 50,
+     "areaKm2": 201.6,
+     "communes": 8,
+     "missing": 0,
+     "aires": [
+      "Bourgueil"
+     ]
+    },
+    {
+     "id": "pouilly-fume",
+     "label": "普依-芙美 Pouilly-Fumé",
+     "vertices": 178,
+     "tolM": 50,
+     "areaKm2": 129.0,
+     "communes": 7,
+     "missing": 0,
+     "aires": [
+      "Pouilly-Fumé ou Blanc Fumé de Pouilly et Pouilly-sur-Loire"
+     ]
+    },
+    {
+     "id": "menetou-salon",
+     "label": "默讷图-萨隆 Menetou-Salon",
+     "vertices": 195,
+     "tolM": 50,
+     "areaKm2": 181.0,
+     "communes": 10,
+     "missing": 0,
+     "aires": [
+      "Menetou-Salon"
+     ]
+    },
+    {
+     "id": "rose-de-loire",
+     "label": "卢瓦尔桃红 Rosé de Loire",
+     "vertices": 3555,
+     "tolM": 50,
+     "areaKm2": 6347.6,
+     "communes": 292,
+     "missing": 0,
+     "aires": [
+      "Rosé de Loire"
+     ]
+    },
+    {
+     "id": "cotes-du-rhone-villages",
+     "label": "罗讷河谷村庄 Côtes du Rhône Villages",
+     "vertices": 1340,
+     "tolM": 50,
+     "areaKm2": 1783.6,
+     "communes": 95,
+     "missing": 0,
+     "aires": [
+      "Côtes du Rhône Villages"
+     ]
+    },
+    {
+     "id": "vacqueyras",
+     "label": "瓦给拉斯 Vacqueyras",
+     "vertices": 54,
+     "tolM": 50,
+     "areaKm2": 46.6,
+     "communes": 2,
+     "missing": 0,
+     "aires": [
+      "Vacqueyras"
+     ]
+    },
+    {
+     "id": "lirac",
+     "label": "利哈克 Lirac",
+     "vertices": 100,
+     "tolM": 50,
+     "areaKm2": 60.7,
+     "communes": 4,
+     "missing": 0,
+     "aires": [
+      "Lirac"
+     ]
+    },
+    {
+     "id": "tavel",
+     "label": "塔维勒 Tavel",
+     "vertices": 75,
+     "tolM": 50,
+     "areaKm2": 46.4,
+     "communes": 2,
+     "missing": 0,
+     "aires": [
+      "Tavel"
+     ]
+    },
+    {
+     "id": "languedoc",
+     "label": "朗格多克 Languedoc",
+     "vertices": 5345,
+     "tolM": 50,
+     "areaKm2": 8969.5,
+     "communes": 530,
+     "missing": 0,
+     "aires": [
+      "Languedoc"
+     ]
+    },
+    {
+     "id": "minervois",
+     "label": "米内瓦 Minervois",
+     "vertices": 517,
+     "tolM": 50,
+     "areaKm2": 805.1,
+     "communes": 61,
+     "missing": 0,
+     "aires": [
+      "Minervois"
+     ]
+    },
+    {
+     "id": "fitou",
+     "label": "菲图 Fitou",
+     "vertices": 208,
+     "tolM": 50,
+     "areaKm2": 259.4,
+     "communes": 9,
+     "missing": 0,
+     "aires": [
+      "Fitou"
+     ]
+    },
+    {
+     "id": "corbieres",
+     "label": "科比埃尔 Corbières",
+     "vertices": 580,
+     "tolM": 50,
+     "areaKm2": 1900.6,
+     "communes": 87,
+     "missing": 0,
+     "aires": [
+      "Corbières"
+     ]
+    },
+    {
+     "id": "picpoul-de-pinet",
+     "label": "皮纳匹格普勒 Picpoul de Pinet",
+     "vertices": 174,
+     "tolM": 50,
+     "areaKm2": 166.2,
+     "communes": 6,
+     "missing": 0,
+     "aires": [
+      "Picpoul de Pinet"
+     ]
+    },
+    {
+     "id": "cotes-du-roussillon",
+     "label": "鲁西永丘 Côtes du Roussillon",
+     "vertices": 908,
+     "tolM": 50,
+     "areaKm2": 1916.3,
+     "communes": 117,
+     "missing": 0,
+     "aires": [
+      "Côtes du Roussillon"
+     ]
+    },
+    {
+     "id": "cotes-du-roussillon-villages",
+     "label": "鲁西永丘村庄 Côtes du Roussillon Villages",
+     "vertices": 508,
+     "tolM": 50,
+     "areaKm2": 777.8,
+     "communes": 36,
+     "missing": 0,
+     "aires": [
+      "Côtes du Roussillon Villages"
+     ]
+    },
+    {
+     "id": "bandol",
+     "label": "邦多勒 Bandol",
+     "vertices": 254,
+     "tolM": 50,
+     "areaKm2": 231.9,
+     "communes": 8,
+     "missing": 0,
+     "aires": [
+      "Bandol"
+     ]
+    },
+    {
+     "id": "cotes-de-provence",
+     "label": "普罗旺斯丘 Côtes de Provence",
+     "vertices": 3593,
+     "tolM": 50,
+     "areaKm2": 3477.3,
+     "communes": 84,
+     "missing": 0,
+     "aires": [
+      "Côtes de Provence"
+     ]
+    }
+   ],
+   "skipped": [],
+   "noBoundary": {
+    "cotes-de-gascogne": "Côtes de Gascogne 是 IGP（非 AOC），INAO AOC 清单未列其 aire。",
+    "rose-d-anjou": "Rosé d'Anjou 在 INAO 清单中未单列 aire géographique（归 Anjou 体系）。",
+    "cabernet-d-anjou": "Cabernet d'Anjou 在 INAO 清单中未单列 aire géographique（归 Anjou 体系）。"
+   },
+   "note": "为 WSET L3 考纲 98 条法国列名产区补齐法定边界（commune 级）。"
+  }
+ ]
+}

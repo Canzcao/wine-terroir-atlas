@@ -1,0 +1,36 @@
+# 统一换行符，避免 Windows 上提交的 CRLF 传到 Linux 后
+# 让 shell 脚本的 shebang 失效（`#!/usr/bin/env bash\r` 会找不到解释器）。
+* text=auto eol=lf
+
+# 明确按文本处理
+*.js    text eol=lf
+*.mjs   text eol=lf
+*.css   text eol=lf
+*.html  text eol=lf
+*.json  text eol=lf
+*.md    text eol=lf
+*.py    text eol=lf
+*.sh    text eol=lf
+*.cjs   text eol=lf
+
+# Windows 批处理必须保留 CRLF
+*.bat   text eol=crlf
+*.cmd   text eol=crlf
+
+# ---- 数据文件 ----
+# geojson / 大型 JSON 多为单行，按二进制处理：不做换行转换、不做 diff
+# （否则 git 会尝试逐行比对，几 MB 的单行文件会让 git status / diff 卡住）
+*.geojson  binary
+*.gpkg     binary
+
+# 图片与字体
+*.png   binary
+*.jpg   binary
+*.jpeg  binary
+*.gif   binary
+*.webp  binary
+*.ico   binary
+*.woff  binary
+*.woff2 binary
+*.zip   binary
+*.gz    binary

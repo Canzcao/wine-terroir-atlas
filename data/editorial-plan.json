@@ -28,12 +28,14 @@
    "name": "Cornas AOC",
    "country": "法国",
    "status": "collected",
-   "checkedDate": "2026-09-14",
+   "checkedDate": "2026-09-20",
    "producerBaseline": 71,
    "producersChecked": 71,
-   "note": "003期已采集并并入站点目录：官方名录 71 条照录，4 家有 OSM 坐标证据，698 张官网图（38 家有图）逐张复核，读标确认 Cornas 酒款图 28 张，7 条事件。并库结果：新增 63 条 + 9 家跨产区就地补齐，目录 254 → 317 条，对已发布记录 0 覆盖。缺口：仍无 wine/vintage 级记录。 2026-09-17 增补轮：官网搜索（新确认 julienpilon.fr、jdenuziere.fr 直采；domaine-durand.fr 归属存疑已隔离）+ 0 图酒庄重试（Lionnet +9），图片 698→730（41 家有图），人工复核 331→363 条；23 张新图与复核分类已同步进 catalog-seed。仍缺：wine/vintage 级记录、4 家连接重置、5 家 JS 渲染站、8 家小酒商官网未搜。",
+   "note": "003期已采集并并入站点目录：官方名录 71 条照录，4 家有 OSM 坐标证据，698 张官网图（38 家有图）逐张复核，读标确认 Cornas 酒款图 28 张，7 条事件。并库结果：新增 63 条 + 9 家跨产区就地补齐，目录 254 → 317 条，对已发布记录 0 覆盖。缺口：仍无 wine/vintage 级记录。 2026-09-17 增补轮：官网搜索（新确认 julienpilon.fr、jdenuziere.fr 直采；domaine-durand.fr 归属存疑已隔离）+ 0 图酒庄重试（Lionnet +9），图片 698→730（41 家有图），人工复核 331→363 条；23 张新图与复核分类已同步进 catalog-seed。仍缺：wine/vintage 级记录、4 家连接重置、5 家 JS 渲染站、8 家小酒商官网未搜。 2026-09-20 增补轮 5（末轮）：wine/vintage 级结构化记录落地——把 09-19 读标复核确认的 34 张标面 CORNAS 图归并为 26 条 wine + 3 条 vintage（年份仅 Voge 2011/2018、Gilles Robin 2023 为瓶标可读），grape percent 按 AOC 法定单一西拉口径标 100 并在 grapeNote 说明。目录 567→596。剩余缺口：非法定名录的经销商名单、地块边界、Vincent Paris 真实官网、4 家连接重置站、5 家 JS 渲染站、8 家小酒商官网。",
    "sourceURL": "https://www.aoc-cornas.fr/cornas-producteurs.html",
-   "deliveredTo": "wine-content-studio/outputs/collect/2026-09-14/003期-Cornas-采集包-2026-09-14.zip"
+   "deliveredTo": "wine-content-studio/outputs/collect/2026-09-14/003期-Cornas-采集包-2026-09-14.zip",
+   "wineRecords": 26,
+   "vintageRecords": 3
   },
   {
    "id": "saint-joseph",
@@ -76,15 +78,28 @@
    "id": "hermitage",
    "name": "Hermitage AOC",
    "country": "法国",
-   "status": "queued",
-   "note": "无自有 -vin.fr 名录站（hermitage-vin.fr 返回 000）；待另找协会名录入口。"
+   "status": "partial",
+   "note": "无自有 -vin.fr 名录站（hermitage-vin.fr 返回 000）。2026-09-19 侦察结论：Hermitage 没有独立的协会名录网站——产区由 Syndicat de protection de l'AOP Hermitage（挂靠 Syndicat des Vignerons des Côtes du Rhône/Inter Rhône 体系） defends，Inter Rhône 官网只有 Cru 介绍页（vins-rhone.com/en/cotes-du-rhone-cru-aoc-hermitage，137 ha/3526 hl 2025 口径），无成员名录。004 期建议做法：①以 006 期 Crozes-Hermitage Joomla 名录 136 家为底册（同一批 caves/maisons 普遍出 Hermitage），逐家核对是否出产 Hermitage（官网/酒标证据），不把 136 家直接当 Hermitage 生产者数；②官方数据源用 Inter Rhône Cru 页 + INAO cahier des charges；③production 面积口径多方冲突时保持 null 进 discrepancies。入口搜索完成，未开始逐家核对。 【2026-09-20 首批已采集（004期，partial）】不扫名录先立证据：录入 Inter Rhône 官方口径（137 ha/3526 hl/26 hl·ha⁻¹/AOC 1937/3 村镇）、新增玛珊与胡珊品种记录、1 条 region 记录（坐标留 null 待 OSM 检索）、6 条 wine + 1 条 vintage（来自 003 期读标确认 HERMITAGE 的 6 张图）。目录 596 条。0 事件（无可核实新事件）、0 图片、0 新酒庄。下轮：136 家底册逐家核对出产证据 + OSM 补产区参考点 + INAO cahier des charges 核对。",
+   "checkedDate": "2026-09-20",
+   "producerBaseline": 0,
+   "producersChecked": 0
   },
   {
    "id": "cote-rotie",
    "name": "Côte-Rôtie AOC",
    "country": "法国",
    "status": "queued",
-   "note": "无自有 -vin.fr 名录站（cote-rotie-vin.fr 返回 000）；待另找协会名录入口。"
+   "note": "无自有 -vin.fr 名录站（cote-rotie-vin.fr 返回 000）；待另找协会名录入口。 2026-09-20 备注：003 期读标已攒下 Côte-Rôtie 11 张、Hermitage 6 张已复核图，开该期时可直接复用，不必重抓。"
   }
- ]
+ ],
+ "countryRotation": {
+  "rule": "每轮采集换一个不同国家的产区（跳过上一轮国家）；每轮用该国本地语言 + 英语双通道检索内容与图片。",
+  "configFile": "data/country-rotation.json",
+  "picker": "python3 scripts/pick-next-country.py [--commit <CC> --region <产区> --summary <一句话>]",
+  "pointer": 0,
+  "lastCountry": "法国",
+  "nextCountry": "西班牙",
+  "note": "法国已深耕 7 个北罗讷产区，排队列末位，每 5 轮插一次补缺口轮（hermitage 仍 partial）。"
+ },
+ "updated": "2026-09-20"
 }

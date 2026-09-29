@@ -1,0 +1,288 @@
+/* ==========================================================================
+   风土图鉴 · 小屏与触摸端适配层
+   --------------------------------------------------------------------------
+   加载位置：在 index.html / community.html / reports.html 中均为最后一个样式表，
+   所以本文件只写「覆盖型」规则，不改动既有断点的语义。
+   既有断点：1100px（平板/折叠）、720px（手机）、600px（窄手机）
+   本文件新增：400px（小屏手机微调）
+   --------------------------------------------------------------------------
+   实测基线（320/360/390/414/768px 三页）：横向无溢出、无文字硬裁。
+   本层解决的是另外三类问题：触摸目标 <44px、字号 <12px、横向可滚动区无提示。
+   ========================================================================== */
+
+/* --- 0. 基础：阻止 iOS 横竖屏字号自动放大 ------------------------------- */
+html{-webkit-text-size-adjust:100%;text-size-adjust:100%}
+
+/* 触摸端去掉点击高亮块（保留 :focus-visible 焦点环，键盘用户不受影响） */
+@media(max-width:1100px){
+  button,a,summary,label,select{-webkit-tap-highlight-color:transparent}
+}
+
+/* ==========================================================================
+   1. 横向可滚动区域：加「还能继续滑」的视觉提示
+   --------------------------------------------------------------------------
+   .workspace-rail / #issueList 这类横向条内容能滑到，但原本没有任何提示，
+   用户会以为右侧没有内容。
+   做法：右侧 26px 渐隐遮罩。纯 CSS，内容没溢出时渐隐区落在空白上、看不出痕迹；
+   一旦内容超出，右侧就会被自然淡出，形成方向暗示。
+   注意：**不要**给 .masthead nav 加同样的遮罩。community/reports 的 nav 是
+   justify-content:space-between，最后一项天然贴右边缘，加了遮罩会在没有溢出的
+   情况下把「参与共建」淡掉。导航改用「换行」，见下方 720px 块。
+   ========================================================================== */
+@media(max-width:1100px){
+  .masthead nav{
+    -webkit-overflow-scrolling:touch;overscroll-behavior-x:contain;
+    scrollbar-width:thin;scrollbar-color:#cfd4c8 transparent
+  }
+}
+
+@media(max-width:720px){
+  /* 导航在手机上改为「换行」而不是「横向滚动」：
+     community/reports 的 nav 是 justify-content:space-between，最后一项正好贴右边缘，
+     如果给 nav 加渐隐遮罩，即使没有溢出也会把「参与共建」淡掉。
+     换成换行后 5 项在 320px 下也全部可见、可点，不需要靠拖动去找。 */
+  .masthead nav{flex-wrap:wrap;overflow:visible;height:auto;gap:10px}
+  .masthead nav a,.masthead nav button{font-size:12px}
+
+  /* 首页的 .nav-active（「探索地图」）是当前页指示，在手机上纯属重复：
+     它会被 community.css 的 .masthead nav .nav-active{display:block} 以更高特异性
+     顶掉 style.css 的 display:none，于是白占一整行、且只有 20px 高。 */
+  .masthead nav .nav-active{display:none}
+
+  /* 这两条才是"设计上就会溢出"的横向条，遮罩在这里是正解 */
+  .workspace-rail,.report-issues #issueList{
+    -webkit-overflow-scrolling:touch;overscroll-behavior-x:contain;
+    scrollbar-width:thin;scrollbar-color:#cfd4c8 transparent;
+    -webkit-mask-image:linear-gradient(90deg,#000 calc(100% - 26px),transparent);
+    mask-image:linear-gradient(90deg,#000 calc(100% - 26px),transparent)
+  }
+  .report-issues #issueList{scroll-snap-type:x proximity}
+  .issue-button{scroll-snap-align:start}
+}
+
+/* ==========================================================================
+   2. 顶部导航与语言切换器：触摸目标
+   --------------------------------------------------------------------------
+   导航项原本只有文字行高(~20px)的点击高度。≤1100px 时 nav 已经折成独立一整行，
+   所以在这行里把项加高，只是把这一行撑到 44px，不会挤压品牌行。
+   ========================================================================== */
+@media(max-width:1100px){
+  .masthead nav a,.masthead nav button{
+    display:inline-flex;align-items:center;min-height:44px
+  }
+  .language-switch select,#siteLanguage{min-height:44px}
+}
+
+/* ==========================================================================
+   3. 地图控件与 Leaflet 控件：触摸目标 ≥44px
+   --------------------------------------------------------------------------
+   .map-controls 在 ≤1100px 是纵向排列，三个按钮加高后整列变高；
+   再叠加同样加高的 Leaflet +/−，右侧这一列在手机上会与 #detail 面板抢位置，
+   所以 ≤720px 直接隐藏 +/−（理由见下方注释）。
+   ========================================================================== */
+@media(max-width:1100px){
+  .map-controls button{min-height:44px;min-width:44px}
+  /* 三按钮在纵向排列里宽度不一（前两个 44px、产区范围 76px），右对齐更整齐 */
+  .map-controls{align-items:flex-end}
+  /* 原为 34px：触摸端偏小 */
+  .leaflet-control-zoom a{
+    width:44px!important;height:44px!important;line-height:44px!important;font-size:20px!important
+  }
+}
+
+@media(max-width:720px){
+  #boundaryToggle{min-height:44px!important}
+
+  /* 手机上隐藏 Leaflet 的 +/−：
+     加高到 44px 后这一列（控件列下沿 163px + 88px 缩放）会落在 #detail 面板的区域内，
+     而 Leaflet 控件的 z-index 是 1000、面板是 470，按钮会浮在面板之上。
+     手机上天经地义的缩放方式是双指手势，加上「◎ 全球视野」可一键回到世界视图、
+     点产区胶囊可直接飞过去，功能没有缺失。
+     ✅ 2026-09-20 Canz 已过目并确认保留此方案（备选 B 是横向摆到「◎ 全球视野」旁，
+        会让顶部按钮行变宽、需要同步重排 .map-heading 的 max-width）。
+        —— 结论已定，不要在没有新需求时改回去。 */
+  .leaflet-control-zoom{display:none}
+
+  /* 标题卡收薄：给右侧 76px 控制列让位后卡片变窄，长产区名会占到两三行。
+     max-width 由 76px 改成 116px，否则卡片右边缘会压到控制列下面。
+     注意 p 保持 12px —— 11px 会掉到可读线下（style.css 的类型块本来也是 12px）。 */
+  .map-heading{padding:13px 15px;max-width:calc(100% - 116px)}
+  .map-heading .eyebrow{display:none}
+  .map-heading h2{font-size:19px;letter-spacing:0;margin:6px 0}
+  .map-heading p{font-size:12px}
+
+  /* Leaflet 版权行原生 10px，触摸端抬到 11px 更好读（仍是标准 Leaflet 尺寸）。
+     必须写 .map-shell 前缀才压得住 style.css 里的 .map-shell .leaflet-control-attribution */
+  .map-shell .leaflet-control-attribution{font-size:11px!important}
+}
+
+/* ==========================================================================
+   3b. 地图上的两类可点标记
+   --------------------------------------------------------------------------
+   尺寸由 JS 的 iconSize 决定（Leaflet 会写成内联宽高），所以必须 JS + CSS 同步改：
+     map-drilldown.js  层级导航胶囊   32 → 40
+     map-points.js     点位圆标       34 → 44
+   断点用 1100px：与本文件里其它触摸目标（地图控件、缩放按钮、导航）保持一致。
+   ========================================================================== */
+@media(max-width:1100px){
+  .atlas-navigation-marker>span{height:40px}
+  .atlas-navigation-marker b{font-size:22px}
+  /* 圆标放大后在 Leaflet 图标盒里居中，避免偏心 */
+  .atlas-point{display:flex;align-items:center;justify-content:center}
+  .atlas-point>span{width:40px;height:40px;font-size:15px}
+}
+
+/* ==========================================================================
+   4. 地图浮层：详情面板在手机上更高，减少「面板里再套一层长滚动」
+   ========================================================================== */
+@media(max-width:720px){
+  .detail{max-height:68%}
+  .detail-close{
+    display:grid;place-items:center;min-width:44px;min-height:44px;right:8px;top:6px
+  }
+  .primary{min-height:48px}
+  .grape-tag{
+    display:inline-flex;align-items:center;min-height:44px;padding:8px 12px;font-size:13px
+  }
+  .winery-item{min-height:44px;align-items:center}
+  .featured-parcels button{min-height:44px;align-items:center}
+  .detail-body a{overflow-wrap:anywhere}
+  /* 数据来源链接：style.css 里是 .source-link{display:inline-block;font-size:11px;margin-top:14px}，
+     即「每条数据下面独立成行的来源链接」——实测打开一个产区详情页有 **101 个**，
+     原来 11px 字号 / 17px 高，是典型的手指按不准尺寸。
+     它独占一个 <p>（父 p 高 33px），所以放大到 44px 不会破坏任何行内排版。
+     margin-top 归零：44px 盒子里文字垂直居中，上下留白本身就提供了行距。 */
+  .source-link{
+    display:inline-flex;align-items:center;min-height:44px;margin-top:0;
+    font-size:12px;overflow-wrap:anywhere
+  }
+}
+
+/* ==========================================================================
+   5. 已收录酒庄与酒款（region-wineries.js 渲染的 collected-* 组件）
+   --------------------------------------------------------------------------
+   region-wineries.css 自身没有任何媒体查询，且这些组件全部渲染在 #detail 内，
+   在手机上原本是：11px 字号 + 55×16 / 120×28 的触摸目标 + 2125px 的富卡片长列。
+   ========================================================================== */
+@media(max-width:720px){
+  /* 字号：统一抬到 ≥12px 可读线 */
+  .collected-counts{font-size:12px;gap:4px 12px}
+  .collected-loading{font-size:12px}
+  .collected-head h4{font-size:15.5px;line-height:1.45}
+  .collected-en{font-size:12px}
+  .collected-meta{font-size:12px;line-height:1.7}
+  .collected-desc{font-size:13.5px;line-height:1.75}
+  /* region-wineries.css 里是 display:block，独占一行（实测产区页 13 个），原 21px 高 */
+  .collected-wine-name{
+    display:flex;align-items:center;min-height:44px;font-size:14px;line-height:1.5
+  }
+  .collected-wine-tags em{font-size:12px}
+  .collected-wine-tags b{font-size:12px;line-height:20px;padding:0 8px;border-radius:11px}
+  .collected-row-meta{font-size:12px}
+
+  /* 长图限高：酒庄封面照在 324px 栏宽下可达 200px+，是 2125px 主因之一 */
+  .collected-thumb img{max-height:190px;object-fit:cover}
+  .collected-rich{gap:12px}
+  .collected-wines{margin-top:12px;padding-top:11px}
+  .collected-wine{gap:10px;padding:10px 0;align-items:center}
+  .collected-wine-thumb{width:46px}
+
+  /* 触摸目标：原来 .collected-locate 只有 55×16、#collectedMore 只有 120×28 */
+  .collected-links{gap:8px 16px;margin-top:12px}
+  .collected-links a,.collected-locate{
+    display:inline-flex;align-items:center;min-height:44px;font-size:13px
+  }
+  .collected-row{font-size:13px;padding:12px 0;min-height:44px;align-items:center}
+  .collected-more{
+    min-height:44px;margin-top:12px;padding:12px 18px;border-radius:22px;font-size:13px
+  }
+}
+
+/* ==========================================================================
+   6. 探索侧栏（.explorer）：分页签、面包屑、搜索与筛选
+   ========================================================================== */
+@media(max-width:1100px){
+  /* 搜索框内的箭头按钮(24×35)与「重置」(36×19) 触摸端偏小 */
+  .search button{min-width:40px;min-height:40px;display:grid;place-items:center}
+  .results-bar button{min-height:40px;padding:0 4px}
+  .atlas-breadcrumb button{min-height:40px;padding:9px 8px;font-size:12px}
+}
+
+@media(max-width:720px){
+  .explore-tabs button{min-height:48px}
+  /* 文本输入框到 16px：低于 16px 时 iOS Safari 会在聚焦瞬间把整页放大 */
+  .search input{font-size:16px}
+  .filters select{min-height:44px;font-size:14px}
+  .event-filters select{min-height:44px;font-size:14px}
+  /* 复选框标签改 flex 后原生空格会丢，需补 gap */
+  .event-layer,.winery-options label{min-height:44px;display:flex;align-items:center;gap:6px}
+  .atlas-section,.atlas-hint{font-size:12.5px}
+  .atlas-breadcrumb{overflow-wrap:anywhere}
+}
+/* 地图上的层级导航（返回上一级 / 产区概览 / 位置待核对） */
+@media(max-width:720px){
+  #atlasMapNav{gap:8px}
+  #atlasMapNav button{min-height:40px;padding:9px 11px;font-size:12px}
+  #atlasUnlocated{padding:10px;gap:8px}
+  #atlasUnlocated small{font-size:12px}
+  #atlasUnlocated button{min-height:40px;padding:10px 13px;font-size:13px}
+  .location-choice{min-height:48px}
+  .location-entry summary{display:flex;align-items:center;min-height:44px;padding:11px 0}
+  .location-hint{font-size:12px}
+  #boundaryNote{font-size:11px}
+}
+
+/* ==========================================================================
+   7. 数据说明等对话框
+   ========================================================================== */
+@media(max-width:720px){
+  dialog{padding:20px 16px;border-radius:10px}
+  dialog h2{font-size:22px}
+  .dialog-head button{display:grid;place-items:center;min-width:44px;min-height:44px}
+  #sourceList{font-size:13px}
+  #sourceList a{overflow-wrap:anywhere}
+}
+
+/* ==========================================================================
+   8. 参与共建页：左侧分栏变成横向标签条
+   ========================================================================== */
+@media(max-width:1100px){
+  /* 联系卡片里的邮箱/微信是整行 grid item，抬到 44px 不会改变布局 */
+  .contact-card a,.contact-card .button{display:flex;align-items:center;min-height:44px}
+}
+
+@media(max-width:720px){
+  .workspace-rail button{min-height:44px}
+  .toolbar input,.toolbar select,.toolbar .button{min-height:44px}
+  .form-actions .button,.form-actions button{min-height:44px}
+  .catalog-card{padding:18px}
+  .member-row,.submission-row{padding:16px}
+  .choice{min-height:44px}
+}
+
+/* ==========================================================================
+   9. 每日简报页：期次横向条与图片
+   ========================================================================== */
+@media(max-width:720px){
+  .report-media-gap .button{min-height:44px}
+  .report-reader .report-lead{font-size:15px}
+  .report-section p,.report-section li{font-size:14.5px}
+  .issue-button strong{font-size:16px}
+}
+
+/* ==========================================================================
+   10. ≤400px 小屏微调
+   ========================================================================== */
+@media(max-width:400px){
+  .masthead{padding:12px 14px}
+  .brand{font-size:18px}
+  .map-heading{padding:12px 13px;left:12px;top:12px}
+  .map-heading h2{font-size:18px}
+  .map-controls{top:12px;right:10px}
+  .detail{left:10px;right:10px;bottom:78px}
+  .detail h2{font-size:22px}
+  .detail-top{padding:16px 16px 14px}
+  .detail-body{padding:16px}
+  .mobile-toggle{left:12px;padding:12px 18px}
+  .report-issues #issueList .issue-button{min-width:200px;max-width:230px}
+}
