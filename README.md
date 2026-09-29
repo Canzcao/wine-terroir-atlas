@@ -3,8 +3,10 @@
 一个**中文交互式葡萄酒产区地图**，也是一份**结构化的世界葡萄酒产区数据资产**。
 
 ![产区](https://img.shields.io/badge/产区-196-informational) ![国家](https://img.shields.io/badge/国家-29-informational) ![酒庄](https://img.shields.io/badge/酒庄-2794-informational) ![酒款](https://img.shields.io/badge/酒款-1352-informational) ![边界](https://img.shields.io/badge/法定边界-183-success) ![许可](https://img.shields.io/badge/license-MIT-blue)
-<!-- 建仓后把下面一行的 OWNER/REPO 换成实际值，CI 徽章即生效 -->
-![CI](https://github.com/OWNER/REPO/actions/workflows/ci.yml/badge.svg)
+
+[![CI](https://github.com/Canzcao/wine-terroir-atlas/actions/workflows/ci.yml/badge.svg)](https://github.com/Canzcao/wine-terroir-atlas/actions/workflows/ci.yml)
+
+> 在线预览：<https://terroir.vincode.chat>
 
 ## 这是什么
 
@@ -78,7 +80,33 @@
 - `data.geoZone` — 人类可读的地理分区标签
 - `data.sourceURL` — **每个实体必有**，校验器会强制
 
-`public/region-boundaries.geojson` 是标准 GeoJSON FeatureCollection，每个 Feature 的 `properties` 含 `regionId` / `boundaryType` / `precision` / `areaKm2` / `sourceName` / `sourceURL` / `license` / `note`。
+`public/region-boundaries.geojson` 是标准 GeoJSON FeatureCollection。
+
+**每个 Feature 都有的字段**（183/183）：
+
+| 字段 | 说明 |
+|---|---|
+| `regionId` | 指向 catalog 里的产区实体，**全表唯一**（一个产区最多一条边界） |
+| `label` | 地图上显示的名称 |
+| `boundaryType` | 取值范围见下表 |
+| `sourceName` / `sourceURL` | 边界数据出处（校验器强制） |
+| `license` / `licenseURL` | 数据许可（校验器强制） |
+| `checkedDate` | 该条最后一次人工核对日期 |
+| `note` | 口径说明。**把「这不是法定界线」这类限定写在这里**，而不是靠使用者猜 |
+
+**类型专属字段**（只在对应 `boundaryType` 上出现）——命名即含义：
+
+| 字段 | 出现于 | 说明 |
+|---|---|---|
+| `precision` | 77 条 | `parcellaire`（地块级，最高）> `commune`（市镇级）> `province` / `county`。**只在法国式「按 commune 清单定义」的 AOC 上有意义**，其他类型不填 |
+| `areaKm2` | 88 条 | 边界面积（km²） |
+| `appellationNames` / `communeCount` / `communeMissing` | 77 条 | 该 AOC 覆盖的法定产区名与市镇数、未取到几何的市镇数 |
+| `mappedVineyardKm2` / `envelopeKm2` / `blockCount` / `officialVineyardKm2` / `coverageRatio` / `coverageVerdict` | 15 条 | `vineyard_distribution` 专用：实测葡萄园面积、外接范围、地块数、官方公布面积与覆盖率判定 |
+| `countyCount` / `countyNames` / `countyMissing` / `officialGI` | 10 条 | `administrative_fallback` 专用 |
+| `giSystem` / `giDesignated` | 3 条 | AVA 专用（登记体系与生效日期） |
+| `parcelFeatureCount` / `previousAreaKm2` / `previousBoundaryType` | 2 条 | 地块级专用；`previous*` 记录口径变更前的值，**便于审计** |
+
+> 字段不全的情况是**有意的**：`precision` 对 IGP/AVA 没有意义，硬填反而会误导。校验器只强制上表「每个 Feature 都有」的那几项。
 
 `boundaryType` 的取值与含义：
 
@@ -93,8 +121,6 @@
 
 > 为什么分这么细？因为**「这块地是什么」会改变用户对它的信任程度**。法定范围可以拿来判断酒庄归属，葡萄园分布只能说明「这一带种葡萄」，行政兜底只是「大致在这一片」。混在一起会让人把示意当成法条。
 
-`precision` 字段进一步区分精度：`parcellaire`（地块级，最高）> `commune`（市镇级）> `province` / `county`。
-
 ## 使用
 
 环境要求：**Node.js 22+**（无其他系统依赖；GIS 相关的导入脚本另需 Python 3 + `pyshp`/`pyproj`/`shapely`）。
@@ -105,11 +131,15 @@ npm install
 npm run build          # 构建（把 public/ 静态资源嵌入 dist/server/index.js）
 npm run dev            # 本地预览 http://localhost:4173
 npm test               # 测试（授权 / 并发 / 审核 / 文件访问 / 边界口径）
-node scripts/validate-data.mjs    # 校验数据关联与来源字段
+npm run validate       # 校验数据关联与来源字段
 node scripts/validate-reports.mjs # 校验简报
 ```
 
-推送与 PR 都会触发 CI（`.github/workflows/ci.yml`）：校验数据 → 跑测试 → 构建。
+> `npm test` 会**先自动构建**（`pretest`），因为 `tests/workflows.test.mjs` 用 miniflare
+> 加载 `dist/server/index.js`。若直接跑 `node --test tests/*.test.mjs`，务必先构建，
+> 否则该用例会以 `ENOENT: dist/server/index.js` 失败。
+
+推送与 PR 都会触发 CI（`.github/workflows/ci.yml`）：校验数据 → 构建 → 跑测试。
 
 ### 部署
 

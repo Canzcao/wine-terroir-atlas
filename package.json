@@ -1,1 +1,29 @@
-{"name":"terroir-atlas","private":true,"type":"module","scripts":{"build":"node scripts/build.mjs","dev":"node scripts/dev.mjs","test":"node --test tests/*.test.mjs","db:generate":"drizzle-kit generate"},"dependencies":{"drizzle-orm":"0.45.2","exceljs":"4.4.0"},"devDependencies":{"drizzle-kit":"0.31.10","esbuild":"0.25.9","miniflare":"3.20250718.3"}}
+{
+  "name": "wine-terroir-atlas",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "中文交互式葡萄酒产区地图 + 结构化世界葡萄酒产区数据资产",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Canzcao/wine-terroir-atlas.git"
+  },
+  "scripts": {
+    "build": "node scripts/build.mjs",
+    "dev": "node scripts/dev.mjs",
+    "pretest": "node scripts/build.mjs",
+    "test": "node --test tests/*.test.mjs",
+    "validate": "node scripts/validate-data.mjs",
+    "db:generate": "drizzle-kit generate"
+  },
+  "dependencies": {
+    "drizzle-orm": "0.45.2",
+    "exceljs": "4.4.0"
+  },
+  "devDependencies": {
+    "drizzle-kit": "0.31.10",
+    "esbuild": "0.25.9",
+    "miniflare": "3.20250718.3"
+  }
+}

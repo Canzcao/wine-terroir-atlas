@@ -2,7 +2,7 @@ name: CI
 
 on:
   push:
-    branches: [master, main]
+    branches: [main, master]
   pull_request:
   workflow_dispatch:
 
@@ -15,15 +15,18 @@ jobs:
       - uses: actions/setup-node@v4
         with:
           node-version: '22'
+          cache: npm
 
       - name: Install dependencies
-        run: npm install --no-audit --no-fund
+        run: npm ci --no-audit --no-fund
 
       - name: Validate catalogue and events
-        run: node scripts/validate-data.mjs
+        run: npm run validate
+
+      # ★ 必须先构建再测试：tests/workflows.test.mjs 用 miniflare 加载
+      #   dist/server/index.js，未构建时该用例会以 ENOENT 失败。
+      - name: Build
+        run: npm run build
 
       - name: Run tests
-        run: node --test tests/*.test.mjs
-
-      - name: Build
-        run: node scripts/build.mjs
+        run: npm test
