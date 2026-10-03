@@ -160155,23 +160155,36 @@
    "regionId": "mendoza",
    "address": "Olavarría 4900, Luján de Cuyo, Mendoza, Argentina",
    "website": "",
-   "lat": -34.4850045,
-   "lng": -58.6859229,
-   "locationPrecision": "Wines of Argentina 官方会员登记地址经纬度（协会会籍申报值，非地块边界）",
+   "lat": null,
+   "lng": null,
+   "locationPrecision": "【2026-10-03 已移除原坐标】原值 -34.4850045,-58.6859229 系「Wines of Argentina 官方会员登记地址经纬度（协会会籍申报值，非地块边界）」，经与其自身 address（Mendoza）交叉核对，偏差约 958 km，判定为会籍登记地址而非酒庄实址，已依规则置空。坐标待补。 原说明：Wines of Argentina 官方会员登记地址经纬度（协会会籍申报值，非地块边界）",
    "locationSourceURL": "https://www.openstreetmap.org/",
    "sourceTitle": "Wines of Argentina — 协会会员酒庄目录（官方）",
    "sourceURL": "https://www.winesofargentina.org/es/bodegas/4-gatos-locos",
    "checkedDate": "2026-09-20",
    "notes": "法人名：ALTANERA S.A.。",
    "verification": {
-    "method": "auto:country-window",
-    "checkedDate": "2026-09-21",
-    "coordinateInCountryWindow": true,
-    "status": "ok"
-   }
+    "method": "manual:coordinate-removed-by-cross-check",
+    "checkedDate": "2026-10-03",
+    "coordinateInCountryWindow": null,
+    "status": "awaiting-location",
+    "note": "原坐标因与自身 address 省份矛盾（偏差 958 km）被移除，待补实地坐标。"
+   },
+   "notesHistory": [
+    {
+     "date": "2026-10-03",
+     "action": "coordinate-removed",
+     "field": "lat/lng",
+     "previousValue": {
+      "lat": -34.4850045,
+      "lng": -58.6859229
+     },
+     "reason": "坐标与本品目自身 address 所写省份矛盾：address 标明 「Mendoza」，而坐标点距该省葡萄酒产区约 958 km（落在布宜诺斯艾利斯一带）。来源自述为「Wines of Argentina 官方会员登记地址经纬度（协会会籍申报值，非地块边界）」，即会籍登记/通讯地址，非酒庄实际所在地。依项目规则「不以行政区中心、公司总部或登记地址作为酒庄坐标」，移除该坐标，改标 awaiting-location 待补实地坐标。"
+    }
+   ]
   },
-  "version": 1,
-  "updated": "2026-09-20T18:57:38.000Z",
+  "version": 2,
+  "updated": "2026-10-03T00:00:00.000Z",
   "origin": "国家窗口采集 · 官方名录 × OSM/AR / CL / UY"
  },
  {
@@ -160506,19 +160519,20 @@
    "regionId": "mendoza",
    "address": "Ruta 89 sin número, Valle de Uco, M5561 Tupungato, Mendoza, Argentina",
    "website": "https://www.albaenlosandes.com",
-   "lat": -34.5813678,
-   "lng": -58.4438307,
-   "locationPrecision": "Wines of Argentina 官方会员登记地址经纬度（协会会籍申报值，非地块边界）",
+   "lat": null,
+   "lng": null,
+   "locationPrecision": "【2026-10-03 已移除原坐标】原值 -34.5813678,-58.4438307 系「Wines of Argentina 官方会员登记地址经纬度（协会会籍申报值，非地块边界）」，经与其自身 address（Mendoza）交叉核对，偏差约 982 km，判定为会籍登记地址而非酒庄实址，已依规则置空。坐标待补。 原说明：Wines of Argentina 官方会员登记地址经纬度（协会会籍申报值，非地块边界）",
    "locationSourceURL": "https://www.openstreetmap.org/",
    "sourceTitle": "Wines of Argentina — 协会会员酒庄目录（官方）",
    "sourceURL": "https://www.winesofargentina.org/es/bodegas/alba-en-los-andes",
    "checkedDate": "2026-09-20",
    "notes": "法人名：ALBA EN LOS ANDES S.A.。",
    "verification": {
-    "method": "auto:country-window+http",
-    "checkedDate": "2026-09-21",
-    "coordinateInCountryWindow": true,
-    "status": "ok"
+    "method": "manual:coordinate-removed-by-cross-check",
+    "checkedDate": "2026-10-03",
+    "coordinateInCountryWindow": null,
+    "status": "awaiting-location",
+    "note": "原坐标因与自身 address 省份矛盾（偏差 982 km）被移除，待补实地坐标。"
    },
    "notesHistory": [
     {
@@ -160526,11 +160540,21 @@
      "previousValue": "www.albaenlosandes.com",
      "replacedAt": "2026-09-20T22:57:47.000Z",
      "reason": "门禁归一化：补 https:// 前缀（原值缺 scheme）"
+    },
+    {
+     "date": "2026-10-03",
+     "action": "coordinate-removed",
+     "field": "lat/lng",
+     "previousValue": {
+      "lat": -34.5813678,
+      "lng": -58.4438307
+     },
+     "reason": "坐标与本品目自身 address 所写省份矛盾：address 标明 「Mendoza」，而坐标点距该省葡萄酒产区约 982 km（落在布宜诺斯艾利斯一带）。来源自述为「Wines of Argentina 官方会员登记地址经纬度（协会会籍申报值，非地块边界）」，即会籍登记/通讯地址，非酒庄实际所在地。依项目规则「不以行政区中心、公司总部或登记地址作为酒庄坐标」，移除该坐标，改标 awaiting-location 待补实地坐标。"
     }
    ]
   },
-  "version": 2,
-  "updated": "2026-09-20T22:57:47.000Z",
+  "version": 3,
+  "updated": "2026-10-03T00:00:00.000Z",
   "origin": "国家窗口采集 · 官方名录 × OSM/AR / CL / UY"
  },
  {
@@ -160912,19 +160936,20 @@
    "regionId": "mendoza",
    "address": "Alzaga 3972",
    "website": "https://www.altavistawines.com",
-   "lat": -34.5365523,
-   "lng": -58.4667118,
-   "locationPrecision": "Wines of Argentina 官方会员登记地址经纬度（协会会籍申报值，非地块边界）",
+   "lat": null,
+   "lng": null,
+   "locationPrecision": "【2026-10-03 已移除原坐标】原值 -34.5365523,-58.4667118 落在布宜诺斯艾利斯市区（距市中心 11 km），而 regionId=mendoza，二者矛盾。该值系「Wines of Argentina 官方会员登记地址经纬度（协会会籍申报值，非地块边界）」，判为会籍登记地址，已依规则置空。坐标待补。",
    "locationSourceURL": "https://www.openstreetmap.org/",
    "sourceTitle": "Wines of Argentina — 协会会员酒庄目录（官方）",
    "sourceURL": "https://www.winesofargentina.org/es/bodegas/alta-vista",
    "checkedDate": "2026-09-20",
    "notes": "法人名：La Casa Del Rey S.A.。",
    "verification": {
-    "method": "auto:country-window+http",
-    "checkedDate": "2026-09-21",
-    "coordinateInCountryWindow": true,
-    "status": "ok"
+    "method": "manual:coordinate-removed-by-cross-check",
+    "checkedDate": "2026-10-03",
+    "coordinateInCountryWindow": null,
+    "status": "awaiting-location",
+    "note": "原坐标落在布市市区，与所标产区矛盾（偏差 11 km），已移除待补。"
    },
    "notesHistory": [
     {
@@ -160932,11 +160957,21 @@
      "previousValue": "www.altavistawines.com",
      "replacedAt": "2026-09-20T22:57:47.000Z",
      "reason": "门禁归一化：补 https:// 前缀（原值缺 scheme）"
+    },
+    {
+     "date": "2026-10-03",
+     "action": "coordinate-removed",
+     "field": "lat/lng",
+     "previousValue": {
+      "lat": -34.5365523,
+      "lng": -58.4667118
+     },
+     "reason": "坐标落在布宜诺斯艾利斯市 11 km 内，而本品目 regionId 为 mendoza（门多萨/巴塔哥尼亚一带），且地址为布市街道地址。阿根廷无葡萄酒产区位于布市市区，故该坐标为会籍登记地址而非酒庄实址。依项目规则移除，改标 awaiting-location 待补实地坐标。"
     }
    ]
   },
-  "version": 2,
-  "updated": "2026-09-20T22:57:47.000Z",
+  "version": 3,
+  "updated": "2026-10-03T00:00:00.000Z",
   "origin": "国家窗口采集 · 官方名录 × OSM/AR / CL / UY"
  },
  {
@@ -162152,19 +162187,20 @@
    "regionId": "salta",
    "address": "Adriano Gómez 3602, Mendoza, Argentina",
    "website": "https://www.karimmussi.com",
-   "lat": -26.0768589,
-   "lng": -65.9771867,
-   "locationPrecision": "Wines of Argentina 官方会员登记地址经纬度（协会会籍申报值，非地块边界）",
+   "lat": null,
+   "lng": null,
+   "locationPrecision": "【2026-10-03 已移除原坐标】原值 -26.0768589,-65.9771867 系「Wines of Argentina 官方会员登记地址经纬度（协会会籍申报值，非地块边界）」，经与其自身 address（Mendoza）交叉核对，偏差约 820 km，判定为会籍登记地址而非酒庄实址，已依规则置空。坐标待补。 原说明：Wines of Argentina 官方会员登记地址经纬度（协会会籍申报值，非地块边界）",
    "locationSourceURL": "https://www.openstreetmap.org/",
    "sourceTitle": "Wines of Argentina — 协会会员酒庄目录（官方）",
    "sourceURL": "https://www.winesofargentina.org/es/bodegas/bodega-abras",
    "checkedDate": "2026-09-20",
    "notes": "法人名：ALTOCEDRO S.A.。",
    "verification": {
-    "method": "auto:country-window+http",
-    "checkedDate": "2026-09-21",
-    "coordinateInCountryWindow": true,
-    "status": "ok"
+    "method": "manual:coordinate-removed-by-cross-check",
+    "checkedDate": "2026-10-03",
+    "coordinateInCountryWindow": null,
+    "status": "awaiting-location",
+    "note": "原坐标因与自身 address 省份矛盾（偏差 820 km）被移除，待补实地坐标。"
    },
    "notesHistory": [
     {
@@ -162172,11 +162208,21 @@
      "previousValue": "www.karimmussi.com",
      "replacedAt": "2026-09-20T22:57:47.000Z",
      "reason": "门禁归一化：补 https:// 前缀（原值缺 scheme）"
+    },
+    {
+     "date": "2026-10-03",
+     "action": "coordinate-removed",
+     "field": "lat/lng",
+     "previousValue": {
+      "lat": -26.0768589,
+      "lng": -65.9771867
+     },
+     "reason": "坐标与本品目自身 address 所写省份矛盾：address 标明 「Mendoza」，而坐标点距该省葡萄酒产区约 820 km（落在布宜诺斯艾利斯一带）。来源自述为「Wines of Argentina 官方会员登记地址经纬度（协会会籍申报值，非地块边界）」，即会籍登记/通讯地址，非酒庄实际所在地。依项目规则「不以行政区中心、公司总部或登记地址作为酒庄坐标」，移除该坐标，改标 awaiting-location 待补实地坐标。"
     }
    ]
   },
-  "version": 2,
-  "updated": "2026-09-20T22:57:47.000Z",
+  "version": 3,
+  "updated": "2026-10-03T00:00:00.000Z",
   "origin": "国家窗口采集 · 官方名录 × OSM/AR / CL / UY"
  },
  {
@@ -162263,19 +162309,20 @@
    "regionId": "mendoza",
    "address": "Carril Barriales Antiguo 1599, M5531 Maipú, Mendoza, Argentina",
    "website": "https://www.alonsoguerrerowines.com",
-   "lat": -34.5966621,
-   "lng": -58.3785194,
-   "locationPrecision": "Wines of Argentina 官方会员登记地址经纬度（协会会籍申报值，非地块边界）",
+   "lat": null,
+   "lng": null,
+   "locationPrecision": "【2026-10-03 已移除原坐标】原值 -34.5966621,-58.3785194 系「Wines of Argentina 官方会员登记地址经纬度（协会会籍申报值，非地块边界）」，经与其自身 address（Mendoza）交叉核对，偏差约 988 km，判定为会籍登记地址而非酒庄实址，已依规则置空。坐标待补。 原说明：Wines of Argentina 官方会员登记地址经纬度（协会会籍申报值，非地块边界）",
    "locationSourceURL": "https://www.openstreetmap.org/",
    "sourceTitle": "Wines of Argentina — 协会会员酒庄目录（官方）",
    "sourceURL": "https://www.winesofargentina.org/es/bodegas/bodega-alonso-guerrer",
    "checkedDate": "2026-09-20",
    "notes": "法人名：AGW GROUP SA。",
    "verification": {
-    "method": "auto:country-window+http",
-    "checkedDate": "2026-09-21",
-    "coordinateInCountryWindow": true,
-    "status": "ok"
+    "method": "manual:coordinate-removed-by-cross-check",
+    "checkedDate": "2026-10-03",
+    "coordinateInCountryWindow": null,
+    "status": "awaiting-location",
+    "note": "原坐标因与自身 address 省份矛盾（偏差 988 km）被移除，待补实地坐标。"
    },
    "notesHistory": [
     {
@@ -162283,11 +162330,21 @@
      "previousValue": "www.alonsoguerrerowines.com",
      "replacedAt": "2026-09-20T22:57:47.000Z",
      "reason": "门禁归一化：补 https:// 前缀（原值缺 scheme）"
+    },
+    {
+     "date": "2026-10-03",
+     "action": "coordinate-removed",
+     "field": "lat/lng",
+     "previousValue": {
+      "lat": -34.5966621,
+      "lng": -58.3785194
+     },
+     "reason": "坐标与本品目自身 address 所写省份矛盾：address 标明 「Mendoza」，而坐标点距该省葡萄酒产区约 988 km（落在布宜诺斯艾利斯一带）。来源自述为「Wines of Argentina 官方会员登记地址经纬度（协会会籍申报值，非地块边界）」，即会籍登记/通讯地址，非酒庄实际所在地。依项目规则「不以行政区中心、公司总部或登记地址作为酒庄坐标」，移除该坐标，改标 awaiting-location 待补实地坐标。"
     }
    ]
   },
-  "version": 2,
-  "updated": "2026-09-20T22:57:47.000Z",
+  "version": 3,
+  "updated": "2026-10-03T00:00:00.000Z",
   "origin": "国家窗口采集 · 官方名录 × OSM/AR / CL / UY"
  },
  {
@@ -162300,19 +162357,20 @@
    "regionId": "mendoza",
    "address": "Roque Sáenz Peña 4640, Mendoza, Argentina",
    "website": "https://bodegaaltayari.com",
-   "lat": -34.592917,
-   "lng": -58.3843552,
-   "locationPrecision": "Wines of Argentina 官方会员登记地址经纬度（协会会籍申报值，非地块边界）",
+   "lat": null,
+   "lng": null,
+   "locationPrecision": "【2026-10-03 已移除原坐标】原值 -34.592917,-58.3843552 系「Wines of Argentina 官方会员登记地址经纬度（协会会籍申报值，非地块边界）」，经与其自身 address（Mendoza）交叉核对，偏差约 987 km，判定为会籍登记地址而非酒庄实址，已依规则置空。坐标待补。 原说明：Wines of Argentina 官方会员登记地址经纬度（协会会籍申报值，非地块边界）",
    "locationSourceURL": "https://www.openstreetmap.org/",
    "sourceTitle": "Wines of Argentina — 协会会员酒庄目录（官方）",
    "sourceURL": "https://www.winesofargentina.org/es/bodegas/bodega-alta-yari",
    "checkedDate": "2026-09-20",
    "notes": "法人名：Alta Yari S.A.。",
    "verification": {
-    "method": "auto:country-window+http",
-    "checkedDate": "2026-09-21",
-    "coordinateInCountryWindow": true,
-    "status": "ok"
+    "method": "manual:coordinate-removed-by-cross-check",
+    "checkedDate": "2026-10-03",
+    "coordinateInCountryWindow": null,
+    "status": "awaiting-location",
+    "note": "原坐标因与自身 address 省份矛盾（偏差 987 km）被移除，待补实地坐标。"
    },
    "notesHistory": [
     {
@@ -162320,11 +162378,21 @@
      "previousValue": "bodegaaltayari.com",
      "replacedAt": "2026-09-20T22:57:47.000Z",
      "reason": "门禁归一化：补 https:// 前缀（原值缺 scheme）"
+    },
+    {
+     "date": "2026-10-03",
+     "action": "coordinate-removed",
+     "field": "lat/lng",
+     "previousValue": {
+      "lat": -34.592917,
+      "lng": -58.3843552
+     },
+     "reason": "坐标与本品目自身 address 所写省份矛盾：address 标明 「Mendoza」，而坐标点距该省葡萄酒产区约 987 km（落在布宜诺斯艾利斯一带）。来源自述为「Wines of Argentina 官方会员登记地址经纬度（协会会籍申报值，非地块边界）」，即会籍登记/通讯地址，非酒庄实际所在地。依项目规则「不以行政区中心、公司总部或登记地址作为酒庄坐标」，移除该坐标，改标 awaiting-location 待补实地坐标。"
     }
    ]
   },
-  "version": 2,
-  "updated": "2026-09-20T22:57:47.000Z",
+  "version": 3,
+  "updated": "2026-10-03T00:00:00.000Z",
   "origin": "国家窗口采集 · 官方名录 × OSM/AR / CL / UY"
  },
  {
@@ -162412,19 +162480,20 @@
    "regionId": "salta",
    "address": "25 de Mayo, Cafayate, Salta, Argentina",
    "website": "https://www.amalaya.com",
-   "lat": -34.5854161,
-   "lng": -58.4359084,
-   "locationPrecision": "Wines of Argentina 官方会员登记地址经纬度（协会会籍申报值，非地块边界）",
+   "lat": null,
+   "lng": null,
+   "locationPrecision": "【2026-10-03 已移除原坐标】原值 -34.5854161,-58.4359084 系「Wines of Argentina 官方会员登记地址经纬度（协会会籍申报值，非地块边界）」，经与其自身 address（Salta）交叉核对，偏差约 1191 km，判定为会籍登记地址而非酒庄实址，已依规则置空。坐标待补。 原说明：Wines of Argentina 官方会员登记地址经纬度（协会会籍申报值，非地块边界）",
    "locationSourceURL": "https://www.openstreetmap.org/",
    "sourceTitle": "Wines of Argentina — 协会会员酒庄目录（官方）",
    "sourceURL": "https://www.winesofargentina.org/es/bodegas/bodega-amalaya",
    "checkedDate": "2026-09-20",
    "notes": "法人名：GRUPO COLOMÉ。",
    "verification": {
-    "method": "auto:country-window+http",
-    "checkedDate": "2026-09-21",
-    "coordinateInCountryWindow": true,
-    "status": "ok"
+    "method": "manual:coordinate-removed-by-cross-check",
+    "checkedDate": "2026-10-03",
+    "coordinateInCountryWindow": null,
+    "status": "awaiting-location",
+    "note": "原坐标因与自身 address 省份矛盾（偏差 1191 km）被移除，待补实地坐标。"
    },
    "notesHistory": [
     {
@@ -162432,11 +162501,21 @@
      "previousValue": "www.amalaya.com",
      "replacedAt": "2026-09-20T22:57:47.000Z",
      "reason": "门禁归一化：补 https:// 前缀（原值缺 scheme）"
+    },
+    {
+     "date": "2026-10-03",
+     "action": "coordinate-removed",
+     "field": "lat/lng",
+     "previousValue": {
+      "lat": -34.5854161,
+      "lng": -58.4359084
+     },
+     "reason": "坐标与本品目自身 address 所写省份矛盾：address 标明 「Salta」，而坐标点距该省葡萄酒产区约 1191 km（落在布宜诺斯艾利斯一带）。来源自述为「Wines of Argentina 官方会员登记地址经纬度（协会会籍申报值，非地块边界）」，即会籍登记/通讯地址，非酒庄实际所在地。依项目规则「不以行政区中心、公司总部或登记地址作为酒庄坐标」，移除该坐标，改标 awaiting-location 待补实地坐标。"
     }
    ]
   },
-  "version": 2,
-  "updated": "2026-09-20T22:57:47.000Z",
+  "version": 3,
+  "updated": "2026-10-03T00:00:00.000Z",
   "origin": "国家窗口采集 · 官方名录 × OSM/AR / CL / UY"
  },
  {
@@ -163300,17 +163379,18 @@
    "regionId": "mendoza",
    "address": "Catamarca 65",
    "website": "https://www.bodegaclaroscuro.com.ar",
-   "locationPrecision": "按登记地址「Catamarca 65」解析定位（Nominatim/OSM place/house 1352782147），命中「65, Catamarca, Mendoza, Sección 3ª Parque O'Higgins, Departamento Capital, Mendoza, 5500, Argentine」；该地址为酒庄公开联系地址，非地块边界",
+   "locationPrecision": "【2026-10-03 已移除原坐标】原值 -32.8897374,-68.8377963 系「Wines of Argentina 官方会员登记地址经纬度（协会会籍申报值，非地块边界）」，经与其自身 address（Catamarca）交叉核对，偏差约 572 km，判定为会籍登记地址而非酒庄实址，已依规则置空。坐标待补。 原说明：按登记地址「Catamarca 65」解析定位（Nominatim/OSM place/house 1352782147），命中「65, Catamarca, Mendoza, Sección 3ª Parque O'Higgins, Departamento Capital, Mendoza, 5500, Argentine」；该地址为酒庄公开联系地址，非地块边界",
    "locationSourceURL": "https://www.openstreetmap.org/way/1352782147",
    "sourceTitle": "Wines of Argentina — 协会会员酒庄目录（官方）",
    "sourceURL": "https://www.winesofargentina.org/es/bodegas/bodega-de-arte-claroscuro",
    "checkedDate": "2026-09-21",
    "notes": "法人名：Alto Real Viñedo S.A.。",
    "verification": {
-    "method": "auto:country-window+http",
-    "checkedDate": "2026-09-21",
-    "coordinateInCountryWindow": true,
-    "status": "ok"
+    "method": "manual:coordinate-removed-by-cross-check",
+    "checkedDate": "2026-10-03",
+    "coordinateInCountryWindow": null,
+    "status": "awaiting-location",
+    "note": "原坐标因与自身 address 省份矛盾（偏差 572 km）被移除，待补实地坐标。"
    },
    "notesHistory": [
     {
@@ -163318,13 +163398,23 @@
      "previousValue": "www.bodegaclaroscuro.com.ar",
      "replacedAt": "2026-09-20T22:57:47.000Z",
      "reason": "门禁归一化：补 https:// 前缀（原值缺 scheme）"
+    },
+    {
+     "date": "2026-10-03",
+     "action": "coordinate-removed",
+     "field": "lat/lng",
+     "previousValue": {
+      "lat": -32.8897374,
+      "lng": -68.8377963
+     },
+     "reason": "坐标与本品目自身 address 所写省份矛盾：address 标明 「Catamarca」，而坐标点距该省葡萄酒产区约 572 km（落在布宜诺斯艾利斯一带）。来源自述为「Wines of Argentina 官方会员登记地址经纬度（协会会籍申报值，非地块边界）」，即会籍登记/通讯地址，非酒庄实际所在地。依项目规则「不以行政区中心、公司总部或登记地址作为酒庄坐标」，移除该坐标，改标 awaiting-location 待补实地坐标。"
     }
    ],
-   "lat": -32.8897374,
-   "lng": -68.8377963
+   "lat": null,
+   "lng": null
   },
-  "version": 3,
-  "updated": "2026-09-20T23:57:29Z",
+  "version": 4,
+  "updated": "2026-10-03T00:00:00.000Z",
   "origin": "国家窗口采集 · 官方名录 × OSM/AR / CL / UY"
  },
  {
@@ -163337,19 +163427,20 @@
    "regionId": "patagonia",
    "address": "José Benito Croceri, Gral. Fernandez Oro, Río Negro, Argentina, Julio Croceri 241",
    "website": "https://www.bodegasverum.com",
-   "lat": -34.6109207,
-   "lng": -58.3661619,
-   "locationPrecision": "Wines of Argentina 官方会员登记地址经纬度（协会会籍申报值，非地块边界）",
+   "lat": null,
+   "lng": null,
+   "locationPrecision": "【2026-10-03 已移除原坐标】原值 -34.6109207,-58.3661619 系「Wines of Argentina 官方会员登记地址经纬度（协会会籍申报值，非地块边界）」，经与其自身 address（Río Negro）交叉核对，偏差约 955 km，判定为会籍登记地址而非酒庄实址，已依规则置空。坐标待补。 原说明：Wines of Argentina 官方会员登记地址经纬度（协会会籍申报值，非地块边界）",
    "locationSourceURL": "https://www.openstreetmap.org/",
    "sourceTitle": "Wines of Argentina — 协会会员酒庄目录（官方）",
    "sourceURL": "https://www.winesofargentina.org/es/bodegas/bodega-del-r-o-elorza",
    "checkedDate": "2026-09-20",
    "notes": "法人名：Bodegas Verum SRL。",
    "verification": {
-    "method": "auto:country-window+http",
-    "checkedDate": "2026-09-21",
-    "coordinateInCountryWindow": true,
-    "status": "ok"
+    "method": "manual:coordinate-removed-by-cross-check",
+    "checkedDate": "2026-10-03",
+    "coordinateInCountryWindow": null,
+    "status": "awaiting-location",
+    "note": "原坐标因与自身 address 省份矛盾（偏差 955 km）被移除，待补实地坐标。"
    },
    "notesHistory": [
     {
@@ -163357,11 +163448,21 @@
      "previousValue": "www.bodegasverum.com",
      "replacedAt": "2026-09-20T22:57:47.000Z",
      "reason": "门禁归一化：补 https:// 前缀（原值缺 scheme）"
+    },
+    {
+     "date": "2026-10-03",
+     "action": "coordinate-removed",
+     "field": "lat/lng",
+     "previousValue": {
+      "lat": -34.6109207,
+      "lng": -58.3661619
+     },
+     "reason": "坐标与本品目自身 address 所写省份矛盾：address 标明 「Río Negro」，而坐标点距该省葡萄酒产区约 955 km（落在布宜诺斯艾利斯一带）。来源自述为「Wines of Argentina 官方会员登记地址经纬度（协会会籍申报值，非地块边界）」，即会籍登记/通讯地址，非酒庄实际所在地。依项目规则「不以行政区中心、公司总部或登记地址作为酒庄坐标」，移除该坐标，改标 awaiting-location 待补实地坐标。"
     }
    ]
   },
-  "version": 2,
-  "updated": "2026-09-20T22:57:47.000Z",
+  "version": 3,
+  "updated": "2026-10-03T00:00:00.000Z",
   "origin": "国家窗口采集 · 官方名录 × OSM/AR / CL / UY"
  },
  {
@@ -163700,23 +163801,36 @@
    "regionId": "patagonia",
    "address": "Subida Al Cerro Piltriquitron, El Bolsón, Río Negro, Argentina, entre diuca y sales",
    "website": "",
-   "lat": -42.9154356,
-   "lng": -71.3231934,
-   "locationPrecision": "Wines of Argentina 官方会员登记地址经纬度（协会会籍申报值，非地块边界）",
+   "lat": null,
+   "lng": null,
+   "locationPrecision": "【2026-10-03 已移除原坐标】原值 -42.9154356,-71.3231934 系「Wines of Argentina 官方会员登记地址经纬度（协会会籍申报值，非地块边界）」，经与其自身 address（Río Negro）交叉核对，偏差约 534 km，判定为会籍登记地址而非酒庄实址，已依规则置空。坐标待补。 原说明：Wines of Argentina 官方会员登记地址经纬度（协会会籍申报值，非地块边界）",
    "locationSourceURL": "https://www.openstreetmap.org/",
    "sourceTitle": "Wines of Argentina — 协会会员酒庄目录（官方）",
    "sourceURL": "https://www.winesofargentina.org/es/bodegas/bodega-familia-de-bernardi",
    "checkedDate": "2026-09-20",
    "notes": "法人名：DE BERNARDI HERMANOS S.R.L.。",
    "verification": {
-    "method": "auto:country-window",
-    "checkedDate": "2026-09-21",
-    "coordinateInCountryWindow": true,
-    "status": "ok"
-   }
+    "method": "manual:coordinate-removed-by-cross-check",
+    "checkedDate": "2026-10-03",
+    "coordinateInCountryWindow": null,
+    "status": "awaiting-location",
+    "note": "原坐标因与自身 address 省份矛盾（偏差 534 km）被移除，待补实地坐标。"
+   },
+   "notesHistory": [
+    {
+     "date": "2026-10-03",
+     "action": "coordinate-removed",
+     "field": "lat/lng",
+     "previousValue": {
+      "lat": -42.9154356,
+      "lng": -71.3231934
+     },
+     "reason": "坐标与本品目自身 address 所写省份矛盾：address 标明 「Río Negro」，而坐标点距该省葡萄酒产区约 534 km（落在布宜诺斯艾利斯一带）。来源自述为「Wines of Argentina 官方会员登记地址经纬度（协会会籍申报值，非地块边界）」，即会籍登记/通讯地址，非酒庄实际所在地。依项目规则「不以行政区中心、公司总部或登记地址作为酒庄坐标」，移除该坐标，改标 awaiting-location 待补实地坐标。"
+    }
+   ]
   },
-  "version": 1,
-  "updated": "2026-09-20T18:57:38.000Z",
+  "version": 2,
+  "updated": "2026-10-03T00:00:00.000Z",
   "origin": "国家窗口采集 · 官方名录 × OSM/AR / CL / UY"
  },
  {
@@ -164096,19 +164210,20 @@
    "regionId": "mendoza",
    "address": "RN143, Mendoza, Argentina, Ruta 143 y Calle F, General Alvear, Mendoza",
    "website": "https://www.autorjorgerubio.com.ar",
-   "lat": -34.9499349,
-   "lng": -67.6951012,
-   "locationPrecision": "Wines of Argentina 官方会员登记地址经纬度（协会会籍申报值，非地块边界）",
+   "lat": null,
+   "lng": null,
+   "locationPrecision": "【2026-10-03 已移除原坐标】原值 -34.9499349,-67.6951012 系「Wines of Argentina 官方会员登记地址经纬度（协会会籍申报值，非地块边界）」，经与其自身 address（Mendoza）交叉核对，偏差约 244 km，判定为会籍登记地址而非酒庄实址，已依规则置空。坐标待补。 原说明：Wines of Argentina 官方会员登记地址经纬度（协会会籍申报值，非地块边界）",
    "locationSourceURL": "https://www.openstreetmap.org/",
    "sourceTitle": "Wines of Argentina — 协会会员酒庄目录（官方）",
    "sourceURL": "https://www.winesofargentina.org/es/bodegas/bodega-jorge-rubio",
    "checkedDate": "2026-09-20",
    "notes": "法人名：Rubio Jorge Alberto。",
    "verification": {
-    "method": "auto:country-window+http",
-    "checkedDate": "2026-09-21",
-    "coordinateInCountryWindow": true,
-    "status": "ok"
+    "method": "manual:coordinate-removed-by-cross-check",
+    "checkedDate": "2026-10-03",
+    "coordinateInCountryWindow": null,
+    "status": "awaiting-location",
+    "note": "原坐标因与自身 address 省份矛盾（偏差 244 km）被移除，待补实地坐标。"
    },
    "notesHistory": [
     {
@@ -164116,11 +164231,21 @@
      "previousValue": "www.autorjorgerubio.com.ar",
      "replacedAt": "2026-09-20T22:57:47.000Z",
      "reason": "门禁归一化：补 https:// 前缀（原值缺 scheme）"
+    },
+    {
+     "date": "2026-10-03",
+     "action": "coordinate-removed",
+     "field": "lat/lng",
+     "previousValue": {
+      "lat": -34.9499349,
+      "lng": -67.6951012
+     },
+     "reason": "坐标与本品目自身 address 所写省份矛盾：address 标明 「Mendoza」，而坐标点距该省葡萄酒产区约 244 km（落在布宜诺斯艾利斯一带）。来源自述为「Wines of Argentina 官方会员登记地址经纬度（协会会籍申报值，非地块边界）」，即会籍登记/通讯地址，非酒庄实际所在地。依项目规则「不以行政区中心、公司总部或登记地址作为酒庄坐标」，移除该坐标，改标 awaiting-location 待补实地坐标。"
     }
    ]
   },
-  "version": 2,
-  "updated": "2026-09-20T22:57:47.000Z",
+  "version": 3,
+  "updated": "2026-10-03T00:00:00.000Z",
   "origin": "国家窗口采集 · 官方名录 × OSM/AR / CL / UY"
  },
  {
@@ -164497,19 +164622,20 @@
    "regionId": "mendoza",
    "address": "San Martín 2044, M5507 Luján de Cuyo, Mendoza, Argentina, San Martín 2044",
    "website": "https://www.luigibosca.com",
-   "lat": -34.54725,
-   "lng": -58.491194,
-   "locationPrecision": "Wines of Argentina 官方会员登记地址经纬度（协会会籍申报值，非地块边界）",
+   "lat": null,
+   "lng": null,
+   "locationPrecision": "【2026-10-03 已移除原坐标】原值 -34.54725,-58.491194 系「Wines of Argentina 官方会员登记地址经纬度（协会会籍申报值，非地块边界）」，经与其自身 address（Mendoza）交叉核对，偏差约 977 km，判定为会籍登记地址而非酒庄实址，已依规则置空。坐标待补。 原说明：Wines of Argentina 官方会员登记地址经纬度（协会会籍申报值，非地块边界）",
    "locationSourceURL": "https://www.openstreetmap.org/",
    "sourceTitle": "Wines of Argentina — 协会会员酒庄目录（官方）",
    "sourceURL": "https://www.winesofargentina.org/es/bodegas/bodega-luigi-bosca-familia-arizu",
    "checkedDate": "2026-09-20",
    "notes": "法人名：Leoncio Arizu S.A.。",
    "verification": {
-    "method": "auto:country-window+http",
-    "checkedDate": "2026-09-21",
-    "coordinateInCountryWindow": true,
-    "status": "ok"
+    "method": "manual:coordinate-removed-by-cross-check",
+    "checkedDate": "2026-10-03",
+    "coordinateInCountryWindow": null,
+    "status": "awaiting-location",
+    "note": "原坐标因与自身 address 省份矛盾（偏差 977 km）被移除，待补实地坐标。"
    },
    "notesHistory": [
     {
@@ -164517,11 +164643,21 @@
      "previousValue": "www.luigibosca.com",
      "replacedAt": "2026-09-20T22:57:47.000Z",
      "reason": "门禁归一化：补 https:// 前缀（原值缺 scheme）"
+    },
+    {
+     "date": "2026-10-03",
+     "action": "coordinate-removed",
+     "field": "lat/lng",
+     "previousValue": {
+      "lat": -34.54725,
+      "lng": -58.491194
+     },
+     "reason": "坐标与本品目自身 address 所写省份矛盾：address 标明 「Mendoza」，而坐标点距该省葡萄酒产区约 977 km（落在布宜诺斯艾利斯一带）。来源自述为「Wines of Argentina 官方会员登记地址经纬度（协会会籍申报值，非地块边界）」，即会籍登记/通讯地址，非酒庄实际所在地。依项目规则「不以行政区中心、公司总部或登记地址作为酒庄坐标」，移除该坐标，改标 awaiting-location 待补实地坐标。"
     }
    ]
   },
-  "version": 2,
-  "updated": "2026-09-20T22:57:47.000Z",
+  "version": 3,
+  "updated": "2026-10-03T00:00:00.000Z",
   "origin": "国家窗口采集 · 官方名录 × OSM/AR / CL / UY"
  },
  {
@@ -165651,19 +165787,20 @@
    "regionId": "mendoza",
    "address": "Pje. de la Reta, Las Compuertas, Mendoza, Argentina",
    "website": "https://www.bodegasurdelosandes.com.ar",
-   "lat": -34.5966902,
-   "lng": -58.4089024,
-   "locationPrecision": "Wines of Argentina 官方会员登记地址经纬度（协会会籍申报值，非地块边界）",
+   "lat": null,
+   "lng": null,
+   "locationPrecision": "【2026-10-03 已移除原坐标】原值 -34.5966902,-58.4089024 系「Wines of Argentina 官方会员登记地址经纬度（协会会籍申报值，非地块边界）」，经与其自身 address（Mendoza）交叉核对，偏差约 985 km，判定为会籍登记地址而非酒庄实址，已依规则置空。坐标待补。 原说明：Wines of Argentina 官方会员登记地址经纬度（协会会籍申报值，非地块边界）",
    "locationSourceURL": "https://www.openstreetmap.org/",
    "sourceTitle": "Wines of Argentina — 协会会员酒庄目录（官方）",
    "sourceURL": "https://www.winesofargentina.org/es/bodegas/bodega-sur-de-los-andes",
    "checkedDate": "2026-09-20",
    "notes": "法人名：Sur Bodegas y Viñedos S.A.。",
    "verification": {
-    "method": "auto:country-window+http",
-    "checkedDate": "2026-09-21",
-    "coordinateInCountryWindow": true,
-    "status": "ok"
+    "method": "manual:coordinate-removed-by-cross-check",
+    "checkedDate": "2026-10-03",
+    "coordinateInCountryWindow": null,
+    "status": "awaiting-location",
+    "note": "原坐标因与自身 address 省份矛盾（偏差 985 km）被移除，待补实地坐标。"
    },
    "notesHistory": [
     {
@@ -165671,11 +165808,21 @@
      "previousValue": "www.bodegasurdelosandes.com.ar",
      "replacedAt": "2026-09-20T22:57:47.000Z",
      "reason": "门禁归一化：补 https:// 前缀（原值缺 scheme）"
+    },
+    {
+     "date": "2026-10-03",
+     "action": "coordinate-removed",
+     "field": "lat/lng",
+     "previousValue": {
+      "lat": -34.5966902,
+      "lng": -58.4089024
+     },
+     "reason": "坐标与本品目自身 address 所写省份矛盾：address 标明 「Mendoza」，而坐标点距该省葡萄酒产区约 985 km（落在布宜诺斯艾利斯一带）。来源自述为「Wines of Argentina 官方会员登记地址经纬度（协会会籍申报值，非地块边界）」，即会籍登记/通讯地址，非酒庄实际所在地。依项目规则「不以行政区中心、公司总部或登记地址作为酒庄坐标」，移除该坐标，改标 awaiting-location 待补实地坐标。"
     }
    ]
   },
-  "version": 2,
-  "updated": "2026-09-20T22:57:47.000Z",
+  "version": 3,
+  "updated": "2026-10-03T00:00:00.000Z",
   "origin": "国家窗口采集 · 官方名录 × OSM/AR / CL / UY"
  },
  {
@@ -165823,19 +165970,20 @@
    "regionId": "mendoza",
    "address": "Tupungato, Mendoza, Argentina, Ruta 89 y Los Alamos, Tupungato",
    "website": "https://www.bodegaurqo.com",
-   "lat": -32.755455,
-   "lng": -63.7907366,
-   "locationPrecision": "Wines of Argentina 官方会员登记地址经纬度（协会会籍申报值，非地块边界）",
+   "lat": null,
+   "lng": null,
+   "locationPrecision": "【2026-10-03 已移除原坐标】原值 -32.755455,-63.7907366 系「Wines of Argentina 官方会员登记地址经纬度（协会会籍申报值，非地块边界）」，经与其自身 address（Mendoza）交叉核对，偏差约 478 km，判定为会籍登记地址而非酒庄实址，已依规则置空。坐标待补。 原说明：Wines of Argentina 官方会员登记地址经纬度（协会会籍申报值，非地块边界）",
    "locationSourceURL": "https://www.openstreetmap.org/",
    "sourceTitle": "Wines of Argentina — 协会会员酒庄目录（官方）",
    "sourceURL": "https://www.winesofargentina.org/es/bodegas/bodega-urqo",
    "checkedDate": "2026-09-20",
    "notes": "法人名：Finca 1948 S.A.。",
    "verification": {
-    "method": "auto:country-window+http",
-    "checkedDate": "2026-09-21",
-    "coordinateInCountryWindow": true,
-    "status": "ok"
+    "method": "manual:coordinate-removed-by-cross-check",
+    "checkedDate": "2026-10-03",
+    "coordinateInCountryWindow": null,
+    "status": "awaiting-location",
+    "note": "原坐标因与自身 address 省份矛盾（偏差 478 km）被移除，待补实地坐标。"
    },
    "notesHistory": [
     {
@@ -165843,11 +165991,21 @@
      "previousValue": "www.bodegaurqo.com",
      "replacedAt": "2026-09-20T22:57:47.000Z",
      "reason": "门禁归一化：补 https:// 前缀（原值缺 scheme）"
+    },
+    {
+     "date": "2026-10-03",
+     "action": "coordinate-removed",
+     "field": "lat/lng",
+     "previousValue": {
+      "lat": -32.755455,
+      "lng": -63.7907366
+     },
+     "reason": "坐标与本品目自身 address 所写省份矛盾：address 标明 「Mendoza」，而坐标点距该省葡萄酒产区约 478 km（落在布宜诺斯艾利斯一带）。来源自述为「Wines of Argentina 官方会员登记地址经纬度（协会会籍申报值，非地块边界）」，即会籍登记/通讯地址，非酒庄实际所在地。依项目规则「不以行政区中心、公司总部或登记地址作为酒庄坐标」，移除该坐标，改标 awaiting-location 待补实地坐标。"
     }
    ]
   },
-  "version": 2,
-  "updated": "2026-09-20T22:57:47.000Z",
+  "version": 3,
+  "updated": "2026-10-03T00:00:00.000Z",
   "origin": "国家窗口采集 · 官方名录 × OSM/AR / CL / UY"
  },
  {
@@ -165954,19 +166112,20 @@
    "regionId": "patagonia",
    "address": "Luis Beltrán, Río Negro, Argentina",
    "website": "https://www.bodegavideladorna.com.ar",
-   "lat": -34.4780007,
-   "lng": -58.5258632,
-   "locationPrecision": "Wines of Argentina 官方会员登记地址经纬度（协会会籍申报值，非地块边界）",
+   "lat": null,
+   "lng": null,
+   "locationPrecision": "【2026-10-03 已移除原坐标】原值 -34.4780007,-58.5258632 系「Wines of Argentina 官方会员登记地址经纬度（协会会籍申报值，非地块边界）」，经与其自身 address（Río Negro）交叉核对，偏差约 952 km，判定为会籍登记地址而非酒庄实址，已依规则置空。坐标待补。 原说明：Wines of Argentina 官方会员登记地址经纬度（协会会籍申报值，非地块边界）",
    "locationSourceURL": "https://www.openstreetmap.org/",
    "sourceTitle": "Wines of Argentina — 协会会员酒庄目录（官方）",
    "sourceURL": "https://www.winesofargentina.org/es/bodegas/bodega-videla-dorna",
    "checkedDate": "2026-09-20",
    "notes": "法人名：Bodega Videla Dorna SRL。",
    "verification": {
-    "method": "auto:country-window+http",
-    "checkedDate": "2026-09-21",
-    "coordinateInCountryWindow": true,
-    "status": "ok"
+    "method": "manual:coordinate-removed-by-cross-check",
+    "checkedDate": "2026-10-03",
+    "coordinateInCountryWindow": null,
+    "status": "awaiting-location",
+    "note": "原坐标因与自身 address 省份矛盾（偏差 952 km）被移除，待补实地坐标。"
    },
    "notesHistory": [
     {
@@ -165974,11 +166133,21 @@
      "previousValue": "www.bodegavideladorna.com.ar",
      "replacedAt": "2026-09-20T22:57:47.000Z",
      "reason": "门禁归一化：补 https:// 前缀（原值缺 scheme）"
+    },
+    {
+     "date": "2026-10-03",
+     "action": "coordinate-removed",
+     "field": "lat/lng",
+     "previousValue": {
+      "lat": -34.4780007,
+      "lng": -58.5258632
+     },
+     "reason": "坐标与本品目自身 address 所写省份矛盾：address 标明 「Río Negro」，而坐标点距该省葡萄酒产区约 952 km（落在布宜诺斯艾利斯一带）。来源自述为「Wines of Argentina 官方会员登记地址经纬度（协会会籍申报值，非地块边界）」，即会籍登记/通讯地址，非酒庄实际所在地。依项目规则「不以行政区中心、公司总部或登记地址作为酒庄坐标」，移除该坐标，改标 awaiting-location 待补实地坐标。"
     }
    ]
   },
-  "version": 2,
-  "updated": "2026-09-20T22:57:47.000Z",
+  "version": 3,
+  "updated": "2026-10-03T00:00:00.000Z",
   "origin": "国家窗口采集 · 官方名录 × OSM/AR / CL / UY"
  },
  {
@@ -166761,19 +166930,20 @@
    "regionId": "mendoza",
    "address": "Ozamis 375",
    "website": "https://www.bodegaslopez.com.ar",
-   "lat": -34.5854509,
-   "lng": -58.431369,
-   "locationPrecision": "Wines of Argentina 官方会员登记地址经纬度（协会会籍申报值，非地块边界）",
+   "lat": null,
+   "lng": null,
+   "locationPrecision": "【2026-10-03 已移除原坐标】原值 -34.5854509,-58.431369 落在布宜诺斯艾利斯市区（距市中心 5 km），而 regionId=mendoza，二者矛盾。该值系「Wines of Argentina 官方会员登记地址经纬度（协会会籍申报值，非地块边界）」，判为会籍登记地址，已依规则置空。坐标待补。",
    "locationSourceURL": "https://www.openstreetmap.org/",
    "sourceTitle": "Wines of Argentina — 协会会员酒庄目录（官方）",
    "sourceURL": "https://www.winesofargentina.org/es/bodegas/bodegas-lopez",
    "checkedDate": "2026-09-20",
    "notes": "法人名：Bodegas Lopez SAIC。",
    "verification": {
-    "method": "auto:country-window+http",
-    "checkedDate": "2026-09-21",
-    "coordinateInCountryWindow": true,
-    "status": "ok"
+    "method": "manual:coordinate-removed-by-cross-check",
+    "checkedDate": "2026-10-03",
+    "coordinateInCountryWindow": null,
+    "status": "awaiting-location",
+    "note": "原坐标落在布市市区，与所标产区矛盾（偏差 5 km），已移除待补。"
    },
    "notesHistory": [
     {
@@ -166781,11 +166951,21 @@
      "previousValue": "www.bodegaslopez.com.ar",
      "replacedAt": "2026-09-20T22:57:47.000Z",
      "reason": "门禁归一化：补 https:// 前缀（原值缺 scheme）"
+    },
+    {
+     "date": "2026-10-03",
+     "action": "coordinate-removed",
+     "field": "lat/lng",
+     "previousValue": {
+      "lat": -34.5854509,
+      "lng": -58.431369
+     },
+     "reason": "坐标落在布宜诺斯艾利斯市 5 km 内，而本品目 regionId 为 mendoza（门多萨/巴塔哥尼亚一带），且地址为布市街道地址。阿根廷无葡萄酒产区位于布市市区，故该坐标为会籍登记地址而非酒庄实址。依项目规则移除，改标 awaiting-location 待补实地坐标。"
     }
    ]
   },
-  "version": 2,
-  "updated": "2026-09-20T22:57:47.000Z",
+  "version": 3,
+  "updated": "2026-10-03T00:00:00.000Z",
   "origin": "国家窗口采集 · 官方名录 × OSM/AR / CL / UY"
  },
  {
@@ -167524,19 +167704,20 @@
    "regionId": "patagonia",
    "address": "Valle Azul, Río Negro, Argentina, Calle S/N",
    "website": "https://www.casapirque.com.ar",
-   "lat": -34.5748731,
-   "lng": -58.4010401,
-   "locationPrecision": "Wines of Argentina 官方会员登记地址经纬度（协会会籍申报值，非地块边界）",
+   "lat": null,
+   "lng": null,
+   "locationPrecision": "【2026-10-03 已移除原坐标】原值 -34.5748731,-58.4010401 系「Wines of Argentina 官方会员登记地址经纬度（协会会籍申报值，非地块边界）」，经与其自身 address（Río Negro）交叉核对，偏差约 955 km，判定为会籍登记地址而非酒庄实址，已依规则置空。坐标待补。 原说明：Wines of Argentina 官方会员登记地址经纬度（协会会籍申报值，非地块边界）",
    "locationSourceURL": "https://www.openstreetmap.org/",
    "sourceTitle": "Wines of Argentina — 协会会员酒庄目录（官方）",
    "sourceURL": "https://www.winesofargentina.org/es/bodegas/casa-pirque-s-a-",
    "checkedDate": "2026-09-20",
    "notes": "法人名：Casa Pirque S.A.。",
    "verification": {
-    "method": "auto:country-window+http",
-    "checkedDate": "2026-09-21",
-    "coordinateInCountryWindow": true,
-    "status": "ok"
+    "method": "manual:coordinate-removed-by-cross-check",
+    "checkedDate": "2026-10-03",
+    "coordinateInCountryWindow": null,
+    "status": "awaiting-location",
+    "note": "原坐标因与自身 address 省份矛盾（偏差 955 km）被移除，待补实地坐标。"
    },
    "notesHistory": [
     {
@@ -167544,11 +167725,21 @@
      "previousValue": "www.casapirque.com.ar",
      "replacedAt": "2026-09-20T22:57:47.000Z",
      "reason": "门禁归一化：补 https:// 前缀（原值缺 scheme）"
+    },
+    {
+     "date": "2026-10-03",
+     "action": "coordinate-removed",
+     "field": "lat/lng",
+     "previousValue": {
+      "lat": -34.5748731,
+      "lng": -58.4010401
+     },
+     "reason": "坐标与本品目自身 address 所写省份矛盾：address 标明 「Río Negro」，而坐标点距该省葡萄酒产区约 955 km（落在布宜诺斯艾利斯一带）。来源自述为「Wines of Argentina 官方会员登记地址经纬度（协会会籍申报值，非地块边界）」，即会籍登记/通讯地址，非酒庄实际所在地。依项目规则「不以行政区中心、公司总部或登记地址作为酒庄坐标」，移除该坐标，改标 awaiting-location 待补实地坐标。"
     }
    ]
   },
-  "version": 2,
-  "updated": "2026-09-20T22:57:47.000Z",
+  "version": 3,
+  "updated": "2026-10-03T00:00:00.000Z",
   "origin": "国家窗口采集 · 官方名录 × OSM/AR / CL / UY"
  },
  {
@@ -167875,19 +168066,20 @@
    "regionId": "mendoza",
    "address": "Luján de Cuyo, Mendoza, Argentina, Roque Saenz Peña y Callejón de la Reta",
    "website": "https://www.chevaldesandes.com",
-   "lat": -34.5799991,
-   "lng": -58.4027575,
-   "locationPrecision": "Wines of Argentina 官方会员登记地址经纬度（协会会籍申报值，非地块边界）",
+   "lat": null,
+   "lng": null,
+   "locationPrecision": "【2026-10-03 已移除原坐标】原值 -34.5799991,-58.4027575 系「Wines of Argentina 官方会员登记地址经纬度（协会会籍申报值，非地块边界）」，经与其自身 address（Mendoza）交叉核对，偏差约 985 km，判定为会籍登记地址而非酒庄实址，已依规则置空。坐标待补。 原说明：Wines of Argentina 官方会员登记地址经纬度（协会会籍申报值，非地块边界）",
    "locationSourceURL": "https://www.openstreetmap.org/",
    "sourceTitle": "Wines of Argentina — 协会会员酒庄目录（官方）",
    "sourceURL": "https://www.winesofargentina.org/es/bodegas/cheval-des-andes",
    "checkedDate": "2026-09-20",
    "notes": "法人名：CHEVAL DES ANDES S.A.。",
    "verification": {
-    "method": "auto:country-window+http",
-    "checkedDate": "2026-09-21",
-    "coordinateInCountryWindow": true,
-    "status": "ok"
+    "method": "manual:coordinate-removed-by-cross-check",
+    "checkedDate": "2026-10-03",
+    "coordinateInCountryWindow": null,
+    "status": "awaiting-location",
+    "note": "原坐标因与自身 address 省份矛盾（偏差 985 km）被移除，待补实地坐标。"
    },
    "notesHistory": [
     {
@@ -167895,11 +168087,21 @@
      "previousValue": "www.chevaldesandes.com",
      "replacedAt": "2026-09-20T22:57:47.000Z",
      "reason": "门禁归一化：补 https:// 前缀（原值缺 scheme）"
+    },
+    {
+     "date": "2026-10-03",
+     "action": "coordinate-removed",
+     "field": "lat/lng",
+     "previousValue": {
+      "lat": -34.5799991,
+      "lng": -58.4027575
+     },
+     "reason": "坐标与本品目自身 address 所写省份矛盾：address 标明 「Mendoza」，而坐标点距该省葡萄酒产区约 985 km（落在布宜诺斯艾利斯一带）。来源自述为「Wines of Argentina 官方会员登记地址经纬度（协会会籍申报值，非地块边界）」，即会籍登记/通讯地址，非酒庄实际所在地。依项目规则「不以行政区中心、公司总部或登记地址作为酒庄坐标」，移除该坐标，改标 awaiting-location 待补实地坐标。"
     }
    ]
   },
-  "version": 2,
-  "updated": "2026-09-20T22:57:47.000Z",
+  "version": 3,
+  "updated": "2026-10-03T00:00:00.000Z",
   "origin": "国家窗口采集 · 官方名录 × OSM/AR / CL / UY"
  },
  {
@@ -168303,19 +168505,20 @@
    "regionId": "mendoza",
    "address": "Quintana 375, Mendoza, Argentina",
    "website": "https://www.bodegadanterobino.com",
-   "lat": -34.5758493,
-   "lng": -58.4907235,
-   "locationPrecision": "Wines of Argentina 官方会员登记地址经纬度（协会会籍申报值，非地块边界）",
+   "lat": null,
+   "lng": null,
+   "locationPrecision": "【2026-10-03 已移除原坐标】原值 -34.5758493,-58.4907235 系「Wines of Argentina 官方会员登记地址经纬度（协会会籍申报值，非地块边界）」，经与其自身 address（Mendoza）交叉核对，偏差约 977 km，判定为会籍登记地址而非酒庄实址，已依规则置空。坐标待补。 原说明：Wines of Argentina 官方会员登记地址经纬度（协会会籍申报值，非地块边界）",
    "locationSourceURL": "https://www.openstreetmap.org/",
    "sourceTitle": "Wines of Argentina — 协会会员酒庄目录（官方）",
    "sourceURL": "https://www.winesofargentina.org/es/bodegas/dante-robino",
    "checkedDate": "2026-09-20",
    "notes": "法人名：BODEGA DANTE ROBINO SA。",
    "verification": {
-    "method": "auto:country-window+http",
-    "checkedDate": "2026-09-21",
-    "coordinateInCountryWindow": true,
-    "status": "ok"
+    "method": "manual:coordinate-removed-by-cross-check",
+    "checkedDate": "2026-10-03",
+    "coordinateInCountryWindow": null,
+    "status": "awaiting-location",
+    "note": "原坐标因与自身 address 省份矛盾（偏差 977 km）被移除，待补实地坐标。"
    },
    "notesHistory": [
     {
@@ -168323,11 +168526,21 @@
      "previousValue": "www.bodegadanterobino.com",
      "replacedAt": "2026-09-20T22:57:47.000Z",
      "reason": "门禁归一化：补 https:// 前缀（原值缺 scheme）"
+    },
+    {
+     "date": "2026-10-03",
+     "action": "coordinate-removed",
+     "field": "lat/lng",
+     "previousValue": {
+      "lat": -34.5758493,
+      "lng": -58.4907235
+     },
+     "reason": "坐标与本品目自身 address 所写省份矛盾：address 标明 「Mendoza」，而坐标点距该省葡萄酒产区约 977 km（落在布宜诺斯艾利斯一带）。来源自述为「Wines of Argentina 官方会员登记地址经纬度（协会会籍申报值，非地块边界）」，即会籍登记/通讯地址，非酒庄实际所在地。依项目规则「不以行政区中心、公司总部或登记地址作为酒庄坐标」，移除该坐标，改标 awaiting-location 待补实地坐标。"
     }
    ]
   },
-  "version": 2,
-  "updated": "2026-09-20T22:57:47.000Z",
+  "version": 3,
+  "updated": "2026-10-03T00:00:00.000Z",
   "origin": "国家窗口采集 · 官方名录 × OSM/AR / CL / UY"
  },
  {
@@ -169095,17 +169308,18 @@
    "regionId": "salta",
    "address": "Córdoba 32",
    "website": "https://www.elporvenirdecafayate.com",
-   "locationPrecision": "OSM 实体「El Porvenir de Cafayate」（shop/wine），经地理校验（within_region_cluster(5km<=224km, n=21)）；非地块边界",
+   "locationPrecision": "【2026-10-03 已移除原坐标】原值 -26.0697661,-65.9744523 系「Wines of Argentina 官方会员登记地址经纬度（协会会籍申报值，非地块边界）」，经与其自身 address（Córdoba）交叉核对，偏差约 620 km，判定为会籍登记地址而非酒庄实址，已依规则置空。坐标待补。 原说明：OSM 实体「El Porvenir de Cafayate」（shop/wine），经地理校验（within_region_cluster(5km<=224km, n=21)）；非地块边界",
    "locationSourceURL": "https://www.openstreetmap.org/node/12270744401",
    "sourceTitle": "Wines of Argentina — 协会会员酒庄目录（官方）",
    "sourceURL": "https://www.winesofargentina.org/es/bodegas/el-porvenir-de-cafayate",
    "checkedDate": "2026-09-21",
    "notes": "法人名：Uvas del Valle S.A.。",
    "verification": {
-    "method": "auto:country-window+http",
-    "checkedDate": "2026-09-21",
-    "coordinateInCountryWindow": true,
-    "status": "ok"
+    "method": "manual:coordinate-removed-by-cross-check",
+    "checkedDate": "2026-10-03",
+    "coordinateInCountryWindow": null,
+    "status": "awaiting-location",
+    "note": "原坐标因与自身 address 省份矛盾（偏差 620 km）被移除，待补实地坐标。"
    },
    "notesHistory": [
     {
@@ -169113,13 +169327,23 @@
      "previousValue": "www.elporvenirdecafayate.com",
      "replacedAt": "2026-09-20T22:57:47.000Z",
      "reason": "门禁归一化：补 https:// 前缀（原值缺 scheme）"
+    },
+    {
+     "date": "2026-10-03",
+     "action": "coordinate-removed",
+     "field": "lat/lng",
+     "previousValue": {
+      "lat": -26.0697661,
+      "lng": -65.9744523
+     },
+     "reason": "坐标与本品目自身 address 所写省份矛盾：address 标明 「Córdoba」，而坐标点距该省葡萄酒产区约 620 km（落在布宜诺斯艾利斯一带）。来源自述为「Wines of Argentina 官方会员登记地址经纬度（协会会籍申报值，非地块边界）」，即会籍登记/通讯地址，非酒庄实际所在地。依项目规则「不以行政区中心、公司总部或登记地址作为酒庄坐标」，移除该坐标，改标 awaiting-location 待补实地坐标。"
     }
    ],
-   "lat": -26.0697661,
-   "lng": -65.9744523
+   "lat": null,
+   "lng": null
   },
-  "version": 3,
-  "updated": "2026-09-20T23:57:29Z",
+  "version": 4,
+  "updated": "2026-10-03T00:00:00.000Z",
   "origin": "国家窗口采集 · 官方名录 × OSM/AR / CL / UY"
  },
  {
@@ -169200,19 +169424,20 @@
    "regionId": "salta",
    "address": "RN40 4320, Cafayate, Salta, Argentina, Tolombón",
    "website": "https://elviticultor.com.ar",
-   "lat": -32.8938257,
-   "lng": -68.8287656,
-   "locationPrecision": "Wines of Argentina 官方会员登记地址经纬度（协会会籍申报值，非地块边界）",
+   "lat": null,
+   "lng": null,
+   "locationPrecision": "【2026-10-03 已移除原坐标】原值 -32.8938257,-68.8287656 系「Wines of Argentina 官方会员登记地址经纬度（协会会籍申报值，非地块边界）」，经与其自身 address（Salta）交叉核对，偏差约 807 km，判定为会籍登记地址而非酒庄实址，已依规则置空。坐标待补。 原说明：Wines of Argentina 官方会员登记地址经纬度（协会会籍申报值，非地块边界）",
    "locationSourceURL": "https://www.openstreetmap.org/",
    "sourceTitle": "Wines of Argentina — 协会会员酒庄目录（官方）",
    "sourceURL": "https://www.winesofargentina.org/es/bodegas/el-viticultor",
    "checkedDate": "2026-09-20",
    "notes": "法人名：Uvas del sur SAS。",
    "verification": {
-    "method": "auto:country-window+http",
-    "checkedDate": "2026-09-21",
-    "coordinateInCountryWindow": true,
-    "status": "ok"
+    "method": "manual:coordinate-removed-by-cross-check",
+    "checkedDate": "2026-10-03",
+    "coordinateInCountryWindow": null,
+    "status": "awaiting-location",
+    "note": "原坐标因与自身 address 省份矛盾（偏差 807 km）被移除，待补实地坐标。"
    },
    "notesHistory": [
     {
@@ -169220,11 +169445,21 @@
      "previousValue": "elviticultor.com.ar",
      "replacedAt": "2026-09-20T22:57:47.000Z",
      "reason": "门禁归一化：补 https:// 前缀（原值缺 scheme）"
+    },
+    {
+     "date": "2026-10-03",
+     "action": "coordinate-removed",
+     "field": "lat/lng",
+     "previousValue": {
+      "lat": -32.8938257,
+      "lng": -68.8287656
+     },
+     "reason": "坐标与本品目自身 address 所写省份矛盾：address 标明 「Salta」，而坐标点距该省葡萄酒产区约 807 km（落在布宜诺斯艾利斯一带）。来源自述为「Wines of Argentina 官方会员登记地址经纬度（协会会籍申报值，非地块边界）」，即会籍登记/通讯地址，非酒庄实际所在地。依项目规则「不以行政区中心、公司总部或登记地址作为酒庄坐标」，移除该坐标，改标 awaiting-location 待补实地坐标。"
     }
    ]
   },
-  "version": 2,
-  "updated": "2026-09-20T22:57:47.000Z",
+  "version": 3,
+  "updated": "2026-10-03T00:00:00.000Z",
   "origin": "国家窗口采集 · 官方名录 × OSM/AR / CL / UY"
  },
  {
@@ -169925,19 +170160,20 @@
    "regionId": "mendoza",
    "address": "Mármol 1650, B1661 Bella Vista, Provincia de Buenos Aires, Argentina",
    "website": "https://www.familiamastrantonio.com",
-   "lat": -33.5871028,
-   "lng": -69.3272737,
-   "locationPrecision": "Wines of Argentina 官方会员登记地址经纬度（协会会籍申报值，非地块边界）",
+   "lat": null,
+   "lng": null,
+   "locationPrecision": "【2026-10-03 已移除原坐标】原值 -33.5871028,-69.3272737 系「Wines of Argentina 官方会员登记地址经纬度（协会会籍申报值，非地块边界）」，经与其自身 address（Buenos Aires）交叉核对，偏差约 1014 km，判定为会籍登记地址而非酒庄实址，已依规则置空。坐标待补。 原说明：Wines of Argentina 官方会员登记地址经纬度（协会会籍申报值，非地块边界）",
    "locationSourceURL": "https://www.openstreetmap.org/",
    "sourceTitle": "Wines of Argentina — 协会会员酒庄目录（官方）",
    "sourceURL": "https://www.winesofargentina.org/es/bodegas/familia-mastrantonio",
    "checkedDate": "2026-09-20",
    "notes": "法人名：IBA BUENOS AIRES S.R.L.。",
    "verification": {
-    "method": "auto:country-window+http",
-    "checkedDate": "2026-09-21",
-    "coordinateInCountryWindow": true,
-    "status": "ok"
+    "method": "manual:coordinate-removed-by-cross-check",
+    "checkedDate": "2026-10-03",
+    "coordinateInCountryWindow": null,
+    "status": "awaiting-location",
+    "note": "原坐标因与自身 address 省份矛盾（偏差 1014 km）被移除，待补实地坐标。"
    },
    "notesHistory": [
     {
@@ -169945,11 +170181,21 @@
      "previousValue": "www.familiamastrantonio.com",
      "replacedAt": "2026-09-20T22:57:47.000Z",
      "reason": "门禁归一化：补 https:// 前缀（原值缺 scheme）"
+    },
+    {
+     "date": "2026-10-03",
+     "action": "coordinate-removed",
+     "field": "lat/lng",
+     "previousValue": {
+      "lat": -33.5871028,
+      "lng": -69.3272737
+     },
+     "reason": "坐标与本品目自身 address 所写省份矛盾：address 标明 「Buenos Aires」，而坐标点距该省葡萄酒产区约 1014 km（落在布宜诺斯艾利斯一带）。来源自述为「Wines of Argentina 官方会员登记地址经纬度（协会会籍申报值，非地块边界）」，即会籍登记/通讯地址，非酒庄实际所在地。依项目规则「不以行政区中心、公司总部或登记地址作为酒庄坐标」，移除该坐标，改标 awaiting-location 待补实地坐标。"
     }
    ]
   },
-  "version": 2,
-  "updated": "2026-09-20T22:57:47.000Z",
+  "version": 3,
+  "updated": "2026-10-03T00:00:00.000Z",
   "origin": "国家窗口采集 · 官方名录 × OSM/AR / CL / UY"
  },
  {
@@ -170394,19 +170640,20 @@
    "regionId": "mendoza",
    "address": "Tunuyán, Mendoza, Argentina, Los Árboles, Valle de Uco",
    "website": "https://www.fincabuenaventura.com",
-   "lat": -34.8895554,
-   "lng": -58.012154,
-   "locationPrecision": "Wines of Argentina 官方会员登记地址经纬度（协会会籍申报值，非地块边界）",
+   "lat": null,
+   "lng": null,
+   "locationPrecision": "【2026-10-03 已移除原坐标】原值 -34.8895554,-58.012154 系「Wines of Argentina 官方会员登记地址经纬度（协会会籍申报值，非地块边界）」，经与其自身 address（Mendoza）交叉核对，偏差约 1026 km，判定为会籍登记地址而非酒庄实址，已依规则置空。坐标待补。 原说明：Wines of Argentina 官方会员登记地址经纬度（协会会籍申报值，非地块边界）",
    "locationSourceURL": "https://www.openstreetmap.org/",
    "sourceTitle": "Wines of Argentina — 协会会员酒庄目录（官方）",
    "sourceURL": "https://www.winesofargentina.org/es/bodegas/finca-buenaventura",
    "checkedDate": "2026-09-20",
    "notes": "法人名：FINCA Buenaventura SA。",
    "verification": {
-    "method": "auto:country-window+http",
-    "checkedDate": "2026-09-21",
-    "coordinateInCountryWindow": true,
-    "status": "ok"
+    "method": "manual:coordinate-removed-by-cross-check",
+    "checkedDate": "2026-10-03",
+    "coordinateInCountryWindow": null,
+    "status": "awaiting-location",
+    "note": "原坐标因与自身 address 省份矛盾（偏差 1026 km）被移除，待补实地坐标。"
    },
    "notesHistory": [
     {
@@ -170414,11 +170661,21 @@
      "previousValue": "www.fincabuenaventura.com",
      "replacedAt": "2026-09-20T22:57:47.000Z",
      "reason": "门禁归一化：补 https:// 前缀（原值缺 scheme）"
+    },
+    {
+     "date": "2026-10-03",
+     "action": "coordinate-removed",
+     "field": "lat/lng",
+     "previousValue": {
+      "lat": -34.8895554,
+      "lng": -58.012154
+     },
+     "reason": "坐标与本品目自身 address 所写省份矛盾：address 标明 「Mendoza」，而坐标点距该省葡萄酒产区约 1026 km（落在布宜诺斯艾利斯一带）。来源自述为「Wines of Argentina 官方会员登记地址经纬度（协会会籍申报值，非地块边界）」，即会籍登记/通讯地址，非酒庄实际所在地。依项目规则「不以行政区中心、公司总部或登记地址作为酒庄坐标」，移除该坐标，改标 awaiting-location 待补实地坐标。"
     }
    ]
   },
-  "version": 2,
-  "updated": "2026-09-20T22:57:47.000Z",
+  "version": 3,
+  "updated": "2026-10-03T00:00:00.000Z",
   "origin": "国家窗口采集 · 官方名录 × OSM/AR / CL / UY"
  },
  {
@@ -171826,19 +172083,20 @@
    "regionId": "patagonia",
    "address": "Lisandro de la Torre 358, B1638 Vicente López, Provincia de Buenos Aires, Argentina",
    "website": "https://www.bodega.geromemarteau.com.ar",
-   "lat": -39.0371561,
-   "lng": -67.5546845,
-   "locationPrecision": "Wines of Argentina 官方会员登记地址经纬度（协会会籍申报值，非地块边界）",
+   "lat": null,
+   "lng": null,
+   "locationPrecision": "【2026-10-03 已移除原坐标】原值 -39.0371561,-67.5546845 系「Wines of Argentina 官方会员登记地址经纬度（协会会籍申报值，非地块边界）」，经与其自身 address（Buenos Aires）交叉核对，偏差约 953 km，判定为会籍登记地址而非酒庄实址，已依规则置空。坐标待补。 原说明：Wines of Argentina 官方会员登记地址经纬度（协会会籍申报值，非地块边界）",
    "locationSourceURL": "https://www.openstreetmap.org/",
    "sourceTitle": "Wines of Argentina — 协会会员酒庄目录（官方）",
    "sourceURL": "https://www.winesofargentina.org/es/bodegas/gerome-marteau",
    "checkedDate": "2026-09-20",
    "notes": "法人名：Marteau Víctor Marcelo。",
    "verification": {
-    "method": "auto:country-window+http",
-    "checkedDate": "2026-09-21",
-    "coordinateInCountryWindow": true,
-    "status": "ok"
+    "method": "manual:coordinate-removed-by-cross-check",
+    "checkedDate": "2026-10-03",
+    "coordinateInCountryWindow": null,
+    "status": "awaiting-location",
+    "note": "原坐标因与自身 address 省份矛盾（偏差 953 km）被移除，待补实地坐标。"
    },
    "notesHistory": [
     {
@@ -171846,11 +172104,21 @@
      "previousValue": "www.bodega.geromemarteau.com.ar",
      "replacedAt": "2026-09-20T22:57:47.000Z",
      "reason": "门禁归一化：补 https:// 前缀（原值缺 scheme）"
+    },
+    {
+     "date": "2026-10-03",
+     "action": "coordinate-removed",
+     "field": "lat/lng",
+     "previousValue": {
+      "lat": -39.0371561,
+      "lng": -67.5546845
+     },
+     "reason": "坐标与本品目自身 address 所写省份矛盾：address 标明 「Buenos Aires」，而坐标点距该省葡萄酒产区约 953 km（落在布宜诺斯艾利斯一带）。来源自述为「Wines of Argentina 官方会员登记地址经纬度（协会会籍申报值，非地块边界）」，即会籍登记/通讯地址，非酒庄实际所在地。依项目规则「不以行政区中心、公司总部或登记地址作为酒庄坐标」，移除该坐标，改标 awaiting-location 待补实地坐标。"
     }
    ]
   },
-  "version": 2,
-  "updated": "2026-09-20T22:57:47.000Z",
+  "version": 3,
+  "updated": "2026-10-03T00:00:00.000Z",
   "origin": "国家窗口采集 · 官方名录 × OSM/AR / CL / UY"
  },
  {
@@ -172273,19 +172541,20 @@
    "regionId": "mendoza",
    "address": "Russell, Mendoza, Argentina, Maza s/n y Manuel A. Saenz",
    "website": "https://www.homofelix.ar",
-   "lat": -34.5801991,
-   "lng": -58.4001548,
-   "locationPrecision": "Wines of Argentina 官方会员登记地址经纬度（协会会籍申报值，非地块边界）",
+   "lat": null,
+   "lng": null,
+   "locationPrecision": "【2026-10-03 已移除原坐标】原值 -34.5801991,-58.4001548 系「Wines of Argentina 官方会员登记地址经纬度（协会会籍申报值，非地块边界）」，经与其自身 address（Mendoza）交叉核对，偏差约 986 km，判定为会籍登记地址而非酒庄实址，已依规则置空。坐标待补。 原说明：Wines of Argentina 官方会员登记地址经纬度（协会会籍申报值，非地块边界）",
    "locationSourceURL": "https://www.openstreetmap.org/",
    "sourceTitle": "Wines of Argentina — 协会会员酒庄目录（官方）",
    "sourceURL": "https://www.winesofargentina.org/es/bodegas/homo-felix-wines",
    "checkedDate": "2026-09-20",
    "notes": "法人名：Two Colors SRL。",
    "verification": {
-    "method": "auto:country-window+http",
-    "checkedDate": "2026-09-21",
-    "coordinateInCountryWindow": true,
-    "status": "ok"
+    "method": "manual:coordinate-removed-by-cross-check",
+    "checkedDate": "2026-10-03",
+    "coordinateInCountryWindow": null,
+    "status": "awaiting-location",
+    "note": "原坐标因与自身 address 省份矛盾（偏差 986 km）被移除，待补实地坐标。"
    },
    "notesHistory": [
     {
@@ -172293,11 +172562,21 @@
      "previousValue": "www.homofelix.ar",
      "replacedAt": "2026-09-20T22:57:47.000Z",
      "reason": "门禁归一化：补 https:// 前缀（原值缺 scheme）"
+    },
+    {
+     "date": "2026-10-03",
+     "action": "coordinate-removed",
+     "field": "lat/lng",
+     "previousValue": {
+      "lat": -34.5801991,
+      "lng": -58.4001548
+     },
+     "reason": "坐标与本品目自身 address 所写省份矛盾：address 标明 「Mendoza」，而坐标点距该省葡萄酒产区约 986 km（落在布宜诺斯艾利斯一带）。来源自述为「Wines of Argentina 官方会员登记地址经纬度（协会会籍申报值，非地块边界）」，即会籍登记/通讯地址，非酒庄实际所在地。依项目规则「不以行政区中心、公司总部或登记地址作为酒庄坐标」，移除该坐标，改标 awaiting-location 待补实地坐标。"
     }
    ]
   },
-  "version": 2,
-  "updated": "2026-09-20T22:57:47.000Z",
+  "version": 3,
+  "updated": "2026-10-03T00:00:00.000Z",
   "origin": "国家窗口采集 · 官方名录 × OSM/AR / CL / UY"
  },
  {
@@ -172382,19 +172661,20 @@
    "regionId": "patagonia",
    "address": "Correa 3030, Buenos Aires, Argentina, Piso 5 \"B\" ",
    "website": "https://www.bodegahcanale.com",
-   "lat": -34.5460917,
-   "lng": -58.4788238,
-   "locationPrecision": "Wines of Argentina 官方会员登记地址经纬度（协会会籍申报值，非地块边界）",
+   "lat": null,
+   "lng": null,
+   "locationPrecision": "【2026-10-03 已移除原坐标】原值 -34.5460917,-58.4788238 落在布宜诺斯艾利斯市区（距市中心 11 km），而 regionId=patagonia，二者矛盾。该值系「Wines of Argentina 官方会员登记地址经纬度（协会会籍申报值，非地块边界）」，判为会籍登记地址，已依规则置空。坐标待补。",
    "locationSourceURL": "https://www.openstreetmap.org/",
    "sourceTitle": "Wines of Argentina — 协会会员酒庄目录（官方）",
    "sourceURL": "https://www.winesofargentina.org/es/bodegas/humberto-canale",
    "checkedDate": "2026-09-20",
    "notes": "法人名：Establecimiento Humberto Canale S.A.。",
    "verification": {
-    "method": "auto:country-window+http",
-    "checkedDate": "2026-09-21",
-    "coordinateInCountryWindow": true,
-    "status": "ok"
+    "method": "manual:coordinate-removed-by-cross-check",
+    "checkedDate": "2026-10-03",
+    "coordinateInCountryWindow": null,
+    "status": "awaiting-location",
+    "note": "原坐标落在布市市区，与所标产区矛盾（偏差 11 km），已移除待补。"
    },
    "notesHistory": [
     {
@@ -172402,11 +172682,21 @@
      "previousValue": "www.bodegahcanale.com",
      "replacedAt": "2026-09-20T22:57:47.000Z",
      "reason": "门禁归一化：补 https:// 前缀（原值缺 scheme）"
+    },
+    {
+     "date": "2026-10-03",
+     "action": "coordinate-removed",
+     "field": "lat/lng",
+     "previousValue": {
+      "lat": -34.5460917,
+      "lng": -58.4788238
+     },
+     "reason": "坐标落在布宜诺斯艾利斯市 11 km 内，而本品目 regionId 为 patagonia（门多萨/巴塔哥尼亚一带），且地址为布市街道地址。阿根廷无葡萄酒产区位于布市市区，故该坐标为会籍登记地址而非酒庄实址。依项目规则移除，改标 awaiting-location 待补实地坐标。"
     }
    ]
   },
-  "version": 2,
-  "updated": "2026-09-20T22:57:47.000Z",
+  "version": 3,
+  "updated": "2026-10-03T00:00:00.000Z",
   "origin": "国家窗口采集 · 官方名录 × OSM/AR / CL / UY"
  },
  {
@@ -172419,23 +172709,36 @@
    "regionId": "mendoza",
    "address": "La Consulta, Mendoza, Argentina, SAN MARTIN S/N",
    "website": "https://ignarawines.com/",
-   "lat": -27.5071654,
-   "lng": -58.7711899,
-   "locationPrecision": "Wines of Argentina 官方会员登记地址经纬度（协会会籍申报值，非地块边界）",
+   "lat": null,
+   "lng": null,
+   "locationPrecision": "【2026-10-03 已移除原坐标】原值 -27.5071654,-58.7711899 系「Wines of Argentina 官方会员登记地址经纬度（协会会籍申报值，非地块边界）」，经与其自身 address（Mendoza）交叉核对，偏差约 1148 km，判定为会籍登记地址而非酒庄实址，已依规则置空。坐标待补。 原说明：Wines of Argentina 官方会员登记地址经纬度（协会会籍申报值，非地块边界）",
    "locationSourceURL": "https://www.openstreetmap.org/",
    "sourceTitle": "Wines of Argentina — 协会会员酒庄目录（官方）",
    "sourceURL": "https://www.winesofargentina.org/es/bodegas/ignara-wines",
    "checkedDate": "2026-09-20",
    "notes": "法人名：IGNACIO SANABRIA。",
    "verification": {
-    "method": "auto:country-window+http",
-    "checkedDate": "2026-09-21",
-    "coordinateInCountryWindow": true,
-    "status": "ok"
-   }
+    "method": "manual:coordinate-removed-by-cross-check",
+    "checkedDate": "2026-10-03",
+    "coordinateInCountryWindow": null,
+    "status": "awaiting-location",
+    "note": "原坐标因与自身 address 省份矛盾（偏差 1148 km）被移除，待补实地坐标。"
+   },
+   "notesHistory": [
+    {
+     "date": "2026-10-03",
+     "action": "coordinate-removed",
+     "field": "lat/lng",
+     "previousValue": {
+      "lat": -27.5071654,
+      "lng": -58.7711899
+     },
+     "reason": "坐标与本品目自身 address 所写省份矛盾：address 标明 「Mendoza」，而坐标点距该省葡萄酒产区约 1148 km（落在布宜诺斯艾利斯一带）。来源自述为「Wines of Argentina 官方会员登记地址经纬度（协会会籍申报值，非地块边界）」，即会籍登记/通讯地址，非酒庄实际所在地。依项目规则「不以行政区中心、公司总部或登记地址作为酒庄坐标」，移除该坐标，改标 awaiting-location 待补实地坐标。"
+    }
+   ]
   },
-  "version": 1,
-  "updated": "2026-09-20T18:57:38.000Z",
+  "version": 2,
+  "updated": "2026-10-03T00:00:00.000Z",
   "origin": "国家窗口采集 · 官方名录 × OSM/AR / CL / UY"
  },
  {
@@ -172543,19 +172846,20 @@
    "regionId": "mendoza",
    "address": "RP89 8, Tupungato, Mendoza, Argentina, Gualtallary, Valle de UCO",
    "website": "https://www.jasminedelosmundos.com/",
-   "lat": -32.9230013,
-   "lng": -60.6643027,
-   "locationPrecision": "Wines of Argentina 官方会员登记地址经纬度（协会会籍申报值，非地块边界）",
+   "lat": null,
+   "lng": null,
+   "locationPrecision": "【2026-10-03 已移除原坐标】原值 -32.9230013,-60.6643027 系「Wines of Argentina 官方会员登记地址经纬度（协会会籍申报值，非地块边界）」，经与其自身 address（Mendoza）交叉核对，偏差约 768 km，判定为会籍登记地址而非酒庄实址，已依规则置空。坐标待补。 原说明：Wines of Argentina 官方会员登记地址经纬度（协会会籍申报值，非地块边界）",
    "locationSourceURL": "https://www.openstreetmap.org/",
    "sourceTitle": "Wines of Argentina — 协会会员酒庄目录（官方）",
    "sourceURL": "https://www.winesofargentina.org/es/bodegas/jasmine-monet-organic-vineyard",
    "checkedDate": "2026-09-20",
    "notes": "法人名：JASMINE MONET SRL。",
    "verification": {
-    "method": "auto:country-window+http",
-    "checkedDate": "2026-09-21",
-    "coordinateInCountryWindow": true,
-    "status": "ok"
+    "method": "manual:coordinate-removed-by-cross-check",
+    "checkedDate": "2026-10-03",
+    "coordinateInCountryWindow": null,
+    "status": "awaiting-location",
+    "note": "原坐标因与自身 address 省份矛盾（偏差 768 km）被移除，待补实地坐标。"
    },
    "notesHistory": [
     {
@@ -172563,11 +172867,21 @@
      "previousValue": "www.jasminedelosmundos.com/",
      "replacedAt": "2026-09-20T22:57:47.000Z",
      "reason": "门禁归一化：补 https:// 前缀（原值缺 scheme）"
+    },
+    {
+     "date": "2026-10-03",
+     "action": "coordinate-removed",
+     "field": "lat/lng",
+     "previousValue": {
+      "lat": -32.9230013,
+      "lng": -60.6643027
+     },
+     "reason": "坐标与本品目自身 address 所写省份矛盾：address 标明 「Mendoza」，而坐标点距该省葡萄酒产区约 768 km（落在布宜诺斯艾利斯一带）。来源自述为「Wines of Argentina 官方会员登记地址经纬度（协会会籍申报值，非地块边界）」，即会籍登记/通讯地址，非酒庄实际所在地。依项目规则「不以行政区中心、公司总部或登记地址作为酒庄坐标」，移除该坐标，改标 awaiting-location 待补实地坐标。"
     }
    ]
   },
-  "version": 2,
-  "updated": "2026-09-20T22:57:47.000Z",
+  "version": 3,
+  "updated": "2026-10-03T00:00:00.000Z",
   "origin": "国家窗口采集 · 官方名录 × OSM/AR / CL / UY"
  },
  {
@@ -173272,19 +173586,20 @@
    "regionId": "mendoza",
    "address": "Eugenio Bustos, Mendoza, Argentina, calle el milagro s/n - el cepillo - Eugenio bustos",
    "website": "https://www.lattaricowines.com",
-   "lat": -34.7070083,
-   "lng": -58.3333381,
-   "locationPrecision": "Wines of Argentina 官方会员登记地址经纬度（协会会籍申报值，非地块边界）",
+   "lat": null,
+   "lng": null,
+   "locationPrecision": "【2026-10-03 已移除原坐标】原值 -34.7070083,-58.3333381 系「Wines of Argentina 官方会员登记地址经纬度（协会会籍申报值，非地块边界）」，经与其自身 address（Mendoza）交叉核对，偏差约 994 km，判定为会籍登记地址而非酒庄实址，已依规则置空。坐标待补。 原说明：Wines of Argentina 官方会员登记地址经纬度（协会会籍申报值，非地块边界）",
    "locationSourceURL": "https://www.openstreetmap.org/",
    "sourceTitle": "Wines of Argentina — 协会会员酒庄目录（官方）",
    "sourceURL": "https://www.winesofargentina.org/es/bodegas/lattarico-wines",
    "checkedDate": "2026-09-20",
    "notes": "法人名：ERZOMA ARGENTINA S.R.L。",
    "verification": {
-    "method": "auto:country-window+http",
-    "checkedDate": "2026-09-21",
-    "coordinateInCountryWindow": true,
-    "status": "ok"
+    "method": "manual:coordinate-removed-by-cross-check",
+    "checkedDate": "2026-10-03",
+    "coordinateInCountryWindow": null,
+    "status": "awaiting-location",
+    "note": "原坐标因与自身 address 省份矛盾（偏差 994 km）被移除，待补实地坐标。"
    },
    "notesHistory": [
     {
@@ -173292,11 +173607,21 @@
      "previousValue": "www.lattaricowines.com",
      "replacedAt": "2026-09-20T22:57:47.000Z",
      "reason": "门禁归一化：补 https:// 前缀（原值缺 scheme）"
+    },
+    {
+     "date": "2026-10-03",
+     "action": "coordinate-removed",
+     "field": "lat/lng",
+     "previousValue": {
+      "lat": -34.7070083,
+      "lng": -58.3333381
+     },
+     "reason": "坐标与本品目自身 address 所写省份矛盾：address 标明 「Mendoza」，而坐标点距该省葡萄酒产区约 994 km（落在布宜诺斯艾利斯一带）。来源自述为「Wines of Argentina 官方会员登记地址经纬度（协会会籍申报值，非地块边界）」，即会籍登记/通讯地址，非酒庄实际所在地。依项目规则「不以行政区中心、公司总部或登记地址作为酒庄坐标」，移除该坐标，改标 awaiting-location 待补实地坐标。"
     }
    ]
   },
-  "version": 2,
-  "updated": "2026-09-20T22:57:47.000Z",
+  "version": 3,
+  "updated": "2026-10-03T00:00:00.000Z",
   "origin": "国家窗口采集 · 官方名录 × OSM/AR / CL / UY"
  },
  {
@@ -173381,19 +173706,20 @@
    "regionId": "mendoza",
    "address": "San Rafael, Mendoza, Argentina, Calle Castillo S/N",
    "website": "https://www.ljwvinos.com",
-   "lat": -34.5776022,
-   "lng": -58.4049865,
-   "locationPrecision": "Wines of Argentina 官方会员登记地址经纬度（协会会籍申报值，非地块边界）",
+   "lat": null,
+   "lng": null,
+   "locationPrecision": "【2026-10-03 已移除原坐标】原值 -34.5776022,-58.4049865 系「Wines of Argentina 官方会员登记地址经纬度（协会会籍申报值，非地块边界）」，经与其自身 address（Mendoza）交叉核对，偏差约 985 km，判定为会籍登记地址而非酒庄实址，已依规则置空。坐标待补。 原说明：Wines of Argentina 官方会员登记地址经纬度（协会会籍申报值，非地块边界）",
    "locationSourceURL": "https://www.openstreetmap.org/",
    "sourceTitle": "Wines of Argentina — 协会会员酒庄目录（官方）",
    "sourceURL": "https://www.winesofargentina.org/es/bodegas/ljwines",
    "checkedDate": "2026-09-20",
    "notes": "法人名：Sosa Carlos Gonzalo。",
    "verification": {
-    "method": "auto:country-window+http",
-    "checkedDate": "2026-09-21",
-    "coordinateInCountryWindow": true,
-    "status": "ok"
+    "method": "manual:coordinate-removed-by-cross-check",
+    "checkedDate": "2026-10-03",
+    "coordinateInCountryWindow": null,
+    "status": "awaiting-location",
+    "note": "原坐标因与自身 address 省份矛盾（偏差 985 km）被移除，待补实地坐标。"
    },
    "notesHistory": [
     {
@@ -173401,11 +173727,21 @@
      "previousValue": "www.ljwvinos.com",
      "replacedAt": "2026-09-20T22:57:47.000Z",
      "reason": "门禁归一化：补 https:// 前缀（原值缺 scheme）"
+    },
+    {
+     "date": "2026-10-03",
+     "action": "coordinate-removed",
+     "field": "lat/lng",
+     "previousValue": {
+      "lat": -34.5776022,
+      "lng": -58.4049865
+     },
+     "reason": "坐标与本品目自身 address 所写省份矛盾：address 标明 「Mendoza」，而坐标点距该省葡萄酒产区约 985 km（落在布宜诺斯艾利斯一带）。来源自述为「Wines of Argentina 官方会员登记地址经纬度（协会会籍申报值，非地块边界）」，即会籍登记/通讯地址，非酒庄实际所在地。依项目规则「不以行政区中心、公司总部或登记地址作为酒庄坐标」，移除该坐标，改标 awaiting-location 待补实地坐标。"
     }
    ]
   },
-  "version": 2,
-  "updated": "2026-09-20T22:57:47.000Z",
+  "version": 3,
+  "updated": "2026-10-03T00:00:00.000Z",
   "origin": "国家窗口采集 · 官方名录 × OSM/AR / CL / UY"
  },
  {
@@ -174481,19 +174817,20 @@
    "regionId": "mendoza",
    "address": "Aráoz 1600, M5507 Luján de Cuyo, Mendoza, Argentina",
    "website": "https://www.medialunafinca.com",
-   "lat": -31.2916176,
-   "lng": -64.2762957,
-   "locationPrecision": "Wines of Argentina 官方会员登记地址经纬度（协会会籍申报值，非地块边界）",
+   "lat": null,
+   "lng": null,
+   "locationPrecision": "【2026-10-03 已移除原坐标】原值 -31.2916176,-64.2762957 系「Wines of Argentina 官方会员登记地址经纬度（协会会籍申报值，非地块边界）」，经与其自身 address（Mendoza）交叉核对，偏差约 475 km，判定为会籍登记地址而非酒庄实址，已依规则置空。坐标待补。 原说明：Wines of Argentina 官方会员登记地址经纬度（协会会籍申报值，非地块边界）",
    "locationSourceURL": "https://www.openstreetmap.org/",
    "sourceTitle": "Wines of Argentina — 协会会员酒庄目录（官方）",
    "sourceURL": "https://www.winesofargentina.org/es/bodegas/media-luna",
    "checkedDate": "2026-09-20",
    "notes": "法人名：FINCA MEDIALUNA SAS。",
    "verification": {
-    "method": "auto:country-window+http",
-    "checkedDate": "2026-09-21",
-    "coordinateInCountryWindow": true,
-    "status": "ok"
+    "method": "manual:coordinate-removed-by-cross-check",
+    "checkedDate": "2026-10-03",
+    "coordinateInCountryWindow": null,
+    "status": "awaiting-location",
+    "note": "原坐标因与自身 address 省份矛盾（偏差 475 km）被移除，待补实地坐标。"
    },
    "notesHistory": [
     {
@@ -174501,11 +174838,21 @@
      "previousValue": "www.medialunafinca.com",
      "replacedAt": "2026-09-20T22:57:47.000Z",
      "reason": "门禁归一化：补 https:// 前缀（原值缺 scheme）"
+    },
+    {
+     "date": "2026-10-03",
+     "action": "coordinate-removed",
+     "field": "lat/lng",
+     "previousValue": {
+      "lat": -31.2916176,
+      "lng": -64.2762957
+     },
+     "reason": "坐标与本品目自身 address 所写省份矛盾：address 标明 「Mendoza」，而坐标点距该省葡萄酒产区约 475 km（落在布宜诺斯艾利斯一带）。来源自述为「Wines of Argentina 官方会员登记地址经纬度（协会会籍申报值，非地块边界）」，即会籍登记/通讯地址，非酒庄实际所在地。依项目规则「不以行政区中心、公司总部或登记地址作为酒庄坐标」，移除该坐标，改标 awaiting-location 待补实地坐标。"
     }
    ]
   },
-  "version": 2,
-  "updated": "2026-09-20T22:57:47.000Z",
+  "version": 3,
+  "updated": "2026-10-03T00:00:00.000Z",
   "origin": "国家窗口采集 · 官方名录 × OSM/AR / CL / UY"
  },
  {
@@ -175336,23 +175683,36 @@
    "regionId": "mendoza",
    "address": "San Francisco del Monte 1555",
    "website": "https://www.grupopenaflor.com.ar",
-   "lat": -34.5181844,
-   "lng": -58.4735847,
-   "locationPrecision": "Wines of Argentina 官方会员登记地址经纬度（协会会籍申报值，非地块边界）",
+   "lat": null,
+   "lng": null,
+   "locationPrecision": "【2026-10-03 已移除原坐标】原值 -34.5181844,-58.4735847 落在布宜诺斯艾利斯市区（距市中心 13 km），而 regionId=mendoza，二者矛盾。该值系「Wines of Argentina 官方会员登记地址经纬度（协会会籍申报值，非地块边界）」，判为会籍登记地址，已依规则置空。坐标待补。",
    "locationSourceURL": "https://www.openstreetmap.org/",
    "sourceTitle": "Wines of Argentina — 协会会员酒庄目录（官方）",
    "sourceURL": "https://www.winesofargentina.org/es/bodegas/navarro-correas",
    "checkedDate": "2026-09-20",
    "notes": "法人名：Grupo Peñaflor S.A.。",
    "verification": {
-    "method": "auto:country-window+http",
-    "checkedDate": "2026-09-21",
-    "coordinateInCountryWindow": true,
-    "status": "ok"
-   }
+    "method": "manual:coordinate-removed-by-cross-check",
+    "checkedDate": "2026-10-03",
+    "coordinateInCountryWindow": null,
+    "status": "awaiting-location",
+    "note": "原坐标落在布市市区，与所标产区矛盾（偏差 13 km），已移除待补。"
+   },
+   "notesHistory": [
+    {
+     "date": "2026-10-03",
+     "action": "coordinate-removed",
+     "field": "lat/lng",
+     "previousValue": {
+      "lat": -34.5181844,
+      "lng": -58.4735847
+     },
+     "reason": "坐标落在布宜诺斯艾利斯市 13 km 内，而本品目 regionId 为 mendoza（门多萨/巴塔哥尼亚一带），且地址为布市街道地址。阿根廷无葡萄酒产区位于布市市区，故该坐标为会籍登记地址而非酒庄实址。依项目规则移除，改标 awaiting-location 待补实地坐标。"
+    }
+   ]
   },
-  "version": 1,
-  "updated": "2026-09-20T18:57:38.000Z",
+  "version": 2,
+  "updated": "2026-10-03T00:00:00.000Z",
   "origin": "国家窗口采集 · 官方名录 × OSM/AR / CL / UY"
  },
  {
@@ -175474,23 +175834,36 @@
    "regionId": "mendoza",
    "address": "San Martín, La Consulta, Mendoza, Argentina",
    "website": "",
-   "lat": -34.602203,
-   "lng": -58.3736097,
-   "locationPrecision": "Wines of Argentina 官方会员登记地址经纬度（协会会籍申报值，非地块边界）",
+   "lat": null,
+   "lng": null,
+   "locationPrecision": "【2026-10-03 已移除原坐标】原值 -34.602203,-58.3736097 系「Wines of Argentina 官方会员登记地址经纬度（协会会籍申报值，非地块边界）」，经与其自身 address（Mendoza）交叉核对，偏差约 988 km，判定为会籍登记地址而非酒庄实址，已依规则置空。坐标待补。 原说明：Wines of Argentina 官方会员登记地址经纬度（协会会籍申报值，非地块边界）",
    "locationSourceURL": "https://www.openstreetmap.org/",
    "sourceTitle": "Wines of Argentina — 协会会员酒庄目录（官方）",
    "sourceURL": "https://www.winesofargentina.org/es/bodegas/notti-magiche",
    "checkedDate": "2026-09-20",
    "notes": "法人名：Notti Magiche SRL。",
    "verification": {
-    "method": "auto:country-window",
-    "checkedDate": "2026-09-21",
-    "coordinateInCountryWindow": true,
-    "status": "ok"
-   }
+    "method": "manual:coordinate-removed-by-cross-check",
+    "checkedDate": "2026-10-03",
+    "coordinateInCountryWindow": null,
+    "status": "awaiting-location",
+    "note": "原坐标因与自身 address 省份矛盾（偏差 988 km）被移除，待补实地坐标。"
+   },
+   "notesHistory": [
+    {
+     "date": "2026-10-03",
+     "action": "coordinate-removed",
+     "field": "lat/lng",
+     "previousValue": {
+      "lat": -34.602203,
+      "lng": -58.3736097
+     },
+     "reason": "坐标与本品目自身 address 所写省份矛盾：address 标明 「Mendoza」，而坐标点距该省葡萄酒产区约 988 km（落在布宜诺斯艾利斯一带）。来源自述为「Wines of Argentina 官方会员登记地址经纬度（协会会籍申报值，非地块边界）」，即会籍登记/通讯地址，非酒庄实际所在地。依项目规则「不以行政区中心、公司总部或登记地址作为酒庄坐标」，移除该坐标，改标 awaiting-location 待补实地坐标。"
+    }
+   ]
   },
-  "version": 1,
-  "updated": "2026-09-20T18:57:38.000Z",
+  "version": 2,
+  "updated": "2026-10-03T00:00:00.000Z",
   "origin": "国家窗口采集 · 官方名录 × OSM/AR / CL / UY"
  },
  {
@@ -175610,23 +175983,36 @@
    "regionId": "mendoza",
    "address": "Bajo las Cumbre s/n, Agrelo, Mendoza, Argentina",
    "website": "https://www.ojodeagua.global",
-   "lat": -34.5821262,
-   "lng": -58.4426395,
-   "locationPrecision": "Wines of Argentina 官方会员登记地址经纬度（协会会籍申报值，非地块边界）",
+   "lat": null,
+   "lng": null,
+   "locationPrecision": "【2026-10-03 已移除原坐标】原值 -34.5821262,-58.4426395 系「Wines of Argentina 官方会员登记地址经纬度（协会会籍申报值，非地块边界）」，经与其自身 address（Mendoza）交叉核对，偏差约 982 km，判定为会籍登记地址而非酒庄实址，已依规则置空。坐标待补。 原说明：Wines of Argentina 官方会员登记地址经纬度（协会会籍申报值，非地块边界）",
    "locationSourceURL": "https://www.openstreetmap.org/",
    "sourceTitle": "Wines of Argentina — 协会会员酒庄目录（官方）",
    "sourceURL": "https://www.winesofargentina.org/es/bodegas/ojo-de-vino",
    "checkedDate": "2026-09-20",
    "notes": "法人名：BODEGA OJO DE AGUA S.A.。",
    "verification": {
-    "method": "auto:country-window+http",
-    "checkedDate": "2026-09-21",
-    "coordinateInCountryWindow": true,
-    "status": "ok"
-   }
+    "method": "manual:coordinate-removed-by-cross-check",
+    "checkedDate": "2026-10-03",
+    "coordinateInCountryWindow": null,
+    "status": "awaiting-location",
+    "note": "原坐标因与自身 address 省份矛盾（偏差 982 km）被移除，待补实地坐标。"
+   },
+   "notesHistory": [
+    {
+     "date": "2026-10-03",
+     "action": "coordinate-removed",
+     "field": "lat/lng",
+     "previousValue": {
+      "lat": -34.5821262,
+      "lng": -58.4426395
+     },
+     "reason": "坐标与本品目自身 address 所写省份矛盾：address 标明 「Mendoza」，而坐标点距该省葡萄酒产区约 982 km（落在布宜诺斯艾利斯一带）。来源自述为「Wines of Argentina 官方会员登记地址经纬度（协会会籍申报值，非地块边界）」，即会籍登记/通讯地址，非酒庄实际所在地。依项目规则「不以行政区中心、公司总部或登记地址作为酒庄坐标」，移除该坐标，改标 awaiting-location 待补实地坐标。"
+    }
+   ]
   },
-  "version": 1,
-  "updated": "2026-09-20T18:57:38.000Z",
+  "version": 2,
+  "updated": "2026-10-03T00:00:00.000Z",
   "origin": "国家窗口采集 · 官方名录 × OSM/AR / CL / UY"
  },
  {
@@ -175908,23 +176294,36 @@
    "regionId": "mendoza",
    "address": "La Consulta, Mendoza, Argentina, Furlotti S/N",
    "website": "",
-   "lat": -34.7629129,
-   "lng": -58.4027683,
-   "locationPrecision": "Wines of Argentina 官方会员登记地址经纬度（协会会籍申报值，非地块边界）",
+   "lat": null,
+   "lng": null,
+   "locationPrecision": "【2026-10-03 已移除原坐标】原值 -34.7629129,-58.4027683 系「Wines of Argentina 官方会员登记地址经纬度（协会会籍申报值，非地块边界）」，经与其自身 address（Mendoza）交叉核对，偏差约 988 km，判定为会籍登记地址而非酒庄实址，已依规则置空。坐标待补。 原说明：Wines of Argentina 官方会员登记地址经纬度（协会会籍申报值，非地块边界）",
    "locationSourceURL": "https://www.openstreetmap.org/",
    "sourceTitle": "Wines of Argentina — 协会会员酒庄目录（官方）",
    "sourceURL": "https://www.winesofargentina.org/es/bodegas/pasaje-nobrega",
    "checkedDate": "2026-09-20",
    "notes": "法人名：Pasaje Nobrega S.A.。",
    "verification": {
-    "method": "auto:country-window",
-    "checkedDate": "2026-09-21",
-    "coordinateInCountryWindow": true,
-    "status": "ok"
-   }
+    "method": "manual:coordinate-removed-by-cross-check",
+    "checkedDate": "2026-10-03",
+    "coordinateInCountryWindow": null,
+    "status": "awaiting-location",
+    "note": "原坐标因与自身 address 省份矛盾（偏差 988 km）被移除，待补实地坐标。"
+   },
+   "notesHistory": [
+    {
+     "date": "2026-10-03",
+     "action": "coordinate-removed",
+     "field": "lat/lng",
+     "previousValue": {
+      "lat": -34.7629129,
+      "lng": -58.4027683
+     },
+     "reason": "坐标与本品目自身 address 所写省份矛盾：address 标明 「Mendoza」，而坐标点距该省葡萄酒产区约 988 km（落在布宜诺斯艾利斯一带）。来源自述为「Wines of Argentina 官方会员登记地址经纬度（协会会籍申报值，非地块边界）」，即会籍登记/通讯地址，非酒庄实际所在地。依项目规则「不以行政区中心、公司总部或登记地址作为酒庄坐标」，移除该坐标，改标 awaiting-location 待补实地坐标。"
+    }
+   ]
   },
-  "version": 1,
-  "updated": "2026-09-20T18:57:38.000Z",
+  "version": 2,
+  "updated": "2026-10-03T00:00:00.000Z",
   "origin": "国家窗口采集 · 官方名录 × OSM/AR / CL / UY"
  },
  {
@@ -176209,19 +176608,20 @@
    "regionId": "mendoza",
    "address": "R. E. de San Martin 88, Chacabuco, Buenos Aires, Argentina",
    "website": "https://www.pielihueso.com",
-   "lat": -33.5813185,
-   "lng": -69.0153361,
-   "locationPrecision": "Wines of Argentina 官方会员登记地址经纬度（协会会籍申报值，非地块边界）",
+   "lat": null,
+   "lng": null,
+   "locationPrecision": "【2026-10-03 已移除原坐标】原值 -33.5813185,-69.0153361 系「Wines of Argentina 官方会员登记地址经纬度（协会会籍申报值，非地块边界）」，经与其自身 address（Buenos Aires）交叉核对，偏差约 985 km，判定为会籍登记地址而非酒庄实址，已依规则置空。坐标待补。 原说明：Wines of Argentina 官方会员登记地址经纬度（协会会籍申报值，非地块边界）",
    "locationSourceURL": "https://www.openstreetmap.org/",
    "sourceTitle": "Wines of Argentina — 协会会员酒庄目录（官方）",
    "sourceURL": "https://www.winesofargentina.org/es/bodegas/pielihueso",
    "checkedDate": "2026-09-20",
    "notes": "法人名：Bartwine SA。",
    "verification": {
-    "method": "auto:country-window+http",
-    "checkedDate": "2026-09-21",
-    "coordinateInCountryWindow": true,
-    "status": "ok"
+    "method": "manual:coordinate-removed-by-cross-check",
+    "checkedDate": "2026-10-03",
+    "coordinateInCountryWindow": null,
+    "status": "awaiting-location",
+    "note": "原坐标因与自身 address 省份矛盾（偏差 985 km）被移除，待补实地坐标。"
    },
    "notesHistory": [
     {
@@ -176229,11 +176629,21 @@
      "previousValue": "www.pielihueso.com",
      "replacedAt": "2026-09-20T22:57:47.000Z",
      "reason": "门禁归一化：补 https:// 前缀（原值缺 scheme）"
+    },
+    {
+     "date": "2026-10-03",
+     "action": "coordinate-removed",
+     "field": "lat/lng",
+     "previousValue": {
+      "lat": -33.5813185,
+      "lng": -69.0153361
+     },
+     "reason": "坐标与本品目自身 address 所写省份矛盾：address 标明 「Buenos Aires」，而坐标点距该省葡萄酒产区约 985 km（落在布宜诺斯艾利斯一带）。来源自述为「Wines of Argentina 官方会员登记地址经纬度（协会会籍申报值，非地块边界）」，即会籍登记/通讯地址，非酒庄实际所在地。依项目规则「不以行政区中心、公司总部或登记地址作为酒庄坐标」，移除该坐标，改标 awaiting-location 待补实地坐标。"
     }
    ]
   },
-  "version": 2,
-  "updated": "2026-09-20T22:57:47.000Z",
+  "version": 3,
+  "updated": "2026-10-03T00:00:00.000Z",
   "origin": "国家窗口采集 · 官方名录 × OSM/AR / CL / UY"
  },
  {
@@ -176246,23 +176656,36 @@
    "regionId": "mendoza",
    "address": "Pasco 258, M5570 San Martín, Mendoza, Argentina",
    "website": "",
-   "lat": -26.2193066,
-   "lng": -65.9422627,
-   "locationPrecision": "Wines of Argentina 官方会员登记地址经纬度（协会会籍申报值，非地块边界）",
+   "lat": null,
+   "lng": null,
+   "locationPrecision": "【2026-10-03 已移除原坐标】原值 -26.2193066,-65.9422627 系「Wines of Argentina 官方会员登记地址经纬度（协会会籍申报值，非地块边界）」，经与其自身 address（Mendoza）交叉核对，偏差约 806 km，判定为会籍登记地址而非酒庄实址，已依规则置空。坐标待补。 原说明：Wines of Argentina 官方会员登记地址经纬度（协会会籍申报值，非地块边界）",
    "locationSourceURL": "https://www.openstreetmap.org/",
    "sourceTitle": "Wines of Argentina — 协会会员酒庄目录（官方）",
    "sourceURL": "https://www.winesofargentina.org/es/bodegas/piloto-wines",
    "checkedDate": "2026-09-20",
    "notes": "法人名：Pilotos Calchaquíes SAS。",
    "verification": {
-    "method": "auto:country-window",
-    "checkedDate": "2026-09-21",
-    "coordinateInCountryWindow": true,
-    "status": "ok"
-   }
+    "method": "manual:coordinate-removed-by-cross-check",
+    "checkedDate": "2026-10-03",
+    "coordinateInCountryWindow": null,
+    "status": "awaiting-location",
+    "note": "原坐标因与自身 address 省份矛盾（偏差 806 km）被移除，待补实地坐标。"
+   },
+   "notesHistory": [
+    {
+     "date": "2026-10-03",
+     "action": "coordinate-removed",
+     "field": "lat/lng",
+     "previousValue": {
+      "lat": -26.2193066,
+      "lng": -65.9422627
+     },
+     "reason": "坐标与本品目自身 address 所写省份矛盾：address 标明 「Mendoza」，而坐标点距该省葡萄酒产区约 806 km（落在布宜诺斯艾利斯一带）。来源自述为「Wines of Argentina 官方会员登记地址经纬度（协会会籍申报值，非地块边界）」，即会籍登记/通讯地址，非酒庄实际所在地。依项目规则「不以行政区中心、公司总部或登记地址作为酒庄坐标」，移除该坐标，改标 awaiting-location 待补实地坐标。"
+    }
+   ]
   },
-  "version": 1,
-  "updated": "2026-09-20T18:57:38.000Z",
+  "version": 2,
+  "updated": "2026-10-03T00:00:00.000Z",
   "origin": "国家窗口采集 · 官方名录 × OSM/AR / CL / UY"
  },
  {
@@ -176846,23 +177269,36 @@
    "regionId": "mendoza",
    "address": "Rodríguez Peña, Mendoza, Argentina, Calle Michel S/N",
    "website": "https://reservadelosandes.com/reservadelosandes.com/",
-   "lat": -34.7453718,
-   "lng": -58.4898982,
-   "locationPrecision": "Wines of Argentina 官方会员登记地址经纬度（协会会籍申报值，非地块边界）",
+   "lat": null,
+   "lng": null,
+   "locationPrecision": "【2026-10-03 已移除原坐标】原值 -34.7453718,-58.4898982 系「Wines of Argentina 官方会员登记地址经纬度（协会会籍申报值，非地块边界）」，经与其自身 address（Mendoza）交叉核对，偏差约 980 km，判定为会籍登记地址而非酒庄实址，已依规则置空。坐标待补。 原说明：Wines of Argentina 官方会员登记地址经纬度（协会会籍申报值，非地块边界）",
    "locationSourceURL": "https://www.openstreetmap.org/",
    "sourceTitle": "Wines of Argentina — 协会会员酒庄目录（官方）",
    "sourceURL": "https://www.winesofargentina.org/es/bodegas/reserva-de-los-andes",
    "checkedDate": "2026-09-20",
    "notes": "法人名：ARCOMBE SRL。",
    "verification": {
-    "method": "auto:country-window+http",
-    "checkedDate": "2026-09-21",
-    "coordinateInCountryWindow": true,
-    "status": "ok"
-   }
+    "method": "manual:coordinate-removed-by-cross-check",
+    "checkedDate": "2026-10-03",
+    "coordinateInCountryWindow": null,
+    "status": "awaiting-location",
+    "note": "原坐标因与自身 address 省份矛盾（偏差 980 km）被移除，待补实地坐标。"
+   },
+   "notesHistory": [
+    {
+     "date": "2026-10-03",
+     "action": "coordinate-removed",
+     "field": "lat/lng",
+     "previousValue": {
+      "lat": -34.7453718,
+      "lng": -58.4898982
+     },
+     "reason": "坐标与本品目自身 address 所写省份矛盾：address 标明 「Mendoza」，而坐标点距该省葡萄酒产区约 980 km（落在布宜诺斯艾利斯一带）。来源自述为「Wines of Argentina 官方会员登记地址经纬度（协会会籍申报值，非地块边界）」，即会籍登记/通讯地址，非酒庄实际所在地。依项目规则「不以行政区中心、公司总部或登记地址作为酒庄坐标」，移除该坐标，改标 awaiting-location 待补实地坐标。"
+    }
+   ]
   },
-  "version": 1,
-  "updated": "2026-09-20T18:57:38.000Z",
+  "version": 2,
+  "updated": "2026-10-03T00:00:00.000Z",
   "origin": "国家窗口采集 · 官方名录 × OSM/AR / CL / UY"
  },
  {
@@ -177115,19 +177551,20 @@
    "regionId": "mendoza",
    "address": "Ruta Nacional 7 Km 1059",
    "website": "https://www.bodegarucamalen.com",
-   "lat": -34.5996848,
-   "lng": -58.3696847,
-   "locationPrecision": "Wines of Argentina 官方会员登记地址经纬度（协会会籍申报值，非地块边界）",
+   "lat": null,
+   "lng": null,
+   "locationPrecision": "【2026-10-03 已移除原坐标】原值 -34.5996848,-58.3696847 落在布宜诺斯艾利斯市区（距市中心 1 km），而 regionId=mendoza，二者矛盾。该值系「Wines of Argentina 官方会员登记地址经纬度（协会会籍申报值，非地块边界）」，判为会籍登记地址，已依规则置空。坐标待补。",
    "locationSourceURL": "https://www.openstreetmap.org/",
    "sourceTitle": "Wines of Argentina — 协会会员酒庄目录（官方）",
    "sourceURL": "https://www.winesofargentina.org/es/bodegas/ruca-malen",
    "checkedDate": "2026-09-20",
    "notes": "法人名：Molinos Río de la Plata S.A.。",
    "verification": {
-    "method": "auto:country-window+http",
-    "checkedDate": "2026-09-21",
-    "coordinateInCountryWindow": true,
-    "status": "ok"
+    "method": "manual:coordinate-removed-by-cross-check",
+    "checkedDate": "2026-10-03",
+    "coordinateInCountryWindow": null,
+    "status": "awaiting-location",
+    "note": "原坐标落在布市市区，与所标产区矛盾（偏差 1 km），已移除待补。"
    },
    "notesHistory": [
     {
@@ -177135,11 +177572,21 @@
      "previousValue": "www.bodegarucamalen.com",
      "replacedAt": "2026-09-20T22:57:47.000Z",
      "reason": "门禁归一化：补 https:// 前缀（原值缺 scheme）"
+    },
+    {
+     "date": "2026-10-03",
+     "action": "coordinate-removed",
+     "field": "lat/lng",
+     "previousValue": {
+      "lat": -34.5996848,
+      "lng": -58.3696847
+     },
+     "reason": "坐标落在布宜诺斯艾利斯市 1 km 内，而本品目 regionId 为 mendoza（门多萨/巴塔哥尼亚一带），且地址为布市街道地址。阿根廷无葡萄酒产区位于布市市区，故该坐标为会籍登记地址而非酒庄实址。依项目规则移除，改标 awaiting-location 待补实地坐标。"
     }
    ]
   },
-  "version": 2,
-  "updated": "2026-09-20T22:57:47.000Z",
+  "version": 3,
+  "updated": "2026-10-03T00:00:00.000Z",
   "origin": "国家窗口采集 · 官方名录 × OSM/AR / CL / UY"
  },
  {
@@ -177290,19 +177737,20 @@
    "regionId": "mendoza",
    "address": "Los Tilos 643, Don Bosco, Provincia de Buenos Aires, Argentina",
    "website": "https://www.scrugliwines.com",
-   "lat": -34.5376898,
-   "lng": -68.3979326,
-   "locationPrecision": "Wines of Argentina 官方会员登记地址经纬度（协会会籍申报值，非地块边界）",
+   "lat": null,
+   "lng": null,
+   "locationPrecision": "【2026-10-03 已移除原坐标】原值 -34.5376898,-68.3979326 系「Wines of Argentina 官方会员登记地址经纬度（协会会籍申报值，非地块边界）」，经与其自身 address（Buenos Aires）交叉核对，偏差约 917 km，判定为会籍登记地址而非酒庄实址，已依规则置空。坐标待补。 原说明：Wines of Argentina 官方会员登记地址经纬度（协会会籍申报值，非地块边界）",
    "locationSourceURL": "https://www.openstreetmap.org/",
    "sourceTitle": "Wines of Argentina — 协会会员酒庄目录（官方）",
    "sourceURL": "https://www.winesofargentina.org/es/bodegas/scrugli-c-wines-vineyards-and-lodges",
    "checkedDate": "2026-09-20",
    "notes": "法人名：Carlos Antonio Scrugli。",
    "verification": {
-    "method": "auto:country-window+http",
-    "checkedDate": "2026-09-21",
-    "coordinateInCountryWindow": true,
-    "status": "ok"
+    "method": "manual:coordinate-removed-by-cross-check",
+    "checkedDate": "2026-10-03",
+    "coordinateInCountryWindow": null,
+    "status": "awaiting-location",
+    "note": "原坐标因与自身 address 省份矛盾（偏差 917 km）被移除，待补实地坐标。"
    },
    "notesHistory": [
     {
@@ -177310,11 +177758,21 @@
      "previousValue": "www.scrugliwines.com",
      "replacedAt": "2026-09-20T22:57:47.000Z",
      "reason": "门禁归一化：补 https:// 前缀（原值缺 scheme）"
+    },
+    {
+     "date": "2026-10-03",
+     "action": "coordinate-removed",
+     "field": "lat/lng",
+     "previousValue": {
+      "lat": -34.5376898,
+      "lng": -68.3979326
+     },
+     "reason": "坐标与本品目自身 address 所写省份矛盾：address 标明 「Buenos Aires」，而坐标点距该省葡萄酒产区约 917 km（落在布宜诺斯艾利斯一带）。来源自述为「Wines of Argentina 官方会员登记地址经纬度（协会会籍申报值，非地块边界）」，即会籍登记/通讯地址，非酒庄实际所在地。依项目规则「不以行政区中心、公司总部或登记地址作为酒庄坐标」，移除该坐标，改标 awaiting-location 待补实地坐标。"
     }
    ]
   },
-  "version": 2,
-  "updated": "2026-09-20T22:57:47.000Z",
+  "version": 3,
+  "updated": "2026-10-03T00:00:00.000Z",
   "origin": "国家窗口采集 · 官方名录 × OSM/AR / CL / UY"
  },
  {
@@ -177431,19 +177889,20 @@
    "regionId": "salta",
    "address": "Conesa 3198, C1429ALF Cdad. Autónoma de Buenos Aires, Argentina",
    "website": "https://www.sierralinaalfawines.com.ar",
-   "lat": -25.4374831,
-   "lng": -66.2939888,
-   "locationPrecision": "Wines of Argentina 官方会员登记地址经纬度（协会会籍申报值，非地块边界）",
+   "lat": null,
+   "lng": null,
+   "locationPrecision": "【2026-10-03 已移除原坐标】原值 -25.4374831,-66.2939888 系「Wines of Argentina 官方会员登记地址经纬度（协会会籍申报值，非地块边界）」，经与其自身 address（Buenos Aires）交叉核对，偏差约 1271 km，判定为会籍登记地址而非酒庄实址，已依规则置空。坐标待补。 原说明：Wines of Argentina 官方会员登记地址经纬度（协会会籍申报值，非地块边界）",
    "locationSourceURL": "https://www.openstreetmap.org/",
    "sourceTitle": "Wines of Argentina — 协会会员酒庄目录（官方）",
    "sourceURL": "https://www.winesofargentina.org/es/bodegas/sierra-lima-alfa",
    "checkedDate": "2026-09-20",
    "notes": "法人名：Gauchomalo S.R.L.。",
    "verification": {
-    "method": "auto:country-window+http",
-    "checkedDate": "2026-09-21",
-    "coordinateInCountryWindow": true,
-    "status": "ok"
+    "method": "manual:coordinate-removed-by-cross-check",
+    "checkedDate": "2026-10-03",
+    "coordinateInCountryWindow": null,
+    "status": "awaiting-location",
+    "note": "原坐标因与自身 address 省份矛盾（偏差 1271 km）被移除，待补实地坐标。"
    },
    "notesHistory": [
     {
@@ -177451,11 +177910,21 @@
      "previousValue": "www.sierralinaalfawines.com.ar",
      "replacedAt": "2026-09-20T22:57:47.000Z",
      "reason": "门禁归一化：补 https:// 前缀（原值缺 scheme）"
+    },
+    {
+     "date": "2026-10-03",
+     "action": "coordinate-removed",
+     "field": "lat/lng",
+     "previousValue": {
+      "lat": -25.4374831,
+      "lng": -66.2939888
+     },
+     "reason": "坐标与本品目自身 address 所写省份矛盾：address 标明 「Buenos Aires」，而坐标点距该省葡萄酒产区约 1271 km（落在布宜诺斯艾利斯一带）。来源自述为「Wines of Argentina 官方会员登记地址经纬度（协会会籍申报值，非地块边界）」，即会籍登记/通讯地址，非酒庄实际所在地。依项目规则「不以行政区中心、公司总部或登记地址作为酒庄坐标」，移除该坐标，改标 awaiting-location 待补实地坐标。"
     }
    ]
   },
-  "version": 2,
-  "updated": "2026-09-20T22:57:47.000Z",
+  "version": 3,
+  "updated": "2026-10-03T00:00:00.000Z",
   "origin": "国家窗口采集 · 官方名录 × OSM/AR / CL / UY"
  },
  {
@@ -178713,19 +179182,20 @@
    "regionId": "mendoza",
    "address": "Av. Congreso 5452, C1431 Cdad. Autónoma de Buenos Aires, Argentina",
    "website": "https://www.tutuwines.com.ar",
-   "lat": -33.5645089,
-   "lng": -69.1710327,
-   "locationPrecision": "Wines of Argentina 官方会员登记地址经纬度（协会会籍申报值，非地块边界）",
+   "lat": null,
+   "lng": null,
+   "locationPrecision": "【2026-10-03 已移除原坐标】原值 -33.5645089,-69.1710327 系「Wines of Argentina 官方会员登记地址经纬度（协会会籍申报值，非地块边界）」，经与其自身 address（Buenos Aires）交叉核对，偏差约 1000 km，判定为会籍登记地址而非酒庄实址，已依规则置空。坐标待补。 原说明：Wines of Argentina 官方会员登记地址经纬度（协会会籍申报值，非地块边界）",
    "locationSourceURL": "https://www.openstreetmap.org/",
    "sourceTitle": "Wines of Argentina — 协会会员酒庄目录（官方）",
    "sourceURL": "https://www.winesofargentina.org/es/bodegas/tutu-wines",
    "checkedDate": "2026-09-20",
    "notes": "法人名：ALDO'S WINE GROUP SRL。",
    "verification": {
-    "method": "auto:country-window+http",
-    "checkedDate": "2026-09-21",
-    "coordinateInCountryWindow": true,
-    "status": "ok"
+    "method": "manual:coordinate-removed-by-cross-check",
+    "checkedDate": "2026-10-03",
+    "coordinateInCountryWindow": null,
+    "status": "awaiting-location",
+    "note": "原坐标因与自身 address 省份矛盾（偏差 1000 km）被移除，待补实地坐标。"
    },
    "notesHistory": [
     {
@@ -178733,11 +179203,21 @@
      "previousValue": "www.tutuwines.com.ar",
      "replacedAt": "2026-09-20T22:57:47.000Z",
      "reason": "门禁归一化：补 https:// 前缀（原值缺 scheme）"
+    },
+    {
+     "date": "2026-10-03",
+     "action": "coordinate-removed",
+     "field": "lat/lng",
+     "previousValue": {
+      "lat": -33.5645089,
+      "lng": -69.1710327
+     },
+     "reason": "坐标与本品目自身 address 所写省份矛盾：address 标明 「Buenos Aires」，而坐标点距该省葡萄酒产区约 1000 km（落在布宜诺斯艾利斯一带）。来源自述为「Wines of Argentina 官方会员登记地址经纬度（协会会籍申报值，非地块边界）」，即会籍登记/通讯地址，非酒庄实际所在地。依项目规则「不以行政区中心、公司总部或登记地址作为酒庄坐标」，移除该坐标，改标 awaiting-location 待补实地坐标。"
     }
    ]
   },
-  "version": 2,
-  "updated": "2026-09-20T22:57:47.000Z",
+  "version": 3,
+  "updated": "2026-10-03T00:00:00.000Z",
   "origin": "国家窗口采集 · 官方名录 × OSM/AR / CL / UY"
  },
  {
@@ -178787,23 +179267,36 @@
    "regionId": "mendoza",
    "address": "Arenales 262, Lincoln, Provincia de Buenos Aires, Argentina",
    "website": "",
-   "lat": -33.0791538,
-   "lng": -68.9134088,
-   "locationPrecision": "Wines of Argentina 官方会员登记地址经纬度（协会会籍申报值，非地块边界）",
+   "lat": null,
+   "lng": null,
+   "locationPrecision": "【2026-10-03 已移除原坐标】原值 -33.0791538,-68.9134088 系「Wines of Argentina 官方会员登记地址经纬度（协会会籍申报值，非地块边界）」，经与其自身 address（Buenos Aires）交叉核对，偏差约 987 km，判定为会籍登记地址而非酒庄实址，已依规则置空。坐标待补。 原说明：Wines of Argentina 官方会员登记地址经纬度（协会会籍申报值，非地块边界）",
    "locationSourceURL": "https://www.openstreetmap.org/",
    "sourceTitle": "Wines of Argentina — 协会会员酒庄目录（官方）",
    "sourceURL": "https://www.winesofargentina.org/es/bodegas/ultimo-hombre",
    "checkedDate": "2026-09-20",
    "notes": "法人名：SCHIAVI ROLANDO CARLOS 。",
    "verification": {
-    "method": "auto:country-window",
-    "checkedDate": "2026-09-21",
-    "coordinateInCountryWindow": true,
-    "status": "ok"
-   }
+    "method": "manual:coordinate-removed-by-cross-check",
+    "checkedDate": "2026-10-03",
+    "coordinateInCountryWindow": null,
+    "status": "awaiting-location",
+    "note": "原坐标因与自身 address 省份矛盾（偏差 987 km）被移除，待补实地坐标。"
+   },
+   "notesHistory": [
+    {
+     "date": "2026-10-03",
+     "action": "coordinate-removed",
+     "field": "lat/lng",
+     "previousValue": {
+      "lat": -33.0791538,
+      "lng": -68.9134088
+     },
+     "reason": "坐标与本品目自身 address 所写省份矛盾：address 标明 「Buenos Aires」，而坐标点距该省葡萄酒产区约 987 km（落在布宜诺斯艾利斯一带）。来源自述为「Wines of Argentina 官方会员登记地址经纬度（协会会籍申报值，非地块边界）」，即会籍登记/通讯地址，非酒庄实际所在地。依项目规则「不以行政区中心、公司总部或登记地址作为酒庄坐标」，移除该坐标，改标 awaiting-location 待补实地坐标。"
+    }
+   ]
   },
-  "version": 1,
-  "updated": "2026-09-20T18:57:38.000Z",
+  "version": 2,
+  "updated": "2026-10-03T00:00:00.000Z",
   "origin": "国家窗口采集 · 官方名录 × OSM/AR / CL / UY"
  },
  {
@@ -313051,5 +313544,46 @@
   "version": 1,
   "updated": "2026-09-29T17:33:42.000Z",
   "origin": "WSET L3 结构对齐 · 2026-09-29"
+ },
+ {
+  "id": "winery-china-chandon",
+  "kind": "winery",
+  "name": "夏桐中国（Domaine Chandon China）",
+  "data": {
+   "name": "夏桐中国（Domaine Chandon China）",
+   "en": "Domaine Chandon China",
+   "country": "中国",
+   "regionId": "ningxia",
+   "address": "宁夏回族自治区银川市永宁县黄羊滩农场夏桐路1号（邮编 750002）",
+   "website": "https://www.lvmh.cn/our-maisons/wines-spirits/chandon/chandon-china",
+   "lat": null,
+   "lng": null,
+   "locationPrecision": "未取得坐标，留空待补。来源（LVMH 官网）只给出通讯地址「宁夏回族自治区银川市永宁县黄羊滩农场夏桐路1号，邮编 750002」与地理描述「贺兰山脚下」。已用 Overpass 检索 OpenStreetMap：宁夏回族自治区全境 name 匹配 Chandon/夏桐 的对象为 0 个；永宁县 landuse=vineyard 及名称含「酒庄」的对象共 143 个，其中无该酒庄。按本项目规则不以行政区中心或通讯地址推断坐标。",
+   "grapes": [
+    {
+     "id": "grape-2ae0338aba42",
+     "percent": null
+    },
+    {
+     "id": "grape-d8ba24c3039e",
+     "percent": null
+    }
+   ],
+   "sourceTitle": "LVMH 路威酩轩集团官网 · 葡萄酒与烈酒 · 夏桐中国（Domaine Chandon China）品牌页",
+   "sourceURL": "https://www.lvmh.cn/our-maisons/wines-spirits/chandon/chandon-china",
+   "checkedDate": "2026-10-03",
+   "notes": "生产者真实性：LVMH 集团官网（lvmh.cn）为「夏桐中国 / Domaine Chandon China」设有独立品牌页，载明创立年份、总部地址与庄主。归属：该页明确「夏桐中国隶属于酩悦轩尼诗（Moët Hennessy）」，后者是 LVMH 旗下葡萄酒与烈酒事业部。创立年份：2013；沿革：2009 年起在中国寻找风土，2013 年落址宁夏贺兰山脚下。庄主：苏龙（页面标注为首席执行官 / 酒庄庄主）。产品：传统法起泡酒；旗舰款「夏桐天然高泡葡萄酒 CHANDON BRUT」，由霞多丽与黑皮诺混酿，2024 年 Decanter 世界葡萄酒大赛获 95 分与金奖。官方自述里程碑：中国首个获得有机葡萄种植认证的起泡酒庄园；采用国际节水标准与精准滴灌系统。（本条为官方品牌页的来源整理，未做实地核实；坐标为待补项，已标记 awaiting-location。）",
+   "verification": {
+    "method": "manual:official-brand-page",
+    "checkedDate": "2026-10-03",
+    "coordinateInCountryWindow": null,
+    "status": "awaiting-location",
+    "note": "生产者身份与集团归属由 LVMH 官方品牌页确认；坐标未取得（OSM 无该酒庄条目），标记为待补。"
+   },
+   "notesHistory": []
+  },
+  "version": 1,
+  "updated": "2026-10-03T00:00:00.000Z",
+  "origin": "用户提供官方来源 · LVMH 集团官网「夏桐中国」品牌页 · 2026-10-03 新增"
  }
 ]
